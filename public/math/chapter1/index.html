@@ -17,6 +17,7 @@
     @media(max-width:820px){.layout{display:block;padding:14px}.side{position:relative;top:auto;margin-bottom:16px}.side nav{grid-template-columns:repeat(2,1fr)}.grid{grid-template-columns:1fr}.hero,.section{padding:23px}.hero h1{font-size:32px}}
     @media print{body{background:#fff;color:#111}.layout{display:block;max-width:none}.side{display:none}.hero,.section,.card,.example,.retry{background:#fff;color:#111;box-shadow:none;border-color:#bbb}.hero p,.section-intro,.mini{color:#444}details>div{display:block!important}}
   </style>
+  <link rel="stylesheet" href="/shared/learning.css">
 </head>
 <body>
 <div class="layout">
@@ -24,7 +25,7 @@
     <div class="brand">QINGXU · MATH REVIEW</div>
     <h2>第一章<br>集合与逻辑</h2>
     <nav aria-label="知识地图">
-      <a href="#keep">已会方法</a><a href="#map">知识地图</a><a href="#sets">集合运算</a><a href="#logic">条件关系</a><a href="#parameter">参数与边界</a><a href="#example">典型例题</a><a href="#mistakes">易错点</a><a href="#retry">订正后再试</a>
+      <a href="#keep">已会方法</a><a href="#map">知识地图</a><a href="#sets">集合运算</a><a href="#logic">条件关系</a><a href="#parameter">参数与边界</a><a href="#qx-interval-lab">参数实验</a><a href="#example">典型例题</a><a href="#mistakes">易错点</a><a href="#retry">订正后再试</a>
     </nav>
     <a class="back" href="/math/">← 返回数学首页</a>
   </aside>
@@ -80,6 +81,14 @@
     <section class="section" id="parameter">
       <h2>03｜参数与边界：固定四步</h2><p class="section-intro">你不是不会分类，而是要把分类写得不漏边界。</p>
       <div class="steps"><div class="step"><b>先看集合是否为空</b><br>区间 (L,R] 非空要求 L&lt;R；若 L≥R，它表示空集。</div><div class="step"><b>再处理一般情况</b><br>把“包含、相交、分离”翻译成端点关系。</div><div class="step"><b>单独检查临界值</b><br>等号处究竟相交还是分离，要看开闭端点。</div><div class="step"><b>取样回代</b><br>每个参数区间选一个数代回原集合，检查分类方向。</div></div>
+      <div class="qx-lab" id="qx-interval-lab" data-qx-math1>
+        <h3>动手实验｜拖动 a，看区间怎样变化</h3>
+        <p class="qx-lab-intro">A<sub>a</sub>=(a−1, 2a+1]，B=(−2, 5]。先预测，再拖动参数验证。</p>
+        <div class="qx-controls"><label class="qx-control">参数 a：<input type="range" min="-4" max="4" step="0.5" value="0" aria-label="参数 a"></label></div>
+        <div class="qx-readout"><div class="qx-stat"><span>当前 a</span><strong data-a>0</strong></div><div class="qx-stat"><span>集合 Aₐ</span><strong data-set></strong></div><div class="qx-stat"><span>Aₐ⊆B？</span><strong data-result></strong></div></div>
+        <div class="qx-stage"></div><p class="qx-insight" aria-live="polite"></p>
+        <div class="qx-actions"><button class="qx-complete" type="button" data-qx-complete="math1-interval" aria-pressed="false">我能解释了</button><span class="qx-status">能说清空集和两端边界后再点</span></div>
+      </div>
     </section>
 
     <section class="section" id="example">
@@ -114,5 +123,6 @@
   const saved=JSON.parse(localStorage.getItem(KEY)||'{}');
   document.querySelectorAll('[data-key]').forEach(x=>{x.checked=!!saved[x.dataset.key];x.addEventListener('change',()=>{saved[x.dataset.key]=x.checked;localStorage.setItem(KEY,JSON.stringify(saved))})});
 </script>
+<script defer src="/shared/learning.js"></script>
 <script defer src="/shared/nav.js"></script>
 </body></html>

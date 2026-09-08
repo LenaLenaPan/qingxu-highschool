@@ -16,12 +16,13 @@
     @media(max-width:820px){.layout{display:block;padding:14px}.side{position:relative;top:auto;margin-bottom:16px}.side nav{grid-template-columns:repeat(2,1fr)}.grid{grid-template-columns:1fr}.hero,.section{padding:23px}.hero h1{font-size:32px}}
     @media print{body{background:#fff;color:#111}.layout{display:block;max-width:none}.side{display:none}.hero,.section,.card,.example,.retry{background:#fff;color:#111;box-shadow:none;border-color:#bbb}.hero p,.section-intro,.mini{color:#444}details>div{display:block!important}}
   </style>
+  <link rel="stylesheet" href="/shared/learning.css">
 </head>
 <body>
 <div class="layout">
   <aside class="side">
     <div class="brand">QINGXU · MATH REVIEW</div><h2>第二章<br>等式与不等式</h2>
-    <nav aria-label="知识地图"><a href="#keep">已会方法</a><a href="#map">知识地图</a><a href="#solve">解不等式</a><a href="#quadratic">二次结构</a><a href="#absolute">绝对值</a><a href="#basic">基本不等式</a><a href="#example">典型例题</a><a href="#mistakes">易错点</a><a href="#retry">订正后再试</a></nav>
+    <nav aria-label="知识地图"><a href="#keep">已会方法</a><a href="#map">知识地图</a><a href="#solve">解不等式</a><a href="#quadratic">二次结构</a><a href="#qx-quadratic-lab">图像实验</a><a href="#absolute">绝对值</a><a href="#basic">基本不等式</a><a href="#example">典型例题</a><a href="#mistakes">易错点</a><a href="#retry">订正后再试</a></nav>
     <a class="back" href="/math/">← 返回数学首页</a>
   </aside>
   <main>
@@ -50,7 +51,16 @@
     <section class="section" id="quadratic"><h2>02｜二次结构：从“求根”升级到“看位置”</h2><div class="formula">f(x)=ax²+bx+c (a≠0)<br>Δ=b²−4ac；对称轴 x=−b/(2a)</div><div class="grid">
       <article class="card"><h3>一个根在 k 左，一个在 k 右</h3><p>若 a&gt;0 且有两个实根，k 位于两根之间等价于 <b>f(k)&lt;0</b>。这比先求出两个根更直接。</p></article>
       <article class="card"><h3>两根都在 k 右边</h3><p>通常联合检查：Δ≥0、对称轴在 k 右侧、f(k) 与开口方向对应。不要只看根和。</p></article>
-    </div><p class="mini">含参数时先检查 a 会不会等于 0；一旦二次项消失，原来的二次函数框架不再适用。</p></section>
+    </div><p class="mini">含参数时先检查 a 会不会等于 0；一旦二次项消失，原来的二次函数框架不再适用。</p>
+      <div class="qx-lab" id="qx-quadratic-lab" data-qx-math2>
+        <h3>动手实验｜抛物线上下移动，解集怎么变？</h3>
+        <p class="qx-lab-intro">研究 x²−2x+p≤0。拖动 p，观察判别式、交点和解集同时怎样变化。</p>
+        <div class="qx-controls"><label class="qx-control">参数 p：<input type="range" min="-2" max="3" step="0.25" value="0" aria-label="参数 p"></label></div>
+        <div class="qx-readout"><div class="qx-stat"><span>当前 p</span><strong data-p>0</strong></div><div class="qx-stat"><span>判别式 Δ</span><strong data-delta>4</strong></div><div class="qx-stat"><span>≤0 的解集</span><strong data-solution></strong></div></div>
+        <div class="qx-stage"></div><p class="qx-insight" aria-live="polite"></p>
+        <div class="qx-actions"><button class="qx-complete" type="button" data-qx-complete="math2-quadratic" aria-pressed="false">我能解释了</button><span class="qx-status">能把 Δ、图像和解集连起来后再点</span></div>
+      </div>
+    </section>
 
     <section class="section" id="absolute"><h2>03｜绝对值：先问“它是哪一种距离”</h2><div class="grid">
       <article class="card"><h3>单个绝对值</h3><div class="formula">|x−a|&lt;r ⇔ a−r&lt;x&lt;a+r<br>|x−a|≥r ⇔ x≤a−r 或 x≥a+r</div><p>前提 r≥0；等号是否保留由原不等号决定。</p></article>
@@ -86,5 +96,6 @@
   const saved=JSON.parse(localStorage.getItem(KEY)||'{}');
   document.querySelectorAll('[data-key]').forEach(x=>{x.checked=!!saved[x.dataset.key];x.addEventListener('change',()=>{saved[x.dataset.key]=x.checked;localStorage.setItem(KEY,JSON.stringify(saved))})});
 </script>
+<script defer src="/shared/learning.js"></script>
 <script defer src="/shared/nav.js"></script>
 </body></html>
