@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>第一章《集合与逻辑》知识回看 · 清许数学</title>
+  <style>
+    :root{--bg:#07111f;--panel:#0e1c30;--panel2:#122640;--text:#eaf2ff;--muted:#9bb0ca;--line:#29415e;--blue:#58a6ff;--cyan:#5eead4;--amber:#fbbf24;--pink:#f0abfc}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(circle at 85% 5%,#15365e 0,transparent 30%),var(--bg);color:var(--text);font:16px/1.75 system-ui,-apple-system,"Segoe UI","Microsoft YaHei",sans-serif}
+    a{color:inherit}.layout{max-width:1220px;margin:auto;padding:28px 24px 70px;display:grid;grid-template-columns:255px minmax(0,1fr);gap:28px}.side{position:sticky;top:18px;align-self:start;padding:22px;border:1px solid var(--line);border-radius:22px;background:rgba(10,24,42,.9);backdrop-filter:blur(12px)}
+    .brand{font-size:12px;letter-spacing:.16em;color:var(--cyan);font-weight:800}.side h2{font-size:21px;line-height:1.3;margin:8px 0 18px}.side nav{display:grid;gap:7px}.side nav a{padding:8px 10px;border-radius:10px;text-decoration:none;color:var(--muted)}.side nav a:hover{background:var(--panel2);color:#fff}.back{display:block;margin-top:18px;color:var(--blue);text-decoration:none;font-weight:700}
+    .hero,.section{border:1px solid var(--line);border-radius:24px;background:linear-gradient(145deg,rgba(18,38,64,.94),rgba(9,23,40,.95));box-shadow:0 18px 55px rgba(0,0,0,.2)}.hero{padding:38px}.eyebrow{color:var(--cyan);font-weight:800;letter-spacing:.1em;font-size:13px}.hero h1{font-size:clamp(30px,5vw,48px);line-height:1.15;margin:10px 0 14px}.hero p{max-width:780px;color:#bfd0e5;font-size:18px}.pills{display:flex;flex-wrap:wrap;gap:9px;margin-top:22px}.pill{border:1px solid #3a5c7f;border-radius:999px;padding:6px 11px;color:#cae0fa;font-size:13px}
+    .section{padding:30px;margin-top:22px;scroll-margin-top:18px}.section h2{margin:0 0 8px;font-size:27px}.section-intro{color:var(--muted);margin:0 0 20px}.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}.card,.example,.retry{padding:20px;border:1px solid var(--line);border-radius:17px;background:rgba(11,29,50,.78)}.card h3,.example h3{margin:0 0 8px;font-size:18px}.tag{display:inline-block;padding:3px 8px;border-radius:99px;background:#123d53;color:var(--cyan);font-size:12px;font-weight:800}.formula{margin:13px 0;padding:14px 16px;border-left:3px solid var(--blue);background:#081727;border-radius:8px;font-family:"Cambria Math","Times New Roman",serif;font-size:18px;overflow:auto}.good{color:var(--cyan)}.warn{color:var(--amber)}
+    table{width:100%;border-collapse:collapse;margin-top:14px}th,td{text-align:left;padding:11px 12px;border-bottom:1px solid var(--line);vertical-align:top}th{color:#bcd4ef;background:#0a192b}.table-wrap{overflow:auto}
+    .steps{counter-reset:step;display:grid;gap:10px}.step{position:relative;padding:14px 14px 14px 50px;background:#091a2d;border-radius:13px;border:1px solid #263f5d}.step:before{counter-increment:step;content:counter(step);position:absolute;left:14px;top:13px;width:24px;height:24px;display:grid;place-items:center;border-radius:50%;background:var(--blue);color:#06111e;font-weight:900}
+    details{margin-top:11px;border:1px solid var(--line);border-radius:13px;background:#0a1a2c}summary{cursor:pointer;padding:12px 14px;font-weight:750;color:#cfe3fb}details>div{padding:0 15px 15px;color:#c5d5e8}.check{display:flex;gap:10px;align-items:flex-start;margin:9px 0;color:#c9d8ea}.check input{margin-top:7px;accent-color:#5eead4}.mini{color:var(--muted);font-size:14px}.answer{color:var(--cyan);font-weight:700}.footer{text-align:center;color:#7890aa;margin-top:26px;font-size:13px}
+    @media(max-width:820px){.layout{display:block;padding:14px}.side{position:relative;top:auto;margin-bottom:16px}.side nav{grid-template-columns:repeat(2,1fr)}.grid{grid-template-columns:1fr}.hero,.section{padding:23px}.hero h1{font-size:32px}}
+    @media print{body{background:#fff;color:#111}.layout{display:block;max-width:none}.side{display:none}.hero,.section,.card,.example,.retry{background:#fff;color:#111;box-shadow:none;border-color:#bbb}.hero p,.section-intro,.mini{color:#444}details>div{display:block!important}}
+  </style>
+</head>
+<body>
+<div class="layout">
+  <aside class="side">
+    <div class="brand">QINGXU · MATH REVIEW</div>
+    <h2>第一章<br>集合与逻辑</h2>
+    <nav aria-label="知识地图">
+      <a href="#keep">已会方法</a><a href="#map">知识地图</a><a href="#sets">集合运算</a><a href="#logic">条件关系</a><a href="#parameter">参数与边界</a><a href="#example">典型例题</a><a href="#mistakes">易错点</a><a href="#retry">订正后再试</a>
+    </nav>
+    <a class="back" href="/math/">← 返回数学首页</a>
+  </aside>
+  <main>
+    <header class="hero">
+      <div class="eyebrow">清许 · 高一数学学习手记</div>
+      <h1>把集合语言<br>变成可靠的推理工具</h1>
+      <p>这一章你已经完成常规练习和五天巩固。现在不再重复刷基础题，而是把“条件翻译、空集、端点和反例”整理成遇到新题也能调用的方法。</p>
+      <div class="pills"><span class="pill">保留已会方法</span><span class="pill">聚焦易混边界</span><span class="pill">先想再展开</span><span class="pill">完整表达理由</span></div>
+    </header>
+
+    <section class="section" id="keep">
+      <h2>这些方法，继续保留</h2><p class="section-intro">第一章已经完成，不需要整章重学；下面四件事是你的稳定起点。</p>
+      <div class="grid">
+        <article class="card"><span class="tag">已掌握</span><h3>先把文字写成集合</h3><p>遇到“充分、必要”时，先求命题对应的解集，再判断包含关系，避免只凭中文语感。</p></article>
+        <article class="card"><span class="tag">已掌握</span><h3>区间端点单独检查</h3><p>你已经知道开端点与闭端点不能只看大小；等号能否取得必须和区间符号一起判断。</p></article>
+        <article class="card"><span class="tag">已掌握</span><h3>陌生定义先做小例子</h3><p>面对“连续集”一类新定义，先构造最小例子、观察交集，再从特殊走向一般。</p></article>
+        <article class="card"><span class="tag">继续强化</span><h3>结论后补完整理由</h3><p>答案不只写“充分不必要”，还要写出包含关系，并给出不能反推的元素或反例。</p></article>
+      </div>
+    </section>
+
+    <section class="section" id="map">
+      <h2>一张图看懂本章</h2>
+      <div class="table-wrap"><table><thead><tr><th>对象</th><th>核心问题</th><th>可靠动作</th></tr></thead><tbody>
+        <tr><td>集合</td><td>元素是否属于、集合是否相等</td><td>看代表元素与确定性；相等要双向包含</td></tr>
+        <tr><td>集合关系</td><td>子集、真子集、空集</td><td>先确认空集；再查是否有严格多出的元素</td></tr>
+        <tr><td>集合运算</td><td>交、并、补</td><td>画数轴或维恩图；端点逐个代入</td></tr>
+        <tr><td>命题</td><td>充分、必要、充要</td><td>翻译成解集包含；用反例否定反方向</td></tr>
+        <tr><td>参数问题</td><td>区间位置随参数变化</td><td>先空集，再一般情况，最后检查临界值</td></tr>
+      </tbody></table></div>
+    </section>
+
+    <section class="section" id="sets">
+      <h2>01｜集合运算：先明确“讨论范围”</h2><p class="section-intro">补集离不开全集；区间运算离不开端点。不要只画大概位置。</p>
+      <div class="grid">
+        <article class="card"><h3>交集与并集</h3><div class="formula">A ∩ B：同时属于 A、B<br>A ∪ B：至少属于 A、B 中一个</div><p>“且”通常对应交集，“或”通常对应并集，但最终仍要回到元素条件。</p></article>
+        <article class="card"><h3>补集</h3><div class="formula">∁<sub>U</sub>A = {x | x ∈ U 且 x ∉ A}</div><p>同一个 A，在不同全集 U 中补集可能不同。写答案前先找题目给出的全集。</p></article>
+      </div>
+      <details><summary>自检｜A=(−1,3]，B=[2,5)，求 A∩B 与 A∪B</summary><div>先画数轴，重点判断 2、3 两个端点是否保留。<br><span class="answer">核对：A∩B=[2,3]；A∪B=(−1,5)。</span></div></details>
+    </section>
+
+    <section class="section" id="logic">
+      <h2>02｜充分必要条件：只做集合包含</h2>
+      <div class="formula">p 的解集记为 P，q 的解集记为 Q<br>p ⇒ q ⇔ P ⊆ Q；q ⇒ p ⇔ Q ⊆ P</div>
+      <div class="grid">
+        <article class="card"><h3>充分不必要</h3><p>P ⊊ Q。满足 p 的对象一定满足 q，但 Q 中还能找到不满足 p 的对象。</p></article>
+        <article class="card"><h3>必要不充分</h3><p>Q ⊊ P。q 能推出 p，但 p 不能推出 q。</p></article>
+      </div>
+      <details><summary>一级提示｜如何判断“x&gt;2”是“x&gt;0”的什么条件？</summary><div>把两个命题的解集写在数轴上：P=(2,+∞)，Q=(0,+∞)。比较 P、Q。</div></details>
+      <details><summary>完成后核对</summary><div>P⊊Q，所以“x&gt;2”是“x&gt;0”的<span class="answer">充分不必要条件</span>。反方向的反例可以取 x=1。</div></details>
+    </section>
+
+    <section class="section" id="parameter">
+      <h2>03｜参数与边界：固定四步</h2><p class="section-intro">你不是不会分类，而是要把分类写得不漏边界。</p>
+      <div class="steps"><div class="step"><b>先看集合是否为空</b><br>区间 (L,R] 非空要求 L&lt;R；若 L≥R，它表示空集。</div><div class="step"><b>再处理一般情况</b><br>把“包含、相交、分离”翻译成端点关系。</div><div class="step"><b>单独检查临界值</b><br>等号处究竟相交还是分离，要看开闭端点。</div><div class="step"><b>取样回代</b><br>每个参数区间选一个数代回原集合，检查分类方向。</div></div>
+    </section>
+
+    <section class="section" id="example">
+      <h2>04｜典型例题：把思路写成完整链条</h2>
+      <article class="example"><h3>例：设 A<sub>a</sub>={x | a−1&lt;x≤2a+1}，B={x | −2&lt;x≤5}，求 A<sub>a</sub>⊆B 的 a 的范围。</h3>
+        <details><summary>一级提示｜第一步只判断什么？</summary><div>先判断 A<sub>a</sub> 是否为空集。若为空集，它自动是 B 的子集。</div></details>
+        <details><summary>二级提示｜非空时比较哪些端点？</summary><div>A<sub>a</sub>=(a−1,2a+1]。非空要求 a−1&lt;2a+1。包含于 B 时，左边不能伸到 −2 左侧，右端不能超过 5。</div></details>
+        <details><summary>完整过程｜做完后再展开</summary><div><b>① 空集：</b>a−1≥2a+1，即 a≤−2，此时 A<sub>a</sub>=∅，成立。<br><b>② 非空：</b>a&gt;−2。要使 (a−1,2a+1]⊆(−2,5]，需 a−1≥−2 且 2a+1≤5，即 a≥−1 且 a≤2。<br><b>③ 合并：</b><span class="answer">a∈(−∞,−2]∪[−1,2]</span>。<br><span class="mini">注意：a−1=−2 时左端是开端点，仍不会把 −2 放入 A，因此允许取等号。</span></div></details>
+      </article>
+    </section>
+
+    <section class="section" id="mistakes">
+      <h2>05｜四个易错点</h2>
+      <label class="check"><input type="checkbox" data-key="c1"><span><b>漏掉空集。</b>空集是任何集合的子集，但不是任何非空集合的真子集结论替代品。</span></label>
+      <label class="check"><input type="checkbox" data-key="c2"><span><b>把“或”误当成只能选一个。</b>数学中的“p 或 q”通常允许两者同时成立。</span></label>
+      <label class="check"><input type="checkbox" data-key="c3"><span><b>包含方向反了。</b>“p 是 q 的充分条件”意味着 P⊆Q，不是 Q⊆P。</span></label>
+      <label class="check"><input type="checkbox" data-key="c4"><span><b>只给结论，不给反例。</b>判断“不必要”或“不充分”时，最好给出一个具体反例封口。</span></label>
+    </section>
+
+    <section class="section" id="retry">
+      <h2>订正后再试</h2><p class="section-intro">先在纸上完成，再展开核对。目标不是记答案，而是自动调用“四步分类”。</p>
+      <article class="retry"><b>变式：</b>设 A<sub>t</sub>={x | t&lt;x≤t+2}，B=[0,4)。求使 A<sub>t</sub>∩B=∅ 的 t 的范围。
+        <details><summary>一级提示</summary><div>两个区间分离只有两种位置：A 在 B 左边，或 A 在 B 右边。端点 0、4 的开闭会影响等号。</div></details>
+        <details><summary>完成后核对</summary><div>A 在左侧时 t+2&lt;0（因为 A 右端闭、B 左端闭，等于 0 会相交）；A 在右侧时 t≥4（B 在 4 处开，A 左端也开，t=4 时不相交）。所以 <span class="answer">t∈(−∞,−2)∪[4,+∞)</span>。</div></details>
+      </article>
+    </section>
+    <p class="footer">清许数学 · 第一章回看｜基础已经完成，下一步练完整分类与规范推理</p>
+  </main>
+</div>
+<script>
+  const KEY='qingxu-math-ch1-review';
+  const saved=JSON.parse(localStorage.getItem(KEY)||'{}');
+  document.querySelectorAll('[data-key]').forEach(x=>{x.checked=!!saved[x.dataset.key];x.addEventListener('change',()=>{saved[x.dataset.key]=x.checked;localStorage.setItem(KEY,JSON.stringify(saved))})});
+</script>
+<script defer src="/shared/nav.js"></script>
+</body></html>
