@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>英语词汇 Day 1｜A 前半综合诊断</title>
+<style>
+  :root{
+    --bg:#f4f6f8; --card:#ffffff; --text:#1f2937; --muted:#667085;
+    --line:#d9dee7; --accent:#315efb; --accent-soft:#eef2ff;
+    --ok:#157347; --bad:#b42318; --warn:#b54708;
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0; background:var(--bg); color:var(--text);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC",
+      "Hiragino Sans GB","Microsoft YaHei",Arial,sans-serif;
+    line-height:1.55;
+  }
+  .wrap{max-width:920px;margin:0 auto;padding:18px 14px 96px}
+  .hero,.card{
+    background:var(--card); border:1px solid var(--line); border-radius:16px;
+    box-shadow:0 4px 18px rgba(16,24,40,.05);
+  }
+  .hero{padding:22px;margin-bottom:16px}
+  h1{font-size:26px;margin:0 0 8px}
+  h2{font-size:20px;margin:0}
+  .sub{color:var(--muted);font-size:14px}
+  .meta{
+    display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-top:18px
+  }
+  .metric{background:#f8fafc;border:1px solid var(--line);border-radius:12px;padding:10px}
+  .metric b{display:block;font-size:18px}
+  .toolbar{
+    position:sticky;top:0;z-index:10;background:rgba(244,246,248,.94);
+    backdrop-filter:blur(8px);padding:10px 0;
+  }
+  .toolbar-inner{
+    display:flex;gap:8px;align-items:center;justify-content:space-between;
+    background:var(--card);border:1px solid var(--line);border-radius:14px;padding:10px 12px
+  }
+  .timer{font-variant-numeric:tabular-nums;font-weight:700}
+  button{
+    border:0;border-radius:10px;padding:10px 14px;font-size:14px;cursor:pointer;
+    background:#e9edf5;color:var(--text)
+  }
+  button.primary{background:var(--accent);color:white}
+  button.danger{background:#fee4e2;color:var(--bad)}
+  button:disabled{opacity:.55;cursor:not-allowed}
+  .card{padding:18px;margin:14px 0}
+  .section-head{display:flex;justify-content:space-between;gap:12px;align-items:flex-start}
+  .section-head .score{color:var(--muted);font-size:14px;white-space:nowrap}
+  .q{
+    border-top:1px solid #edf0f4;padding:16px 0;
+  }
+  .q:first-of-type{border-top:0}
+  .q-title{font-weight:600;margin-bottom:10px}
+  .q-num{display:inline-block;min-width:30px;color:var(--accent)}
+  input[type=text], textarea, select{
+    width:100%;border:1px solid #bfc7d4;border-radius:10px;padding:11px 12px;
+    font-size:16px;background:white;color:var(--text);outline:none
+  }
+  textarea{min-height:88px;resize:vertical}
+  input[type=text]:focus,textarea:focus,select:focus{
+    border-color:var(--accent);box-shadow:0 0 0 3px rgba(49,94,251,.12)
+  }
+  .uncertain{display:flex;align-items:center;gap:6px;margin-top:9px;color:var(--muted);font-size:13px}
+  .options{display:grid;gap:8px}
+  .option{
+    display:flex;gap:9px;align-items:flex-start;border:1px solid var(--line);
+    border-radius:10px;padding:10px;cursor:pointer
+  }
+  .option:hover{background:#f8fafc}
+  .feedback{display:none;margin-top:9px;padding:9px 11px;border-radius:9px;font-size:14px}
+  .feedback.ok{display:block;background:#eaf7ef;color:var(--ok)}
+  .feedback.bad{display:block;background:#fff0ee;color:var(--bad)}
+  .manual-box{
+    display:none;margin-top:12px;background:#f8fafc;border:1px solid var(--line);
+    border-radius:10px;padding:12px
+  }
+  .sample{margin-bottom:10px}
+  .self-score{display:flex;flex-wrap:wrap;gap:8px}
+  .self-score label{
+    border:1px solid var(--line);border-radius:9px;padding:7px 10px;background:white
+  }
+  .result{display:none}
+  .result-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin:14px 0}
+  .big{font-size:28px;font-weight:800}
+  .band{padding:9px 12px;border-radius:10px;background:var(--accent-soft);color:#273b93}
+  .wrong-item{border-top:1px solid var(--line);padding:12px 0}
+  .wrong-item:first-child{border-top:0}
+  .small{font-size:13px;color:var(--muted)}
+  .start-panel{text-align:center;padding:32px 20px}
+  .start-panel input{max-width:280px;margin:14px auto}
+  .hidden{display:none!important}
+  .footer-actions{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}
+  .progress{
+    height:8px;background:#e9edf5;border-radius:99px;overflow:hidden;margin-top:10px
+  }
+  .progress > div{height:100%;background:var(--accent);width:0}
+  .pill{
+    display:inline-block;border-radius:999px;padding:3px 9px;background:#f2f4f7;
+    color:var(--muted);font-size:12px;margin-right:5px
+  }
+  @media (max-width:680px){
+    h1{font-size:22px}
+    .meta,.result-grid{grid-template-columns:repeat(2,1fr)}
+    .toolbar-inner{align-items:flex-start;flex-direction:column}
+    .toolbar-actions{display:flex;gap:6px;width:100%}
+    .toolbar-actions button{flex:1}
+    .card{padding:15px}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="hero">
+    <h1>英语词汇 Day 1｜A 前半综合诊断</h1>
+    <div class="sub">范围：a— a.m.（配套练习册第1—4天）｜建议用时：45—60分钟</div>
+    <div class="meta">
+      <div class="metric"><span class="small">题量</span><b>60题</b></div>
+      <div class="metric"><span class="small">总分</span><b>100分</b></div>
+      <div class="metric"><span class="small">客观题</span><b>90分</b></div>
+      <div class="metric"><span class="small">翻译自评</span><b>10分</b></div>
+    </div>
+  </div>
+
+  <div id="startPanel" class="card start-panel">
+    <h2>开始前</h2>
+    <p class="sub">不要打开词汇书或练习册。遇到不确定但仍作答的题，请勾选“我不确定”。确需查词时，点击一次“记录查词”。</p>
+    <input id="studentName" type="text" value="清许" aria-label="学生姓名">
+    <div>
+      <button id="startBtn" class="primary">开始测试</button>
+    </div>
+  </div>
+
+  <div id="exam" class="hidden">
+    <div class="toolbar">
+      <div class="toolbar-inner">
+        <div>
+          <span class="pill" id="answeredPill">已答 0/60</span>
+          <span class="pill" id="lookupPill">查词 0 次</span>
+          <div class="progress"><div id="progressBar"></div></div>
+        </div>
+        <div class="toolbar-actions">
+          <button id="lookupBtn">记录查词</button>
+          <button id="pauseBtn">暂停</button>
+          <button id="submitObjectiveBtn" class="primary">提交客观题</button>
+        </div>
+        <div class="timer" id="timer">00:00:00</div>
+      </div>
+    </div>
+
+    <div id="questions"></div>
+
+    <div id="manualFinalize" class="card hidden">
+      <h2>完成翻译自评</h2>
+      <p class="sub">每题按参考答案和评分标准选择 0、1 或 2 分，然后生成最终结果。</p>
+      <button id="finalizeBtn" class="primary">生成测试总结</button>
+    </div>
+
+    <div id="result" class="card result">
+      <h2>Day 1 测试结果</h2>
+      <div id="resultBand" class="band"></div>
+      <div class="result-grid">
+        <div class="metric"><span class="small">总分</span><div class="big" id="totalScore">—</div></div>
+        <div class="metric"><span class="small">用时</span><div class="big" id="timeUsed">—</div></div>
+        <div class="metric"><span class="small">错题</span><div class="big" id="wrongCount">—</div></div>
+        <div class="metric"><span class="small">不确定</span><div class="big" id="uncertainCount">—</div></div>
+      </div>
+      <div id="categoryScores"></div>
+      <h3>错题与不稳定题</h3>
+      <div id="wrongList"></div>
+      <div class="footer-actions">
+        <button id="copyBtn" class="primary">复制总结</button>
+        <button id="downloadBtn">下载错题与总结</button>
+        <button id="restartBtn" class="danger">重新开始</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+const sections = [
+  {
+    id:"recall", title:"一、核心词汇快速回忆", note:"根据中文写英文单词。每题1分，共20分。",
+    category:"词义与拼写", points:1, type:"text",
+    items:[
+      ["放弃；抛弃（v.）",["abandon"]],
+      ["能力；本领（n.）",["ability"]],
+      ["在国外；到国外（adv.）",["abroad"]],
+      ["缺席；不在（n.）",["absence"]],
+      ["吸收；理解（v.）",["absorb"]],
+      ["口音；腔调（n.）",["accent"]],
+      ["使用或接近……的权利、机会（n.）",["access"]],
+      ["住宿；住处（n.）",["accommodation"]],
+      ["完成；实现（v.）",["accomplish"]],
+      ["准确的；精确的（adj.）",["accurate"]],
+      ["适应；改编（v.）",["adapt"]],
+      ["额外的；附加的（adj.）",["additional"]],
+      ["准许进入；录取（n.）",["admission"]],
+      ["青少年（n./adj.）",["adolescent"]],
+      ["优势；有利条件（n.）",["advantage"]],
+      ["建议；忠告（n.）",["advice"]],
+      ["负担得起；抽得出（v.）",["afford"]],
+      ["代理人；经纪人（n.）",["agent"]],
+      ["警报；使警觉（n./v.）",["alarm"]],
+      ["允许；准许（v.）",["allow"]]
+    ]
+  },
+  {
+    id:"collocation", title:"二、固定搭配与介词", note:"填写空格中缺少的词。每题2分，共30分。",
+    category:"固定搭配", points:2, type:"text",
+    items:[
+      ["Everyone should do the task ___ the best of his or her ability.",["to"]],
+      ["Every student should be able ___ use the new learning platform.",["to"]],
+      ["She was so absorbed ___ the book that she missed her stop.",["in"]],
+      ["I met my primary-school teacher ___ accident yesterday.",["by"]],
+      ["Several factors may account ___ the decline in sales.",["for"]],
+      ["We should take both cost and safety ___ account.",["into"]],
+      ["The police accused the man ___ stealing the bicycle.",["of"]],
+      ["He soon became accustomed ___ getting up early.",["to"]],
+      ["She quickly adapted herself ___ the new environment.",["to"]],
+      ["___ addition to English, she is learning French.",["in"]],
+      ["It took me a week to adjust ___ the new timetable.",["to"]],
+      ["We all admire her ___ her courage in the face of difficulty.",["for"]],
+      ["He was admitted ___ Fudan University last year.",["to"]],
+      ["We should take full advantage ___ every learning opportunity.",["of"]],
+      ["The project aims ___ reducing food waste on campus.",["at"]]
+    ]
+  },
+  {
+    id:"context", title:"三、语境辨析", note:"选择最恰当的答案。每题2分，共30分。",
+    category:"语境辨析", points:2, type:"mcq",
+    items:[
+      {
+        q:"She ___ the invitation immediately, but she did not ___ the parcel until Friday.",
+        options:["received; accept","accepted; receive","accepted; accept","received; receive"], answer:1
+      },
+      {
+        q:"The school decided to ___ a new teaching method to help students ___ to the new curriculum.",
+        options:["adapt; adopt","adopt; adapt","adopt; adopt","adapt; adapt"], answer:1
+      },
+      {
+        q:"The new policy may ___ many students, but its long-term ___ remains unclear.",
+        options:["effect; affect","affect; affect","affect; effect","effect; effect"], answer:2
+      },
+      {
+        q:"The teacher gave us useful ___ and ___ us to review the words every day.",
+        options:["advice; advised","advise; adviced","advice; adviced","advise; advised"], answer:0
+      },
+      {
+        q:"The figures in the report are not ___. Please check them again.",
+        options:["actual","accurate","adequate","abstract"], answer:1
+      },
+      {
+        q:"This small hotel can ___ up to eighty guests.",
+        options:["accompany","accommodate","accomplish","account"], answer:1
+      },
+      {
+        q:"Only after seeing the evidence did he ___ that he had made a mistake.",
+        options:["acknowledge","accuse","acquire","admire"], answer:0
+      },
+      {
+        q:"The food we prepared is not ___ for all the visitors.",
+        options:["active","actual","adequate","additional"], answer:2
+      },
+      {
+        q:"The two sisters look ___, but their personalities are quite different.",
+        options:["alive","alone","alike","almost"], answer:2
+      },
+      {
+        q:"Please read the passage ___ so that everyone can hear you.",
+        options:["aloud","along","alone","already"], answer:0
+      },
+      {
+        q:"___ he was very tired, he continued working until midnight.",
+        options:["Altogether","Although","Afterward","Also"], answer:1
+      },
+      {
+        q:"The meeting ended at five; soon ___, everyone left the building.",
+        options:["again","above","afterward","almost"], answer:2
+      },
+      {
+        q:"The old man lives ___, but he remains active and cheerful.",
+        options:["along","alone","alike","aboard"], answer:1
+      },
+      {
+        q:"I agree ___ you, but I cannot agree ___ your proposal.",
+        options:["to; with","with; to","on; with","with; on"], answer:1
+      },
+      {
+        q:"Winning the competition was a great ___ for the whole team.",
+        options:["achievement","accommodation","administration","advertisement"], answer:0
+      }
+    ]
+  },
+  {
+    id:"wordform", title:"四、词形与易错拼写", note:"用括号中单词的正确形式填空。每题2分，共10分。",
+    category:"词形变化", points:2, type:"text",
+    items:[
+      ["The manager was impressed by the ___ of the data. (accurate)",["accuracy"]],
+      ["The children soon became ___ to getting up early. (accustom)",["accustomed"]],
+      ["His sudden ___ from the meeting surprised everyone. (absent)",["absence"]],
+      ["The play was a modern ___ of an old story. (adapt)",["adaptation"]],
+      ["Winning the competition was a major ___ for the team. (achieve)",["achievement"]]
+    ]
+  },
+  {
+    id:"translation", title:"五、句子翻译", note:"独立完成后再查看参考答案并自评。每题2分，共10分。",
+    category:"句子翻译", points:2, type:"manual",
+    items:[
+      {
+        q:"只有互相合作，我们才能取得成功。（achieve）",
+        sample:"Only by cooperating with each other can we achieve success.",
+        keys:"Only by...倒装；cooperate with each other；achieve success"
+      },
+      {
+        q:"这个应用程序使用户能够方便地获取重要信息。（access）",
+        sample:"This app enables users to have easy access to important information.",
+        keys:"enable sb. to do；have access to"
+      },
+      {
+        q:"除了价格之外，我们还应把产品的安全性考虑在内。（in addition to）",
+        sample:"In addition to price, we should also take the safety of the product into account.",
+        keys:"in addition to；take...into account"
+      },
+      {
+        q:"虽然他刚到国外，但他很快适应了新的环境。（adapt）",
+        sample:"Although he had just gone abroad, he quickly adapted himself to the new environment.",
+        keys:"although；go abroad；adapt oneself to"
+      },
+      {
+        q:"我们应该充分利用每一次机会来提高英语。（advantage）",
+        sample:"We should take full advantage of every opportunity to improve our English.",
+        keys:"take full advantage of；opportunity to do"
+      }
+    ]
+  }
+];
+
+let qCounter = 0;
+let started = false, paused = false, objectiveSubmitted = false, finalized = false;
+let startTime = 0, pausedAt = 0, pausedTotal = 0, timerId = null, lookupCount = 0;
+const stateKey = "vocab_day1_a_front_state_v1";
+
+function esc(s){
+  return String(s).replace(/[&<>"']/g, m=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[m]));
+}
+function normalize(s){
+  return String(s||"").toLowerCase().trim()
+    .replace(/[，。！？；：,.!?;:()（）]/g,"")
+    .replace(/\s+/g," ");
+}
+function render(){
+  const box=document.getElementById("questions");
+  box.innerHTML="";
+  qCounter=0;
+  sections.forEach(sec=>{
+    const card=document.createElement("section");
+    card.className="card";
+    card.innerHTML=`<div class="section-head"><div><h2>${esc(sec.title)}</h2><div class="sub">${esc(sec.note)}</div></div>
+      <div class="score">${sec.category}</div></div>`;
+    sec.items.forEach((item,idx)=>{
+      qCounter++;
+      const qid=`q${qCounter}`;
+      const q=document.createElement("div");
+      q.className="q";
+      let prompt, inputHtml="";
+      if(sec.type==="text"){
+        prompt=item[0];
+        inputHtml=`<input type="text" id="${qid}" autocomplete="off" data-type="text" aria-label="第${qCounter}题答案">`;
+      }else if(sec.type==="mcq"){
+        prompt=item.q;
+        inputHtml=`<div class="options">`+item.options.map((op,i)=>
+          `<label class="option"><input type="radio" name="${qid}" value="${i}" data-type="mcq"><span>${String.fromCharCode(65+i)}. ${esc(op)}</span></label>`
+        ).join("")+`</div>`;
+      }else{
+        prompt=item.q;
+        inputHtml=`<textarea id="${qid}" data-type="manual" placeholder="在这里输入译文"></textarea>
+          <div class="manual-box" id="${qid}-manual">
+            <div class="sample"><b>参考答案：</b>${esc(item.sample)}</div>
+            <div class="small"><b>关键点：</b>${esc(item.keys)}</div>
+            <div class="small" style="margin:8px 0">评分：2分＝核心结构和搭配正确；1分＝基本达意但有明显错误；0分＝未能表达主要意思。</div>
+            <div class="self-score">
+              <label><input type="radio" name="${qid}-score" value="0"> 0分</label>
+              <label><input type="radio" name="${qid}-score" value="1"> 1分</label>
+              <label><input type="radio" name="${qid}-score" value="2"> 2分</label>
+            </div>
+          </div>`;
+      }
+      q.innerHTML=`<div class="q-title"><span class="q-num">${qCounter}.</span>${esc(prompt)}</div>
+        ${inputHtml}
+        <label class="uncertain"><input type="checkbox" id="${qid}-uncertain"> 我不确定</label>
+        <div class="feedback" id="${qid}-feedback"></div>`;
+      card.appendChild(q);
+    });
+    box.appendChild(card);
+  });
+  restoreState();
+  updateProgress();
+}
+
+function allInputs(){
+  return [...document.querySelectorAll('input[type="text"], textarea, input[type="radio"][name^="q"]:checked')];
+}
+function updateProgress(){
+  let answered=0;
+  for(let i=1;i<=60;i++){
+    const el=document.getElementById(`q${i}`);
+    if(el){
+      if(el.tagName==="INPUT"||el.tagName==="TEXTAREA"){
+        if(el.value.trim()) answered++;
+      }
+    }else{
+      if(document.querySelector(`input[name="q${i}"]:checked`)) answered++;
+    }
+  }
+  document.getElementById("answeredPill").textContent=`已答 ${answered}/60`;
+  document.getElementById("progressBar").style.width=`${answered/60*100}%`;
+}
+
+function saveState(){
+  if(!started || finalized) return;
+  const answers={};
+  for(let i=1;i<=60;i++){
+    const el=document.getElementById(`q${i}`);
+    if(el) answers[`q${i}`]=el.value;
+    else {
+      const checked=document.querySelector(`input[name="q${i}"]:checked`);
+      answers[`q${i}`]=checked?checked.value:"";
+    }
+    answers[`q${i}-uncertain`]=document.getElementById(`q${i}-uncertain`)?.checked||false;
+  }
+  localStorage.setItem(stateKey,JSON.stringify({
+    student:document.getElementById("studentName").value,answers,lookupCount,startTime,pausedTotal,started:true
+  }));
+}
+function restoreState(){
+  const raw=localStorage.getItem(stateKey);
+  if(!raw) return;
+  try{
+    const s=JSON.parse(raw);
+    if(!s.started) return;
+    document.getElementById("studentName").value=s.student||"清许";
+    lookupCount=s.lookupCount||0;
+    document.getElementById("lookupPill").textContent=`查词 ${lookupCount} 次`;
+    startTime=s.startTime||Date.now();
+    pausedTotal=s.pausedTotal||0;
+    started=true;
+    document.getElementById("startPanel").classList.add("hidden");
+    document.getElementById("exam").classList.remove("hidden");
+    Object.entries(s.answers||{}).forEach(([k,v])=>{
+      if(k.endsWith("-uncertain")){
+        const el=document.getElementById(k); if(el) el.checked=!!v;
+      }else{
+        const el=document.getElementById(k);
+        if(el) el.value=v;
+        else if(v!==""){
+          const r=document.querySelector(`input[name="${k}"][value="${v}"]`); if(r) r.checked=true;
+        }
+      }
+    });
+    startTimer();
+  }catch(e){}
+}
+
+function startTimer(){
+  clearInterval(timerId);
+  timerId=setInterval(()=>{
+    if(!paused){
+      const ms=Date.now()-startTime-pausedTotal;
+      document.getElementById("timer").textContent=formatTime(ms);
+    }
+  },500);
+}
+function formatTime(ms){
+  const s=Math.max(0,Math.floor(ms/1000));
+  const h=String(Math.floor(s/3600)).padStart(2,"0");
+  const m=String(Math.floor((s%3600)/60)).padStart(2,"0");
+  const sec=String(s%60).padStart(2,"0");
+  return `${h}:${m}:${sec}`;
+}
+function startExam(){
+  started=true; startTime=Date.now(); pausedTotal=0;
+  document.getElementById("startPanel").classList.add("hidden");
+  document.getElementById("exam").classList.remove("hidden");
+  startTimer(); saveState();
+  window.scrollTo({top:0,behavior:"smooth"});
+}
+function togglePause(){
+  if(objectiveSubmitted||finalized) return;
+  paused=!paused;
+  const btn=document.getElementById("pauseBtn");
+  if(paused){
+    pausedAt=Date.now(); btn.textContent="继续";
+    document.getElementById("questions").style.filter="blur(7px)";
+    document.getElementById("questions").style.pointerEvents="none";
+  }else{
+    pausedTotal+=Date.now()-pausedAt; btn.textContent="暂停";
+    document.getElementById("questions").style.filter="";
+    document.getElementById("questions").style.pointerEvents="";
+  }
+  saveState();
+}
+
+function submitObjective(){
+  if(paused) togglePause();
+  if(!confirm("提交后将显示客观题答案，并进入翻译自评。确认提交吗？")) return;
+  objectiveSubmitted=true;
+  clearInterval(timerId);
+  document.getElementById("submitObjectiveBtn").disabled=true;
+  document.getElementById("lookupBtn").disabled=true;
+  document.getElementById("pauseBtn").disabled=true;
+
+  let n=0;
+  sections.forEach(sec=>{
+    sec.items.forEach((item,idx)=>{
+      n++;
+      if(sec.type==="manual"){
+        document.getElementById(`q${n}-manual`).style.display="block";
+        return;
+      }
+      const fb=document.getElementById(`q${n}-feedback`);
+      let correct=false, user="", answer="";
+      if(sec.type==="text"){
+        const el=document.getElementById(`q${n}`);
+        user=el.value;
+        answer=item[1][0];
+        correct=item[1].some(a=>normalize(a)===normalize(user));
+        el.disabled=true;
+      }else{
+        const checked=document.querySelector(`input[name="q${n}"]:checked`);
+        user=checked?item.options[Number(checked.value)]:"";
+        answer=item.options[item.answer];
+        correct=checked&&Number(checked.value)===item.answer;
+        document.querySelectorAll(`input[name="q${n}"]`).forEach(x=>x.disabled=true);
+      }
+      fb.className=`feedback ${correct?"ok":"bad"}`;
+      fb.innerHTML=correct?`正确`:`你的答案：${esc(user||"未作答")}<br>正确答案：${esc(answer)}`;
+    });
+  });
+  document.querySelectorAll('.uncertain input').forEach(x=>x.disabled=true);
+  document.getElementById("manualFinalize").classList.remove("hidden");
+  document.getElementById("manualFinalize").scrollIntoView({behavior:"smooth",block:"center"});
+  saveState();
+}
+
+function gradeData(){
+  let n=0,total=0,wrong=[],uncertain=0;
+  const cat={};
+  const student=document.getElementById("studentName").value.trim()||"未填写";
+  sections.forEach(sec=>{
+    if(!cat[sec.category]) cat[sec.category]={score:0,max:0,wrong:0};
+    sec.items.forEach((item,idx)=>{
+      n++;
+      cat[sec.category].max+=sec.points;
+      const uncertainFlag=document.getElementById(`q${n}-uncertain`)?.checked||false;
+      if(uncertainFlag) uncertain++;
+      let score=0,user="",answer="";
+      if(sec.type==="text"){
+        user=document.getElementById(`q${n}`).value;
+        answer=item[1][0];
+        if(item[1].some(a=>normalize(a)===normalize(user))) score=sec.points;
+      }else if(sec.type==="mcq"){
+        const checked=document.querySelector(`input[name="q${n}"]:checked`);
+        user=checked?item.options[Number(checked.value)]:"";
+        answer=item.options[item.answer];
+        if(checked&&Number(checked.value)===item.answer) score=sec.points;
+      }else{
+        user=document.getElementById(`q${n}`).value;
+        const checked=document.querySelector(`input[name="q${n}-score"]:checked`);
+        score=checked?Number(checked.value):0;
+        answer=item.sample;
+      }
+      total+=score; cat[sec.category].score+=score;
+      if(score<sec.points){
+        cat[sec.category].wrong++;
+        wrong.push({no:n,category:sec.category,q:sec.type==="mcq"?item.q:(sec.type==="manual"?item.q:item[0]),
+                    user:user||"未作答",answer,score,max:sec.points,uncertain:uncertainFlag});
+      }else if(uncertainFlag){
+        wrong.push({no:n,category:sec.category,q:sec.type==="mcq"?item.q:(sec.type==="manual"?item.q:item[0]),
+                    user:user||"未作答",answer,score,max:sec.points,uncertain:true});
+      }
+    });
+  });
+  const elapsed=Date.now()-startTime-pausedTotal;
+  return {student,total,wrong,uncertain,cat,elapsed,lookupCount};
+}
+
+function finalize(){
+  const missing=[];
+  for(let i=56;i<=60;i++){
+    if(!document.querySelector(`input[name="q${i}-score"]:checked`)) missing.push(i);
+  }
+  if(missing.length){
+    alert(`请先完成第 ${missing.join("、")} 题的自评打分。`);
+    return;
+  }
+  finalized=true;
+  const data=gradeData();
+  window.finalData=data;
+  document.getElementById("totalScore").textContent=`${data.total}/100`;
+  document.getElementById("timeUsed").textContent=formatTime(data.elapsed);
+  document.getElementById("wrongCount").textContent=data.wrong.filter(x=>x.score<x.max).length;
+  document.getElementById("uncertainCount").textContent=data.uncertain;
+  const band=data.total>=90?"掌握扎实：下一次以错题和不确定题复测为主。":
+             data.total>=75?"基础较好：需集中巩固搭配、辨析和词形。":
+             data.total>=60?"掌握不稳：建议缩小范围，先修复高频错误。":
+             "需要重新梳理：先回到词义和核心搭配，再做迁移题。";
+  document.getElementById("resultBand").textContent=band;
+
+  document.getElementById("categoryScores").innerHTML=
+    Object.entries(data.cat).map(([k,v])=>{
+      const pct=Math.round(v.score/v.max*100);
+      return `<div style="margin:10px 0"><b>${esc(k)}</b>：${v.score}/${v.max}（${pct}%）</div>`;
+    }).join("");
+
+  const wl=document.getElementById("wrongList");
+  wl.innerHTML=data.wrong.length?data.wrong.map(x=>
+    `<div class="wrong-item">
+      <div><b>第${x.no}题｜${esc(x.category)}</b>${x.uncertain?' <span class="pill">不确定</span>':''}</div>
+      <div>${esc(x.q)}</div>
+      <div class="small">作答：${esc(x.user)}｜参考：${esc(x.answer)}｜得分：${x.score}/${x.max}</div>
+    </div>`
+  ).join(""):`<p>没有错题或不稳定题。</p>`;
+
+  document.getElementById("manualFinalize").classList.add("hidden");
+  document.getElementById("result").style.display="block";
+  document.getElementById("result").scrollIntoView({behavior:"smooth",block:"start"});
+  localStorage.removeItem(stateKey);
+}
+
+function summaryText(){
+  const d=window.finalData||gradeData();
+  const objWrong=d.wrong.filter(x=>x.score<x.max);
+  const lines=[
+    "【英语词汇 Day 1｜A前半综合诊断结果】",
+    `学生：${d.student}`,
+    `范围：a— a.m.（配套练习册第1—4天）`,
+    `用时：${formatTime(d.elapsed)}`,
+    `查词次数：${d.lookupCount}`,
+    `总分：${d.total}/100`,
+    `错题数：${objWrong.length}`,
+    `不确定题数：${d.uncertain}`,
+    "",
+    "分类表现：",
+    ...Object.entries(d.cat).map(([k,v])=>`${k}：${v.score}/${v.max}`),
+    "",
+    "错题与不稳定题：",
+    ...(d.wrong.length?d.wrong.map(x=>`第${x.no}题｜${x.category}｜作答：${x.user}｜参考：${x.answer}｜${x.uncertain?"不确定":`得分${x.score}/${x.max}`}`):["无"]),
+    "",
+    "请根据以上结果安排 Day 2 的错题复测、间隔复习和新题。"
+  ];
+  return lines.join("\n");
+}
+
+async function copySummary(){
+  const text=summaryText();
+  try{await navigator.clipboard.writeText(text);alert("总结已复制。");}
+  catch(e){
+    const ta=document.createElement("textarea");ta.value=text;document.body.appendChild(ta);
+    ta.select();document.execCommand("copy");ta.remove();alert("总结已复制。");
+  }
+}
+function downloadSummary(){
+  const blob=new Blob([summaryText()],{type:"text/plain;charset=utf-8"});
+  const url=URL.createObjectURL(blob);
+  const a=document.createElement("a");
+  const name=(window.finalData?.student||"学生").replace(/[\\/:*?"<>|]/g,"_");
+  a.href=url;a.download=`${name}_英语词汇_Day1_结果.txt`;a.click();
+  URL.revokeObjectURL(url);
+}
+function restart(){
+  if(!confirm("确定清空本次答案并重新开始吗？")) return;
+  localStorage.removeItem(stateKey);location.reload();
+}
+
+document.getElementById("startBtn").addEventListener("click",startExam);
+document.getElementById("lookupBtn").addEventListener("click",()=>{
+  lookupCount++;document.getElementById("lookupPill").textContent=`查词 ${lookupCount} 次`;saveState();
+});
+document.getElementById("pauseBtn").addEventListener("click",togglePause);
+document.getElementById("submitObjectiveBtn").addEventListener("click",submitObjective);
+document.getElementById("finalizeBtn").addEventListener("click",finalize);
+document.getElementById("copyBtn").addEventListener("click",copySummary);
+document.getElementById("downloadBtn").addEventListener("click",downloadSummary);
+document.getElementById("restartBtn").addEventListener("click",restart);
+document.addEventListener("input",()=>{updateProgress();saveState();});
+document.addEventListener("change",()=>{updateProgress();saveState();});
+window.addEventListener("beforeunload",saveState);
+
+render();
+</script>
+<script defer src="/shared/nav.js"></script></body>
+</html>

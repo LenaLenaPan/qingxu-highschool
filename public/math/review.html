@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>高一数学暑假预习阶段评估</title>
+  <style>
+    :root{
+      --bg:#f6f7fb;
+      --card:#ffffff;
+      --text:#1f2937;
+      --muted:#667085;
+      --line:#e7eaf0;
+      --good:#2f855a;
+      --good-bg:#edf8f1;
+      --mid:#b7791f;
+      --mid-bg:#fff7e6;
+      --focus:#b42318;
+      --focus-bg:#fff1f0;
+      --blue:#3157d5;
+      --blue-bg:#eef2ff;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Hiragino Sans GB","Microsoft YaHei",Arial,sans-serif;
+      background:linear-gradient(180deg,#f7f8fc 0%,#f3f5fa 100%);
+      color:var(--text);
+      line-height:1.75;
+    }
+    .wrap{max-width:1080px;margin:0 auto;padding:36px 20px 64px}
+    .hero{
+      background:linear-gradient(135deg,#243b74,#3f63d7);
+      color:#fff;
+      padding:34px 36px;
+      border-radius:24px;
+      box-shadow:0 18px 40px rgba(49,87,213,.18);
+    }
+    .hero .eyebrow{
+      font-size:14px;letter-spacing:.08em;opacity:.82;margin-bottom:6px
+    }
+    h1{font-size:34px;line-height:1.2;margin:0 0 12px}
+    .hero p{margin:0;max-width:860px;font-size:17px;opacity:.94}
+    .hero-grid{
+      display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-top:24px
+    }
+    .hero-stat{
+      background:rgba(255,255,255,.12);
+      border:1px solid rgba(255,255,255,.18);
+      border-radius:16px;padding:16px 18px
+    }
+    .hero-stat strong{display:block;font-size:24px;margin-bottom:2px}
+    .hero-stat span{font-size:13px;opacity:.85}
+
+    .section{margin-top:28px}
+    .section-head{display:flex;align-items:end;justify-content:space-between;gap:20px;margin-bottom:14px}
+    .section h2{font-size:24px;margin:0}
+    .section-note{color:var(--muted);font-size:14px}
+    .card{
+      background:var(--card);border:1px solid var(--line);
+      border-radius:20px;padding:24px;
+      box-shadow:0 8px 26px rgba(31,41,55,.05)
+    }
+    .summary{
+      display:grid;grid-template-columns:1.1fr .9fr;gap:18px
+    }
+    .quote{
+      font-size:22px;font-weight:700;line-height:1.55;margin:0 0 8px
+    }
+    .small{font-size:14px;color:var(--muted)}
+    .math{
+      font-family:"Cambria Math","STIX Two Math","Times New Roman","Microsoft YaHei",serif;
+      font-size:1.04em;
+      font-weight:600;
+      white-space:nowrap;
+      letter-spacing:.01em;
+    }
+    .levels{display:grid;gap:12px}
+    .level-row{display:grid;grid-template-columns:90px 1fr 54px;align-items:center;gap:12px}
+    .bar{height:10px;background:#eef0f4;border-radius:99px;overflow:hidden}
+    .fill{height:100%;border-radius:99px}
+    .g{background:var(--good)}
+    .b{background:var(--blue)}
+    .y{background:#d49a2a}
+    .level-row b{text-align:right}
+
+    .chips{display:flex;flex-wrap:wrap;gap:10px}
+    .chip{
+      padding:9px 12px;border-radius:999px;font-size:14px;font-weight:600;
+      border:1px solid transparent
+    }
+    .chip.good{background:var(--good-bg);color:var(--good);border-color:#d9efe1}
+    .chip.mid{background:var(--mid-bg);color:var(--mid);border-color:#f3dfb6}
+
+    .focus-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}
+    .focus-card{
+      background:var(--card);border:1px solid var(--line);border-radius:20px;padding:22px;
+      box-shadow:0 8px 26px rgba(31,41,55,.05)
+    }
+    .focus-card .tag{
+      display:inline-block;padding:5px 9px;border-radius:999px;
+      background:var(--focus-bg);color:var(--focus);font-size:12px;font-weight:700;margin-bottom:10px
+    }
+    .focus-card h3{margin:0 0 8px;font-size:20px}
+    .focus-card p{margin:0 0 12px;color:#344054}
+    .focus-card ul{margin:8px 0 0;padding-left:20px}
+    .focus-card li{margin:5px 0}
+    .target{
+      margin-top:14px;padding:12px 14px;border-radius:14px;background:#f8fafc;border:1px dashed #d9dee8
+    }
+    .target b{color:var(--blue)}
+
+    .table-wrap{overflow:auto}
+    table{width:100%;border-collapse:collapse;min-width:760px}
+    th,td{padding:13px 14px;text-align:left;border-bottom:1px solid var(--line);vertical-align:top}
+    th{font-size:13px;color:var(--muted);font-weight:700;background:#fafbfc}
+    td:first-child{font-weight:700}
+    .status{font-weight:700}
+    .status.good{color:var(--good)}
+    .status.mid{color:var(--mid)}
+    .status.focus{color:var(--focus)}
+
+    .steps{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
+    .step{
+      background:var(--blue-bg);border:1px solid #dfe5ff;border-radius:18px;padding:18px
+    }
+    .step .num{
+      width:30px;height:30px;border-radius:50%;display:flex;align-items:center;justify-content:center;
+      background:var(--blue);color:#fff;font-weight:800;margin-bottom:10px
+    }
+    .step h4{margin:0 0 6px;font-size:16px}
+    .step p{margin:0;font-size:14px;color:#44506b}
+
+    .teacher-note{
+      background:#fffdf5;border:1px solid #efe6be;border-radius:18px;padding:20px 22px
+    }
+    .teacher-note strong{color:#8b6508}
+    .footer{margin-top:30px;text-align:center;color:var(--muted);font-size:13px}
+
+    @media (max-width:820px){
+      .hero-grid,.steps{grid-template-columns:repeat(2,1fr)}
+      .summary,.focus-grid{grid-template-columns:1fr}
+      h1{font-size:28px}
+    }
+    @media (max-width:520px){
+      .hero{padding:26px 22px}
+      .hero-grid{grid-template-columns:1fr 1fr}
+      .steps{grid-template-columns:1fr}
+      .wrap{padding:18px 12px 44px}
+      .card,.focus-card{padding:18px}
+    }
+    @media print{
+      body{background:#fff}
+      .wrap{max-width:none;padding:0}
+      .hero,.card,.focus-card,.teacher-note{box-shadow:none}
+      .hero{border-radius:0}
+      .section{break-inside:avoid}
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <section class="hero">
+      <div class="eyebrow">高一数学暑假预习 · 阶段评估</div>
+      <h1>你现在已经“会做大部分题”，下一步要练的是“更稳、更完整、更会想”</h1>
+      <p>
+        这份评估根据目前完成的《集合与逻辑》《等式与不等式》《不等式求解》《基本不等式及应用》等练习与单元测整理。
+        重点不是看某一道题，而是看：哪些能力已经稳定，哪些地方还没有形成“条件反射”。
+      </p>
+      <div class="hero-grid">
+        <div class="hero-stat"><strong>基础：强</strong><span>知识吸收快，常规题稳定</span></div>
+        <div class="hero-stat"><strong>中档：较强</strong><span>典型题型执行比较可靠</span></div>
+        <div class="hero-stat"><strong>综合：在提升</strong><span>有能力，但复杂题仍会波动</span></div>
+        <div class="hero-stat"><strong>压轴思维：形成中</strong><span>重点练结构、分类、陌生题启动</span></div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-head">
+        <h2>一眼看懂：目前的能力结构</h2>
+        <div class="section-note">不是考试分数，而是“稳定掌握程度”的阶段判断</div>
+      </div>
+      <div class="summary">
+        <div class="card">
+          <p class="quote">“基础已经不是主要问题，真正拉开差距的，是最后 10%～20% 的思维质量。”</p>
+          <p class="small">
+            目前最大的优势是：基础计算、典型题型、订正后的迁移都不错。接下来不需要大量重复刷简单题，
+            更需要把“参数分类、等号条件、根的位置、绝对值结构、陌生题启动”练到稳定。
+          </p>
+        </div>
+        <div class="card levels">
+          <div class="level-row"><span>基础</span><div class="bar"><div class="fill g" style="width:95%"></div></div><b>强</b></div>
+          <div class="level-row"><span>中档</span><div class="bar"><div class="fill b" style="width:88%"></div></div><b>较强</b></div>
+          <div class="level-row"><span>综合</span><div class="bar"><div class="fill y" style="width:76%"></div></div><b>提升中</b></div>
+          <div class="level-row"><span>陌生题</span><div class="bar"><div class="fill y" style="width:68%"></div></div><b>重点</b></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-head">
+        <h2>已经掌握得比较好的点</h2>
+        <div class="section-note">这些内容可以正常往后推进，不需要重复大量刷题</div>
+      </div>
+      <div class="card">
+        <div class="chips">
+          <span class="chip good">基础代数运算</span>
+          <span class="chip good">因式分解 / 配方</span>
+          <span class="chip good">集合交并补</span>
+          <span class="chip good">区间表示</span>
+          <span class="chip good">一元一次方程与不等式</span>
+          <span class="chip good">一元二次方程</span>
+          <span class="chip good">判别式</span>
+          <span class="chip good">韦达定理</span>
+          <span class="chip good">一元二次不等式基本求解</span>
+          <span class="chip good">分式不等式基础</span>
+          <span class="chip good">充分必要条件</span>
+          <span class="chip good">参数特殊值意识</span>
+          <span class="chip good">应用题基本建模</span>
+          <span class="chip good">错题订正后的迁移</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-head">
+        <h2>下一阶段最需要练熟的 6 个点</h2>
+        <div class="section-note">这里才是后面从“会做”到“高分稳定”的关键</div>
+      </div>
+
+      <div class="focus-grid">
+        <article class="focus-card">
+          <span class="tag">重点 01</span>
+          <h3>含参数题：分类要完整</h3>
+          <p>现在已经知道要分类，但复杂题里有时会出现“分类步骤散、边界容易漏”的情况。</p>
+          <ul>
+            <li>先看最高次项系数会不会变成 0。</li>
+            <li>除以含参数式之前先判断正负。</li>
+            <li>特殊值、一般情况、端点、回代验证都要走完。</li>
+          </ul>
+          <div class="target"><b>目标：</b>看到参数题，能自动写出“特殊值 → 一般情况 → 边界 → 验证”。</div>
+        </article>
+
+        <article class="focus-card">
+          <span class="tag">重点 02</span>
+          <h3>基本不等式：等号条件要同步检查</h3>
+          <p>公式会用，但“下界能不能真的取到”还需要形成条件反射。</p>
+          <ul>
+            <li>每次用 <span class="math">u + v ≥ 2√(uv)</span> 后，马上写等号条件 <span class="math">u = v</span>。</li>
+            <li>连续用了两次不等式，要检查两次等号条件能不能同时成立。</li>
+            <li>不能只得到“≥ 某个数”就直接说它是最小值。</li>
+          </ul>
+          <div class="target"><b>目标：</b>每道最值题最后自动补一句“等号在……时成立”。</div>
+        </article>
+
+        <article class="focus-card">
+          <span class="tag">重点 03</span>
+          <h3>一元二次方程 / 不等式：根的位置</h3>
+          <p>会判别式、会韦达，但还需要把“根的位置”与函数图像真正连起来。</p>
+          <ul>
+            <li>一个根在 1 左、一个在 1 右：优先想到 <span class="math">f(1) &lt; 0</span>。</li>
+            <li>两根都在 1 右侧：考虑判别式、对称轴、<span class="math">f(1)</span>。</li>
+            <li>恰有一根在区间内：学会用端点函数值和图像判断。</li>
+          </ul>
+          <div class="target"><b>目标：</b>从“解方程”升级为“看图像判断根的位置”。</div>
+        </article>
+
+        <article class="focus-card">
+          <span class="tag">重点 04</span>
+          <h3>绝对值：从“分段算”升级到“数轴看”</h3>
+          <p>分段法会做，但遇到绝对值综合题时，还可以更快地看出“距离结构”。</p>
+          <ul>
+            <li><span class="math">|x − a| + |x − b|</span>：理解为到两个点的距离和。</li>
+            <li><span class="math">||x − a| − |x − b|| ≤ |a − b|</span>：理解为距离差。</li>
+            <li>先画数轴，再决定要不要分段。</li>
+          </ul>
+          <div class="target"><b>目标：</b>看到绝对值先问“它在数轴上表示什么距离？”</div>
+        </article>
+
+        <article class="focus-card">
+          <span class="tag">重点 05</span>
+          <h3>多条件综合题：先找结构，不要一上来全展开</h3>
+          <p>遇到多个条件时，有时会逐条计算，容易变长、变乱。</p>
+          <ul>
+            <li>先找哪个条件是“桥梁”。</li>
+            <li>先判断哪些式子其实等价、哪些可以直接互推。</li>
+            <li>能作差、因式分解、看正负时，不要盲目展开。</li>
+          </ul>
+          <div class="target"><b>目标：</b>做综合题前先用 20 秒找“最短结构”。</div>
+        </article>
+
+        <article class="focus-card">
+          <span class="tag">重点 06</span>
+          <h3>陌生题：第一步怎么启动</h3>
+          <p>不是看不懂，而是第一次遇到没有现成模板的题时，启动速度还不够快。</p>
+          <ul>
+            <li>先做一个最小、最简单的例子。</li>
+            <li>再换一个例子，看规律是否重复。</li>
+            <li>猜结论，再回到题目证明。</li>
+          </ul>
+          <div class="target"><b>目标：</b>陌生题不空等，先“试小例子 → 找规律 → 猜结论”。</div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-head">
+        <h2>知识点掌握清单</h2>
+        <div class="section-note">可以把它当成之后复习时的“导航图”</div>
+      </div>
+      <div class="card table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>模块</th>
+              <th>当前状态</th>
+              <th>现在会什么</th>
+              <th>下一步需要补什么</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>基础代数运算</td>
+              <td class="status good">稳定</td>
+              <td>展开、因式分解、配方、移项较熟练</td>
+              <td>保持准确率，不需额外刷大量简单题</td>
+            </tr>
+            <tr>
+              <td>集合与逻辑</td>
+              <td class="status good">稳定</td>
+              <td>交并补、子集、充分必要条件已较稳</td>
+              <td>继续用于后续参数题，不单独重复刷</td>
+            </tr>
+            <tr>
+              <td>参数分类</td>
+              <td class="status mid">尚未完全自动化</td>
+              <td>已经会想到特殊值和退化情况</td>
+              <td>复杂题中分类要更有层次，避免漏边界</td>
+            </tr>
+            <tr>
+              <td>根的分布</td>
+              <td class="status focus">重点提升</td>
+              <td>会判别式、韦达、部分函数值判断</td>
+              <td>建立“判别式 + 对称轴 + 端点函数值”的统一框架</td>
+            </tr>
+            <tr>
+              <td>分式不等式</td>
+              <td class="status good">较稳</td>
+              <td>能找零点、分区间、判断符号</td>
+              <td>继续注意分母不为 0 与开闭端点</td>
+            </tr>
+            <tr>
+              <td>绝对值</td>
+              <td class="status mid">会做但可更快</td>
+              <td>分段法基本掌握</td>
+              <td>加强数轴距离、最大最小值结构</td>
+            </tr>
+            <tr>
+              <td>基本不等式</td>
+              <td class="status mid">基础会用</td>
+              <td>常见模型会构造</td>
+              <td>重点检查等号是否能成立、是否能同时成立</td>
+            </tr>
+            <tr>
+              <td>证明题</td>
+              <td class="status mid">思路有，表达需提升</td>
+              <td>会作差、因式分解、利用非负性</td>
+              <td>把证明写成“条件 → 推出 → 结论”的完整链条</td>
+            </tr>
+            <tr>
+              <td>应用题建模</td>
+              <td class="status good">较好</td>
+              <td>能从文字中设变量、列式</td>
+              <td>固定补上定义域、最值条件、实际意义检查</td>
+            </tr>
+            <tr>
+              <td>陌生综合题</td>
+              <td class="status focus">当前最值得拔高</td>
+              <td>讲解后能理解，具备抽象能力</td>
+              <td>提升首次独立启动、结构识别、规律发现</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-head">
+        <h2>以后做难题时，固定用这 4 步</h2>
+      </div>
+      <div class="steps">
+        <div class="step">
+          <div class="num">1</div>
+          <h4>先识别对象</h4>
+          <p>它到底是在考方程、函数、不等式、集合，还是几种语言的转换？</p>
+        </div>
+        <div class="step">
+          <div class="num">2</div>
+          <h4>先找特殊情况</h4>
+          <p>参数有没有让次数降低、分母变 0、根重合、区间端点变化？</p>
+        </div>
+        <div class="step">
+          <div class="num">3</div>
+          <h4>先看结构再计算</h4>
+          <p>能不能作差？能不能因式分解？能不能画图？能不能看成距离？</p>
+        </div>
+        <div class="step">
+          <div class="num">4</div>
+          <h4>最后检查答案</h4>
+          <p>端点对不对？等号能取到吗？候选参数需要回代吗？实际条件满足吗？</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="teacher-note">
+        <strong>给你的阶段建议：</strong>
+        现在不用追求“每天刷很多题”。已经会的题，重复价值不高。更推荐每周保留少量“慢题”：
+        一道含参数题、一道人为设置等号陷阱的最值题、一道绝对值/数轴题、一道陌生综合题。
+        每道题允许认真想 15～25 分钟。真正要练的是：<b>第一步怎么想、分类是否完整、条件是否检查到最后。</b>
+      </div>
+    </section>
+
+    <div class="footer">
+      高一数学阶段评估 · 用于学习复盘与下一阶段训练规划
+    </div>
+  </main>
+<script defer src="/shared/nav.js"></script></body>
+</html>

@@ -1,0 +1,31 @@
+{
+  "student": "清许",
+  "version": "v2",
+  "wrongWords": [
+    {
+      "word": "accomplish",
+      "review": "Day2",
+      "reason": "achieve vs accomplish"
+    },
+    {
+      "word": "admission",
+      "review": "Day2",
+      "reason": "word form"
+    },
+    {
+      "word": "alarm",
+      "review": "Day2",
+      "reason": "alarm vs alert"
+    },
+    {
+      "word": "accept_receive",
+      "review": "Day2",
+      "reason": "meaning distinction"
+    },
+    {
+      "word": "adapt oneself to",
+      "review": "Day2",
+      "reason": "fixed phrase"
+    }
+  ]
+}

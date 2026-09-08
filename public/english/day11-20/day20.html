@@ -1,0 +1,216 @@
+<!doctype html>
+<html lang="zh-CN">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>清许高考词汇 Day 20｜particular → pole</title><style>
+:root{--bg:#f6f7fb;--card:#fff;--text:#172033;--muted:#6b7280;--line:#e5e7eb;--accent:#5367d9;--accent-soft:#eef1ff;--ok:#137a52;--bad:#b42318}
+*{box-sizing:border-box}body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",Arial,sans-serif;background:var(--bg);color:var(--text)}
+.wrap{max-width:900px;margin:0 auto;padding:24px 16px 80px}.hero{background:linear-gradient(135deg,#fff,#f0f3ff);border:1px solid var(--line);border-radius:18px;padding:24px;margin-bottom:16px}
+h1{margin:0 0 8px;font-size:28px}h2{margin:0 0 10px;font-size:20px}.sub{color:var(--muted);line-height:1.6}.meta,.result-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-top:16px}
+.metric,.card{background:var(--card);border:1px solid var(--line);border-radius:14px}.metric{padding:12px}.metric b{display:block;font-size:20px;margin-top:4px}
+.card{padding:20px;margin:14px 0}.q{padding:14px 0;border-top:1px solid var(--line)}.q:first-child{border-top:0}.q-title{font-weight:650;line-height:1.6}
+input[type=text]{width:100%;padding:11px 12px;border:1px solid #cfd5df;border-radius:9px;font-size:16px;margin-top:8px;background:white}
+.options{display:grid;gap:8px;margin-top:9px}.options label,.self-score label{border:1px solid var(--line);border-radius:9px;padding:9px 10px;background:white;cursor:pointer}
+.uncertain{display:flex;align-items:center;gap:6px;color:var(--muted);font-size:13px;margin-top:8px}.feedback{margin-top:8px;padding:8px 10px;border-radius:8px;font-size:14px}.feedback.ok{background:#ecfdf3;color:var(--ok)}.feedback.bad{background:#fef3f2;color:var(--bad)}
+button,.btnlink{border:1px solid #cfd5df;background:white;color:var(--text);padding:10px 14px;border-radius:9px;font-weight:650;cursor:pointer;text-decoration:none;display:inline-block}
+button.primary,.btnlink.primary{background:var(--accent);color:white;border-color:var(--accent)}button:disabled{opacity:.55;cursor:not-allowed}
+.toolbar{position:sticky;top:0;z-index:20;background:rgba(246,247,251,.95);backdrop-filter:blur(8px);border-bottom:1px solid var(--line);margin:0 -16px 16px;padding:10px 16px}
+.toolbar-inner{max-width:900px;margin:auto;display:flex;align-items:center;justify-content:space-between;gap:12px}.toolbar-actions{display:flex;gap:8px;flex-wrap:wrap}
+.timer{font-variant-numeric:tabular-nums;font-weight:800;font-size:18px}.pill{display:inline-block;border-radius:999px;padding:3px 9px;background:#f2f4f7;color:var(--muted);font-size:12px;margin-right:5px}
+.progress{height:7px;background:#e9edf5;border-radius:99px;overflow:hidden;margin-top:8px;min-width:180px}.progress>div{height:100%;background:var(--accent);width:0}
+.hidden{display:none!important}.start-panel{text-align:center;padding:30px}.start-panel input{max-width:280px;margin:14px auto}.small{font-size:13px;color:var(--muted)}
+.self-score{display:flex;gap:8px;flex-wrap:wrap;margin-top:9px}.result{display:none}.big{font-size:28px;font-weight:800}.band{padding:10px 12px;border-radius:10px;background:var(--accent-soft);color:#273b93;margin:12px 0}
+.wrong-item{padding:12px 0;border-top:1px solid var(--line)}.wrong-item:first-child{border-top:0}.footer-actions{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}
+.navbar{display:flex;justify-content:space-between;gap:8px;margin-top:16px}.review-note{background:#fff9e8;border:1px solid #f4df9f;padding:10px 12px;border-radius:10px;color:#6d5a16;margin:10px 0}
+@media(max-width:680px){h1{font-size:22px}.meta,.result-grid{grid-template-columns:repeat(2,1fr)}.toolbar-inner{align-items:flex-start;flex-direction:column}.toolbar-actions{width:100%}.toolbar-actions button{flex:1}.card{padding:15px}.wrap{padding-left:12px;padding-right:12px}.navbar{flex-direction:column}}
+</style></head>
+<body>
+<div class="wrap">
+  <div class="hero">
+    <h1>清许高考词汇 Day 20</h1>
+    <div class="sub">范围：<b>particular → pole</b>（配套练习册第 80–83 天）｜建议用时：30–40分钟</div>
+    <div class="meta">
+      <div class="metric"><span class="small">题量</span><b>70题</b></div>
+      <div class="metric"><span class="small">正式总分</span><b>100分</b></div>
+      <div class="metric"><span class="small">滚动复测</span><b>10分*</b></div>
+      <div class="metric"><span class="small">模式</span><b>离线可用</b></div>
+    </div>
+    <div class="review-note">* 滚动专项复测单独计分，不计入100分正式总分。题型权重已按 Day 6–9 的表现调整：提高语境辨析，保留介词搭配，压低显性词形题。</div>
+  </div>
+
+  <div id="startPanel" class="card start-panel">
+    <h2>开始前</h2>
+    <p class="sub">不要打开词汇书或练习册。遇到不确定但仍作答的题，请勾选“我不确定”；确需查词时点击“记录查词”。</p>
+    <input id="studentName" type="text" value="清许" aria-label="学生姓名">
+    <div><button id="startBtn" class="primary">开始测试</button></div>
+  </div>
+
+  <div id="exam" class="hidden">
+    <div class="toolbar">
+      <div class="toolbar-inner">
+        <div><span class="pill" id="answeredPill">已答 0/70</span><span class="pill" id="lookupPill">查词 0 次</span><div class="progress"><div id="progressBar"></div></div></div>
+        <div class="toolbar-actions"><button id="lookupBtn">记录查词</button><button id="pauseBtn">暂停</button><button id="submitObjectiveBtn" class="primary">提交客观题</button></div>
+        <div class="timer" id="timer">00:00:00</div>
+      </div>
+    </div>
+    <div id="questions"></div>
+    <div id="manualFinalize" class="card hidden">
+      <h2>翻译自评</h2>
+      <p class="sub">客观题已提交。请查看每道翻译参考答案，并按“0 / 1 / 2分”完成自评，然后生成最终结果。</p>
+      <button id="finalizeBtn" class="primary">生成最终结果</button>
+    </div>
+  </div>
+
+  <div id="result" class="card result">
+    <h2>Day 20 测试结果</h2>
+    <div class="result-grid">
+      <div><div class="small">正式总分</div><div class="big" id="totalScore">--</div></div>
+      <div><div class="small">滚动复测</div><div class="big" id="reviewScore">--</div></div>
+      <div><div class="small">用时</div><div class="big" id="timeUsed">--</div></div>
+      <div><div class="small">错题数</div><div class="big" id="wrongCount">--</div></div>
+    </div>
+    <div class="band" id="resultBand"></div>
+    <h3>分类表现</h3><div id="categoryScores"></div>
+    <h3>错题与不稳定题</h3><div id="wrongList"></div>
+    <div class="footer-actions"><button id="copyBtn">复制总结</button><button id="downloadBtn">下载结果 TXT</button><button id="restartBtn">重新开始</button></div>
+  </div>
+
+  <div class="navbar"><a class="btnlink" href="day19.html">← Day 19</a><a class="btnlink" href="index.html">返回总览 →</a></div>
+  <p class="small" style="text-align:center;margin-top:24px">范围依据：《2026年上海市高考英语词汇用法手册》及配套综合练习册；题目为本训练包按相应词段重新编写。</p>
+</div>
+
+<script>
+const DAY=20;
+const RANGE="particular → pole";
+const NEXT_TEXT="请根据以上结果安排 Day 11–20 的综合回收与长期错词复测。";
+const sections=[{"id": "review", "title": "零、滚动专项复测", "note": "10题，每题1分，不计入正式总分；用于检查长期记忆。", "category": "滚动专项复测", "points": 1, "type": "text", "counted": false, "items": [["The new medicine helped ___ the patient's pain.", ["ease"]], ["His hard work finally ___ him a scholarship.", ["earned"]], ["She has great enthusiasm ___ science.", ["for"]], ["Good discipline helps students develop ___ study habits.", ["steady"]], ["The novel is ___ of three short stories. (comprise)", ["comprised"]], ["The two teams will ___ for the championship tomorrow.", ["contest"]], ["Everyone should make a ___ to protecting the environment.", ["contribution"]], ["The treatment may ___ the disease completely.", ["cure"]], ["The two students had a heated ___ about the new policy.", ["debate"]], ["Sales continued to ___ during the winter.", ["decline"]]]}, {"id": "meaning", "title": "一、词义与拼写", "note": "根据中文提示写出最恰当的英文词。每题1分，共20分。", "category": "词义与拼写", "points": 1, "type": "text", "counted": true, "items": [["特别的；特定的", ["particular"]], ["伙伴；搭档", ["partner"]], ["聚会；政党", ["party"]], ["通过；传递", ["pass"]], ["文章；通道", ["passage"]], ["乘客", ["passenger"]], ["有耐心的；病人", ["patient"]], ["模式；图案", ["pattern"]], ["支付；付出", ["pay"]], ["和平；平静", ["peace"]], ["完美的；非常合适的", ["perfect"]], ["表演；执行；表现", ["perform"]], ["表演；表现", ["performance"]], ["也许；可能", ["perhaps"]], ["时期；一段时间", ["period"]], ["人", ["person"]], ["个人的；私人的", ["personal"]], ["说服", ["persuade"]], ["电话", ["phone"]], ["杆；柱；极", ["pole"]]]}, {"id": "collocation", "title": "二、固定搭配与介词", "note": "填写空格中缺少的词。每题2分，共30分。", "category": "固定搭配", "points": 2, "type": "text", "counted": true, "items": [["I am interested ___ this point in particular.", ["in"]], ["He is very particular ___ the quality of his work.", ["about"]], ["Please work ___ a partner.", ["with"]], ["She passed ___ the crowd without stopping.", ["through"]], ["Please pass the message ___ to your classmates.", ["on"]], ["Be patient ___ younger learners.", ["with"]], ["Who will pay ___ the meal?", ["for"]], ["They hope to live ___ peace with their neighbours.", ["in"]], ["This room is perfect ___ quiet reading.", ["for"]], ["The students will perform ___ the school hall.", ["in"]], ["The performance ___ the new engine was impressive.", ["of"]], ["Please give the document to me ___ person.", ["in"]], ["She persuaded him ___ apply for the course.", ["to"]], ["Please pick ___ the books from the floor.", ["up"]], ["Music plays an important role ___ the film.", ["in"]]]}, {"id": "context", "title": "三、语境辨析", "note": "选择最恰当的答案。每题2分，共26分。", "category": "语境辨析", "points": 2, "type": "mcq", "counted": true, "items": [{"q": "There is one ___ point that I want to discuss.", "options": ["particular", "pass", "pattern", "perform"], "answer": 0}, {"q": "Work with a ___ to complete the task.", "options": ["passage", "partner", "pay", "performance"], "answer": 1}, {"q": "They are having a birthday ___ on Saturday.", "options": ["passenger", "peace", "party", "perhaps"], "answer": 2}, {"q": "She worked hard and finally ___ed the exam.", "options": ["patient", "perfect", "period", "pass"], "answer": 3}, {"q": "Read the ___ and answer the questions.", "options": ["passage", "pattern", "perform", "person"], "answer": 0}, {"q": "Every ___ must wear a seat belt.", "options": ["pay", "passenger", "performance", "personal"], "answer": 1}, {"q": "Good teachers are ___ with beginners.", "options": ["peace", "perhaps", "patient", "persuade"], "answer": 2}, {"q": "The data shows a clear ___ of change.", "options": ["perfect", "period", "phone", "pattern"], "answer": 3}, {"q": "You can ___ for the ticket online.", "options": ["pay", "perform", "person", "pole"], "answer": 0}, {"q": "Everyone hopes to live in ___.", "options": ["performance", "peace", "personal", "particular"], "answer": 1}, {"q": "This quiet room is ___ for studying.", "options": ["perhaps", "persuade", "perfect", "partner"], "answer": 2}, {"q": "The students will ___ a short play tonight.", "options": ["period", "phone", "party", "perform"], "answer": 3}, {"q": "Her ___ in the final exam was excellent.", "options": ["performance", "person", "pole", "pass"], "answer": 0}]}, {"id": "wordform", "title": "四、词形变化", "note": "用括号中单词的正确形式填空。每题2分，共14分。", "category": "词形变化", "points": 2, "type": "text", "counted": true, "items": [["I am ___ interested in the final point. (particular)", ["particularly"]], ["Good teachers need great ___. (patient)", ["patience"]], ["The two countries signed a ___ agreement. (peace)", ["peaceful"]], ["Her piano ___ was excellent. (perform)", ["performance"]], ["Everyone has a different ___. (person)", ["personality"]], ["He gave a very ___ argument. (persuade)", ["persuasive"]], ["The children were ___ to see the gift. (please)", ["pleased"]]]}, {"id": "translation", "title": "五、句子翻译", "note": "独立完成后再查看参考答案并自评。每题2分，共10分。", "category": "句子翻译", "points": 2, "type": "manual", "counted": true, "items": [{"q": "我特别想讨论其中一个问题。（particular）", "sample": "There is one problem in particular that I want to discuss.", "keys": "in particular"}, {"q": "老师应该对初学者有耐心。（patient）", "sample": "Teachers should be patient with beginners.", "keys": "be patient with"}, {"q": "她说服父母让她参加这次旅行。（persuade）", "sample": "She persuaded her parents to let her join the trip.", "keys": "persuade sb. to do"}, {"q": "这间安静的房间非常适合学习。（perfect）", "sample": "This quiet room is perfect for studying.", "keys": "be perfect for"}, {"q": "音乐在这部电影中起着重要作用。（play）", "sample": "Music plays an important role in the film.", "keys": "play an important role in"}]}];
+const stateKey=`qingxu-vocab-day${DAY}-state-v1`;
+const resultKey=`qingxu-vocab-day${DAY}-result-v1`;
+let started=false,startTime=null,paused=false,pausedAt=null,pausedTotal=0,lookupCount=0,timerId=null,objectiveSubmitted=false,finalized=false;
+
+function esc(s){return String(s??"").replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]));}
+function normalize(s){return String(s??"").trim().toLowerCase().replace(/[’]/g,"'").replace(/\s+/g," ");}
+function formatTime(ms){let sec=Math.max(0,Math.floor(ms/1000)),h=String(Math.floor(sec/3600)).padStart(2,'0');sec%=3600;let m=String(Math.floor(sec/60)).padStart(2,'0'),s=String(sec%60).padStart(2,'0');return `${h}:${m}:${s}`;}
+function elapsedNow(){if(!started)return 0;if(paused)return pausedAt-startTime-pausedTotal;return Date.now()-startTime-pausedTotal;}
+
+function render(){
+  const host=document.getElementById("questions"); let n=0; let htmls=[];
+  sections.forEach(sec=>{
+    htmls.push(`<section class="card"><h2>${esc(sec.title)}</h2><div class="sub">${esc(sec.note)}</div>`);
+    sec.items.forEach((item,idx)=>{
+      n++; const qno=n;
+      let qtext="",body="";
+      if(sec.type==="text"){
+        qtext=item[0];
+        body=`<input id="q${qno}" type="text" autocomplete="off"><div id="q${qno}-feedback" class="feedback hidden"></div>`;
+      }else if(sec.type==="mcq"){
+        qtext=item.q;
+        body=`<div class="options">`+item.options.map((op,oi)=>`<label><input type="radio" name="q${qno}" value="${oi}"> ${esc(op)}</label>`).join("")+`</div><div id="q${qno}-feedback" class="feedback hidden"></div>`;
+      }else{
+        qtext=item.q;
+        body=`<textarea id="q${qno}" rows="3" style="width:100%;margin-top:8px;padding:10px;border:1px solid #cfd5df;border-radius:9px;font-size:16px"></textarea>
+        <div id="q${qno}-manual" class="hidden" style="margin-top:10px">
+          <div class="feedback ok"><b>参考：</b>${esc(item.sample)}<br><span class="small">要点：${esc(item.keys)}</span></div>
+          <div class="self-score">
+            <label><input type="radio" name="q${qno}-score" value="0"> 0分</label>
+            <label><input type="radio" name="q${qno}-score" value="1"> 1分</label>
+            <label><input type="radio" name="q${qno}-score" value="2"> 2分</label>
+          </div>
+        </div>`;
+      }
+      htmls.push(`<div class="q"><div class="q-title">第${qno}题｜${esc(sec.category)}${sec.counted?'':'（不计总分）'}<br>${esc(qtext)}</div>${body}<label class="uncertain"><input type="checkbox" id="q${qno}-uncertain"> 我不确定</label></div>`);
+    });
+    htmls.push(`</section>`);
+  });
+  host.innerHTML=htmls.join("");
+}
+
+function countAnswered(){
+  let n=0,answered=0;
+  sections.forEach(sec=>sec.items.forEach(item=>{n++; if(sec.type==="mcq"){if(document.querySelector(`input[name="q${n}"]:checked`))answered++;}else{if((document.getElementById(`q${n}`)?.value||"").trim())answered++;}}));
+  document.getElementById("answeredPill").textContent=`已答 ${answered}/70`;
+  document.getElementById("progressBar").style.width=`${answered/70*100}%`;
+}
+function tick(){document.getElementById("timer").textContent=formatTime(elapsedNow());}
+function startExam(){
+  started=true; startTime=Date.now(); document.getElementById("startPanel").classList.add("hidden");document.getElementById("exam").classList.remove("hidden");timerId=setInterval(tick,500);tick();saveState();
+}
+function togglePause(){
+  const btn=document.getElementById("pauseBtn");
+  if(!paused){paused=true;pausedAt=Date.now();btn.textContent="继续";document.getElementById("questions").style.filter="blur(4px)";document.getElementById("questions").style.pointerEvents="none";}
+  else{paused=false;pausedTotal+=Date.now()-pausedAt;btn.textContent="暂停";document.getElementById("questions").style.filter="";document.getElementById("questions").style.pointerEvents="";}
+  saveState();
+}
+function saveState(){
+  if(!started||finalized)return; let n=0,answers={},unc={},manualScores={};
+  sections.forEach(sec=>sec.items.forEach(item=>{n++; if(sec.type==="mcq"){const c=document.querySelector(`input[name="q${n}"]:checked`);answers[n]=c?c.value:"";}else{answers[n]=document.getElementById(`q${n}`)?.value||"";}
+    unc[n]=document.getElementById(`q${n}-uncertain`)?.checked||false; const ms=document.querySelector(`input[name="q${n}-score"]:checked`); if(ms)manualScores[n]=ms.value;
+  }));
+  localStorage.setItem(stateKey,JSON.stringify({started,startTime,paused,pausedAt,pausedTotal,lookupCount,objectiveSubmitted,answers,unc,manualScores}));
+}
+function restore(){
+  const raw=localStorage.getItem(stateKey); if(!raw)return;
+  try{const s=JSON.parse(raw); if(!s.started)return; started=true;startTime=s.startTime;paused=!!s.paused;pausedAt=s.pausedAt;pausedTotal=s.pausedTotal||0;lookupCount=s.lookupCount||0;objectiveSubmitted=!!s.objectiveSubmitted;
+    document.getElementById("startPanel").classList.add("hidden");document.getElementById("exam").classList.remove("hidden");document.getElementById("lookupPill").textContent=`查词 ${lookupCount} 次`;
+    let n=0;sections.forEach(sec=>sec.items.forEach(item=>{n++;const a=s.answers?.[n];if(sec.type==="mcq"){if(a!==undefined&&a!==""){const el=document.querySelector(`input[name="q${n}"][value="${a}"]`);if(el)el.checked=true;}}else if(document.getElementById(`q${n}`))document.getElementById(`q${n}`).value=a||"";
+      const u=document.getElementById(`q${n}-uncertain`);if(u)u.checked=!!s.unc?.[n]; if(s.manualScores?.[n]!==undefined){const m=document.querySelector(`input[name="q${n}-score"][value="${s.manualScores[n]}"]`);if(m)m.checked=true;}
+    }));
+    if(paused){document.getElementById("pauseBtn").textContent="继续";document.getElementById("questions").style.filter="blur(4px)";document.getElementById("questions").style.pointerEvents="none";}
+    if(objectiveSubmitted){applySubmittedState();} else timerId=setInterval(tick,500);
+    tick();countAnswered();
+  }catch(e){console.warn(e)}
+}
+function applySubmittedState(){
+  clearInterval(timerId);document.getElementById("submitObjectiveBtn").disabled=true;document.getElementById("lookupBtn").disabled=true;document.getElementById("pauseBtn").disabled=true;
+  let n=0; sections.forEach(sec=>sec.items.forEach(item=>{n++;
+    if(sec.type==="manual"){document.getElementById(`q${n}-manual`).classList.remove("hidden");return;}
+    const fb=document.getElementById(`q${n}-feedback`);let correct=false,user="",answer="";
+    if(sec.type==="text"){const el=document.getElementById(`q${n}`);user=el.value;answer=item[1][0];correct=item[1].some(a=>normalize(a)===normalize(user));el.disabled=true;}
+    else{const c=document.querySelector(`input[name="q${n}"]:checked`);user=c?item.options[Number(c.value)]:"";answer=item.options[item.answer];correct=!!c&&Number(c.value)===item.answer;document.querySelectorAll(`input[name="q${n}"]`).forEach(x=>x.disabled=true);}
+    fb.className=`feedback ${correct?'ok':'bad'}`;fb.innerHTML=correct?'正确':`你的答案：${esc(user||'未作答')}<br>正确答案：${esc(answer)}`;fb.classList.remove("hidden");
+  }));document.querySelectorAll('.uncertain input').forEach(x=>x.disabled=true);document.getElementById("manualFinalize").classList.remove("hidden");
+}
+function submitObjective(){
+  if(paused)togglePause();if(!confirm("提交后将显示客观题答案，并进入翻译自评。确认提交吗？"))return;objectiveSubmitted=true;applySubmittedState();saveState();document.getElementById("manualFinalize").scrollIntoView({behavior:"smooth",block:"center"});
+}
+function gradeData(){
+  let n=0,total=0,reviewScore=0,wrong=[],uncertain=0;const cat={};const student=document.getElementById("studentName").value.trim()||"清许";
+  sections.forEach(sec=>{if(!cat[sec.category])cat[sec.category]={score:0,max:0,counted:sec.counted};sec.items.forEach(item=>{n++;cat[sec.category].max+=sec.points;const uf=document.getElementById(`q${n}-uncertain`)?.checked||false;if(uf)uncertain++;
+      let score=0,user="",answer="";
+      if(sec.type==="text"){user=document.getElementById(`q${n}`).value;answer=item[1][0];if(item[1].some(a=>normalize(a)===normalize(user)))score=sec.points;}
+      else if(sec.type==="mcq"){const c=document.querySelector(`input[name="q${n}"]:checked`);user=c?item.options[Number(c.value)]:"";answer=item.options[item.answer];if(c&&Number(c.value)===item.answer)score=sec.points;}
+      else{user=document.getElementById(`q${n}`).value;const c=document.querySelector(`input[name="q${n}-score"]:checked`);score=c?Number(c.value):0;answer=item.sample;}
+      cat[sec.category].score+=score;if(sec.counted)total+=score;else reviewScore+=score;
+      if(score<sec.points||uf)wrong.push({no:n,category:sec.category,q:sec.type==="mcq"?item.q:(sec.type==="manual"?item.q:item[0]),user:user||"未作答",answer,score,max:sec.points,uncertain:uf});
+  })});
+  return {student,total,reviewScore,wrong,uncertain,cat,elapsed:elapsedNow(),lookupCount};
+}
+function finalize(){
+  let n=0,missing=[];sections.forEach(sec=>sec.items.forEach(item=>{n++;if(sec.type==="manual"&&!document.querySelector(`input[name="q${n}-score"]:checked`))missing.push(n);}));if(missing.length){alert(`请先完成第 ${missing.join("、")} 题的自评打分。`);return;}
+  finalized=true;const data=gradeData();window.finalData=data;document.getElementById("totalScore").textContent=`${data.total}/100`;document.getElementById("reviewScore").textContent=`${data.reviewScore}/10`;document.getElementById("timeUsed").textContent=formatTime(data.elapsed);document.getElementById("wrongCount").textContent=data.wrong.filter(x=>x.score<x.max).length;
+  document.getElementById("resultBand").textContent=data.total>=95?"掌握扎实：继续推进，同时只滚动回收错题。":data.total>=90?"整体稳定：保持速度，重点修复搭配和语境错题。":data.total>=80?"基础可用：下一天继续推进，但增加历史错词回收。":"掌握不稳：建议缩小当日新增量，优先修复高频错误。";
+  document.getElementById("categoryScores").innerHTML=Object.entries(data.cat).map(([k,v])=>`<div style="margin:8px 0"><b>${esc(k)}</b>：${v.score}/${v.max}${v.counted?'':'（不计入总分）'}</div>`).join("");
+  document.getElementById("wrongList").innerHTML=data.wrong.length?data.wrong.map(x=>`<div class="wrong-item"><div><b>第${x.no}题｜${esc(x.category)}</b>${x.uncertain?' <span class="pill">不确定</span>':''}</div><div>${esc(x.q)}</div><div class="small">作答：${esc(x.user)}｜参考：${esc(x.answer)}｜得分：${x.score}/${x.max}</div></div>`).join(""):"<p>没有错题或不稳定题。</p>";
+  document.getElementById("manualFinalize").classList.add("hidden");document.getElementById("result").style.display="block";document.getElementById("result").scrollIntoView({behavior:"smooth",block:"start"});
+  localStorage.removeItem(stateKey);localStorage.setItem(resultKey,JSON.stringify({total:data.total,reviewScore:data.reviewScore,time:formatTime(data.elapsed),wrong:data.wrong.filter(x=>x.score<x.max).length,date:new Date().toISOString()}));
+}
+function summaryText(){
+  const d=window.finalData||gradeData();const lines=[`【清许高考词汇 Day ${DAY} 测试结果】`,`学生：${d.student}`,`范围：${RANGE}`,`用时：${formatTime(d.elapsed)}`,`查词次数：${d.lookupCount}`,`总分：${d.total}/100`,`错题数：${d.wrong.filter(x=>x.score<x.max).length}`,`不确定题数：${d.uncertain}`,"","分类表现：",...Object.entries(d.cat).map(([k,v])=>`${k}：${v.score}/${v.max}${v.counted?'':'（不计入总分）'}`),"","错题与不稳定题：",...(d.wrong.length?d.wrong.map(x=>`第${x.no}题｜${x.category}｜作答：${x.user}｜参考：${x.answer}｜${x.uncertain?'不确定':`得分${x.score}/${x.max}`}`):["无"]),"",NEXT_TEXT];return lines.join("\n");
+}
+async function copySummary(){try{await navigator.clipboard.writeText(summaryText());alert("总结已复制。");}catch(e){const ta=document.createElement("textarea");ta.value=summaryText();document.body.appendChild(ta);ta.select();document.execCommand("copy");ta.remove();alert("总结已复制。");}}
+function downloadSummary(){const blob=new Blob([summaryText()],{type:"text/plain;charset=utf-8"});const url=URL.createObjectURL(blob);const a=document.createElement("a");a.href=url;a.download=`清许_英语词汇_Day${DAY}_结果.txt`;a.click();URL.revokeObjectURL(url);}
+function restart(){if(!confirm("确定清空本次答案并重新开始吗？"))return;localStorage.removeItem(stateKey);localStorage.removeItem(resultKey);location.reload();}
+
+render();restore();
+document.getElementById("startBtn").addEventListener("click",startExam);
+document.getElementById("lookupBtn").addEventListener("click",()=>{lookupCount++;document.getElementById("lookupPill").textContent=`查词 ${lookupCount} 次`;saveState();});
+document.getElementById("pauseBtn").addEventListener("click",togglePause);
+document.getElementById("submitObjectiveBtn").addEventListener("click",submitObjective);
+document.getElementById("finalizeBtn").addEventListener("click",finalize);
+document.getElementById("copyBtn").addEventListener("click",copySummary);
+document.getElementById("downloadBtn").addEventListener("click",downloadSummary);
+document.getElementById("restartBtn").addEventListener("click",restart);
+document.addEventListener("input",()=>{countAnswered();saveState();});
+document.addEventListener("change",()=>{countAnswered();saveState();});
+window.addEventListener("beforeunload",saveState);
+</script>
+<script defer src="/shared/nav.js"></script></body></html>

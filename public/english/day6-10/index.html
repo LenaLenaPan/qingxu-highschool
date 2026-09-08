@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>清许高考词汇｜Day 6–10</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="wrap home-wrap">
+  <section class="hero home-hero">
+    <div class="eyebrow">清许高考词汇 · 2026 上海高考</div>
+    <h1>Day 6–10 自适应测试</h1>
+    <p class="sub">目标：8 月 31 日前掌握 3000 个高考核心词汇。延续每日测试 + 错题滚动复测，依据 Day 1–5 表现优先修复词形变化、固定搭配和易混词。</p>
+    <div class="goal-strip"><b>本包覆盖：</b> comprise → festival <span>｜</span> 5 天 <span>｜</span> 每天 70 题（10 题复测 + 60 题主测）</div>
+  </section>
+  <section class="card notice">
+    <b>本轮调整</b>
+    <p>已综合 Day 1–5 的真实错项；Day 2 前 10 题因旧版答案缺失造成的 0/10 不作为能力失分。主测权重更新为：词义与拼写 20、固定搭配 32、语境辨析 22、词形变化 16、句子翻译 10。专项复测<strong>不计入 100 分总分</strong>。</p>
+  </section>
+  <div id="dayGrid" class="day-grid"></div>
+  <section class="card compact">
+    <b>做题规则</b>
+    <p>先做 10 题滚动专项复测，再完成主测。不要打开词汇书或练习册；确需查词时点击“记录查词”；拿不准但仍作答时勾选“我不确定”。提交后可复制或下载当天总结，用于下一天增量更新。</p>
+  </section>
+</div>
+<script src="data.js"></script>
+<script>
+const grid=document.getElementById('dayGrid');
+Object.values(window.TEST_DATA.days).forEach(d=>{
+ const a=document.createElement('a'); a.className='day-card'; a.href=`test.html?day=${d.day}`;
+ a.innerHTML=`<div class="day-no">DAY ${d.day}</div><h2>${d.range}</h2><p>${d.source_days}</p><div class="focus">${d.focus}</div><div class="start-link">开始测试 →</div>`;
+ grid.appendChild(a);
+});
+</script>
+<script defer src="/shared/nav.js"></script></body></html>

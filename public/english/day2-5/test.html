@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#f6f4ee">
+  <title>清许高考词汇测试</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="shell test-shell">
+    <a class="back" href="index.html">← 返回日期选择</a>
+    <header class="test-hero">
+      <div><span class="eyebrow" id="dayEyebrow"></span><h1 id="dayTitle"></h1><p id="dayIntro"></p></div>
+      <div class="hero-stats"><b id="totalCount">0</b><span>题</span><b>100</b><span>分</span></div>
+    </header>
+
+    <section id="startPanel" class="panel start-panel">
+      <h2>开始前</h2>
+      <p>不要打开词汇书。确需查词时点击“记录查词”；能答但不确定时勾选“不确定”。</p>
+      <label>学生姓名<input id="studentName" type="text" value="清许" autocomplete="name"></label>
+      <button class="primary" id="startBtn">开始测试</button>
+    </section>
+
+    <section id="exam" hidden>
+      <div class="toolbar">
+        <div class="progress-meta"><span id="answeredPill">已答 0/60</span><span id="lookupPill">查词 0 次</span><div class="progress"><i id="progressBar"></i></div></div>
+        <div class="tools"><button id="lookupBtn">记录查词</button><button id="pauseBtn">暂停</button><button class="primary" id="submitBtn">提交客观题</button></div>
+        <time id="timer">00:00:00</time>
+      </div>
+      <div id="questions"></div>
+      <section id="manualFinalize" class="panel" hidden>
+        <h2>完成翻译自评</h2><p>对照参考答案，为最后 5 题选择 0、1 或 2 分。</p>
+        <button class="primary" id="finalizeBtn">生成测试总结</button>
+      </section>
+      <section id="result" class="panel result" hidden>
+        <span class="eyebrow">RESULT</span><h2 id="resultTitle"></h2><p class="band" id="resultBand"></p>
+        <div class="result-grid"><div><b id="totalScore">—</b><span>总分</span></div><div><b id="timeUsed">—</b><span>用时</span></div><div><b id="wrongCount">—</b><span>错题</span></div><div><b id="uncertainCount">—</b><span>不确定</span></div></div>
+        <div id="categoryScores" class="category-scores"></div>
+        <h3>错题与不稳定题</h3><div id="wrongList"></div>
+        <div class="result-actions"><button class="primary" id="copyBtn">复制总结</button><button id="downloadBtn">下载总结</button><button class="danger" id="restartBtn">重新开始</button></div>
+      </section>
+    </section>
+  </main>
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+<script defer src="/shared/nav.js"></script></body>
+</html>

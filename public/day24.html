@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>清许高考词汇 Day 24｜rubber → sharpen</title>
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<div class="wrap">
+  <div class="hero">
+    <h1>清许高考词汇 Day 24</h1>
+    <div class="sub">范围：<b>rubber → sharpen</b>（配套练习册第 96–99 天）｜建议用时：30–40分钟</div>
+    <div class="meta">
+      <div class="metric"><span class="small">题量</span><b>70题</b></div>
+      <div class="metric"><span class="small">正式总分</span><b>100分</b></div>
+      <div class="metric"><span class="small">滚动复测</span><b>10分*</b></div>
+      <div class="metric"><span class="small">模式</span><b>离线可用</b></div>
+    </div>
+    <div class="review-note">* 滚动专项复测单独计分，不计入正式100分。题目按手册词段和练习册考点逐题编写并校对；搭配题给出完整语境，词形题依据明确句法位置设问。</div>
+  </div>
+
+  <div id="startPanel" class="card start-panel">
+    <h2>开始前</h2>
+    <p class="sub">不要打开词汇书或练习册。遇到不确定但仍作答的题，请勾选“我不确定”；确需查词时点击“记录查词”。</p>
+    <input id="studentName" type="text" value="清许" aria-label="学生姓名">
+    <div><button id="startBtn" class="primary">开始测试</button></div>
+  </div>
+
+  <div id="exam" class="hidden">
+    <div class="toolbar">
+      <div class="toolbar-inner">
+        <div><span class="pill" id="answeredPill">已答 0/70</span><span class="pill" id="lookupPill">查词 0 次</span><div class="progress"><div id="progressBar"></div></div></div>
+        <div class="toolbar-actions"><button id="lookupBtn">记录查词</button><button id="pauseBtn">暂停</button><button id="submitObjectiveBtn" class="primary">提交客观题</button></div>
+        <div class="timer" id="timer">00:00:00</div>
+      </div>
+    </div>
+    <div id="questions"></div>
+    <div id="manualFinalize" class="card hidden">
+      <h2>翻译自评</h2>
+      <p class="sub">客观题已提交。请查看参考答案并按要点评分：关键意思和目标结构正确得2分；基本意思正确但结构或语法有明显缺漏得1分；关键意思错误或未作答得0分。</p>
+      <button id="finalizeBtn" class="primary">生成最终结果</button>
+    </div>
+  </div>
+
+  <div id="result" class="card result">
+    <h2>Day 24 测试结果</h2>
+    <div class="result-grid">
+      <div><div class="small">正式总分</div><div class="big" id="totalScore">--</div></div>
+      <div><div class="small">滚动复测</div><div class="big" id="reviewScore">--</div></div>
+      <div><div class="small">用时</div><div class="big" id="timeUsed">--</div></div>
+      <div><div class="small">错题数</div><div class="big" id="wrongCount">--</div></div>
+    </div>
+    <div class="band" id="resultBand"></div>
+    <h3>分类表现</h3><div id="categoryScores"></div>
+    <h3>错题与不稳定题</h3><div id="wrongList"></div>
+    <div class="footer-actions"><button id="copyBtn">复制总结</button><button id="downloadBtn">下载结果 TXT</button><button id="restartBtn">重新开始</button></div>
+  </div>
+
+  <div class="navbar"><a class="btnlink" href="day23.html">← Day 23</a><a class="btnlink" href="day25.html">Day 25 →</a></div>
+  <p class="small" style="text-align:center;margin-top:24px">范围依据：《2026年上海市高考英语词汇用法手册》及配套综合练习册；题目按相应词段重新编写。</p>
+</div>
+<script>window.DAY_CONFIG={"day":24,"range":"rubber → sharpen","nextText":"请根据以上结果安排 Day 25 的错题复测、间隔复习和新题。","sections":[{"id":"review","title":"零、滚动专项复测","note":"10题，每题1分，不计入正式总分；优先回收 Day 16–20 错题与近期易错搭配。","category":"滚动专项复测","points":1,"type":"text","counted":false,"items":[["Residents gathered to protest ___ the new road plan.",["against"]],["Her family is proud ___ her progress.",["of"]],["Only experienced runners qualify ___ the final.",["for"]],["Prices range ___ ten to fifty yuan.",["from"]],["He has fully recovered ___ the injury.",["from"]],["There are clear ___ to what this method can achieve.",["limits"]],["The building is used ___ a community centre.",["as"]],["She applied ___ permission to join the exchange programme.",["for"]],["Her ability to explain ideas comes ___.",["naturally"]],["The advertisement was colourful but not very ___.",["persuasive"]]]},{"id":"meaning","title":"一、词义与拼写","note":"根据中文提示写出最恰当的英文词。每题1分，共20分。","category":"词义与拼写","points":1,"type":"text","counted":true,"items":[["橡胶；橡皮",["rubber"]],["垃圾；废物",["rubbish"]],["粗鲁的；无礼的",["rude"]],["农村的；乡村的",["rural"]],["牺牲；献出",["sacrifice"]],["薪水；工资",["salary"]],["安全；安全性",["safety"]],["满意；满足",["satisfaction"]],["稀少的；不足的",["scarce"]],["风景；景色",["scenery"]],["日程安排；时间表",["schedule"]],["奖学金",["scholarship"]],["科学的",["scientific"]],["尖叫；高声喊叫",["scream"]],["屏幕；筛查",["screen"]],["搜寻；搜索",["search"]],["安全的；获得；使安全",["secure"]],["明智的；合理的",["sensible"]],["敏感的；易受影响的",["sensitive"]],["使变锋利；提高",["sharpen"]]]},{"id":"collocation","title":"二、固定搭配与介词","note":"根据完整语境填写空格中缺少的词。每题2分，共30分。","category":"固定搭配","points":2,"type":"text","counted":true,"items":[["It is rude ___ interrupt someone who is speaking.",["to"]],["She rushed ___ the station but still missed the train.",["to"]],["For the sake ___ safety, please keep away from the edge.",["of"]],["Parents often make sacrifices ___ their children's education.",["for"]],["Are you satisfied ___ the service you received?",["with"]],["The lifeboat saved the sailors ___ the sinking ship.",["from"]],["Despite the storm, the train arrived ___ schedule.",["on"]],["The police are searching ___ the missing child.",["for"]],["Please take a seat ___ the front of the room.",["at"]],["She kept the plan secret ___ her friends.",["from"]],["His explanation does not make sense ___ me.",["to"]],["Some plants are sensitive ___ sudden changes in temperature.",["to"]],["Please separate the white clothes ___ the coloured ones.",["from"]],["This room can serve ___ a temporary classroom.",["as"]],["She shared the prize money ___ the rest of the team.",["with"]]]},{"id":"context","title":"三、语境辨析","note":"结合句意和搭配选择唯一最恰当的答案。每题2分，共26分。","category":"语境辨析","points":2,"type":"mcq","counted":true,"items":[{"q":"The charity provides books for children in ___ areas.","options":["rural","royal","rude","random"],"answer":0},{"q":"The company offers a good starting ___ and regular training.","options":["sale","salary","safety","satisfaction"],"answer":1},{"q":"The researchers tested the product on a small ___ of users.","options":["schedule","salary","sample","season"],"answer":2},{"q":"We stopped several times to admire the mountain ___.","options":["scene","screen","section","scenery"],"answer":3},{"q":"According to the ___, the meeting should finish at four.","options":["schedule","scheme","score","section"],"answer":0},{"q":"She won a ___ that covered all her university fees.","options":["schoolhouse","scholarship","scenery","security"],"answer":1},{"q":"The claim is not supported by any ___ evidence.","options":["sensitive","sensible","scientific","secondary"],"answer":2},{"q":"When the lights suddenly went out, someone began to ___.","options":["search","score","screen","scream"],"answer":3},{"q":"The password helps keep your personal information ___.","options":["secure","serious","sensible","separate"],"answer":0},{"q":"Taking a spare key was a ___ decision.","options":["sensitive","sensible","selfish","severe"],"answer":1},{"q":"This camera is extremely ___ to light.","options":["sensible","secure","sensitive","serious"],"answer":2},{"q":"Several roads were closed after the ___ storm.","options":["senior","secret","sensible","severe"],"answer":3},{"q":"The large tree provided welcome ___ from the midday sun.","options":["shade","shadow","shape","shame"],"answer":0}]},{"id":"wordform","title":"四、词形变化","note":"根据句法位置，用括号中单词的正确形式填空。每题2分，共14分。","category":"词形变化","points":2,"type":"text","counted":true,"items":[["Passenger ___ must come before speed. (safe)",["safety"]],["She smiled with ___ when the work was finished. (satisfy)",["satisfaction"]],["The report is based on ___ evidence. (science)",["scientific"]],["Strong passwords improve online ___. (secure)",["security"]],["It would be ___ to take an umbrella. (sense)",["sensible"]],["The long period of ___ was difficult for both families. (separate)",["separation"]],["Regular debate can ___ students' thinking skills. (sharp)",["sharpen"]]]},{"id":"translation","title":"五、句子翻译","note":"独立完成后再查看参考答案并自评。每题2分，共10分。","category":"句子翻译","points":2,"type":"manual","counted":true,"items":[{"q":"打断正在讲话的人是不礼貌的。（rude）","sample":"It is rude to interrupt someone who is speaking.","keys":"It is rude to do"},{"q":"大多数学生对新的课程安排很满意。（satisfied）","sample":"Most students are satisfied with the new course schedule.","keys":"be satisfied with"},{"q":"救援人员仍在寻找那名失踪的游客。（search）","sample":"Rescue workers are still searching for the missing tourist.","keys":"search for"},{"q":"请把可回收垃圾和其他垃圾分开。（separate）","sample":"Please separate recyclable rubbish from the rest.","keys":"separate A from B"},{"q":"广泛阅读有助于提高我们的判断力。（sharpen）","sample":"Reading widely helps sharpen our judgement.","keys":"sharpen one's judgement"}]}]};</script>
+<script src="assets/app.js"></script>
+<script defer src="/shared/nav.js"></script></body>
+</html>

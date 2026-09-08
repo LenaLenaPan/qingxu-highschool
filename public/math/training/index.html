@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>清许 · 第一章高阶思维训练 5 天</title>
+  <script>
+    window.MathJax = {
+      tex: { inlineMath: [['\\(','\\)']], displayMath: [['\\[','\\]']] },
+      svg: { fontCache: 'global' }
+    };
+  </script>
+  <script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
+  <style>
+    :root{--ink:#18253d;--muted:#65728a;--blue:#3558d6;--blue2:#eef2ff;--line:#dce3f0;--paper:#fff;--bg:#f5f7fb;--green:#22866a;--amber:#a45e00;--shadow:0 16px 44px rgba(34,53,92,.09)}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:linear-gradient(180deg,#edf2ff 0,#f7f8fb 300px);color:var(--ink);font:16px/1.75 system-ui,-apple-system,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif}
+    button,textarea{font:inherit}.wrap{width:min(1040px,calc(100% - 28px));margin:0 auto}.hero{padding:48px 0 25px}.eyebrow{color:var(--blue);font-size:13px;font-weight:800;letter-spacing:.12em}.hero h1{margin:8px 0 10px;font-size:clamp(28px,5vw,46px);line-height:1.2}.lead{max-width:760px;color:var(--muted);margin:0}.rulebar{display:flex;flex-wrap:wrap;gap:10px;margin-top:22px}.pill{padding:7px 12px;border:1px solid #cfd8f6;border-radius:999px;background:rgba(255,255,255,.74);font-size:14px;color:#3d4c69}
+    .dashboard{display:grid;grid-template-columns:1fr 220px 220px;gap:14px;margin-bottom:18px}.card{background:var(--paper);border:1px solid var(--line);border-radius:20px;box-shadow:var(--shadow)}.progress-card{padding:18px 20px}.progress-top{display:flex;justify-content:space-between;gap:12px;align-items:center}.progress-top strong{font-size:18px}.progress-track{height:9px;background:#e8edf7;border-radius:99px;margin-top:13px;overflow:hidden}.progress-fill{height:100%;width:0;background:linear-gradient(90deg,#3558d6,#6c86ef);transition:.25s}.review-link{padding:16px 18px;text-decoration:none;color:var(--ink);display:flex;flex-direction:column;justify-content:center}.review-link span{color:var(--blue);font-weight:800}.review-link small{color:var(--muted)}.review-link em{font-style:normal;font-size:12px;color:var(--green);font-weight:800;margin-bottom:2px}
+    .daynav{display:grid;grid-template-columns:repeat(5,1fr);gap:10px;margin:20px 0}.daybtn{border:1px solid var(--line);background:#fff;border-radius:15px;padding:12px 8px;color:#45516a;cursor:pointer;transition:.2s}.daybtn:hover{transform:translateY(-1px);border-color:#aebcf0}.daybtn.active{background:var(--blue);border-color:var(--blue);color:#fff;box-shadow:0 9px 24px rgba(53,88,214,.24)}.daybtn.done:not(.active)::after{content:" ✓";color:var(--green);font-weight:900}
+    .day{display:none;padding:clamp(20px,4vw,42px);margin-bottom:28px}.day.active{display:block}.dayhead{display:flex;gap:16px;justify-content:space-between;align-items:flex-start;border-bottom:1px solid var(--line);padding-bottom:18px;margin-bottom:23px}.daytag{display:inline-block;background:var(--blue2);color:var(--blue);font-weight:800;border-radius:999px;padding:5px 11px;font-size:13px}.day h2{font-size:clamp(23px,4vw,32px);line-height:1.35;margin:9px 0 4px}.goal{color:var(--muted);margin:0}.timebox{min-width:126px;text-align:center;background:#f7f8fc;border-radius:14px;padding:9px;color:var(--muted);font-size:13px}.timebox strong{display:block;color:var(--ink);font-size:18px}
+    .problem{font-family:"Noto Serif SC","Songti SC",serif;font-size:17px}.problem ol{padding-left:1.4em}.problem li{margin:15px 0}.mathbox{background:#f7f9ff;border-left:4px solid #8da2ed;border-radius:0 12px 12px 0;padding:10px 16px;margin:14px 0;overflow-x:auto}.callout{background:#fff9ed;border:1px solid #f0d8aa;border-radius:14px;padding:13px 16px;color:#765020;margin:18px 0}.requirements{background:#f3f7ff;border-radius:14px;padding:14px 17px;margin:18px 0}.requirements strong{color:#2947b4}
+    details{border:1px solid var(--line);border-radius:13px;margin:11px 0;background:#fff}summary{cursor:pointer;padding:12px 15px;color:var(--blue);font-weight:750}details>div{padding:0 15px 14px;color:#47546d}.notes{margin-top:25px}.notes label{font-weight:800}.notes p{margin:2px 0 8px;color:var(--muted);font-size:14px}.notes textarea{display:block;width:100%;min-height:150px;resize:vertical;border:1px solid #cfd7e7;border-radius:14px;padding:13px;background:#fbfcff;color:var(--ink);outline:none}.notes textarea:focus{border-color:#7188de;box-shadow:0 0 0 3px #e9edff}.actions{display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px;align-items:center;margin-top:17px}.complete{border:0;border-radius:12px;background:var(--green);color:white;padding:10px 17px;cursor:pointer;font-weight:800}.complete.completed{background:#dff3eb;color:#19715b}.subtle{border:1px solid var(--line);background:#fff;border-radius:12px;padding:9px 14px;color:var(--muted);cursor:pointer}
+    .method{padding:26px;margin:32px 0}.method h2{margin-top:0}.method-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}.method-item{background:#f7f9fd;border-radius:14px;padding:14px}.method-item b{display:block;color:var(--blue)}footer{padding:10px 0 40px;color:var(--muted);font-size:13px;text-align:center}
+    @media(max-width:760px){.dashboard{grid-template-columns:1fr}.daynav{grid-template-columns:repeat(5,minmax(58px,1fr));overflow-x:auto}.dayhead{display:block}.timebox{margin-top:13px;width:max-content}.method-grid{grid-template-columns:1fr}.hero{padding-top:30px}}
+    @media print{body{background:#fff}.dashboard,.daynav,.notes,.actions,details,footer{display:none!important}.day{display:block!important;box-shadow:none;break-before:page;border:0}.day:first-of-type{break-before:auto}.wrap{width:100%}.hero{padding:15px 0}.method{box-shadow:none}}
+  </style>
+</head>
+<body>
+  <header class="hero"><div class="wrap">
+    <div class="eyebrow">QINGXU · MATHEMATICAL THINKING</div>
+    <h1>第一章高阶思维训练 · 5 天</h1>
+    <p class="lead">不是“难题五连刷”，而是五种不同的思维训练。每天只做 1 道，重点观察面对题目时的第一步如何启动。</p>
+    <div class="rulebar"><span class="pill">每天 20–30 分钟</span><span class="pill">前 15 分钟不看提示</span><span class="pill">必须保留原始草稿</span><span class="pill">先写思路，再追求做完</span></div>
+  </div></header>
+
+  <main class="wrap">
+    <div class="dashboard">
+      <section class="card progress-card"><div class="progress-top"><strong>训练进度</strong><span id="progressText">0 / 5 天</span></div><div class="progress-track"><div class="progress-fill" id="progressFill"></div></div></section>
+      <a class="card review-link" href="day1-analysis.html"><em>8.5 / 10 · C3 边界</em><span>Day 1 作答分析 →</span><small>主思路正确，漏掉临界值</small></a>
+      <a class="card review-link" href="day2-analysis.html"><em>9.5 / 10 · 三问全对</em><span>Day 2 作答分析 →</span><small>逻辑方向稳定，表达再规范</small></a>
+    </div>
+
+    <nav class="daynav" aria-label="训练日切换">
+      <button class="daybtn active" data-day="1">Day 1</button><button class="daybtn" data-day="2">Day 2</button><button class="daybtn" data-day="3">Day 3</button><button class="daybtn" data-day="4">Day 4</button><button class="daybtn" data-day="5">Day 5</button>
+    </nav>
+
+    <section class="card day active" id="day1">
+      <div class="dayhead"><div><span class="daytag">参数与边界</span><h2>Day 1｜空集 + 参数 + 区间边界</h2><p class="goal">训练：空集、开闭端点、充分条件转化为集合包含。</p></div><div class="timebox"><strong>20–30 min</strong>前 15 分钟无提示</div></div>
+      <div class="problem">
+        <p>设</p><div class="mathbox">\[A_a=\{x\mid a-1&lt;x\le 2a+1\},\qquad B=\{x\mid -2&lt;x\le5\}.\]</div>
+        <ol><li>求使 \(A_a\subseteq B\) 成立的实数 \(a\) 的取值范围。</li><li>设命题 \(p:x\in A_a\)，\(q:x\in B\)。若 \(A_a\ne\varnothing\)，求使 \(p\) 是 \(q\) 的<strong>充分不必要条件</strong>的 \(a\) 的取值范围。</li><li>求使 \(A_a\cap B=\varnothing\) 成立的 \(a\) 的取值范围。</li></ol>
+        <div class="requirements"><strong>完成标志：</strong>最后能主动说出——“先讨论 \(A_a\) 会不会是空集。”</div>
+      </div>
+      <details><summary>一级提示｜15 分钟后再看</summary><div>先把 \(A_a\) 写成区间，并分别讨论 \(A_a=\varnothing\) 与 \(A_a\ne\varnothing\)。</div></details>
+      <details><summary>二级提示｜仍无法继续时再看</summary><div>对区间 \((L,R]\)，非空条件是 \(L&lt;R\)，空集条件是 \(L\ge R\)。再分别研究左右端点。</div></details>
+      <div class="notes"><label for="note1">我的第一步与草稿记录</label><p>不要抄完整解答，记录你最开始想到什么、在哪里卡住。</p><textarea id="note1" data-note="1" placeholder="例如：我先判断 Aₐ 是否为空集……"></textarea></div>
+      <div class="actions"><button class="complete" data-complete="1">标记 Day 1 已完成</button><button class="subtle next" data-next="2">进入 Day 2 →</button></div>
+    </section>
+
+    <section class="card day" id="day2">
+      <div class="dayhead"><div><span class="daytag">条件转化</span><h2>Day 2｜充分必要条件，不靠中文判断</h2><p class="goal">训练：语言 → 解集 → 集合关系。</p></div><div class="timebox"><strong>20–30 min</strong>先写三个解集</div></div>
+      <div class="problem">
+        <p>设 \(a&gt;0\)，对于实数 \(x\)，有三个命题：</p>
+        <div class="mathbox">\[p_a:\ |x-2|&lt;a,\qquad q:\ x(4-x)&gt;0,\qquad r:\ (x-1)(x-3)\le0.\]</div>
+        <ol><li>求使 \(p_a\) 是 \(q\) 的<strong>充分不必要条件</strong>的 \(a\) 的范围。</li><li>求使 \(p_a\) 是 \(r\) 的<strong>必要不充分条件</strong>的 \(a\) 的范围。</li><li>是否存在 \(a\)，使上面两件事同时成立？若存在求出范围；若不存在说明理由。</li></ol>
+        <div class="callout"><strong>本题规则：</strong>禁止一开始用“充分、必要”的中文绕。先写出三个命题的解集。</div>
+      </div>
+      <details><summary>一级提示｜15 分钟后再看</summary><div>把三个命题分别记为解集 \(P_a,Q,R\)，画在同一条数轴上。</div></details>
+      <details><summary>二级提示｜仍无法继续时再看</summary><div>第（1）问研究 \(P_a\subsetneqq Q\)；第（2）问研究 \(R\subsetneqq P_a\)。</div></details>
+      <div class="notes"><label for="note2">我的第一步与草稿记录</label><p>重点记录：你有没有先把中文条件翻译成集合关系。</p><textarea id="note2" data-note="2"></textarea></div>
+      <div class="actions"><button class="complete" data-complete="2">标记 Day 2 已完成</button><button class="subtle next" data-next="3">进入 Day 3 →</button></div>
+    </section>
+
+    <section class="card day" id="day3">
+      <div class="dayhead"><div><span class="daytag">结构与证明</span><h2>Day 3｜反证法 + 从代数式看结构</h2><p class="goal">训练：不只计算表达式，还要主动研究结构性质。</p></div><div class="timebox"><strong>20–30 min</strong>保留反证草稿</div></div>
+      <div class="problem">
+        <p>定义集合</p><div class="mathbox">\[S=\{m^2+n^2\mid m,n\in\mathbb Z\}.\]</div>
+        <ol><li>证明 \(5\in S\)，\(13\in S\)。</li><li>用<strong>反证法</strong>证明：对于任意整数 \(k\)，\(4k+3\notin S\)。</li><li>对正整数 \(t\)，考虑 \(p:t=4k+3\ (k\in\mathbb Z)\)，\(q:t\notin S\)。判断 \(p\) 是 \(q\) 的什么条件，并说明理由。若不是充要条件，还必须自己找一个反例。</li></ol>
+      </div>
+      <details><summary>一级提示｜题目允许的提示</summary><div>一个整数的平方除以 4，余数可能有哪些？</div></details>
+      <details><summary>二级提示｜仍无法继续时再看</summary><div>先列出两个平方余数相加的所有可能，再看能否得到余数 3。</div></details>
+      <div class="notes"><label for="note3">我的第一步与草稿记录</label><p>记录你如何从 \(m^2+n^2\) 发现“余数结构”。</p><textarea id="note3" data-note="3"></textarea></div>
+      <div class="actions"><button class="complete" data-complete="3">标记 Day 3 已完成</button><button class="subtle next" data-next="4">进入 Day 4 →</button></div>
+    </section>
+
+    <section class="card day" id="day4">
+      <div class="dayhead"><div><span class="daytag">分类计数</span><h2>Day 4｜有限集合计数：不重不漏</h2><p class="goal">训练：建立元素状态，用结构代替逐个枚举。</p></div><div class="timebox"><strong>20–30 min</strong>禁止列出全部子集</div></div>
+      <div class="problem">
+        <p>设全集 \(U=\{a,b,c,d,e\}\)。有序集合对 \((A,B)\) 满足 \(A\subsetneqq B\subseteq U\)，另外满足：</p>
+        <ol><li>元素 \(a,c\) 中至少有一个属于 \(A\)；</li><li>元素 \(b,d\) 中至少有一个不属于 \(B\)；</li><li>\(e\in B\setminus A\)。</li></ol>
+        <p>求满足条件的有序集合对 \((A,B)\) 共有多少个。</p>
+        <div class="callout"><strong>本题规则：</strong>不能把所有子集一个一个列出来，尝试为每个元素设计“状态”。</div>
+      </div>
+      <details><summary>一级提示｜20 分钟后再看</summary><div>对于 \(A\subseteq B\)，一个元素相对于 \(A,B\) 实际只有三种位置。</div></details>
+      <details><summary>二级提示｜仍无法继续时再看</summary><div>三种状态是：在 \(A\) 中、只在 \(B\) 中、在 \(B\) 外。先固定 \(e\) 的状态，再处理两组“至少一个”。</div></details>
+      <div class="notes"><label for="note4">我的第一步与草稿记录</label><p>最好把自己设计的三种状态写下来。</p><textarea id="note4" data-note="4"></textarea></div>
+      <div class="actions"><button class="complete" data-complete="4">标记 Day 4 已完成</button><button class="subtle next" data-next="5">进入 Day 5 →</button></div>
+    </section>
+
+    <section class="card day" id="day5">
+      <div class="dayhead"><div><span class="daytag">新定义综合</span><h2>Day 5｜从例子走向一般规律</h2><p class="goal">训练：读懂新定义 → 具体试验 → 发现规律 → 规范证明。</p></div><div class="timebox"><strong>20–30 min</strong>先算例子</div></div>
+      <div class="problem">
+        <p>对于一个有限非空整数集合 \(A\)，定义</p><div class="mathbox">\[A^+=\{x+1\mid x\in A\}.\]</div>
+        <p>如果 \(|A\cap A^+|=|A|-1\)，则称集合 \(A\) 为一个“连续集”。这里 \(|A|\) 表示集合 \(A\) 中元素的个数。</p>
+        <ol><li>判断 \(A_1=\{2,3,4,5\}\)、\(A_2=\{1,2,4,5\}\) 是否为“连续集”，并说明理由。</li><li>设 \(A=\{1,2,a,4\}\)，其中 \(a\in\mathbb Z\)，且 \(a\notin\{1,2,4\}\)。若 \(A\) 是连续集，求 \(a\)。</li><li>设 \(A=\{a_1,a_2,\ldots,a_n\}\)，其中 \(a_1&lt;a_2&lt;\cdots&lt;a_n\) 均为整数。证明：\(A\) 是连续集，当且仅当存在整数 \(m\)，使得 \(A=\{m,m+1,m+2,\ldots,m+n-1\}\)。</li></ol>
+      </div>
+      <details><summary>一级提示｜15 分钟后再看</summary><div>先把 \(A_1^+\)、\(A_2^+\) 以及交集完整写出来，观察交集中的每一个元素对应什么关系。</div></details>
+      <details><summary>二级提示｜证明卡住时再看</summary><div>排序以后，\(A\cap A^+\) 中的元素对应相邻元素间满足 \(a_{i+1}=a_i+1\)。要有 \(n-1\) 个这样的连接，意味着什么？</div></details>
+      <div class="notes"><label for="note5">我的第一步与草稿记录</label><p>重点记录：面对陌生定义，你是否主动举例、排序、找规律。</p><textarea id="note5" data-note="5"></textarea></div>
+      <div class="actions"><button class="complete" data-complete="5">标记 Day 5 已完成</button><button class="subtle" id="printBtn">打印题目</button></div>
+    </section>
+
+    <section class="card method"><h2>五天训练地图</h2><div class="method-grid"><div class="method-item"><b>Day 1–2｜已完成</b>分类、边界、条件转化</div><div class="method-item"><b>Day 3–4｜下一阶段</b>结构证明、不重不漏</div><div class="method-item"><b>Day 5</b>新定义、特殊到一般</div></div></section>
+  </main>
+  <footer>清许 · 高一数学 150 分训练计划｜记录保存在当前浏览器中</footer>
+
+  <script>
+    const KEY='qingxu-ch1-five-day-v1';
+    const saved=JSON.parse(localStorage.getItem(KEY)||'{"done":{},"notes":{}}');
+    const state={done:{1:true,2:true,...(saved.done||{})},notes:{...(saved.notes||{})}};
+    function save(){localStorage.setItem(KEY,JSON.stringify(state));updateProgress()}
+    function showDay(n,scroll=true){document.querySelectorAll('.day').forEach(x=>x.classList.toggle('active',x.id==='day'+n));document.querySelectorAll('.daybtn').forEach(x=>x.classList.toggle('active',x.dataset.day===String(n)));location.hash='day'+n;if(scroll)window.scrollTo({top:document.querySelector('.daynav').offsetTop-12,behavior:'smooth'});if(window.MathJax?.typesetPromise)MathJax.typesetPromise()}
+    function updateProgress(){let count=0;document.querySelectorAll('[data-complete]').forEach(b=>{const n=b.dataset.complete,done=!!state.done[n];b.classList.toggle('completed',done);b.textContent=done?'✓ Day '+n+' 已完成':'标记 Day '+n+' 已完成';document.querySelector('.daybtn[data-day="'+n+'"]').classList.toggle('done',done);if(done)count++});document.getElementById('progressText').textContent=count+' / 5 天';document.getElementById('progressFill').style.width=(count*20)+'%'}
+    document.querySelectorAll('.daybtn').forEach(b=>b.addEventListener('click',()=>showDay(b.dataset.day)));
+    document.querySelectorAll('.next').forEach(b=>b.addEventListener('click',()=>showDay(b.dataset.next)));
+    document.querySelectorAll('[data-complete]').forEach(b=>b.addEventListener('click',()=>{const n=b.dataset.complete;state.done[n]=!state.done[n];save()}));
+    document.querySelectorAll('[data-note]').forEach(t=>{t.value=state.notes[t.dataset.note]||'';t.addEventListener('input',()=>{state.notes[t.dataset.note]=t.value;save()})});
+    document.getElementById('printBtn').addEventListener('click',()=>window.print());const initial=(location.hash.match(/^#day([1-5])$/)||[])[1];if(initial)showDay(initial,false);updateProgress();
+  </script>
+<script defer src="/shared/nav.js"></script></body>
+</html>

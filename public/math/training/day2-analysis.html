@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>清许 · Day 2 作答分析</title>
+  <script>window.MathJax={tex:{inlineMath:[['\\(','\\)']],displayMath:[['\\[','\\]']]},svg:{fontCache:'global'}};</script>
+  <script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
+  <style>
+    :root{--ink:#17233a;--muted:#67738a;--blue:#3558d6;--green:#1f8166;--amber:#a45e00;--line:#dce3ef}
+    *{box-sizing:border-box}body{margin:0;background:linear-gradient(180deg,#edf2ff,#f7f8fb 320px);color:var(--ink);font:16px/1.75 system-ui,-apple-system,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif}.wrap{width:min(920px,calc(100% - 28px));margin:auto}.top{padding:32px 0 20px}.back{color:var(--blue);text-decoration:none;font-weight:750}.top h1{font-size:clamp(27px,5vw,42px);line-height:1.25;margin:18px 0 7px}.top p{color:var(--muted);margin:0}.card{background:#fff;border:1px solid var(--line);border-radius:20px;padding:clamp(20px,4vw,34px);margin:16px 0;box-shadow:0 14px 38px rgba(32,50,88,.08)}.score{display:grid;grid-template-columns:140px 1fr;gap:22px;align-items:center}.score-ring{width:128px;height:128px;border-radius:50%;display:grid;place-items:center;background:conic-gradient(var(--green) 0 95%,#e8edf5 95%);position:relative}.score-ring:after{content:"";position:absolute;inset:10px;background:#fff;border-radius:50%}.score-ring strong{position:relative;z-index:1;font-size:28px}.verdict{font-size:20px;font-weight:850;color:var(--green)}.tag{display:inline-block;margin:7px 6px 0 0;border-radius:999px;padding:4px 10px;background:#eaf7f2;color:var(--green);font-size:13px;font-weight:800}.tag.warn{background:#fff0e1;color:var(--amber)}h2{font-size:22px;margin-top:0}.sets{background:#f4f7ff;border-radius:14px;padding:12px 16px;overflow-x:auto}.question{border-top:1px solid var(--line);padding-top:20px;margin-top:20px}.question:first-of-type{border-top:0;padding-top:0;margin-top:0}.correct{color:var(--green);font-weight:850}.note{background:#fff8ea;border:1px solid #efd5a6;border-radius:14px;padding:13px 16px}.answer{background:#eef8f4;border:1px solid #c6e4d9;border-radius:14px;padding:10px 15px}.flow{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}.flow div{background:#f7f9fd;border-radius:13px;padding:13px}.flow b{display:block;color:var(--blue)}table{width:100%;border-collapse:collapse}th,td{text-align:left;padding:11px;border-bottom:1px solid var(--line)}th{color:var(--muted);font-size:13px}.redo textarea{width:100%;min-height:125px;border:1px solid #ccd5e7;border-radius:13px;padding:12px;font:inherit;resize:vertical}.actions{display:flex;gap:10px;flex-wrap:wrap;margin:18px 0 35px}.btn{display:inline-block;text-decoration:none;border:0;border-radius:12px;padding:10px 15px;background:var(--blue);color:#fff;font-weight:800;cursor:pointer}.btn.secondary{background:#fff;color:var(--blue);border:1px solid #bbc7ec}@media(max-width:650px){.score{grid-template-columns:1fr}.score-ring{margin:auto}.flow{grid-template-columns:1fr}table{font-size:14px}}@media print{body{background:#fff}.card{box-shadow:none;break-inside:avoid}.actions{display:none}}
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <header class="top"><a class="back" href="index.html#day2">← 返回 Day 2</a><h1>Day 2 · 作答分析</h1><p>分析对象：充分必要条件的集合化｜三问均已完成</p></header>
+
+    <section class="card score"><div class="score-ring"><strong>9.5</strong></div><div><div class="verdict">三问全对，核心转化已经建立</div><p>清许没有停留在“充分、必要”的中文判断上，而是先求解集，再研究集合包含关系。第（2）问的逻辑方向也没有弄反。</p><span class="tag">C4 逻辑方向：稳定</span><span class="tag">C3 边界：明显改善</span><span class="tag warn">C6 表达：轻微提升项</span></div></section>
+
+    <section class="card"><h2>第一步做对了什么</h2><p>她先把三个命题化成解集：</p><div class="sets">\[P_a=(2-a,2+a),\qquad Q=(0,4),\qquad R=[1,3].\]</div><p>这是本题真正的训练目标：把逻辑语言转化为可以在数轴上比较的集合关系。</p></section>
+
+    <section class="card"><h2>逐问批改</h2>
+      <div class="question"><span class="correct">第（1）问｜正确</span><p>“\(p_a\) 是 \(q\) 的充分不必要条件”对应 \(P_a\subsetneqq Q\)。规范过程应分成两步：</p><div class="sets">\[P_a\subseteq Q\Longrightarrow\begin{cases}2-a\ge0,\\2+a\le4,
+      \end{cases}\Longrightarrow 0&lt;a\le2.\]</div><p>当 \(a=2\) 时，\(P_a=(0,4)=Q\)，是充要条件，因此排除 \(a=2\)：</p><div class="answer">\[\boxed{0&lt;a&lt;2}\]</div></div>
+      <div class="question"><span class="correct">第（2）问｜正确，方向判断尤其好</span><p>“\(p_a\) 是 \(r\) 的必要不充分条件”应转化为 \(R\subsetneqq P_a\)，而不是反过来。由于 \(P_a\) 是开区间，要包含端点 \(1,3\)：</p><div class="sets">\[2-a&lt;1,\qquad2+a&gt;3\Longrightarrow a&gt;1.\]</div><div class="answer">\[\boxed{a&gt;1}\]</div></div>
+      <div class="question"><span class="correct">第（3）问｜正确</span><p>把前两问的范围取交集：</p><div class="answer">\[(0,2)\cap(1,+\infty)=\boxed{(1,2)}.\]</div></div>
+    </section>
+
+    <section class="card"><h2>唯一需要补强的表达</h2><div class="note"><strong>不要简单记成：</strong>“真子集就把两个端点都写成严格不等号。”<br>更稳定的方法是：<strong>先求包含成立的范围，再单独排除两个集合相等的情况。</strong></div><div class="flow"><div><b>第一步</b>写出各命题解集</div><div><b>第二步</b>确定包含方向</div><div><b>第三步</b>检查是否需要排除相等</div></div></section>
+
+    <section class="card"><h2>Day 1 → Day 2 能力变化</h2><table><thead><tr><th>能力点</th><th>Day 1</th><th>Day 2 判断</th></tr></thead><tbody><tr><td>C3 边界处理</td><td>漏掉 \(a=-2\)</td><td>开闭端点处理正确，明显改善</td></tr><tr><td>C4 逻辑方向</td><td>尚未充分观察</td><td>必要条件方向判断正确</td></tr><tr><td>C6 规范表达</td><td>分类结构基本正确</td><td>应补写“排除集合相等”</td></tr></tbody></table><p>目前仍把 C3 记为“提升中”，还需要在后续题中再观察一到两次，暂不直接判定为完全掌握。</p></section>
+
+    <section class="card redo"><h2>清许的轻量复盘</h2><p>不需要重做整题，只写清下面一句：</p><p><strong>为什么第（1）问不能只写“端点严格包含”，而应先求包含范围，再排除 \(P_a=Q\)？</strong></p><textarea id="redo" placeholder="用自己的话写 1～2 句话……"></textarea></section>
+
+    <div class="actions"><a class="btn" href="index.html#day3">进入 Day 3</a><button class="btn secondary" onclick="window.print()">打印分析页</button></div>
+  </main>
+  <script>const K='qingxu-day2-analysis-redo-v1',t=document.getElementById('redo');t.value=localStorage.getItem(K)||'';t.addEventListener('input',()=>localStorage.setItem(K,t.value));</script>
+<script defer src="/shared/nav.js"></script></body>
+</html>
