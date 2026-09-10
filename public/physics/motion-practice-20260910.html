@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>运动的描述 · 最近作业专项 01 · 清许物理</title>
+<style>
+:root{--ink:#182b46;--muted:#596a80;--blue:#245bd7;--line:#dbe3ee;--soft:#eff5ff;--bg:#f3f6fb;--paper:#fff;--orange:#a95014;--green:#18745c}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;font-size:17px;line-height:1.82}main{max-width:960px;margin:auto;padding:28px 22px 64px}header,section{background:var(--paper);border:1px solid var(--line);border-radius:14px}header{border-top:6px solid var(--blue);padding:28px 32px}section{padding:26px 30px;margin-top:22px}h1{font-size:clamp(29px,5vw,42px);line-height:1.28;margin:10px 0 14px;letter-spacing:-.025em}h2{font-size:23px;line-height:1.48;margin:4px 0 14px}h3{font-size:19px;margin:18px 0 8px}.eyebrow,.badge{font-size:14px;font-weight:700;letter-spacing:.04em;color:var(--blue)}.lead{font-size:19px;max-width:760px}.muted,.ref{color:var(--muted)}.ref{font-size:14px;margin:0 0 10px}.focus{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin:20px 0}.focus div{padding:14px 16px;background:var(--soft);border-radius:9px}.focus b{display:block;color:var(--blue)}.nav{display:flex;gap:8px;flex-wrap:wrap;margin-top:20px}.nav a{padding:6px 11px;border:1px solid var(--line);border-radius:7px;text-decoration:none;color:var(--blue);font-size:14px}.note{padding:14px 17px;border-left:4px solid var(--blue);background:var(--soft);border-radius:0 8px 8px 0;margin:17px 0}.rule{font-weight:700;color:var(--orange)}ol,ul{padding-left:1.5em}li{margin:7px 0}.record{background:#f7f9fc;border-radius:9px;padding:14px 16px;margin:16px 0}label{display:block;font-weight:650;margin:8px 0 6px}textarea{width:100%;min-height:78px;border:1px solid #b9c7da;border-radius:8px;padding:11px 12px;font:inherit;color:var(--ink);resize:vertical;background:white}details{border:1px solid var(--line);border-radius:9px;margin:10px 0;background:white}summary{cursor:pointer;padding:11px 14px;color:var(--blue);font-weight:650}details[open] summary{border-bottom:1px solid var(--line)}.answer{padding:5px 16px 14px}.answer p{margin:10px 0}.formula{background:#f7f9fc;border-radius:8px;padding:12px 15px;text-align:center;font-size:19px;margin:14px 0}.graph{background:#f8faff;border:1px solid var(--line);border-radius:10px;padding:12px;margin:16px 0}.graph svg{display:block;width:100%;max-width:650px;height:auto;margin:auto}.table-wrap{overflow-x:auto;margin:14px 0}table{width:100%;border-collapse:collapse;font-size:16px}th,td{padding:10px 12px;border-bottom:1px solid var(--line);text-align:left}th{background:var(--soft)}.mini{font-size:14px;color:var(--muted)}.checkpoint{border-color:#b9cdef;background:#fbfdff}.finish{background:#183454;color:white;border-color:#183454}.finish h2{color:white}.finish .muted{color:#d7e3f3}.finish button{font:inherit;border:1px solid #dbe7fa;background:white;color:#183454;border-radius:8px;padding:10px 16px;cursor:pointer;font-weight:700}.qx-status{display:inline-block;margin-left:10px;color:#d7e3f3;font-size:14px}button:focus-visible,summary:focus-visible,textarea:focus-visible,a:focus-visible{outline:3px solid #d27630;outline-offset:3px}@media(max-width:620px){main{padding:14px 10px 36px}header,section{padding:21px 18px}.focus{grid-template-columns:1fr}h2{font-size:21px}.lead{font-size:18px}th,td{font-size:15px;padding:9px 7px}.nav{gap:6px}.nav a{padding:5px 8px}}
+</style>
+</head>
+<body data-doc="physics-motion-20260910">
+<main>
+<header>
+<div class="eyebrow">清许 · 物理专项 / 2026.09.10</div>
+<h1>运动的描述 · 最近作业专项 01</h1>
+<p class="lead">这次不铺很多题，只练最近作业里真正值得再确认的四件事：<b>位移要带方向、二维位移先找初末位置、x–t 图先看斜率、瞬时速度要用“更短时间”逼近。</b></p>
+<div class="focus">
+<div><b>① 位移写完整</b>数值 + 正负号 / 方向，不能只写“2 m”。</div>
+<div><b>② 路程 ≠ 位移</b>路程沿轨迹加；位移只看初、末位置。</div>
+<div><b>③ x–t 图读斜率</b>位置在零点上方或下方，不直接决定运动方向。</div>
+<div><b>④ 瞬时速度是极限思想</b>平均的时间越短，通常越接近那一瞬间。</div>
+</div>
+<p><span class="rule">建议：</span>今天先做 1—6 题，约 30—35 分钟；7—8 题隔 1—2 天再做。每题先保留“第一思路”，卡住再展开提示。用提示做出的题不算真正通过，订正后再复测。</p>
+<nav class="nav" aria-label="题目导航"><a href="#q1">1 位移正负</a><a href="#q2">2 往返</a><a href="#q3">3 二维位移</a><a href="#q4">4 圆周</a><a href="#q5">5 x–t 图</a><a href="#q6">6 x–t→v</a><a href="#q7">7 光电门</a><a href="#q8">8 频闪</a></nav>
+</header>
+
+<section id="q1">
+<span class="badge">第1题 · 定点纠错</span>
+<h2>只差一个“方向”，答案就不完整</h2>
+<p class="ref">目标：一维位移必须用正负号或文字方向表达完整。</p>
+<p>在一条东西方向的直线上建立 x 轴，规定向东为正。A、B、C 三点的位置分别为 x<sub>A</sub>=−2 m，x<sub>B</sub>=+3 m，x<sub>C</sub>=+1 m。小球先从 A 到 B，再从 B 到 C。</p>
+<ol><li>求 A→B 的位移。</li><li>求 B→C 的位移。</li><li>求全过程的位移和路程。</li><li>只写“全过程位移是 3 m”是否完整？为什么？</li></ol>
+<div class="record"><label>第一思路：先写哪一个式子？</label><textarea data-save="q1-first" placeholder="例如：先写 Δx＝……"></textarea><label>首次作答</label><textarea data-save="q1-answer"></textarea></div>
+<details><summary>一级提示</summary><div class="answer"><p>每一段都先用 <b>Δx=x末−x初</b>。路程则把真正走过的长度相加。</p></div></details>
+<details><summary>二级提示</summary><div class="answer"><p>A→B：3−(−2)；B→C：1−3。全过程位移只看 A 和 C。</p></div></details>
+<details><summary>完成首次作答后看解析</summary><div class="answer"><p>① Δx<sub>AB</sub>=+5 m，即向东 5 m。② Δx<sub>BC</sub>=−2 m，即向西 2 m。</p><p>③ 全过程 Δx=1−(−2)=+3 m，即向东 3 m；路程 s=5+2=7 m。</p><p>④ 若题目问“位移”，只写 3 m 不够完整，因为位移是矢量。写“+3 m”时正号已经表示向东；或写“3 m，方向向东”。</p></div></details>
+</section>
+
+<section id="q2">
+<span class="badge">第2题 · 路程 / 位移</span>
+<h2>做了很多次，位移仍然可能是 0</h2>
+<p>健身时，哑铃从最低位置竖直向上举高 0.60 m，再回到最低位置，算一次完整动作。规定向上为正。</p>
+<ol><li>完整做 5 次后，哑铃的总路程是多少？总位移是多少？</li><li>若做完 5 次后，又从最低位置向上举了 0.20 m 停住，此时从最开始算起，路程和位移各是多少？</li><li>用一句话说明为什么“运动量很大”不能推出“位移很大”。</li></ol>
+<div class="record"><label>第一思路</label><textarea data-save="q2-first"></textarea><label>首次作答</label><textarea data-save="q2-answer"></textarea></div>
+<details><summary>一级提示</summary><div class="answer"><p>一次完整动作的轨迹长度是“上去 + 回来”；位移只比较最初和最终位置。</p></div></details>
+<details><summary>解析</summary><div class="answer"><p>5 次的路程：5×(0.60+0.60)=6.0 m；因为回到起点，总位移为 0。</p><p>再向上 0.20 m 后：总路程 6.2 m；总位移 +0.20 m（向上）。</p><p>路程累计运动轨迹，而位移只由初、末位置决定。</p></div></details>
+</section>
+
+<section id="q3">
+<span class="badge">第3题 · 二维位移</span>
+<h2>不要把三段路直接塞进勾股定理</h2>
+<p class="ref">目标：二维运动先合并同一直线方向，再求初末位置的直线距离。</p>
+<p>某人从 O 点出发，先向东走 30 m，再向南走 40 m，最后向北走 80 m。</p>
+<ol><li>画一个简图，并标出终点相对 O 点的位置。</li><li>求总路程。</li><li>求位移的大小和方向。</li><li>若用坐标表示位移，请写出 (Δx, Δy)。</li></ol>
+<div class="record"><label>第一思路：先处理哪两个方向？</label><textarea data-save="q3-first"></textarea><label>首次作答</label><textarea data-save="q3-answer"></textarea></div>
+<details><summary>一级提示</summary><div class="answer"><p>南 40 m 与北 80 m 先抵消一部分。最后相当于“向东多少 + 向北多少”。</p></div></details>
+<details><summary>二级提示</summary><div class="answer"><p>终点在 O 点以东 30 m、以北 40 m。位移大小再用直角三角形。</p></div></details>
+<details><summary>解析</summary><div class="answer"><p>总路程 s=30+40+80=150 m。</p><p>南北方向净变化：80−40=40 m 向北，所以位移分量为 (30 m, 40 m)。</p><p>|Δr|=√(30²+40²)=50 m，方向为东北方向；若要求角度，是“东偏北约 53°”。</p><p><b>关键：</b>勾股定理用的是最终的两个正交位移分量 30 和 40，不是把“走过的某两段”随意拿来平方。</p></div></details>
+</section>
+
+<section id="q4">
+<span class="badge">第4题 · 曲线运动中的位移</span>
+<h2>路径可以不同，位移却可以完全相同</h2>
+<p>半径为 R 的圆上，A 在圆的正上方，B 在圆的最右侧。小球从 A 沿圆周运动到 B。</p>
+<ol><li>无论小球顺时针还是逆时针到达 B，位移大小是多少？方向怎样？</li><li>若顺时针沿短弧到 B，路程是多少？</li><li>若逆时针沿长弧到 B，路程是多少？</li><li>若小球先完整绕圆一周，再到 B，和直接到 B 相比，哪个物理量一定不变？</li></ol>
+<div class="record"><label>第一思路</label><textarea data-save="q4-first"></textarea><label>首次作答</label><textarea data-save="q4-answer"></textarea></div>
+<details><summary>一级提示</summary><div class="answer"><p>位移画 A 指向 B 的箭头；路程才沿圆弧量。</p></div></details>
+<details><summary>解析</summary><div class="answer"><p>A=(0,R)，B=(R,0)，所以位移向量为 (R,−R)，大小为 √2R，方向向东南（东偏南 45°）。</p><p>顺时针短弧是 1/4 圆周：s=πR/2；逆时针长弧是 3/4 圆周：s=3πR/2。</p><p>如果额外绕一整圈，路程增加 2πR，但初末位置仍相同，所以位移完全不变。</p></div></details>
+</section>
+
+<section id="q5">
+<span class="badge">第5题 · x–t 图像核心</span>
+<h2>先看斜率，不先看图线“高不高”</h2>
+<p>某物体的位置—时间图像依次经过 A(0 s,2 m)、B(2 s,6 m)、C(5 s,6 m)、D(7 s,2 m)，各点之间均为直线连接。</p>
+<div class="graph">
+<svg viewBox="0 0 660 330" role="img" aria-label="位置时间图像：A点0秒2米，B点2秒6米，C点5秒6米，D点7秒2米">
+<line x1="70" y1="270" x2="620" y2="270" stroke="#7d8ca0" stroke-width="2"/><line x1="70" y1="290" x2="70" y2="35" stroke="#7d8ca0" stroke-width="2"/>
+<text x="625" y="290" font-size="16">t/s</text><text x="45" y="40" font-size="16">x/m</text>
+<polyline points="70,205 220,75 445,75 595,205" fill="none" stroke="#245bd7" stroke-width="5" stroke-linejoin="round"/>
+<g fill="#245bd7"><circle cx="70" cy="205" r="6"/><circle cx="220" cy="75" r="6"/><circle cx="445" cy="75" r="6"/><circle cx="595" cy="205" r="6"/></g>
+<g font-size="16" fill="#182b46"><text x="80" y="198">A</text><text x="225" y="65">B</text><text x="450" y="65">C</text><text x="600" y="198">D</text><text x="58" y="292">0</text><text x="210" y="292">2</text><text x="435" y="292">5</text><text x="585" y="292">7</text><text x="42" y="212">2</text><text x="42" y="82">6</text></g>
+</svg>
+</div>
+<ol><li>分别求 AB、BC、CD 三段的速度，并说明运动方向。</li><li>哪一段物体静止？你是看“位置为 0”判断的吗？</li><li>全过程的位移、路程、平均速度、平均速率分别是多少？</li><li>t=6 s 时，物体位置为多少？此时速度的正负怎样？</li></ol>
+<div class="record"><label>第一思路：读 x–t 图我先看什么？</label><textarea data-save="q5-first"></textarea><label>首次作答</label><textarea data-save="q5-answer"></textarea></div>
+<details><summary>一级提示</summary><div class="answer"><p>x–t 图的斜率 k=Δx/Δt 就是速度。水平线表示位置不变，即静止。</p></div></details>
+<details><summary>二级提示</summary><div class="answer"><p>AB：(6−2)/(2−0)；BC 斜率为 0；CD：(2−6)/(7−5)。</p></div></details>
+<details><summary>解析</summary><div class="answer"><p>AB：v=+2 m/s，向正方向；BC：v=0，静止；CD：v=−2 m/s，向负方向。</p><p>全过程位移 2−2=0；路程 4+0+4=8 m；平均速度 0/7=0；平均速率 8/7 m/s。</p><p>t=6 s 位于 CD 中点，对应 x=4 m；但 CD 斜率为负，所以此时 v=−2 m/s。</p><p><b>这一小问很关键：</b>x=+4 m 只说明物体在原点正侧，不能说明它正向运动。</p></div></details>
+</section>
+
+<section id="q6" class="checkpoint">
+<span class="badge">第6题 · 本轮关键验收</span>
+<h2>从 x–t 图转成 v：只认每一段的斜率</h2>
+<p>某物体在各时刻的位置如下，且相邻数据点之间的 x–t 图像均为直线。</p>
+<div class="table-wrap"><table><thead><tr><th>t / s</th><th>0</th><th>2</th><th>4</th><th>6</th><th>8</th></tr></thead><tbody><tr><th>x / m</th><td>4</td><td>0</td><td>−4</td><td>−4</td><td>0</td></tr></tbody></table></div>
+<ol><li>求 0—2 s、2—4 s、4—6 s、6—8 s 各段速度。</li><li>把相邻且速度相同的时间段合并，写出完整的 v–t 分段关系。</li><li>物体什么时候静止？什么时候沿负方向运动？什么时候沿正方向运动？</li><li>某同学说：“t=5 s 时 x=−4 m，所以速度一定为负。”这句话错在哪里？</li></ol>
+<div class="record"><label>第一思路</label><textarea data-save="q6-first"></textarea><label>首次作答</label><textarea data-save="q6-answer"></textarea></div>
+<details><summary>一级提示</summary><div class="answer"><p>不要把“x 的正负”当成“v 的正负”。每一段都算 Δx/Δt。</p></div></details>
+<details><summary>解析</summary><div class="answer"><p>0—2 s：v=(0−4)/2=−2 m/s；2—4 s：v=(−4−0)/2=−2 m/s；4—6 s：v=0；6—8 s：v=(0−(−4))/2=+2 m/s。</p><p>合并后：0≤t&lt;4 s，v=−2 m/s；4≤t&lt;6 s，v=0；6≤t≤8 s，v=+2 m/s。</p><p>t=5 s 时位置为 −4 m，但图像是水平线，位置没有变化，所以 v=0。位置在哪一侧与运动方向是两件事。</p></div></details>
+<div class="note"><b>今天做到这里即可。</b><p>如果第 1、3、5、6 题都能无提示完成，并且位移方向写完整，本轮主目标就达到了。第 7—8 题留到隔天再做，检验是否真的留下来了。</p></div>
+</section>
+
+<section id="q7">
+<span class="badge">第7题 · 延迟复测 / 瞬时速度</span>
+<h2>为什么挡光片越窄，越接近“那一瞬间”？</h2>
+<p>用光电门测小车通过某位置附近的速度。四次实验分别换用不同宽度的挡光片，得到下表（其他条件相同）：</p>
+<div class="table-wrap"><table><thead><tr><th>挡光片</th><th>宽度</th><th>遮光时间</th></tr></thead><tbody><tr><td>A</td><td>8.0 cm</td><td>0.160 s</td></tr><tr><td>B</td><td>4.0 cm</td><td>0.085 s</td></tr><tr><td>C</td><td>2.0 cm</td><td>0.045 s</td></tr><tr><td>D</td><td>1.0 cm</td><td>0.023 s</td></tr></tbody></table></div>
+<ol><li>分别用 v≈挡光片宽度/遮光时间，估算四次速度（保留 2 位有效数字）。</li><li>若目的是近似“小车前端刚到达光电门位置时的瞬时速度”，四个挡光片中优先选哪一个？</li><li>这里为什么用的是“≈”而不是严格等号？</li></ol>
+<div class="record"><label>第一思路</label><textarea data-save="q7-first"></textarea><label>首次作答</label><textarea data-save="q7-answer"></textarea></div>
+<details><summary>一级提示</summary><div class="answer"><p>任何一个有限宽度的挡光片测到的，本质上都是一小段时间内的平均速度。</p></div></details>
+<details><summary>解析</summary><div class="answer"><p>A≈0.50 m/s；B≈0.47 m/s；C≈0.44 m/s；D≈0.43 m/s。</p><p>优先选 D。挡光片越窄，遮光持续时间越短，平均速度所对应的时间区间越小，因此通常更接近目标时刻的瞬时速度。</p><p>只要挡光片仍有有限宽度，测得的仍是区间平均值；把时间间隔取得越来越小，是用平均速度逼近瞬时速度的思想。</p></div></details>
+</section>
+
+<section id="q8">
+<span class="badge">第8题 · 延迟迁移 / 频闪照片</span>
+<h2>估计某一瞬间：为什么最好“前后各取一点”？</h2>
+<p>频闪照相每隔 T=0.10 s 记录一次小球位置。连续五次记录的位置坐标分别为：</p>
+<div class="formula">0 cm，4 cm，10 cm，18 cm，28 cm</div>
+<p>它们对应时刻 0、T、2T、3T、4T。</p>
+<ol><li>求四个相邻时间间隔内的平均速度，判断小球是越来越快还是越来越慢。</li><li>要估计 t=2T 时的瞬时速度，可以用前一小段得到 6/T cm/s，也可以用后一小段得到 8/T cm/s。若用 2T 前后对称的两个位置，估计值是多少？</li><li>为什么“前后对称取点”的估计通常比只取前一段或后一段更稳妥？</li></ol>
+<div class="record"><label>第一思路</label><textarea data-save="q8-first"></textarea><label>首次作答</label><textarea data-save="q8-answer"></textarea></div>
+<details><summary>一级提示</summary><div class="answer"><p>估计 2T 时刻，用 T 和 3T 两个位置：Δx=18−4，Δt=2T。</p></div></details>
+<details><summary>解析</summary><div class="answer"><p>相邻四段平均速度分别为 0.40、0.60、0.80、1.00 m/s，所以小球越来越快。</p><p>对称估计：v≈(18−4)/(2T)=14 cm/0.20 s=70 cm/s=0.70 m/s。</p><p>前一段给 0.60 m/s，后一段给 0.80 m/s，而前后对称取点把目标时刻放在区间中间，能减弱“只偏向目标时刻之前或之后”的误差。高中阶段先把它理解为一种更好的瞬时速度近似方法即可。</p></div></details>
+</section>
+
+<section class="finish">
+<h2>这套题怎样算“通过”？</h2>
+<p>不是看 8 题全对，而是看下面四句话能不能不翻答案自己说清楚：</p>
+<ul><li>位移为什么一定要带方向？</li><li>二维路线为什么不能直接把走过的两段拿去勾股？</li><li>x–t 图像中，什么决定速度的正负和大小？</li><li>为什么缩短测量时间能更接近瞬时速度？</li></ul>
+<p class="muted">如果有一条还说不清，就只回做对应题，不需要整套重刷。</p>
+<button type="button" data-qx-complete="physics-motion-0910" aria-pressed="false">四个关键点我都能解释了</button><span class="qx-status">完成后只记录在这台设备</span>
+</section>
+<footer class="mini">清许学习空间 · 物理｜根据 2026.09.10 最近作业首答与订正整理</footer>
+</main>
+<script defer src="/shared/nav.js"></script>
+<script defer src="/shared/learning.js"></script>
+<script>
+(()=>{const key='qingxu-physics-motion-20260910-v1';let state={};try{state=JSON.parse(localStorage.getItem(key)||'{}')}catch{}document.querySelectorAll('[data-save]').forEach(el=>{const k=el.dataset.save;if(state[k])el.value=state[k];el.addEventListener('input',()=>{state[k]=el.value;localStorage.setItem(key,JSON.stringify(state))})})})();
+</script>
+</body>
+</html>
