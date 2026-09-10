@@ -1,370 +1,51 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="zh-CN">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>清许数学｜第一次月考诊断卷（学生版）</title>
-<script>
-  window.MathJax = {
-    tex: { inlineMath: [['\\(','\\)']], displayMath: [['\\[','\\]']] },
-    svg: { fontCache: 'global' }
-  };
-</script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>第一次月考诊断卷 · 清许数学</title>
+<link rel="stylesheet" href="/shared/portal.css">
+<script>window.MathJax={tex:{inlineMath:[['\\(','\\)']],displayMath:[['\\[','\\]']]},svg:{fontCache:'global'}};</script>
 <script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
 <style>
-  :root{
-    --ink:#1f2937;
-    --muted:#6b7280;
-    --line:#d1d5db;
-    --soft:#f7f8fa;
-    --accent:#111827;
-  }
-  *{box-sizing:border-box}
-  body{
-    margin:0;
-    background:#eef0f3;
-    color:var(--ink);
-    font-family:"PingFang SC","Microsoft YaHei","Noto Sans CJK SC",system-ui,sans-serif;
-    line-height:1.72;
-  }
-  .page{
-    width:min(920px, calc(100% - 24px));
-    margin:24px auto 60px;
-    background:white;
-    padding:46px 54px 64px;
-    border-radius:16px;
-    box-shadow:0 8px 30px rgba(0,0,0,.06);
-  }
-  .back{display:inline-block;margin-bottom:8px;color:#4b5563;text-decoration:none;font-size:14px}
-  .back:hover{text-decoration:underline}
-  h1{
-    font-size:30px;
-    text-align:center;
-    margin:6px 0 4px;
-    letter-spacing:.5px;
-  }
-  .subtitle{
-    text-align:center;
-    color:var(--muted);
-    margin-bottom:24px;
-  }
-  .meta{
-    display:grid;
-    grid-template-columns:1fr 1fr 1fr;
-    gap:10px;
-    margin:18px 0 22px;
-    font-size:15px;
-  }
-  .meta span{
-    border-bottom:1px solid var(--line);
-    min-height:30px;
-    padding-bottom:4px;
-  }
-  .notice{
-    background:var(--soft);
-    border-left:4px solid #9ca3af;
-    padding:14px 16px;
-    margin:18px 0 28px;
-    border-radius:8px;
-    font-size:14px;
-  }
-  .toolbar{
-    display:flex;
-    align-items:center;
-    justify-content:space-between;
-    gap:12px;
-    margin:18px 0 28px;
-    padding:12px 14px;
-    border:1px solid var(--line);
-    border-radius:10px;
-  }
-  .timer{
-    font-variant-numeric:tabular-nums;
-    font-size:20px;
-    font-weight:700;
-  }
-  button{
-    border:1px solid #9ca3af;
-    background:white;
-    padding:8px 12px;
-    border-radius:8px;
-    cursor:pointer;
-  }
-  button:hover{background:#f3f4f6}
-  h2{
-    font-size:20px;
-    margin-top:34px;
-    padding-bottom:8px;
-    border-bottom:2px solid var(--accent);
-  }
-  .q{
-    margin:18px 0 24px;
-  }
-  .qnum{
-    font-weight:700;
-    margin-right:6px;
-  }
-  .blank{
-    display:inline-block;
-    min-width:150px;
-    border-bottom:1px solid #6b7280;
-    transform:translateY(-2px);
-  }
-  .options{
-    display:grid;
-    grid-template-columns:1fr 1fr;
-    gap:8px 26px;
-    margin:10px 0 0 22px;
-  }
-  .subq{
-    margin:10px 0 0 24px;
-  }
-  .work{
-    margin:14px 0 6px;
-    border:1px dashed #c8cdd4;
-    border-radius:8px;
-    min-height:130px;
-    background:
-      linear-gradient(to bottom, transparent 31px, #eef0f3 32px) 0 0/100% 32px;
-  }
-  .first-thought{
-    font-size:13px;
-    color:var(--muted);
-    margin-top:8px;
-  }
-  .answer-sheet{
-    margin-top:42px;
-    page-break-before:always;
-  }
-  table{
-    width:100%;
-    border-collapse:collapse;
-    margin-top:12px;
-  }
-  th,td{
-    border:1px solid var(--line);
-    padding:9px 8px;
-    text-align:center;
-    height:38px;
-  }
-  .footer-note{
-    color:var(--muted);
-    font-size:13px;
-    margin-top:22px;
-  }
-  @media(max-width:680px){
-    .page{padding:28px 20px 50px}
-    .meta{grid-template-columns:1fr}
-    .options{grid-template-columns:1fr}
-  }
-  @media print{
-    body{background:white}
-    .page{width:auto;margin:0;padding:12mm 13mm;box-shadow:none;border-radius:0}
-    .toolbar,.back{display:none}
-    .q{break-inside:avoid}
-    h2{break-after:avoid}
-  }
+.exam{max-width:920px}.exam-head{text-align:center;margin:18px 0 24px}.exam-head h1{margin-bottom:4px}.muted{color:#667085}.rule,.timerbar{padding:14px 16px;border:1px solid #e1e5ea;border-radius:12px;background:#f8fafc;margin:16px 0}.timerbar{display:flex;gap:12px;align-items:center;justify-content:space-between}.clock{font-size:22px;font-weight:700;font-variant-numeric:tabular-nums}.timerbar button{padding:7px 11px;border:1px solid #c7ccd2;border-radius:8px;background:#fff}.section{margin-top:34px}.section h2{border-bottom:2px solid #1f2937;padding-bottom:8px}.q{margin:18px 0 24px}.options{display:grid;grid-template-columns:1fr 1fr;gap:7px 24px;margin:9px 0 0 20px}.blank{display:inline-block;min-width:145px;border-bottom:1px solid #667085}.work{height:128px;border:1px dashed #c7ccd2;border-radius:10px;margin-top:12px;background:repeating-linear-gradient(to bottom,#fff 0,#fff 31px,#eef1f4 32px)}.work.large{height:220px}.first{font-size:13px;color:#667085;margin-top:8px}.sheet{page-break-before:always;margin-top:40px}.sheet table{width:100%;border-collapse:collapse}.sheet th,.sheet td{border:1px solid #d4d8dd;height:40px;text-align:center;padding:6px}.back{display:inline-block;margin-bottom:8px}.meta{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:18px 0}.meta div{border-bottom:1px solid #c7ccd2;padding:4px 0}@media(max-width:680px){.options,.meta{grid-template-columns:1fr}.timerbar{align-items:flex-start;flex-direction:column}}@media print{.timerbar,.back,nav{display:none!important}.work{break-inside:avoid}.q{break-inside:avoid}}
 </style>
 </head>
 <body>
-<div class="page">
-  <a class="back" href="/math/">← 返回数学学习空间</a>
-  <h1>清许数学｜第一次月考诊断卷</h1>
-  <div class="subtitle">集合与逻辑 · 不等式 · 基本不等式｜学生版</div>
+<main class="exam">
+<a class="back" href="/math/">← 返回数学学习空间</a>
+<div class="exam-head"><div class="kicker">清许数学 · 第一次月考</div><h1>60 分钟诊断卷</h1><div class="muted">集合与逻辑 · 等式与不等式 · 基本不等式｜学生版</div></div>
+<div class="meta"><div>姓名：</div><div>日期：</div><div>实际用时：</div></div>
+<div class="rule"><b>作答规则：</b>建议限时 60 分钟，满分 100 分。不查资料、不看提示、不使用计算器。不会的题也请保留原始第一步，不要先擦掉错误路线。</div>
+<div class="timerbar"><div>限时诊断</div><div><span class="clock" id="clock">60:00</span>　<button onclick="startTimer()">开始</button> <button onclick="resetTimer()">重置</button> <button onclick="window.print()">打印</button></div></div>
 
-  <div class="meta">
-    <span>姓名：</span>
-    <span>日期：</span>
-    <span>实际用时：</span>
-  </div>
+<section class="section"><h2>一、填空题（8 题，每题 4 分，共 32 分）</h2>
+<div class="q"><b>1.</b> 已知全集 \(U=\{-2,-1,0,1,2,3,4\}\)，\(A=\{x\in\mathbb Z\mid -1&lt;x\le3\}\)，\(B=\{0,2,4\}\)，则 \(C_U(A\cup B)=\) <span class="blank"></span>。</div>
+<div class="q"><b>2.</b> 已知 \(A=\{x\mid-2\le x&lt;1\}\)，\(B=\{x\mid0&lt;x\le3\}\)，则 \(A\cap B=\) <span class="blank"></span>。</div>
+<div class="q"><b>3.</b> 对实数 \(x\)，设命题 \(p:x&gt;2\)，命题 \(q:x^2&gt;4\)。则 \(p\) 是 \(q\) 的 <span class="blank"></span> 条件。</div>
+<div class="q"><b>4.</b> 已知 \(A=(1,4]\)，\(B=[m-1,5)\)。若 \(A\subseteq B\)，则 \(m\) 的取值范围是 <span class="blank"></span>。</div>
+<div class="q"><b>5.</b> 不等式 \((x-2)(x+1)\le0\) 的解集为 <span class="blank"></span>。</div>
+<div class="q"><b>6.</b> 若 \(a,b&gt;0\)，且 \(a+b=6\)，则 \(ab\) 的最大值为 <span class="blank"></span>。</div>
+<div class="q"><b>7.</b> 式子 \(|x-1|+|x-5|\) 的最小值为 <span class="blank"></span>。</div>
+<div class="q"><b>8.</b> 若方程 \(x^2-(m+2)x+2m=0\) 的两个根都为正数，则 \(m\) 的取值范围为 <span class="blank"></span>。</div>
+</section>
 
-  <div class="notice">
-    <b>诊断规则：</b>建议限时 60 分钟，不查资料、不看提示、不使用计算器。不会的题也尽量保留“第一步想到什么”，不要把原始思路擦掉。先做完，再统一订正。
-  </div>
+<section class="section"><h2>二、选择题（4 题，每题 4 分，共 16 分）</h2>
+<div class="q"><b>9.</b> 若 \(a&lt;b&lt;0\)，则下列结论中一定成立的是（　）<div class="options"><div>A. \(a^2&lt;b^2\)</div><div>B. \(\dfrac1a&lt;\dfrac1b\)</div><div>C. \(ab&lt;b^2\)</div><div>D. \(a^2&gt;ab\)</div></div></div>
+<div class="q"><b>10.</b> 对任意两个集合 \(A,B\)，命题 \(A\cap B=A\) 与下列哪个命题等价（　）<div class="options"><div>A. \(A\subseteq B\)</div><div>B. \(B\subseteq A\)</div><div>C. \(A\cup B=A\)</div><div>D. \(A\cap B=\varnothing\)</div></div></div>
+<div class="q"><b>11.</b> 若 \(ab&gt;0\)，则 \(\dfrac ab+\dfrac ba\) 的取值范围是（　）<div class="options"><div>A. \(( -\infty,-2]\)</div><div>B. \([2,+\infty)\)</div><div>C. \(( -\infty,-2]\cup[2,+\infty)\)</div><div>D. \((-2,2)\)</div></div></div>
+<div class="q"><b>12.</b> 若对任意 \(x\in\mathbb R\)，不等式 \(|x-2|+|x+4|&gt;a\) 恒成立，则 \(a\) 的取值范围是（　）<div class="options"><div>A. \(a\le6\)</div><div>B. \(a&lt;6\)</div><div>C. \(a\ge6\)</div><div>D. \(a&gt;6\)</div></div></div>
+</section>
 
-  <div class="toolbar">
-    <div>建议时长：60 分钟｜满分：100 分</div>
-    <div>
-      <span class="timer" id="timer">60:00</span>
-      <button onclick="startTimer()">开始计时</button>
-      <button onclick="resetTimer()">重置</button>
-      <button onclick="window.print()">打印</button>
-    </div>
-  </div>
+<section class="section"><h2>三、解答题（4 题，每题 13 分，共 52 分）</h2>
+<div class="q"><b>13.</b> 已知集合 \(A=\{x\mid-1&lt;x\le3\}\)，\(B=\{x\mid m&lt;x\le4\}\)。设命题 \(\alpha:x\in A\)，\(\beta:x\in B\)。<p>（1）若 \(\alpha\) 是 \(\beta\) 的充分条件，求 \(m\) 的取值范围；</p><p>（2）若 \(\alpha\) 是 \(\beta\) 的必要条件，求 \(m\) 的取值范围。</p><div class="first">若不会继续，也请保留你最先想到的数学关系或第一步。</div><div class="work"></div></div>
+<div class="q"><b>14.</b> 对实数 \(a\)，定义命题：\(P:\ |x-2|+|x+1|\ge a\) 对任意 \(x\in\mathbb R\) 恒成立；\(Q:\) 方程 \(x^2-(a+1)x+a=0\) 没有非正实根。<p>（1）若命题 \(P\) 为真，求 \(a\) 的取值范围；</p><p>（2）若 \(P,Q\) 中恰有一个为真，求 \(a\) 的取值范围。</p><div class="first">若不会继续，也请保留你最先想到的数学关系或第一步。</div><div class="work"></div></div>
+<div class="q"><b>15.</b><p>（1）已知 \(a,b&gt;0\)，且 \(a+b=3\)，求 \(\dfrac1a+\dfrac4b\) 的最小值，并写出取等时 \(a,b\) 的值；</p><p>（2）求 \(M=\sqrt{m-1}+\sqrt{5-m}\) 的最大值，并求取得最大值时 \(m\) 的值。</p><div class="first">请写出完整过程；若不会继续，也请保留第一步。</div><div class="work"></div></div>
+<div class="q"><b>16.</b> 对任意非空有限实数集 \(A\)，定义 \[D(A)=\{x-y\mid x\in A,\ y\in A\}.\]<p>（1）若 \(A=\{0,1,3\}\)，写出 \(D(A)\)；</p><p>（2）写出一个集合 \(A\)，使得 \(D(A)=A\)；</p><p>（3）若非空有限集 \(A\) 满足 \(D(A)=A\)，证明：\(A=\{0\}\)。</p><div class="first">若不会继续，也请保留你最先想到的数学关系或第一步。</div><div class="work large"></div></div>
+</section>
 
-  <h2>一、填空题（共 8 题，每题 4 分，共 32 分）</h2>
-
-  <div class="q"><span class="qnum">1.</span>
-    已知全集 \(U=\{-2,-1,0,1,2,3,4\}\)，
-    \(A=\{x\in\mathbb Z\mid -1&lt;x\le 3\}\)，\(B=\{0,2,4\}\)，
-    则 \(C_U(A\cup B)=\) <span class="blank"></span>。
-  </div>
-
-  <div class="q"><span class="qnum">2.</span>
-    已知 \(A=\{x\mid -2\le x&lt;1\}\)，\(B=\{x\mid 0&lt;x\le 3\}\)，
-    则 \(A\cap B=\) <span class="blank"></span>。
-  </div>
-
-  <div class="q"><span class="qnum">3.</span>
-    对实数 \(x\)，设命题 \(p:x&gt;2\)，命题 \(q:x^2&gt;4\)。
-    则 \(p\) 是 \(q\) 的 <span class="blank"></span> 条件。
-  </div>
-
-  <div class="q"><span class="qnum">4.</span>
-    已知 \(A=(1,4]\)，\(B=[m-1,5)\)。若 \(A\subseteq B\)，
-    则实数 \(m\) 的取值范围是 <span class="blank"></span>。
-  </div>
-
-  <div class="q"><span class="qnum">5.</span>
-    不等式 \((x-2)(x+1)\le0\) 的解集为 <span class="blank"></span>。
-  </div>
-
-  <div class="q"><span class="qnum">6.</span>
-    若 \(a,b&gt;0\)，且 \(a+b=6\)，则 \(ab\) 的最大值为
-    <span class="blank"></span>。
-  </div>
-
-  <div class="q"><span class="qnum">7.</span>
-    函数式 \(|x-1|+|x-5|\) 的最小值为 <span class="blank"></span>。
-  </div>
-
-  <div class="q"><span class="qnum">8.</span>
-    若方程 \(x^2-(m+2)x+2m=0\) 的两个根都为正数，
-    则 \(m\) 的取值范围为 <span class="blank"></span>。
-  </div>
-
-  <h2>二、选择题（共 4 题，每题 4 分，共 16 分）</h2>
-
-  <div class="q"><span class="qnum">9.</span>
-    若 \(a&lt;b&lt;0\)，则下列结论中一定成立的是（　）
-    <div class="options">
-      <div>A. \(a^2&lt;b^2\)</div>
-      <div>B. \(\dfrac1a&lt;\dfrac1b\)</div>
-      <div>C. \(ab&lt;b^2\)</div>
-      <div>D. \(a^2&gt;ab\)</div>
-    </div>
-  </div>
-
-  <div class="q"><span class="qnum">10.</span>
-    对任意两个集合 \(A,B\)，命题 \(A\cap B=A\) 与下列哪个命题等价（　）
-    <div class="options">
-      <div>A. \(A\subseteq B\)</div>
-      <div>B. \(B\subseteq A\)</div>
-      <div>C. \(A\cup B=A\)</div>
-      <div>D. \(A\cap B=\varnothing\)</div>
-    </div>
-  </div>
-
-  <div class="q"><span class="qnum">11.</span>
-    若 \(ab&gt;0\)，则 \(\dfrac ab+\dfrac ba\) 的取值范围是（　）
-    <div class="options">
-      <div>A. \((\-\infty,-2]\)</div>
-      <div>B. \([2,+\infty)\)</div>
-      <div>C. \((\-\infty,-2]\cup[2,+\infty)\)</div>
-      <div>D. \((-2,2)\)</div>
-    </div>
-  </div>
-
-  <div class="q"><span class="qnum">12.</span>
-    若对任意 \(x\in\mathbb R\)，不等式
-    \(|x-2|+|x+4|&gt;a\) 恒成立，则 \(a\) 的取值范围是（　）
-    <div class="options">
-      <div>A. \(a\le6\)</div>
-      <div>B. \(a&lt;6\)</div>
-      <div>C. \(a\ge6\)</div>
-      <div>D. \(a&gt;6\)</div>
-    </div>
-  </div>
-
-  <h2>三、解答题（共 4 题，每题 13 分，共 52 分）</h2>
-
-  <div class="q">
-    <span class="qnum">13.</span>
-    已知集合 \(A=\{x\mid -1&lt;x\le3\}\)，
-    \(B=\{x\mid m&lt;x\le4\}\)。设命题
-    \(\alpha:x\in A\)，\(\beta:x\in B\)。
-    <div class="subq">(1) 若 \(\alpha\) 是 \(\beta\) 的充分条件，求 \(m\) 的取值范围；</div>
-    <div class="subq">(2) 若 \(\alpha\) 是 \(\beta\) 的必要条件，求 \(m\) 的取值范围。</div>
-    <div class="first-thought">若不会继续，也请保留你最先想到的数学关系或第一步。</div>
-    <div class="work"></div>
-  </div>
-
-  <div class="q">
-    <span class="qnum">14.</span>
-    对实数 \(a\)，定义两个命题：
-    <div class="subq">\(P:\ |x-2|+|x+1|\ge a\) 对任意 \(x\in\mathbb R\) 恒成立；</div>
-    <div class="subq">\(Q:\) 方程 \(x^2-(a+1)x+a=0\) 没有非正实根。</div>
-    <div class="subq">(1) 若命题 \(P\) 为真命题，求 \(a\) 的取值范围；</div>
-    <div class="subq">(2) 若命题 \(P,Q\) 中恰有一个为真命题，求 \(a\) 的取值范围。</div>
-    <div class="first-thought">若不会继续，也请保留你最先想到的数学关系或第一步。</div>
-    <div class="work"></div>
-  </div>
-
-  <div class="q">
-    <span class="qnum">15.</span>
-    <div class="subq">(1) 已知 \(a,b&gt;0\)，且 \(a+b=3\)，求
-      \(\dfrac1a+\dfrac4b\) 的最小值，并写出取等时 \(a,b\) 的值；</div>
-    <div class="subq">(2) 求
-      \(M=\sqrt{m-1}+\sqrt{5-m}\) 的最大值，并求取得最大值时 \(m\) 的值。</div>
-    <div class="first-thought">请写出完整过程；若不会继续，也请保留第一步。</div>
-    <div class="work"></div>
-  </div>
-
-  <div class="q">
-    <span class="qnum">16.</span>
-    对任意非空有限实数集 \(A\)，定义
-    \[
-      D(A)=\{x-y\mid x\in A,\ y\in A\}.
-    \]
-    <div class="subq">(1) 若 \(A=\{0,1,3\}\)，写出 \(D(A)\)；</div>
-    <div class="subq">(2) 写出一个集合 \(A\)，使得 \(D(A)=A\)；</div>
-    <div class="subq">(3) 若非空有限集 \(A\) 满足 \(D(A)=A\)，证明：\(A=\{0\}\)。</div>
-    <div class="first-thought">若不会继续，也请保留你最先想到的数学关系或第一步。</div>
-    <div class="work" style="min-height:220px"></div>
-  </div>
-
-  <div class="answer-sheet">
-    <h2>客观题答题区</h2>
-    <table>
-      <tr><th>题号</th><th>1</th><th>2</th><th>3</th><th>4</th><th>5</th><th>6</th></tr>
-      <tr><th>答案</th><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-      <tr><th>题号</th><th>7</th><th>8</th><th>9</th><th>10</th><th>11</th><th>12</th></tr>
-      <tr><th>答案</th><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-    </table>
-
-    <div class="footer-note">
-      做完后请保留原始作答痕迹。尤其是第 13—16 题，不要先擦掉错误路线再拍照；我们需要据此判断是概念、条件翻译、分类讨论、运算，还是证明表达的问题。
-    </div>
-  </div>
-</div>
-
-<script>
-let total = 60 * 60;
-let timerId = null;
-function render(){
-  const m = String(Math.floor(total/60)).padStart(2,'0');
-  const s = String(total%60).padStart(2,'0');
-  document.getElementById('timer').textContent = m + ':' + s;
-}
-function startTimer(){
-  if(timerId) return;
-  timerId = setInterval(()=>{
-    if(total > 0){
-      total--;
-      render();
-    }else{
-      clearInterval(timerId);
-      timerId = null;
-      alert('60 分钟到。请停笔并记录实际完成位置。');
-    }
-  },1000);
-}
-function resetTimer(){
-  if(timerId){ clearInterval(timerId); timerId=null; }
-  total = 60*60;
-  render();
-}
-render();
-</script>
-</body>
-</html>
+<section class="sheet"><h2>客观题答题区</h2><table><tr><th>题号</th><th>1</th><th>2</th><th>3</th><th>4</th><th>5</th><th>6</th></tr><tr><th>答案</th><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><th>题号</th><th>7</th><th>8</th><th>9</th><th>10</th><th>11</th><th>12</th></tr><tr><th>答案</th><td></td><td></td><td></td><td></td><td></td><td></td></tr></table><p class="muted">完成后请保留原始作答痕迹，尤其是第 13—16 题。</p></section>
+</main>
+<script defer src="/shared/nav.js"></script>
+<script>let left=3600,id=null;function draw(){let m=String(Math.floor(left/60)).padStart(2,'0'),s=String(left%60).padStart(2,'0');document.getElementById('clock').textContent=m+':'+s}function startTimer(){if(id)return;id=setInterval(()=>{if(left>0){left--;draw()}else{clearInterval(id);id=null;alert('60 分钟到，请停笔并记录完成位置。')}},1000)}function resetTimer(){if(id){clearInterval(id);id=null}left=3600;draw()}draw();</script>
+</body></html>
