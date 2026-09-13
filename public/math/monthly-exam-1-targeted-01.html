@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>清许数学｜第一次月考针对训练 01</title>
+<script>
+window.MathJax = {
+  tex: { inlineMath: [['\\(','\\)']], displayMath: [['\\[','\\]']] },
+  svg: { fontCache: 'global' }
+};
+</script>
+<script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
+<style>
+:root{
+  --ink:#1f2937; --muted:#6b7280; --line:#d1d5db; --soft:#f7f8fa;
+}
+*{box-sizing:border-box}
+body{
+  margin:0;background:#eef0f3;color:var(--ink);
+  font-family:"PingFang SC","Microsoft YaHei","Noto Sans CJK SC",system-ui,sans-serif;
+  line-height:1.75;
+}
+.page{
+  width:min(900px,calc(100% - 24px));margin:24px auto 60px;background:#fff;
+  padding:42px 52px 60px;border-radius:16px;box-shadow:0 8px 30px rgba(0,0,0,.06);
+}
+.back{display:inline-block;margin-bottom:8px;color:#4b5563;text-decoration:none;font-size:14px}
+h1{text-align:center;font-size:29px;margin:8px 0 5px}
+.subtitle{text-align:center;color:var(--muted);margin-bottom:22px}
+.meta{display:grid;grid-template-columns:1fr 1fr 1fr;gap:12px;margin:18px 0 22px}
+.meta span{border-bottom:1px solid var(--line);min-height:30px}
+.notice{
+  background:var(--soft);border-left:4px solid #9ca3af;padding:14px 16px;
+  border-radius:8px;margin:18px 0 24px;font-size:14px;
+}
+.toolbar{
+  display:flex;align-items:center;justify-content:space-between;gap:12px;
+  padding:12px 14px;border:1px solid var(--line);border-radius:10px;margin-bottom:28px
+}
+.timer{font-weight:700;font-size:20px;font-variant-numeric:tabular-nums}
+button{border:1px solid #9ca3af;background:#fff;padding:8px 12px;border-radius:8px;cursor:pointer}
+button:hover{background:#f3f4f6}
+.q{margin:24px 0 32px}
+.qnum{font-weight:700;margin-right:6px}
+.subq{margin:10px 0 0 24px}
+.work{
+  margin:14px 0 6px;border:1px dashed #c8cdd4;border-radius:8px;min-height:125px;
+  background:linear-gradient(to bottom,transparent 31px,#eef0f3 32px) 0 0/100% 32px;
+}
+.work.tall{min-height:185px}
+.first{font-size:13px;color:var(--muted);margin-top:8px}
+.score{float:right;color:var(--muted);font-size:14px;font-weight:400}
+hr{border:0;border-top:1px solid #e5e7eb;margin:30px 0}
+.footer{color:var(--muted);font-size:13px;margin-top:34px}
+@media(max-width:680px){
+  .page{padding:28px 20px 50px}.meta{grid-template-columns:1fr}.toolbar{align-items:flex-start;flex-direction:column}
+}
+@media print{
+  body{background:#fff}.page{width:auto;margin:0;padding:10mm 12mm;box-shadow:none;border-radius:0}
+  .toolbar,.back{display:none}.q{break-inside:avoid}
+}
+</style>
+</head>
+<body>
+<div class="page">
+<a class="back" href="/math/">← 返回数学学习空间</a>
+<h1>清许数学｜第一次月考针对训练 01</h1>
+<div class="subtitle">空集 · 参数集合 · 新定义证明 · 规范表达</div>
+
+<div class="meta">
+  <span>姓名：</span><span>日期：</span><span>实际用时：</span>
+</div>
+
+<div class="notice">
+  <b>训练规则：</b>建议 25–30 分钟，独立完成，不查资料。今天不追求多做题，只盯住三个动作：
+  遇到含参数集合先检查“会不会为空集”；证明题保留第一思路；结论前写出关键推理，不只写答案。
+</div>
+
+<div class="toolbar">
+  <div>共 6 题｜50 分｜建议 25–30 分钟</div>
+  <div><span class="timer" id="timer">30:00</span>
+  <button onclick="startTimer()">开始计时</button>
+  <button onclick="resetTimer()">重置</button>
+  <button onclick="window.print()">打印</button></div>
+</div>
+
+<div class="q">
+  <span class="qnum">1.</span><span class="score">6 分</span>
+  已知集合 \(A=(-2,1]\)，\(B=(m,3]\)。设命题
+  \(\alpha:x\in A\)，\(\beta:x\in B\)。
+  若 \(\alpha\) 是 \(\beta\) 的必要条件，求实数 \(m\) 的取值范围。
+  <div class="first">要求：写出“必要条件”对应的集合关系。</div>
+  <div class="work"></div>
+</div>
+
+<hr>
+
+<div class="q">
+  <span class="qnum">2.</span><span class="score">8 分</span>
+  已知
+  \[
+  A=(0,2],\qquad B=\{x\mid m&lt;x\le 2m+1\}.
+  \]
+  设命题 \(\alpha:x\in A\)，\(\beta:x\in B\)。
+  若 \(\beta\) 是 \(\alpha\) 的充分条件，求实数 \(m\) 的取值范围。
+  <div class="first">要求：若出现分类，请把分类依据写出来。</div>
+  <div class="work tall"></div>
+</div>
+
+<hr>
+
+<div class="q">
+  <span class="qnum">3.</span><span class="score">7 分</span>
+  已知集合 \(A\subseteq B\)，任意集合 \(C\)。
+  证明：
+  \[
+  A\cap C\subseteq B\cap C.
+  \]
+  <div class="first">请按“任取一个元素 → 推出它属于哪里 → 得出集合包含关系”的格式书写。</div>
+  <div class="work tall"></div>
+</div>
+
+<hr>
+
+<div class="q">
+  <span class="qnum">4.</span><span class="score">9 分</span>
+  已知 \(M\) 是非空有限实数集，且对任意 \(a,b\in M\)，都有 \(a-b\in M\)。
+  有同学写出下面的证明：
+  <div class="notice" style="margin:12px 0">
+    “因为 \(a-a=0\)，所以 \(0\in M\)。因此 \(M=\{0\}\)。”
+  </div>
+  <div class="subq">(1) 指出这段证明为什么不完整；</div>
+  <div class="subq">(2) 补全证明，说明 \(M=\{0\}\)。</div>
+  <div class="first">第 (2) 问允许使用“有限非空实数集有最大值和最小值”。</div>
+  <div class="work tall"></div>
+</div>
+
+<hr>
+
+<div class="q">
+  <span class="qnum">5.</span><span class="score">10 分</span>
+  对任意非空有限实数集 \(A\)，定义
+  \[
+  F(A)=\{x+y\mid x\in A,\ y\in A\}.
+  \]
+  若 \(F(A)\subseteq A\)，证明：
+  \[
+  A=\{0\}.
+  \]
+  <div class="first">这是一道迁移题。请自己决定选什么元素代入定义最有效。</div>
+  <div class="work tall"></div>
+</div>
+
+<hr>
+
+<div class="q">
+  <span class="qnum">6.</span><span class="score">10 分</span>
+  已知正数 \(x,y\) 满足
+  \[
+  x+y=xy.
+  \]
+  求 \(2x+y\) 的最小值，并写出取等时 \(x,y\) 的值。
+  <div class="first">要求：写出使用基本不等式的正数条件与取等条件。</div>
+  <div class="work tall"></div>
+</div>
+
+<div class="footer">
+  做完后不要先订正。请直接拍原始作答，尤其保留第 2、4、5、6 题的完整过程。
+</div>
+</div>
+
+<script>
+let total=30*60, timerId=null;
+function render(){
+  const m=String(Math.floor(total/60)).padStart(2,'0');
+  const s=String(total%60).padStart(2,'0');
+  document.getElementById('timer').textContent=m+':'+s;
+}
+function startTimer(){
+  if(timerId)return;
+  timerId=setInterval(()=>{
+    if(total>0){total--;render();}
+    else{clearInterval(timerId);timerId=null;alert('30 分钟到，请停笔并记录完成位置。');}
+  },1000);
+}
+function resetTimer(){
+  if(timerId){clearInterval(timerId);timerId=null;}
+  total=30*60;render();
+}
+render();
+</script>
+</body>
+</html>
