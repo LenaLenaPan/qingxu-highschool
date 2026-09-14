@@ -1,0 +1,300 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>清许数学｜前两周弱项回看</title>
+  <style>
+    :root {
+      --ink: #19324a;
+      --muted: #66788a;
+      --paper: #ffffff;
+      --bg: #f3f7f8;
+      --teal: #19766f;
+      --teal-soft: #e7f5f2;
+      --amber: #b66b13;
+      --amber-soft: #fff5df;
+      --blue-soft: #edf4ff;
+      --line: #d9e3e8;
+      --red: #9e3f43;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      color: var(--ink);
+      background: var(--bg);
+      font-family: "PingFang SC", "Microsoft YaHei", system-ui, sans-serif;
+      line-height: 1.75;
+    }
+    main { width: min(940px, calc(100% - 28px)); margin: 26px auto 60px; }
+    header {
+      padding: 34px 36px;
+      color: white;
+      border-radius: 24px;
+      background: linear-gradient(135deg, #173c55, #19766f);
+      box-shadow: 0 18px 45px rgba(25, 50, 74, .16);
+    }
+    header h1 { margin: 4px 0 8px; font-size: clamp(28px, 5vw, 44px); line-height: 1.2; }
+    header p { margin: 0; max-width: 720px; color: #e7f4f3; }
+    .eyebrow { font-weight: 700; letter-spacing: .08em; font-size: 13px; opacity: .9; }
+    .card {
+      margin-top: 18px;
+      padding: 26px 28px;
+      background: var(--paper);
+      border: 1px solid var(--line);
+      border-radius: 20px;
+      box-shadow: 0 8px 24px rgba(25, 50, 74, .06);
+    }
+    h2 { margin: 0 0 14px; font-size: 24px; line-height: 1.35; }
+    h3 { margin: 0 0 10px; font-size: 19px; }
+    p { margin: 8px 0; }
+    ul, ol { padding-left: 1.35em; }
+    li + li { margin-top: 7px; }
+    .lead { font-size: 17px; }
+    .good-grid, .two-col {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 14px;
+    }
+    .mini {
+      padding: 16px 18px;
+      border-radius: 15px;
+      background: var(--teal-soft);
+      border: 1px solid #c9e8e2;
+    }
+    .risk { background: var(--amber-soft); border-color: #f0d49f; }
+    .tag {
+      display: inline-block;
+      margin-right: 7px;
+      padding: 3px 9px;
+      border-radius: 999px;
+      background: var(--teal-soft);
+      color: var(--teal);
+      font-size: 13px;
+      font-weight: 700;
+    }
+    .tag.amber { color: var(--amber); background: var(--amber-soft); }
+    .formula {
+      margin: 14px 0;
+      padding: 14px 17px;
+      border-left: 5px solid var(--teal);
+      border-radius: 10px;
+      background: #f7fbfb;
+      font-family: "Times New Roman", "Songti SC", serif;
+      font-size: 18px;
+      overflow-x: auto;
+    }
+    .steps {
+      counter-reset: step;
+      list-style: none;
+      padding: 0;
+    }
+    .steps li {
+      position: relative;
+      padding: 12px 14px 12px 50px;
+      border-bottom: 1px dashed var(--line);
+    }
+    .steps li::before {
+      counter-increment: step;
+      content: counter(step);
+      position: absolute;
+      left: 7px;
+      top: 10px;
+      display: grid;
+      width: 28px;
+      height: 28px;
+      place-items: center;
+      border-radius: 50%;
+      color: white;
+      background: var(--teal);
+      font-weight: 700;
+    }
+    table { width: 100%; border-collapse: collapse; margin: 14px 0; }
+    th, td { padding: 11px 12px; text-align: left; vertical-align: top; border: 1px solid var(--line); }
+    th { background: #eef5f6; }
+    details {
+      margin-top: 14px;
+      border: 1px solid var(--line);
+      border-radius: 13px;
+      background: #fbfdfd;
+    }
+    summary { cursor: pointer; padding: 13px 16px; font-weight: 700; color: var(--teal); }
+    details > div { padding: 0 16px 16px; }
+    .checklist {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 10px;
+      padding: 0;
+      list-style: none;
+    }
+    .checklist li { padding: 12px 14px; border-radius: 12px; background: var(--blue-soft); }
+    .note { color: var(--muted); font-size: 14px; }
+    .warn { color: var(--red); font-weight: 700; }
+    .route { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+    .route span { padding: 8px 12px; border-radius: 999px; background: #eef5f6; font-weight: 700; }
+    .route b { color: var(--amber); }
+    footer { padding: 22px 0; text-align: center; color: var(--muted); font-size: 14px; }
+    @media (max-width: 680px) {
+      main { width: min(100% - 18px, 940px); margin-top: 10px; }
+      header, .card { padding: 22px 19px; border-radius: 16px; }
+      .good-grid, .two-col, .checklist { grid-template-columns: 1fr; }
+    }
+    @media print {
+      body { background: white; }
+      main { width: 100%; margin: 0; }
+      header { border-radius: 0; box-shadow: none; }
+      .card { break-inside: avoid; box-shadow: none; }
+      details { break-inside: avoid; }
+    }
+  </style>
+</head>
+<body>
+<main>
+  <header>
+    <div class="eyebrow">清许数学 · 学生版</div>
+    <h1>前两周弱项回看</h1>
+    <p>不是重新学一遍第一章，而是把作业里最容易“换个问法又失分”的五个点收紧。先理解方法，再隔两三天用确认卷检验。</p>
+  </header>
+
+  <section class="card">
+    <h2>先看结论：你已经会什么</h2>
+    <div class="good-grid">
+      <div class="mini"><strong>集合基础较稳</strong><br>能辨认集合、使用列举法和描述法。</div>
+      <div class="mini"><strong>常规运算较稳</strong><br>有限集和区间的交、并、补大多能完成。</div>
+      <div class="mini"><strong>方程与集合能连接</strong><br>能根据根集相等、相交、相并反求参数。</div>
+      <div class="mini"><strong>复杂题已有思路</strong><br>会主动分类，也能在部分题中考虑空集。</div>
+    </div>
+    <p class="note">卷面中的旧错误只说明“当时出现过”，不直接等于“现在还不会”。后面的确认卷才负责判断是否已经稳定。</p>
+  </section>
+
+  <section class="card">
+    <span class="tag amber">弱项 1</span><span class="tag">高频失分点</span>
+    <h2>含参数方程：第一步不是判别式</h2>
+    <p class="lead">只要参数出现在最高次项系数前，先问：<strong>它会不会变成一次方程、常数方程，甚至恒等式？</strong></p>
+    <div class="formula">参数：先分“最高次项系数 = 0”和“最高次项系数 ≠ 0”，再分别处理。</div>
+    <h3>例题</h3>
+    <p>集合 A＝{x｜(m−2)x²＋2x＋1＝0} 恰有一个元素，求 m。</p>
+    <ol class="steps">
+      <li><strong>先查退化：</strong>m＝2 时，方程变成 2x＋1＝0，只有一个实根，符合。</li>
+      <li><strong>再查二次：</strong>m≠2 时，要有两个相同实根，所以 Δ＝2²−4(m−2)＝0。</li>
+      <li>解得 m＝3。</li>
+      <li><strong>结论：</strong>m＝2 或 m＝3。</li>
+    </ol>
+    <details>
+      <summary>三秒自检：看到参数方程先问什么？</summary>
+      <div>最高次项系数能否为 0？为 0 后是什么方程？不为 0 时，才可以直接使用判别式或根与系数关系。</div>
+    </details>
+  </section>
+
+  <section class="card">
+    <span class="tag amber">弱项 2</span><span class="tag">对象识别</span>
+    <h2>先看集合里的“元素”究竟是什么</h2>
+    <div class="two-col">
+      <div class="mini">
+        <strong>P＝{y｜y＝x²−1}</strong>
+        <p>元素是数 y，所以 P 是值域：</p>
+        <div class="formula">P＝[−1，＋∞)</div>
+      </div>
+      <div class="mini risk">
+        <strong>M＝{(x，y)｜y＝x²−1}</strong>
+        <p>元素是有序数对 (x，y)，所以 M 是图像上的点集。</p>
+      </div>
+    </div>
+    <p>例如 Q＝{y｜y＝−x²＋3}＝(−∞，3]，那么 P∩Q＝[−1，3]；但若两个集合的元素是 (x，y)，就要联立方程求交点。</p>
+    <details>
+      <summary>防错口令</summary>
+      <div><strong>先圈元素：</strong>{y｜…} 圈 y；{x｜…} 圈 x；{(x，y)｜…} 圈 (x，y)。没有确认元素类型，不开始计算。</div>
+    </details>
+  </section>
+
+  <section class="card">
+    <span class="tag amber">弱项 3</span><span class="tag">计数</span>
+    <h2>子集计数：先分“必选”和“自由”</h2>
+    <div class="formula">含 n 个元素的集合：子集共 2ⁿ 个，真子集共 2ⁿ−1 个。</div>
+    <p>带条件时，不要一上来把所有子集乱列。先标出：</p>
+    <ul>
+      <li><strong>必选元素：</strong>题目明确要求一定包含；</li>
+      <li><strong>禁止元素：</strong>题目明确不能包含；</li>
+      <li><strong>自由元素：</strong>每个都有“选或不选”两种可能。</li>
+    </ul>
+    <h3>例题</h3>
+    <p>A⊆{1，2，3，4}，A中恰有一个奇数，并且2∈A。奇数从1、3中任选一个，有2种；4可选可不选，有2种。因此共有 2×2＝4 个。</p>
+    <details>
+      <summary>易混点：空集算不算？</summary>
+      <div>空集是任何集合的子集。若题目说“真子集”，空集通常仍要计算；只需排除集合本身。</div>
+    </details>
+  </section>
+
+  <section class="card">
+    <span class="tag amber">弱项 4</span><span class="tag">逻辑方向</span>
+    <h2>命题真假，与“是不是命题”是两件事</h2>
+    <table>
+      <thead><tr><th>句子</th><th>是不是命题</th><th>真假</th></tr></thead>
+      <tbody>
+        <tr><td>3＞π</td><td>是，有确定真假</td><td>假命题</td></tr>
+        <tr><td>x＋1＞0</td><td>不是，x 未确定</td><td>暂时不能判断</td></tr>
+        <tr><td>2是质数吗？</td><td>不是，这是疑问句</td><td>不讨论真假</td></tr>
+      </tbody>
+    </table>
+    <h3>充分必要条件只做两次箭头检查</h3>
+    <table>
+      <thead><tr><th>箭头结果</th><th>A是B的条件</th></tr></thead>
+      <tbody>
+        <tr><td>A⇒B，B⇏A</td><td>充分非必要</td></tr>
+        <tr><td>A⇏B，B⇒A</td><td>必要非充分</td></tr>
+        <tr><td>A⇒B，B⇒A</td><td>充要</td></tr>
+        <tr><td>A⇏B，B⇏A</td><td>既不充分也不必要</td></tr>
+      </tbody>
+    </table>
+    <p><strong>反例要承担任务：</strong>要否定 A⇒B，就找一个“A真、B假”的例子；不能只写一个无关数字。</p>
+  </section>
+
+  <section class="card">
+    <span class="tag amber">弱项 5</span><span class="tag">证明闭环</span>
+    <h2>证明题不能停在“我看出规律了”</h2>
+    <p>反证法和一般性证明都要写到逻辑终点。建议每次检查四句话是否齐全：</p>
+    <ol class="steps">
+      <li><strong>假设：</strong>明确写出原命题结论的否定。</li>
+      <li><strong>推导：</strong>只使用已知条件和可靠结论。</li>
+      <li><strong>矛盾：</strong>指出与哪条已知、定义或假设矛盾。</li>
+      <li><strong>收口：</strong>因此反设不成立，所以原命题成立。</li>
+    </ol>
+    <h3>例题：证明不存在整数 n，使 n²＝4k＋2</h3>
+    <p>假设存在整数 n、k 使 n²＝4k＋2。整数 n 只有奇、偶两种：</p>
+    <ul>
+      <li>若 n 为偶数，则 n² 能被4整除；</li>
+      <li>若 n 为奇数，则 n² 除以4余1。</li>
+    </ul>
+    <p>但4k＋2除以4余2，两种情况都不可能，产生矛盾。因此不存在这样的整数 n。</p>
+    <p class="warn">写出“矛盾在哪里”以后，还要补最后一句结论。</p>
+  </section>
+
+  <section class="card">
+    <h2>做题前的五项检查</h2>
+    <ul class="checklist">
+      <li>□ 集合元素是数，还是有序数对？</li>
+      <li>□ 参数会不会让最高次项消失？</li>
+      <li>□ 空集是否也满足包含关系？</li>
+      <li>□ 区间端点是开还是闭？</li>
+      <li>□ 两个逻辑方向是否分别验证？</li>
+      <li>□ 证明是否写出矛盾和最终结论？</li>
+    </ul>
+  </section>
+
+  <section class="card">
+    <h2>按计划使用</h2>
+    <div class="route">
+      <span>第二章5道验收题</span><b>→</b>
+      <span>本页弱项回看</span><b>→</b>
+      <span>月考增强题</span><b>→</b>
+      <span>隔2～3天做12题确认卷</span>
+    </div>
+    <p class="note">阅读本页时，只重点看验收题和作业中真正出现问题的模块。确认卷必须无提示、限时完成。</p>
+    <p><a href="/math/weaks-practice-20260913.html">进入前两周弱项 12 题确认卷 →</a></p>
+  </section>
+
+  <footer>清许数学 · 2026-09-13 · 保留首次思路，订正不覆盖原答案</footer>
+</main>
+<script defer src="/shared/nav.js"></script>
+</body>
+</html>

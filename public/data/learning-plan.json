@@ -1,0 +1,233 @@
+{
+  "version": 1,
+  "updatedAt": "2026-09-14",
+  "subjects": {
+    "english": "英语",
+    "math": "数学",
+    "physics": "物理",
+    "chemistry": "化学"
+  },
+  "tasks": [
+    {
+      "id": "english-day-1-20",
+      "subject": "english",
+      "title": "高考词汇 Day 1–20",
+      "description": "前 20 天词汇训练与滚动复测。",
+      "url": "/english/",
+      "contentState": "ready",
+      "defaultBucket": "done",
+      "steps": [{"id": "test", "label": "训练完成"}],
+      "defaultDone": ["test"]
+    },
+    {
+      "id": "english-day-21-28",
+      "subject": "english",
+      "title": "高考词汇 Day 21–28",
+      "description": "police → transfer；Day 28 已完成，阶段训练收口。",
+      "url": "/english/day21-28.html",
+      "contentState": "ready",
+      "defaultBucket": "done",
+      "steps": [{"id": "test", "label": "训练完成"}],
+      "defaultDone": ["test"]
+    },
+    {
+      "id": "english-day-29",
+      "subject": "english",
+      "title": "高考词汇 Day 29",
+      "description": "transform → video；Day 28 错题复测、间隔复习和新词训练。",
+      "url": "/day29.html",
+      "contentState": "ready",
+      "defaultBucket": "today",
+      "steps": [{"id": "test", "label": "训练完成"}]
+    },
+    {
+      "id": "english-day-30-31",
+      "subject": "english",
+      "title": "高考词汇 Day 30–31",
+      "description": "videotape → zoo，完成 3000 词阶段训练。",
+      "url": "/day30.html",
+      "contentState": "ready",
+      "defaultBucket": "later",
+      "steps": [{"id": "test", "label": "训练完成"}]
+    },
+    {
+      "id": "math-chapter1",
+      "subject": "math",
+      "title": "第一章《集合与逻辑》",
+      "description": "知识回看与五天巩固训练已完成。",
+      "url": "/math/chapter1/",
+      "contentState": "ready",
+      "defaultBucket": "done",
+      "steps": [{"id": "study", "label": "阶段完成"}],
+      "defaultDone": ["study"]
+    },
+    {
+      "id": "math-two-week-review",
+      "subject": "math",
+      "title": "前两周数学弱项解析与 12 题",
+      "description": "根据截至 9 月 13 日的全部作业，先回看弱项，再完成定点练习。",
+      "url": "/math/weaks-review-20260913.html",
+      "contentState": "ready",
+      "defaultBucket": "today",
+      "steps": [
+        {"id": "review", "label": "弱项解析已读"},
+        {"id": "attempt", "label": "首次作答完成"},
+        {"id": "correction", "label": "订正完成"},
+        {"id": "retest", "label": "间隔复测通过"}
+      ]
+    },
+    {
+      "id": "math-chapter2-review",
+      "subject": "math",
+      "title": "第二章《等式与不等式》知识回看",
+      "description": "先梳理定义域、符号、二次结构与基本不等式的等号条件。",
+      "url": "/math/chapter2/",
+      "contentState": "ready",
+      "defaultBucket": "week",
+      "steps": [{"id": "review", "label": "回看完成"}]
+    },
+    {
+      "id": "math-chapter2-diagnostic",
+      "subject": "math",
+      "title": "第二章已学内容诊断",
+      "description": "6 道题，检查分式不等式、参数分类与基本不等式。",
+      "url": "/math/chapter2/diagnostic.html",
+      "contentState": "ready",
+      "defaultBucket": "week",
+      "steps": [
+        {"id": "attempt", "label": "首次作答完成"},
+        {"id": "correction", "label": "订正完成"},
+        {"id": "retest", "label": "间隔复测通过"}
+      ]
+    },
+    {
+      "id": "math-monthly-targeted-01",
+      "subject": "math",
+      "title": "第一次月考针对训练 01",
+      "description": "空集分类、含参数集合、新定义证明与规范表达。",
+      "url": "/math/monthly-exam-1-targeted-01.html",
+      "contentState": "ready",
+      "defaultBucket": "week",
+      "steps": [
+        {"id": "attempt", "label": "首次作答完成"},
+        {"id": "correction", "label": "订正完成"},
+        {"id": "retest", "label": "间隔复测通过"}
+      ]
+    },
+    {
+      "id": "math-monthly-diagnostic",
+      "subject": "math",
+      "title": "第一次月考 60 分钟诊断卷",
+      "description": "完成前置弱项修复后，再做整卷无提示诊断。",
+      "url": "/math/monthly-exam-1-diagnostic.html",
+      "contentState": "ready",
+      "defaultBucket": "later",
+      "steps": [
+        {"id": "attempt", "label": "整卷完成"},
+        {"id": "correction", "label": "订正完成"}
+      ]
+    },
+    {
+      "id": "physics-chapter1-review",
+      "subject": "physics",
+      "title": "第一章《运动的描述》回看",
+      "description": "根据首次作答与订正整理的学生版知识回看。",
+      "url": "/physics/chapter1.html",
+      "contentState": "ready",
+      "defaultBucket": "done",
+      "steps": [{"id": "review", "label": "回看完成"}],
+      "defaultDone": ["review"]
+    },
+    {
+      "id": "physics-two-week-analysis",
+      "subject": "physics",
+      "title": "前两周物理错题分析与专项",
+      "description": "基于 9 月 14 日上传作业，整理错误结构并生成针对训练。",
+      "url": "/physics/weeks1-2-diagnosis-training.html",
+      "contentState": "ready",
+      "defaultBucket": "today",
+      "steps": [
+        {"id": "review", "label": "错因分析已读"},
+        {"id": "attempt", "label": "首次作答完成"},
+        {"id": "correction", "label": "订正完成"},
+        {"id": "retest", "label": "间隔复测通过"}
+      ]
+    },
+    {
+      "id": "physics-motion-0910",
+      "subject": "physics",
+      "title": "最近作业专项 01《运动的描述》",
+      "description": "位移方向、路程与位移、x–t 图像、瞬时速度近似。",
+      "url": "/physics/motion-practice-20260910.html",
+      "contentState": "ready",
+      "defaultBucket": "week",
+      "steps": [
+        {"id": "attempt", "label": "第 1–6 题完成"},
+        {"id": "retest", "label": "第 7–8 题复测通过"}
+      ],
+      "legacyCompleteId": "physics-motion-0910"
+    },
+    {
+      "id": "physics-chapter1-practice",
+      "subject": "physics",
+      "title": "第一章针对练习",
+      "description": "6 道定点练习与 2 道延迟复测。",
+      "url": "/physics/chapter1-practice.html",
+      "contentState": "ready",
+      "defaultBucket": "later",
+      "steps": [
+        {"id": "attempt", "label": "首次作答完成"},
+        {"id": "correction", "label": "订正完成"},
+        {"id": "retest", "label": "延迟复测通过"}
+      ]
+    },
+    {
+      "id": "physics-chapter2-review",
+      "subject": "physics",
+      "title": "第二章知识小结",
+      "description": "匀变速公式条件、图像、自由落体、分段和刹车追及。",
+      "url": "/physics/chapter2-review.html",
+      "contentState": "ready",
+      "defaultBucket": "later",
+      "steps": [{"id": "review", "label": "回看完成"}]
+    },
+    {
+      "id": "physics-chapter2-practice",
+      "subject": "physics",
+      "title": "第二章针对练习",
+      "description": "6 道针对题与延迟挑战。",
+      "url": "/physics/chapter2-practice.html",
+      "contentState": "ready",
+      "defaultBucket": "later",
+      "steps": [
+        {"id": "attempt", "label": "首次作答完成"},
+        {"id": "correction", "label": "订正完成"},
+        {"id": "retest", "label": "延迟复测通过"}
+      ]
+    },
+    {
+      "id": "chemistry-special-1",
+      "subject": "chemistry",
+      "title": "第一轮化学错题专项",
+      "description": "纸笔首次作答与批改已归档，下一步完成重点订正。",
+      "url": "/chemistry/special-practice-1.html#paper-review",
+      "contentState": "ready",
+      "defaultBucket": "week",
+      "steps": [
+        {"id": "attempt", "label": "首次作答完成"},
+        {"id": "correction", "label": "重点订正完成"},
+        {"id": "retest", "label": "间隔复测通过"}
+      ],
+      "defaultDone": ["attempt"]
+    },
+    {
+      "id": "chemistry-retest-1",
+      "subject": "chemistry",
+      "title": "第一轮化学滚动复测",
+      "description": "重点复测胶体概念、渗析实验和方程式规范。",
+      "contentState": "preparing",
+      "defaultBucket": "later",
+      "steps": [{"id": "retest", "label": "复测通过"}]
+    }
+  ]
+}

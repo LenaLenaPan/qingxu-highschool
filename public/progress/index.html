@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>学习进度 · 清许学习空间</title>
+  <link rel="stylesheet" href="/shared/portal.css">
+  <link rel="stylesheet" href="/shared/progress.css">
+</head>
+<body>
+<main data-qx-progress-app>
+  <div class="kicker">清许 · 学习进度</div>
+  <h1>现在做什么，一眼看清</h1>
+  <p class="muted">手机和电脑使用同一个账号，完成状态会自动同步。勾选进度不会触发网站构建。</p>
+
+  <section class="qx-auth card" aria-label="账号与同步状态">
+    <div class="qx-auth-intro">
+      <strong data-qx-sync-state>登录后在手机与电脑间同步</strong>
+      <span data-qx-auth-message>首次登录会合并当前设备中已有的学习记录。</span>
+    </div>
+    <form data-qx-login-form class="qx-login" hidden>
+      <label>邮箱<input data-qx-email type="email" autocomplete="email" required></label>
+      <label>密码<input data-qx-password type="password" autocomplete="current-password" required></label>
+      <button type="submit">登录并同步</button>
+    </form>
+    <form data-qx-invite-form class="qx-login" hidden>
+      <label>设置密码<input data-qx-invite-password type="password" autocomplete="new-password" minlength="8" required></label>
+      <button type="submit">启用学习账号</button>
+    </form>
+    <div data-qx-account-panel class="qx-account" hidden>
+      <span data-qx-user-email></span><button data-qx-logout type="button">退出</button>
+    </div>
+  </section>
+
+  <section class="qx-overview">
+    <div class="qx-summary" data-qx-progress-summary><strong>0</strong><span>已完成</span><strong>0</strong><span>待推进</span></div>
+    <p>“已完成”要求该任务定义的步骤全部完成；练习类任务通常包括首次作答、订正和间隔复测。</p>
+  </section>
+
+  <section class="qx-bucket qx-bucket-today">
+    <div class="qx-bucket-head"><div><span>优先推进</span><h2>今天</h2></div><p>最多保留 3 项核心任务</p></div>
+    <div class="qx-task-grid" data-qx-bucket="today"></div>
+  </section>
+  <section class="qx-bucket">
+    <div class="qx-bucket-head"><div><span>近期计划</span><h2>本周</h2></div><p>今天完成后再推进</p></div>
+    <div class="qx-task-grid" data-qx-bucket="week"></div>
+  </section>
+  <section class="qx-bucket">
+    <div class="qx-bucket-head"><div><span>任务池</span><h2>后续</h2></div><p>已经记录，本周暂不展开</p></div>
+    <div class="qx-task-grid" data-qx-bucket="later"></div>
+  </section>
+  <details class="qx-completed">
+    <summary>查看已完成内容</summary>
+    <div class="qx-task-grid" data-qx-bucket="done"></div>
+  </details>
+</main>
+<script defer src="/shared/nav.js"></script>
+<script defer src="/shared/progress-sync.js"></script>
+</body>
+</html>

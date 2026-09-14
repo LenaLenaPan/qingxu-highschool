@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>清许物理｜前两周错题诊断与弱项修复</title>
+  <style>
+    :root {
+      --ink:#172033; --muted:#667085; --paper:#fffdf8; --blue:#3157d5;
+      --blue-soft:#eef3ff; --green:#087a63; --green-soft:#eaf8f3;
+      --orange:#b94d16; --orange-soft:#fff2e8; --line:#e5e7eb;
+      --shadow:0 18px 48px rgba(29,41,57,.10);
+    }
+    *{box-sizing:border-box}
+    body{margin:0;background:#f2f5fa;color:var(--ink);font-family:"PingFang SC","Microsoft YaHei",system-ui,sans-serif;line-height:1.75}
+    .page{max-width:980px;margin:28px auto;padding:0 18px 64px}
+    .hero{padding:42px;border-radius:26px;background:linear-gradient(135deg,#1f3f9f,#3b68e8 58%,#6e8fff);color:white;box-shadow:var(--shadow)}
+    .eyebrow{font-size:13px;letter-spacing:.14em;opacity:.82}.hero h1{margin:8px 0 12px;font-size:clamp(28px,5vw,46px);line-height:1.2}
+    .hero p{margin:0;max-width:760px;font-size:17px;opacity:.94}.chips{display:flex;flex-wrap:wrap;gap:9px;margin-top:22px}
+    .chip{padding:6px 12px;border:1px solid rgba(255,255,255,.34);border-radius:999px;background:rgba(255,255,255,.12);font-size:13px}
+    nav{display:flex;gap:8px;overflow:auto;margin:18px 0;padding:8px;background:white;border:1px solid var(--line);border-radius:16px;position:sticky;top:8px;z-index:5;box-shadow:0 5px 20px rgba(29,41,57,.07)}
+    nav a{white-space:nowrap;padding:7px 12px;border-radius:10px;text-decoration:none;color:var(--ink);font-size:14px}nav a:hover{background:var(--blue-soft);color:var(--blue)}
+    section{margin-top:18px;padding:30px;background:var(--paper);border:1px solid var(--line);border-radius:22px;box-shadow:0 8px 28px rgba(29,41,57,.05)}
+    h2{margin:0 0 18px;font-size:25px}h3{margin:24px 0 10px;font-size:19px}.lead{font-size:18px}
+    .callout{padding:17px 19px;border-left:5px solid var(--blue);border-radius:12px;background:var(--blue-soft)}
+    .good{border-color:var(--green);background:var(--green-soft)}.warn{border-color:#e87533;background:var(--orange-soft)}
+    .grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}.card{padding:18px;border:1px solid var(--line);border-radius:15px;background:#fff}
+    .card strong{display:block;margin-bottom:5px}.tag{display:inline-block;margin-right:6px;padding:2px 8px;border-radius:999px;font-size:12px;font-weight:700;background:var(--orange-soft);color:var(--orange)}
+    table{width:100%;border-collapse:collapse;font-size:14px}th,td{padding:11px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}th{background:#f7f8fb}
+    .formula{margin:10px 0;padding:12px 16px;border-radius:10px;background:#f7f8fb;font-family:ui-monospace,SFMono-Regular,Menlo,monospace;overflow:auto}
+    .method{counter-reset:step}.method li{margin:8px 0}.method li::marker{font-weight:700;color:var(--blue)}
+    .q{margin:17px 0;padding:20px;border:1px solid #d9deea;border-radius:16px;background:#fff}.q h3{margin:0 0 8px;font-size:17px}.score{float:right;color:var(--blue);font-size:13px}
+    .q p{margin:7px 0}.choices{margin:8px 0 8px 1.2em}.choices li{margin:4px 0}
+    textarea{width:100%;min-height:88px;margin-top:10px;padding:12px;border:1px solid #cfd5e1;border-radius:10px;background:#fff;font:inherit;resize:vertical}textarea:focus{outline:3px solid #dce6ff;border-color:var(--blue)}
+    .done{display:flex;align-items:center;gap:8px;margin-top:9px;color:var(--muted);font-size:13px}.done input{width:17px;height:17px}
+    details{margin-top:10px;border:1px dashed #cbd3e2;border-radius:10px;padding:8px 12px;background:#fbfcff}summary{cursor:pointer;color:var(--blue);font-weight:650}
+    .answer{border-style:solid;background:#f7fbf9}.answer summary{color:var(--green)}
+    .progress-wrap{margin-top:16px}.progress-line{height:9px;background:rgba(255,255,255,.24);border-radius:99px;overflow:hidden}.progress-bar{height:100%;width:0;background:#fff;border-radius:99px;transition:.25s}.progress-text{margin-top:6px;font-size:13px;opacity:.9}
+    .rule{display:grid;grid-template-columns:110px 1fr;gap:12px;margin:8px 0}.rule b{color:var(--blue)}
+    footer{text-align:center;color:var(--muted);font-size:13px;margin:28px}
+    @media(max-width:700px){.hero,section{padding:23px}.grid{grid-template-columns:1fr}.rule{grid-template-columns:1fr;gap:0}table{font-size:13px}.wide{overflow:auto}.page{padding:0 10px 40px;margin:10px auto}.score{float:none;margin-left:8px}}
+    @media print{body{background:#fff}.page{max-width:none;margin:0;padding:0}.hero{box-shadow:none}.hero,.chip{-webkit-print-color-adjust:exact;print-color-adjust:exact}nav,.progress-wrap,.done{display:none}section{box-shadow:none;break-inside:auto}.q{break-inside:avoid}textarea{min-height:70px}details:not([open])>*:not(summary){display:none}.answers{break-before:page}}
+  </style>
+</head>
+<body>
+<main class="page">
+  <header class="hero">
+    <div class="eyebrow">清许物理 · 高一上 · 第一轮诊断</div>
+    <h1>前两周错题诊断与弱项修复</h1>
+    <p>这次不重学整章，只修一条关键主线：把真实运动翻译成“方向 → 正负号 → 位移/速度 → 图像斜率”。</p>
+    <div class="chips"><span class="chip">建议 35–40 分钟</span><span class="chip">12 题 · 40 分</span><span class="chip">首次作答与订正分开</span><span class="chip">答案默认折叠</span></div>
+    <div class="progress-wrap"><div class="progress-line"><div class="progress-bar" id="bar"></div></div><div class="progress-text" id="progressText">训练完成 0 / 12</div></div>
+  </header>
+
+  <nav aria-label="页面导航"><a href="#diagnosis">诊断结论</a><a href="#methods">方法卡</a><a href="#examples">原卷代表题</a><a href="#practice">12题训练</a><a href="#answers">答案与复测</a></nav>
+
+  <section id="diagnosis">
+    <h2>一、这两周真正卡在哪里？</h2>
+    <div class="callout good lead"><strong>先说结论：</strong>基础定义和直接计算总体没有问题。现在的错误不是“整章不会”，而是遇到转向、反弹、数轴和图像后，没有稳定地把方向写进计算。</div>
+    <div class="grid" style="margin-top:14px">
+      <div class="card"><strong>已经会的</strong>质点、参考系、时刻与时间间隔；路程和位移的基本定义；简单匀速运动；加速度的基本含义。</div>
+      <div class="card"><strong>本轮只修的</strong>规定正方向；速度变化量；路程与位移的分工；x-t、v-t 图像的斜率；完整写出方向。</div>
+    </div>
+    <h3>错题不是散的，而是一条连续的错误链</h3>
+    <div class="wide"><table>
+      <thead><tr><th>优先级</th><th>表现</th><th>根因</th><th>修复动作</th></tr></thead>
+      <tbody>
+        <tr><td><span class="tag">P0</span></td><td>反弹时把两个速率直接相减</td><td>没有先把速度写成带正负号的量</td><td>先定正方向，再写 v₁、v₂，最后算 v₂−v₁</td></tr>
+        <tr><td><span class="tag">P0</span></td><td>路程、位移、平均速率、平均速度混用</td><td>公式的分子没有先判断</td><td>先问“走了多长”还是“起点指向终点”</td></tr>
+        <tr><td><span class="tag">P1</span></td><td>图像题凭形状判断运动</td><td>没有用斜率翻译图像</td><td>x-t 看斜率得速度；v-t 看斜率得加速度</td></tr>
+        <tr><td><span class="tag">P1</span></td><td>会算大小，但漏写方向</td><td>仍在用标量思维答矢量题</td><td>位移、速度、加速度结果都做“方向检查”</td></tr>
+        <tr><td><span class="tag">P2</span></td><td>600+800 写成 2600</td><td>完成后没有做数量级复核</td><td>每题留 10 秒检查符号、运算、单位、方向</td></tr>
+      </tbody>
+    </table></div>
+  </section>
+
+  <section id="methods">
+    <h2>二、四张必须会用的方法卡</h2>
+    <div class="grid">
+      <div class="card"><strong>方法卡 A｜矢量四步法</strong><ol class="method"><li>规定正方向。</li><li>把已知速度写成带正负号的量。</li><li>代入 Δv=v₂−v₁。</li><li>负号翻译成方向，不把负号当“大小”。</li></ol></div>
+      <div class="card"><strong>方法卡 B｜四个量不混</strong><div class="rule"><b>路程</b><span>实际走过的轨迹长度</span></div><div class="rule"><b>位移</b><span>从起点指向终点，含方向</span></div><div class="rule"><b>平均速率</b><span>路程 ÷ 时间</span></div><div class="rule"><b>平均速度</b><span>位移 ÷ 时间，含方向</span></div></div>
+      <div class="card"><strong>方法卡 C｜x-t 图像</strong><p>纵坐标是位置；斜率是速度。斜率为正：向正方向；斜率为负：向负方向；水平线：静止。两线相交只表示同一时刻位置相同。</p></div>
+      <div class="card"><strong>方法卡 D｜v-t 图像</strong><p>纵坐标的正负表示速度方向；离横轴越远，速率越大；斜率是加速度；穿过横轴表示速度方向改变。</p></div>
+    </div>
+    <div class="callout warn" style="margin-top:14px"><strong>本轮强制动作：</strong>只要题目出现位移、速度、速度变化量或加速度，第一行先写“规定____方向为正方向”。</div>
+  </section>
+
+  <section id="examples">
+    <h2>三、原卷中最值得吃透的两类题</h2>
+    <h3>代表题 1｜先向南 600 m，再向东 800 m</h3>
+    <p>路程是两段轨迹之和：600+800=1400 m。位移是起点到终点的有向线段，大小为：</p>
+    <div class="formula">|Δx| = √(600² + 800²) = 1000 m，方向为东偏南</div>
+    <p>这里既要防止把 600+800 算错，也不能只写“1000 m”而漏掉方向。</p>
+    <h3>代表题 2｜落地后反弹</h3>
+    <p>若向上为正，下落速度 10 m/s 写成 −10 m/s，反弹后向上 6 m/s 写成 +6 m/s：</p>
+    <div class="formula">Δv = v₂ − v₁ = 6 − (−10) = 16 m/s，方向向上</div>
+    <p>反弹题最常见的错误是写成 6−10。括号里的负号，正是这类题的得分点。</p>
+  </section>
+
+  <section id="practice">
+    <h2>四、前两周弱项修复训练</h2>
+    <div class="callout"><strong>作答规则：</strong>第一次用黑笔完成，不打开答案；不会时只打开“一级提示”。订正使用蓝笔，并在旁边写一句“我原来错在……”。</div>
+
+    <article class="q"><h3>1. 数轴上的往返 <span class="score">2分</span></h3><p>规定向东为正方向。小车从 x＝−4 m 的 A 点出发，先到 x＝3 m 的 B 点，再到 x＝−1 m 的 C 点。求全过程的路程和位移。</p><details><summary>一级提示</summary><p>路程要分段相加；位移只看起点和终点。</p></details><textarea data-key="q1" placeholder="首次作答：先写正方向、计算过程和方向……"></textarea><label class="done"><input type="checkbox" data-done="1">我已完成首次作答</label></article>
+
+    <article class="q"><h3>2. 折线路径 <span class="score">3分</span></h3><p>以学校为原点，向东为 x 轴正方向、向北为 y 轴正方向。清许先向北走 300 m，再向东走 400 m。求路程、终点坐标、位移大小和方向。</p><details><summary>一级提示</summary><p>终点坐标写成 (x,y)；位移大小可用勾股定理。</p></details><textarea data-key="q2" placeholder="首次作答……"></textarea><label class="done"><input type="checkbox" data-done="2">我已完成首次作答</label></article>
+
+    <article class="q"><h3>3. 半圆跑道 <span class="score">3分</span></h3><p>半径为 50 m 的圆形跑道，A、B 分别是最西端和最东端。运动员从 A 沿上半圆跑到 B。求路程和位移。</p><details><summary>一级提示</summary><p>半圆弧长与直径分别对应哪个量？</p></details><textarea data-key="q3" placeholder="首次作答……"></textarea><label class="done"><input type="checkbox" data-done="3">我已完成首次作答</label></article>
+
+    <article class="q"><h3>4. 位置为负，不等于向负方向运动 <span class="score">2分</span></h3><p>物体在 t＝0 时位于 x＝−6 m，t＝4 s 时位于 x＝−2 m。以下判断正确的是：</p><ol class="choices" type="A"><li>位移为 −4 m</li><li>位移为 +4 m，平均速度为 +1 m/s</li><li>物体始终向负方向运动</li><li>路程一定为 4 m</li></ol><textarea data-key="q4" placeholder="选项 + 理由……"></textarea><label class="done"><input type="checkbox" data-done="4">我已完成首次作答</label></article>
+
+    <article class="q"><h3>5. 从数据表读 x-t 运动 <span class="score">4分</span></h3><div class="wide"><table><tr><th>t/s</th><td>0</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td></tr><tr><th>x/m</th><td>−2</td><td>0</td><td>2</td><td>4</td><td>4</td><td>1</td><td>−2</td></tr></table></div><p>指出物体向正方向匀速运动、静止、向负方向匀速运动的时间段；再求 0～6 s 的路程和位移。</p><details><summary>一级提示</summary><p>比较相邻时刻的位置变化；路程不能用末位置直接减初位置。</p></details><textarea data-key="q5" placeholder="首次作答……"></textarea><label class="done"><input type="checkbox" data-done="5">我已完成首次作答</label></article>
+
+    <article class="q"><h3>6. x-t 图线相交意味着什么 <span class="score">3分</span></h3><p>甲、乙沿同一直线运动，位置分别为 x甲＝−4+2t、x乙＝8−t（单位均为国际单位）。求两者相遇的时刻和位置，并判断相遇时速度是否相同。</p><details><summary>一级提示</summary><p>相遇时位置相同；速度由 x 随 t 的变化率确定。</p></details><textarea data-key="q6" placeholder="首次作答……"></textarea><label class="done"><input type="checkbox" data-done="6">我已完成首次作答</label></article>
+
+    <article class="q"><h3>7. 把语言翻译成 v-t 图像特征 <span class="score">3分</span></h3><p>物体初速度沿正方向、大小为 6 m/s，随后做匀减速运动，第 3 s 末速度减为 0；之后继续沿负方向运动，速率均匀增大。请描述或画出其 v-t 图像，并说明图线为什么必须穿过横轴。</p><details><summary>一级提示</summary><p>“匀变速”对应直线；横轴上的点表示 v＝0。</p></details><textarea data-key="q7" placeholder="可写图像特征，也可在纸上画图后写结论……"></textarea><label class="done"><input type="checkbox" data-done="7">我已完成首次作答</label></article>
+
+    <article class="q"><h3>8. 速度为负时，也可能加速度为正 <span class="score">3分</span></h3><div class="wide"><table><tr><th>t/s</th><td>0</td><td>1</td><td>2</td><td>3</td></tr><tr><th>v/(m·s⁻¹)</th><td>−2</td><td>0</td><td>2</td><td>4</td></tr></table></div><p>求加速度；说明 0～1 s 和 1～3 s 内物体的运动方向及速率变化。</p><details><summary>一级提示</summary><p>加速度看每秒速度增加多少；速率是速度的绝对值。</p></details><textarea data-key="q8" placeholder="首次作答……"></textarea><label class="done"><input type="checkbox" data-done="8">我已完成首次作答</label></article>
+
+    <article class="q"><h3>9. 同方向减速 <span class="score">3分</span></h3><p>规定向东为正方向。汽车速度在 2 s 内由向东 12 m/s 变为向东 4 m/s。求速度变化量和平均加速度，并说明方向。</p><details><summary>一级提示</summary><p>v₁、v₂ 都是正数，但 v₂−v₁ 可以为负。</p></details><textarea data-key="q9" placeholder="首次作答……"></textarea><label class="done"><input type="checkbox" data-done="9">我已完成首次作答</label></article>
+
+    <article class="q"><h3>10. 反弹中的速度变化量 <span class="score">3分</span></h3><p>小球以 8 m/s 的速度竖直向下撞击地面，又以 6 m/s 的速度竖直向上弹起，接触时间为 0.20 s。规定向上为正方向，求速度变化量和平均加速度。</p><details><summary>一级提示</summary><p>先写 v₁＝____，v₂＝____，再相减。</p></details><textarea data-key="q10" placeholder="首次作答……"></textarea><label class="done"><input type="checkbox" data-done="10">我已完成首次作答</label></article>
+
+    <article class="q"><h3>11. 光电门与瞬时速度 <span class="score">3分</span></h3><p>小车经过同一位置时，用不同宽度的遮光片测量速度：</p><div class="wide"><table><tr><th>组别</th><th>A</th><th>B</th><th>C</th><th>D</th></tr><tr><th>遮光片宽度/cm</th><td>4.0</td><td>2.0</td><td>1.0</td><td>0.50</td></tr><tr><th>挡光时间/s</th><td>0.080</td><td>0.039</td><td>0.0195</td><td>0.0098</td></tr></table></div><p>哪组结果最适合近似小车经过该位置的瞬时速度？计算该速度，并解释原因。</p><details><summary>一级提示</summary><p>先分别用“遮光片宽度÷挡光时间”求平均速度，再考虑哪段过程最短。</p></details><textarea data-key="q11" placeholder="首次作答……"></textarea><label class="done"><input type="checkbox" data-done="11">我已完成首次作答</label></article>
+
+    <article class="q"><h3>12. 综合验收｜下落—反弹—上升 <span class="score">8分</span></h3><p>小球从距地面 2 m 的 A 点以 6 m/s 的速度竖直向下运动，落地反弹后到达距地面 5 m 的 B 点，此时速度为 4 m/s、方向竖直向上。从 A 到 B 共用时 0.50 s。规定向上为正方向，求：</p><ol><li>全过程路程；</li><li>从 A 到 B 的位移；</li><li>平均速率和平均速度；</li><li>速度变化量和平均加速度。</li></ol><details><summary>一级提示</summary><p>路程＝2+5；位移＝终点高度−起点高度；v₁＝−6 m/s，v₂＝+4 m/s。</p></details><textarea data-key="q12" style="min-height:150px" placeholder="首次作答：分四小问写完整过程……"></textarea><label class="done"><input type="checkbox" data-done="12">我已完成首次作答</label></article>
+  </section>
+
+  <section id="answers" class="answers">
+    <h2>五、答案、订正与滚动复测</h2>
+    <div class="callout warn"><strong>请在完成全部首次作答后再展开。</strong>订正不是抄答案：先圈出错误发生在哪一步，再重新完整计算。</div>
+    <details class="answer"><summary>展开参考答案</summary>
+      <ol>
+        <li>路程 11 m；位移 +3 m，即向东 3 m。</li>
+        <li>路程 700 m；终点 (400,300) m；位移大小 500 m，方向东北（或东偏北约 36.9°）。</li>
+        <li>路程 50π m；位移 100 m，方向向东。</li>
+        <li>B。仅凭两个时刻的位置不能确定实际路程，所以 D 不成立。</li>
+        <li>0～3 s 向正方向匀速；3～4 s 静止；4～6 s 向负方向匀速。路程 12 m，位移 0。</li>
+        <li>−4+2t＝8−t，得 t＝4 s、x＝4 m。相遇时位置相同，速度不同：v甲＝+2 m/s，v乙＝−1 m/s。</li>
+        <li>v-t 图像是一条斜向下的直线，初始 v＝+6 m/s，在 t＝3 s 穿过横轴后进入负值区域。穿轴表示速度由正变负，运动方向改变。</li>
+        <li>a＝2 m/s²，方向为正。0～1 s 向负方向运动且速率减小；1～3 s 向正方向运动且速率增大。</li>
+        <li>Δv＝4−12＝−8 m/s，方向向西；平均加速度 a＝−8/2＝−4 m/s²，方向向西。</li>
+        <li>v₁＝−8 m/s，v₂＝+6 m/s；Δv＝14 m/s，方向向上；平均加速度 70 m/s²，方向向上。</li>
+        <li>D 组；v≈0.0050/0.0098≈0.51 m/s。遮光片越窄，测量对应的时间和位移越短，平均速度越接近该位置的瞬时速度。</li>
+        <li>路程 7 m；位移 +3 m，即向上 3 m；平均速率 14 m/s；平均速度 +6 m/s，即向上 6 m/s；Δv＝4−(−6)＝10 m/s，方向向上；平均加速度 20 m/s²，方向向上。</li>
+      </ol>
+    </details>
+    <h3>订正时只标一种主因</h3>
+    <p>在错题旁标注：①方向/正负号　②路程与位移　③图像斜率　④公式选择　⑤运算　⑥单位或漏答方向。</p>
+    <h3>滚动复测安排</h3>
+    <ul><li><strong>次日：</strong>重做第 6、8、10、12 题，不看原答案。</li><li><strong>3 天后：</strong>做同构变式，重点检查能否主动规定正方向。</li><li><strong>7 天后：</strong>用 4 道混合题验收；若反弹题和图像题均独立完成，本轮弱项才算通过。</li></ul>
+  </section>
+  <footer>清许物理 · 少量高质量训练 · 先保留首思路，再完成订正与复测</footer>
+</main>
+<script>
+  const prefix='qx-phy-w12-';
+  document.querySelectorAll('textarea[data-key]').forEach(el=>{
+    el.value=localStorage.getItem(prefix+el.dataset.key)||'';
+    el.addEventListener('input',()=>localStorage.setItem(prefix+el.dataset.key,el.value));
+  });
+  const boxes=[...document.querySelectorAll('[data-done]')];
+  function update(){
+    const n=boxes.filter(b=>b.checked).length;
+    document.getElementById('bar').style.width=(n/boxes.length*100)+'%';
+    document.getElementById('progressText').textContent=`训练完成 ${n} / ${boxes.length}`;
+  }
+  boxes.forEach(b=>{
+    b.checked=localStorage.getItem(prefix+'done-'+b.dataset.done)==='1';
+    b.addEventListener('change',()=>{localStorage.setItem(prefix+'done-'+b.dataset.done,b.checked?'1':'0');update()});
+  });
+  update();
+</script>
+<script defer src="/shared/nav.js"></script>
+</body>
+</html>

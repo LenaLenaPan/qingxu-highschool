@@ -1,0 +1,367 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>清许数学｜前两周弱项确认卷</title>
+  <style>
+    :root {
+      --ink: #17334b;
+      --muted: #687a89;
+      --teal: #16756f;
+      --teal-soft: #e8f6f3;
+      --amber: #b56b16;
+      --amber-soft: #fff4dd;
+      --line: #d9e3e7;
+      --paper: #fff;
+      --bg: #f2f6f7;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      color: var(--ink);
+      background: var(--bg);
+      font-family: "PingFang SC", "Microsoft YaHei", system-ui, sans-serif;
+      line-height: 1.7;
+    }
+    main { width: min(940px, calc(100% - 28px)); margin: 26px auto 60px; }
+    header {
+      padding: 32px 36px;
+      color: white;
+      border-radius: 24px;
+      background: linear-gradient(135deg, #173c55, #16756f);
+      box-shadow: 0 18px 45px rgba(23, 51, 75, .16);
+    }
+    header h1 { margin: 4px 0 8px; font-size: clamp(28px, 5vw, 43px); line-height: 1.2; }
+    header p { margin: 0; color: #e7f4f2; }
+    .eyebrow { font-size: 13px; font-weight: 700; letter-spacing: .08em; }
+    .card {
+      margin-top: 18px;
+      padding: 24px 28px;
+      border: 1px solid var(--line);
+      border-radius: 19px;
+      background: var(--paper);
+      box-shadow: 0 8px 24px rgba(23, 51, 75, .06);
+    }
+    h2 { margin: 0 0 12px; font-size: 24px; }
+    h3 { margin: 0; font-size: 18px; }
+    p { margin: 8px 0; }
+    ul, ol { padding-left: 1.35em; }
+    li + li { margin-top: 6px; }
+    .meta {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 12px;
+      margin-top: 16px;
+    }
+    .field { padding: 10px 12px; border-bottom: 1px solid #9cadb9; color: var(--muted); }
+    .rule {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 10px;
+      padding: 0;
+      list-style: none;
+    }
+    .rule li { padding: 11px 13px; border-radius: 12px; background: var(--teal-soft); }
+    .route { color: var(--amber); font-weight: 700; }
+    .section-title {
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      gap: 10px;
+      padding-bottom: 10px;
+      border-bottom: 2px solid var(--teal);
+    }
+    .section-title small { color: var(--muted); }
+    .question {
+      margin-top: 18px;
+      padding: 18px 18px 15px;
+      border: 1px solid var(--line);
+      border-radius: 15px;
+      break-inside: avoid;
+    }
+    .qhead { display: flex; align-items: flex-start; gap: 10px; }
+    .num {
+      flex: 0 0 auto;
+      display: grid;
+      width: 31px;
+      height: 31px;
+      place-items: center;
+      border-radius: 50%;
+      color: white;
+      background: var(--teal);
+      font-weight: 800;
+    }
+    .points { color: var(--amber); font-weight: 700; white-space: nowrap; }
+    .math { font-family: "Times New Roman", "Songti SC", serif; font-size: 18px; }
+    .work {
+      min-height: 76px;
+      margin-top: 13px;
+      border-radius: 9px;
+      background: repeating-linear-gradient(to bottom, transparent 0, transparent 29px, #e5ecef 30px);
+    }
+    .work.tall { min-height: 150px; }
+    .work.medium { min-height: 110px; }
+    .tip { color: var(--muted); font-size: 14px; }
+    table { width: 100%; border-collapse: collapse; margin: 12px 0; }
+    th, td { padding: 10px 11px; text-align: left; vertical-align: top; border: 1px solid var(--line); }
+    th { background: #eef5f6; }
+    details.answer {
+      margin-top: 18px;
+      border: 2px solid #efcf91;
+      border-radius: 16px;
+      background: #fffaf0;
+    }
+    details.answer > summary {
+      cursor: pointer;
+      padding: 16px 18px;
+      color: #935515;
+      font-weight: 800;
+    }
+    details.answer > div { padding: 0 18px 20px; }
+    .solution { padding: 15px 0; border-top: 1px dashed #d9bd86; }
+    .solution:first-child { border-top: 0; }
+    .score-box {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 10px;
+    }
+    .score-box div { padding: 13px; border-radius: 12px; background: #edf4ff; }
+    .warn { color: #9e3f43; font-weight: 700; }
+    footer { padding: 22px 0; text-align: center; color: var(--muted); font-size: 14px; }
+    @media (max-width: 680px) {
+      main { width: min(100% - 18px, 940px); margin-top: 10px; }
+      header, .card { padding: 21px 18px; border-radius: 16px; }
+      .meta, .rule, .score-box { grid-template-columns: 1fr; }
+      .question { padding: 16px 14px; }
+    }
+    @media print {
+      @page { size: A4; margin: 14mm; }
+      body { background: white; font-size: 11pt; }
+      main { width: 100%; margin: 0; }
+      header { border-radius: 0; box-shadow: none; }
+      .card { box-shadow: none; }
+      details.answer { display: none; }
+      .question { border-color: #aebbc3; }
+    }
+  </style>
+</head>
+<body>
+<main>
+  <header>
+    <div class="eyebrow">清许数学 · 无提示确认卷</div>
+    <h1>前两周弱项确认卷</h1>
+    <p>12题 · 40分 · 建议35～40分钟。用于弱项回看与月考增强之后的延迟检验。</p>
+  </header>
+
+  <section class="card">
+    <h2>使用说明</h2>
+    <p class="route">第二章5道验收题 → 弱项回看 → 月考增强题 → 隔2～3天完成本卷</p>
+    <ul class="rule">
+      <li>全程无提示，不翻弱项解析。</li>
+      <li>黑笔保留首次作答，不擦除首思路。</li>
+      <li>不会也要写第一步，空题不超过3分钟。</li>
+      <li>做完后再打开页面末尾的答案。</li>
+    </ul>
+    <div class="meta">
+      <div class="field">姓名：</div>
+      <div class="field">日期：</div>
+      <div class="field">实际用时：</div>
+    </div>
+  </section>
+
+  <section class="card">
+    <div class="section-title"><h2>一、概念与逻辑</h2><small>14分</small></div>
+
+    <article class="question">
+      <div class="qhead"><span class="num">1</span><div><h3>命题识别 <span class="points">4分</span></h3><p>判断下列句子是否为命题；若是，再判断真假。</p></div></div>
+      <ol class="math">
+        <li>x²＋1＞0；</li>
+        <li>3−√10＞0；</li>
+        <li>2是质数吗？</li>
+        <li>所有正方形都是矩形。</li>
+      </ol>
+      <div class="work"></div>
+    </article>
+
+    <article class="question">
+      <div class="qhead"><span class="num">2</span><div><h3>充分必要条件 <span class="points">4分</span></h3><p>判断A是B的什么条件，并写出必要的箭头或反例。</p></div></div>
+      <ol class="math">
+        <li>A：a＞b；B：a²＞b²（a，b∈R）。</li>
+        <li>A：x＞2；B：1/x＜1（x≠0）。</li>
+      </ol>
+      <div class="work medium"></div>
+    </article>
+
+    <article class="question">
+      <div class="qhead"><span class="num">3</span><div><h3>自己构造条件 <span class="points">3分</span></h3><p>设a，b∈R。对于“ab＞0”，分别写出：</p></div></div>
+      <ol class="math">
+        <li>一个充分非必要条件；</li>
+        <li>一个必要非充分条件。</li>
+      </ol>
+      <div class="work"></div>
+    </article>
+
+    <article class="question">
+      <div class="qhead"><span class="num">4</span><div><h3>带条件的子集计数 <span class="points">3分</span></h3></div></div>
+      <p class="math">A⊆{1，2，3，4，5}，且2∈A，A中恰有一个奇数。这样的集合A共有多少个？</p>
+      <div class="work"></div>
+    </article>
+  </section>
+
+  <section class="card">
+    <div class="section-title"><h2>二、集合对象与参数</h2><small>19分</small></div>
+
+    <article class="question">
+      <div class="qhead"><span class="num">5</span><div><h3>幂集与元素关系 <span class="points">3分</span></h3></div></div>
+      <p class="math">已知X＝{0，1，2}，Y＝{M｜M⊆X}。</p>
+      <ol class="math">
+        <li>列出集合Y；</li>
+        <li>判断“X∈Y”是否正确。</li>
+      </ol>
+      <div class="work medium"></div>
+    </article>
+
+    <article class="question">
+      <div class="qhead"><span class="num">6</span><div><h3>值域集合与图像点集 <span class="points">4分</span></h3></div></div>
+      <ol class="math">
+        <li>P＝{y｜y＝x²−2，x∈R}，Q＝{y｜y＝−x²＋2，x∈R}，求P∩Q；</li>
+        <li>M＝{(x，y)｜y＝x²−2}，N＝{(x，y)｜y＝−x²＋2}，求M∩N。</li>
+      </ol>
+      <div class="work tall"></div>
+    </article>
+
+    <article class="question">
+      <div class="qhead"><span class="num">7</span><div><h3>一次方程退化 <span class="points">2分</span></h3></div></div>
+      <p class="math">关于x的方程 ax＋1＝x＋a 有且仅有一个实数解，求a的取值范围。</p>
+      <div class="work"></div>
+    </article>
+
+    <article class="question">
+      <div class="qhead"><span class="num">8</span><div><h3>二次方程退化 <span class="points">3分</span></h3></div></div>
+      <p class="math">集合A＝{x｜ax²＋4x＋1＝0}恰有一个元素，求a。</p>
+      <div class="work medium"></div>
+    </article>
+
+    <article class="question">
+      <div class="qhead"><span class="num">9</span><div><h3>区间端点与补集 <span class="points">3分</span></h3></div></div>
+      <p class="math">全集U＝R，A＝(−∞，−2]∪(1，4)，B＝[−3，2)。求 A∩B 与 A的补集∪B。</p>
+      <div class="work medium"></div>
+    </article>
+
+    <article class="question">
+      <div class="qhead"><span class="num">10</span><div><h3>包含关系中的空集 <span class="points">4分</span></h3></div></div>
+      <p class="math">A＝[−1，3]，C＝{x｜2a≤x≤a＋2}。若C⊆A，求实数a的取值范围。</p>
+      <p class="tip">不得默认C为非空集。</p>
+      <div class="work tall"></div>
+    </article>
+  </section>
+
+  <section class="card">
+    <div class="section-title"><h2>三、证明闭环</h2><small>7分</small></div>
+
+    <article class="question">
+      <div class="qhead"><span class="num">11</span><div><h3>反证法 <span class="points">3分</span></h3></div></div>
+      <p class="math">用反证法证明：√6是无理数。</p>
+      <p class="tip">必须写出“既约分数”的条件，以及最后矛盾的对象。</p>
+      <div class="work tall"></div>
+    </article>
+
+    <article class="question">
+      <div class="qhead"><span class="num">12</span><div><h3>新定义与一般证明 <span class="points">4分</span></h3></div></div>
+      <p>非空集合S⊆R满足：任意x，y∈S，都有x＋y∈S且x−y∈S。若S中最小的正数为3，证明：</p>
+      <div class="math">S＝{3n｜n∈Z}。</div>
+      <p class="tip">既要证明所有3的整数倍都在S中，也要证明S中没有其他数。</p>
+      <div class="work tall"></div>
+    </article>
+  </section>
+
+  <section class="card">
+    <h2>首次作答记录</h2>
+    <table>
+      <thead><tr><th>题号</th><th>独立完成</th><th>第一处卡点</th><th>订正后状态</th></tr></thead>
+      <tbody>
+        <tr><td>1～4</td><td>□</td><td></td><td>□已理解　□待复测</td></tr>
+        <tr><td>5～10</td><td>□</td><td></td><td>□已理解　□待复测</td></tr>
+        <tr><td>11～12</td><td>□</td><td></td><td>□已理解　□待复测</td></tr>
+      </tbody>
+    </table>
+    <p class="tip">蓝笔订正正确只表示“本次订正完成”，不自动等于独立掌握。</p>
+  </section>
+
+  <details class="answer">
+    <summary>⚠ 完成并保留首次作答后，再展开答案与评分建议</summary>
+    <div>
+      <div class="solution">
+        <h3>1．命题识别（4分）</h3>
+        <p>（1）不是命题，x没有确定；（2）是命题，且为假命题；（3）不是命题，是疑问句；（4）是命题，且为真命题。</p>
+      </div>
+      <div class="solution">
+        <h3>2．充分必要条件（4分）</h3>
+        <p>（1）既不充分也不必要。A真B假：a＝−1，b＝−2；B真A假：a＝−3，b＝2。</p>
+        <p>（2）A是B的充分非必要条件。x＞2可推出1/x＜1；但x＝−1时B成立而A不成立。</p>
+      </div>
+      <div class="solution">
+        <h3>3．构造条件（3分）</h3>
+        <p>答案不唯一。例如：充分非必要条件为“a＞0且b＞0”；必要非充分条件为“a≠0且b≠0”。必须说明为什么只成立一个方向。</p>
+      </div>
+      <div class="solution">
+        <h3>4．子集计数（3分）</h3>
+        <p>奇数1、3、5中恰选一个，共3种；2必须选；4可选或不选，共2种。因此共有3×2＝6个。</p>
+      </div>
+      <div class="solution">
+        <h3>5．幂集（3分）</h3>
+        <p class="math">Y＝{∅，{0}，{1}，{2}，{0，1}，{0，2}，{1，2}，{0，1，2}}。</p>
+        <p>X∈Y正确，因为X是X自身的一个子集。</p>
+      </div>
+      <div class="solution">
+        <h3>6．集合元素类型（4分）</h3>
+        <p>（1）P＝[−2，＋∞)，Q＝(−∞，2]，所以P∩Q＝[−2，2]。</p>
+        <p>（2）联立x²−2＝−x²＋2，得x＝±√2，y＝0，所以 M∩N＝{(−√2，0)，(√2，0)}。</p>
+      </div>
+      <div class="solution">
+        <h3>7．一次方程退化（2分）</h3>
+        <p>(a−1)x＝a−1。当a≠1时只有一个解x＝1；当a＝1时成为0＝0，有无数个解。因此a≠1。</p>
+      </div>
+      <div class="solution">
+        <h3>8．二次方程退化（3分）</h3>
+        <p>a＝0时，方程为4x＋1＝0，符合；a≠0时必须Δ＝16−4a＝0，得a＝4。因此a＝0或4。</p>
+      </div>
+      <div class="solution">
+        <h3>9．区间端点（3分）</h3>
+        <p class="math">A∩B＝[−3，−2]∪(1，2)；A的补集∪B＝[−3，2)∪[4，＋∞)。</p>
+      </div>
+      <div class="solution">
+        <h3>10．空集分类（4分）</h3>
+        <p>当C为空集时，2a＞a＋2，得a＞2，符合C⊆A。</p>
+        <p>当C非空时，a≤2。要使[2a，a＋2]⊆[−1，3]，需2a≥−1且a＋2≤3，得−1/2≤a≤1。</p>
+        <p class="math">综上，a∈[−1/2，1]∪(2，＋∞)。</p>
+      </div>
+      <div class="solution">
+        <h3>11．反证法（3分）</h3>
+        <p>假设√6为有理数，可写成既约分数p/q，其中p、q为互质正整数。则p²＝6q²，所以2和3都整除p²，从而2和3都整除p，即6｜p。设p＝6k，则36k²＝6q²，所以q²＝6k²，从而6｜q。这与p、q互质矛盾。因此假设不成立，√6是无理数。</p>
+      </div>
+      <div class="solution">
+        <h3>12．新定义证明（4分）</h3>
+        <p>任取x∈S，由x−x＝0，得0∈S。已知3∈S，反复使用加法可得所有正整数倍3n∈S；又0−3＝−3∈S，继续相加可得所有负整数倍。因此{3n｜n∈Z}⊆S。</p>
+        <p>反过来，任取x∈S。由实数的整数部分，可写成x＝3q＋r，其中q∈Z，0≤r＜3。因为3q∈S，且S对减法封闭，所以r＝x−3q∈S。若r＞0，就得到S中一个小于3的正数，与3是最小正数矛盾。因此r＝0，x＝3q。于是S⊆{3n｜n∈Z}。</p>
+        <p>两个方向同时成立，所以S＝{3n｜n∈Z}。</p>
+      </div>
+    </div>
+  </details>
+
+  <section class="card">
+    <h2>结果如何使用</h2>
+    <div class="score-box">
+      <div><strong>36～40分</strong><br>弱项基本稳定，进入低频维护。</div>
+      <div><strong>31～35分</strong><br>只复练对应模块，不重做整卷。</div>
+      <div><strong>30分及以下</strong><br>先回看错误路径，再做同方法变式。</div>
+    </div>
+    <p class="warn">无论总分多少，第8、10、11、12题若未独立完成，都要进入下一轮复测。</p>
+  </section>
+
+  <footer>清许数学 · 2026-09-13 · 首次作答与订正分开记录</footer>
+</main>
+<script defer src="/shared/nav.js"></script>
+</body>
+</html>

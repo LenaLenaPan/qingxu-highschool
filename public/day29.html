@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>清许高考词汇 Day 29｜transform → video</title>
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<div class="wrap">
+  <div class="hero">
+    <h1>清许高考词汇 Day 29</h1>
+    <div class="sub">范围：<b>transform → video</b>（配套练习册第 116–119 天）｜建议用时：30–40分钟</div>
+    <div class="meta">
+      <div class="metric"><span class="small">题量</span><b>70题</b></div>
+      <div class="metric"><span class="small">正式总分</span><b>100分</b></div>
+      <div class="metric"><span class="small">滚动复测</span><b>10分*</b></div>
+      <div class="metric"><span class="small">模式</span><b>离线可用</b></div>
+    </div>
+    <div class="review-note">* 滚动专项复测单独计分，不计入正式100分。题目按手册词段和练习册考点逐题编写并校对；搭配题给出完整语境，词形题依据明确句法位置设问。</div>
+  </div>
+
+  <div id="startPanel" class="card start-panel">
+    <h2>开始前</h2>
+    <p class="sub">不要打开词汇书或练习册。遇到不确定但仍作答的题，请勾选“我不确定”；确需查词时点击“记录查词”。</p>
+    <input id="studentName" type="text" value="清许" aria-label="学生姓名">
+    <div><button id="startBtn" class="primary">开始测试</button></div>
+  </div>
+
+  <div id="exam" class="hidden">
+    <div class="toolbar">
+      <div class="toolbar-inner">
+        <div><span class="pill" id="answeredPill">已答 0/70</span><span class="pill" id="lookupPill">查词 0 次</span><div class="progress"><div id="progressBar"></div></div></div>
+        <div class="toolbar-actions"><button id="lookupBtn">记录查词</button><button id="pauseBtn">暂停</button><button id="submitObjectiveBtn" class="primary">提交客观题</button></div>
+        <div class="timer" id="timer">00:00:00</div>
+      </div>
+    </div>
+    <div id="questions"></div>
+    <div id="manualFinalize" class="card hidden">
+      <h2>翻译自评</h2>
+      <p class="sub">客观题已提交。请查看参考答案并按要点评分：关键意思和目标结构正确得2分；基本意思正确但结构或语法有明显缺漏得1分；关键意思错误或未作答得0分。</p>
+      <button id="finalizeBtn" class="primary">生成最终结果</button>
+    </div>
+  </div>
+
+  <div id="result" class="card result">
+    <h2>Day 29 测试结果</h2>
+    <div class="result-grid">
+      <div><div class="small">正式总分</div><div class="big" id="totalScore">--</div></div>
+      <div><div class="small">滚动复测</div><div class="big" id="reviewScore">--</div></div>
+      <div><div class="small">用时</div><div class="big" id="timeUsed">--</div></div>
+      <div><div class="small">错题数</div><div class="big" id="wrongCount">--</div></div>
+    </div>
+    <div class="band" id="resultBand"></div>
+    <h3>分类表现</h3><div id="categoryScores"></div>
+    <h3>错题与不稳定题</h3><div id="wrongList"></div>
+    <div class="footer-actions"><button id="copyBtn">复制总结</button><button id="downloadBtn">下载结果 TXT</button><button id="restartBtn">重新开始</button></div>
+  </div>
+
+  <div class="navbar"><a class="btnlink" href="day28.html">← Day 28</a><a class="btnlink" href="day30.html">Day 30 →</a></div>
+  <p class="small" style="text-align:center;margin-top:24px">范围依据：《2026年上海市高考英语词汇用法手册》及配套综合练习册；题目按相应词段重新编写。</p>
+</div>
+<script>window.DAY_CONFIG={"day":29,"range":"transform → video","nextText":"请根据以上结果安排 Day 30 的错题复测、间隔复习和新题。","sections":[{"id":"review","title":"零、滚动专项复测","note":"10题，每题1分，不计入正式总分；优先回收 Day 25–28 错题，并再次巩固连续失误的 persuasive 拼写。","category":"滚动专项复测","points":1,"type":"text","counted":false,"items":[["The lawyer presented a carefully reasoned and ___ argument.",["persuasive"]],["The box is too heavy ___ one person to lift.",["for"]],["Passengers must transfer ___ Line 2 to Line 10 at this station.",["from"]],["The results do not support the scientist's ___.",["theory"]],["She let out a ___ when she saw the snake.",["scream"]],["The red light is a ___ that drivers must stop.",["signal"]],["Few people understood the ___ of the discovery at first.",["significance"]],["The hospital needs more ___ nurses.",["skilled"]],["Her words lifted our ___ during the difficult match.",["spirits","spirit"]],["Sales have remained ___ throughout the year.",["steady"]]]},{"id":"meaning","title":"一、词义与拼写","note":"根据中文提示写出最恰当的英文词。每题1分，共20分。","category":"词义与拼写","points":1,"type":"text","counted":true,"items":[["改变；使变形；使转化",["transform"]],["翻译；转化",["translate"]],["传送；传播；传染",["transmit"]],["运输；运送",["transport"]],["陷阱；使陷入困境",["trap"]],["财富；珍宝；珍视",["treasure"]],["对待；治疗；款待",["treat"]],["巨大的；极大的",["tremendous"]],["趋势；倾向",["trend"]],["审判；试验",["trial"]],["诡计；戏法；欺骗",["trick"]],["麻烦；烦恼",["trouble"]],["学费",["tuition"]],["典型的；有代表性的",["typical"]],["无意识的；失去知觉的",["unconscious"]],["承担；承诺",["undertake"]],["不幸的；遗憾的",["unfortunate"]],["紧急的；急迫的",["urgent"]],["有价值的；贵重的",["valuable"]],["视频；录像",["video"]]]},{"id":"collocation","title":"二、固定搭配与介词","note":"根据完整语境填写空格中缺少的词。每题2分，共30分。","category":"固定搭配","points":2,"type":"text","counted":true,"items":[["Please translate this passage ___ English.",["into"]],["Two passengers were trapped ___ the damaged car.",["in"]],["The injured driver is still under ___ in hospital.",["treatment"]],["Some students have trouble ___ understanding this sentence.",["in"]],["He got ___ trouble for breaking the laboratory rules.",["into"]],["She took the trouble ___ explain every step to us.",["to"]],["After years of practice, her dream finally came ___.",["true"]],["To tell the ___, I did not enjoy the film.",["truth"]],["May I try ___ this jacket before buying it?",["on"]],["He had to turn ___ the invitation because he was ill.",["down"]],["The empty warehouse has been turned ___ an art centre.",["into"]],["When she needs advice, she usually turns ___ her teacher.",["to"]],["Frank did not turn ___ until after midnight.",["up"]],["She is used ___ reading English news every morning.",["to"]],["We should make good use ___ every learning opportunity.",["of"]]]},{"id":"context","title":"三、语境辨析","note":"结合句意和搭配选择唯一最恰当的答案。每题2分，共26分。","category":"语境辨析","points":2,"type":"mcq","counted":true,"items":[{"q":"The city is improving public ___ to reduce traffic congestion.","options":["translation","transportation","treatment","transition"],"answer":1},{"q":"The old map may lead travellers into a dangerous ___.","options":["trap","trend","trial","treat"],"answer":0},{"q":"She ___ the letters from her grandfather and keeps them in a special box.","options":["transports","tricks","trials","treasures"],"answer":3},{"q":"A visit to the concert was a special ___ for the children.","options":["treatment","treat","trend","truth"],"answer":1},{"q":"The new software will be put on ___ before it is officially released.","options":["travel","trouble","trial","truth"],"answer":2},{"q":"Do not put your ___ in someone you have only met online.","options":["truth","trust","trend","tune"],"answer":1},{"q":"Water passes through the long underground ___ to the city.","options":["tube","tray","tune","type"],"answer":0},{"q":"This painting is ___ of the artist's early work.","options":["urgent","urban","typical","unusual"],"answer":2},{"q":"The cause of the accident remains ___.","options":["unknown","unable","united","usual"],"answer":0},{"q":"You will not improve ___ you practise regularly.","options":["unlike","until","unless","upon"],"answer":2},{"q":"The two groups were ___ in their determination to protect the river.","options":["unique","united","upper","upward"],"answer":1},{"q":"More young people are choosing to live in ___ areas.","options":["upward","urgent","urban","usual"],"answer":2},{"q":"The ticket is ___ for three days after purchase.","options":["various","valuable","vast","valid"],"answer":3}]},{"id":"wordform","title":"四、词形变化","note":"根据句法位置，用括号中单词的正确形式填空。每题2分，共14分。","category":"词形变化","points":2,"type":"text","counted":true,"items":[["The Chinese edition is a faithful ___ of the original book. (translate)",["translation"]],["The patient responded well to the new ___. (treat)",["treatment"]],["Please tell me the ___. (true)",["truth"]],["This region is ___ hot and dry in summer. (typical)",["typically"]],["___, the outdoor concert had to be cancelled. (fortunate)",["Unfortunately","unfortunately"]],["The guide gave us some ___ advice about travelling alone. (use)",["useful"]],["Volunteering can be a ___ learning experience. (value)",["valuable"]]]},{"id":"translation","title":"五、句子翻译","note":"独立完成后再查看参考答案并自评。每题2分，共10分。","category":"句子翻译","points":2,"type":"manual","counted":true,"items":[{"q":"新技术正在改变我们的购物方式。（transform）","sample":"New technology is transforming the way we shop.","keys":"transform the way"},{"q":"许多学生理解这个理论有困难。（trouble）","sample":"Many students have trouble understanding this theory.","keys":"have trouble (in) doing"},{"q":"他因身体不适而拒绝了邀请。（turn）","sample":"He turned down the invitation because he was unwell.","keys":"turn down"},{"q":"她已经习惯每天阅读英语新闻。（used）","sample":"She is used to reading English news every day.","keys":"be used to doing"},{"q":"这次经历对我们所有人都很有价值。（value）","sample":"This experience is of great value to all of us.","keys":"be of great value to"}]}]};</script>
+<script src="assets/app.js"></script>
+<script defer src="/shared/nav.js"></script></body>
+</html>

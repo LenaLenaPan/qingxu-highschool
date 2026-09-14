@@ -1,7 +1,7 @@
 from pathlib import Path
 from html.parser import HTMLParser
 from urllib.parse import urlsplit,unquote
-import subprocess,tempfile
+import json,subprocess,tempfile
 root=Path(__file__).resolve().parents[1]/'public'
 errors=[];count=0
 class Parser(HTMLParser):
@@ -32,6 +32,24 @@ for p in root.rglob('*.html'):
         if not target.exists():errors.append(f'{p.relative_to(root)}: missing {link}')
     for i,script in enumerate(parser.scripts):checkjs(script,f'{p.name} inline {i}')
 for p in root.rglob('*.js'):checkjs(p.read_text(),p.relative_to(root))
+plan_path=root/'data'/'learning-plan.json'
+if plan_path.exists():
+    try:
+        plan=json.loads(plan_path.read_text())
+        seen=set()
+        for task in plan.get('tasks',[]):
+            task_id=task.get('id')
+            if not task_id or task_id in seen:errors.append(f'learning-plan.json: missing or duplicate task id {task_id!r}')
+            seen.add(task_id)
+            if task.get('defaultBucket') not in {'today','week','later','done'}:errors.append(f'learning-plan.json: invalid bucket for {task_id}')
+            if task.get('contentState') not in {'ready','preparing'}:errors.append(f'learning-plan.json: invalid content state for {task_id}')
+            url=task.get('url')
+            if url:
+                path=urlsplit(url).path
+                target=root/path.lstrip('/')
+                if target.is_dir():target=target/'index.html'
+                if not target.exists():errors.append(f'learning-plan.json: missing {url} for {task_id}')
+    except (ValueError,TypeError) as exc:errors.append(f'learning-plan.json: {exc}')
 if errors:
     print('\n'.join(errors));raise SystemExit(1)
 print(f'PASS: {count} HTML pages; local links/assets and JavaScript syntax checked.')

@@ -1,0 +1,19 @@
+{
+  "name": "qingxu-highschool",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "build": "npm run build:progress",
+    "build:progress": "esbuild src/progress-sync.ts --bundle --format=iife --target=es2020 --outfile=public/shared/progress-sync.js",
+    "validate": "python3 scripts/validate.py"
+  },
+  "dependencies": {
+    "@netlify/blobs": "latest",
+    "@netlify/functions": "latest",
+    "@netlify/identity": "latest"
+  },
+  "devDependencies": {
+    "esbuild": "latest",
+    "typescript": "latest"
+  }
+}
