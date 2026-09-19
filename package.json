@@ -4,13 +4,14 @@
   "version": "1.0.0",
   "scripts": {
     "build": "npm run build:progress",
-    "build:progress": "esbuild src/progress-sync.ts --bundle --format=iife --target=es2020 --outfile=public/shared/progress-sync.js",
+    "build:progress": "esbuild src/progress-sync.ts --bundle --minify --format=iife --target=es2020 --outfile=public/shared/progress-sync.js",
     "validate": "python3 scripts/validate.py"
   },
   "dependencies": {
     "@netlify/blobs": "latest",
     "@netlify/functions": "latest",
-    "@netlify/identity": "latest"
+    "@netlify/identity": "latest",
+    "@supabase/supabase-js": "2.116.0"
   },
   "devDependencies": {
     "esbuild": "latest",

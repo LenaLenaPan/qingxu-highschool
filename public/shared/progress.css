@@ -1,4 +1,5 @@
 :root{--qx-blue:#245bd7;--qx-ink:#182b46;--qx-muted:#5b6d84;--qx-line:#dbe3ee;--qx-green:#17765f;--qx-orange:#b85d19;--qx-purple:#7451ba}
+.qx-account{flex-wrap:wrap;min-width:0}.qx-account [data-qx-user-email]{overflow-wrap:anywhere}.qx-account button{min-height:44px}
 [hidden]{display:none!important}
 body{background:linear-gradient(160deg,#eef4ff 0,#f7f9fc 34%,#f3f6fb 100%)}
 .qx-auth{display:flex;align-items:center;justify-content:space-between;gap:22px;margin:24px 0;padding:18px 22px;border-top-color:#8ba8dc}

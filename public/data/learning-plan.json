@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-14",
+  "updatedAt": "2026-09-19",
   "subjects": {
     "english": "英语",
     "math": "数学",
@@ -16,8 +16,15 @@
       "url": "/english/",
       "contentState": "ready",
       "defaultBucket": "done",
-      "steps": [{"id": "test", "label": "训练完成"}],
-      "defaultDone": ["test"]
+      "steps": [
+        {
+          "id": "test",
+          "label": "训练完成"
+        }
+      ],
+      "defaultDone": [
+        "test"
+      ]
     },
     {
       "id": "english-day-21-28",
@@ -27,8 +34,15 @@
       "url": "/english/day21-28.html",
       "contentState": "ready",
       "defaultBucket": "done",
-      "steps": [{"id": "test", "label": "训练完成"}],
-      "defaultDone": ["test"]
+      "steps": [
+        {
+          "id": "test",
+          "label": "训练完成"
+        }
+      ],
+      "defaultDone": [
+        "test"
+      ]
     },
     {
       "id": "english-day-29",
@@ -37,8 +51,16 @@
       "description": "transform → video；Day 28 错题复测、间隔复习和新词训练。",
       "url": "/day29.html",
       "contentState": "ready",
-      "defaultBucket": "today",
-      "steps": [{"id": "test", "label": "训练完成"}]
+      "defaultBucket": "done",
+      "steps": [
+        {
+          "id": "test",
+          "label": "训练完成"
+        }
+      ],
+      "defaultDone": [
+        "test"
+      ]
     },
     {
       "id": "english-day-30-31",
@@ -48,7 +70,12 @@
       "url": "/day30.html",
       "contentState": "ready",
       "defaultBucket": "later",
-      "steps": [{"id": "test", "label": "训练完成"}]
+      "steps": [
+        {
+          "id": "test",
+          "label": "训练完成"
+        }
+      ]
     },
     {
       "id": "math-chapter1",
@@ -58,8 +85,15 @@
       "url": "/math/chapter1/",
       "contentState": "ready",
       "defaultBucket": "done",
-      "steps": [{"id": "study", "label": "阶段完成"}],
-      "defaultDone": ["study"]
+      "steps": [
+        {
+          "id": "study",
+          "label": "阶段完成"
+        }
+      ],
+      "defaultDone": [
+        "study"
+      ]
     },
     {
       "id": "math-two-week-review",
@@ -70,10 +104,22 @@
       "contentState": "ready",
       "defaultBucket": "today",
       "steps": [
-        {"id": "review", "label": "弱项解析已读"},
-        {"id": "attempt", "label": "首次作答完成"},
-        {"id": "correction", "label": "订正完成"},
-        {"id": "retest", "label": "间隔复测通过"}
+        {
+          "id": "review",
+          "label": "弱项解析已读"
+        },
+        {
+          "id": "attempt",
+          "label": "首次作答完成"
+        },
+        {
+          "id": "correction",
+          "label": "订正完成"
+        },
+        {
+          "id": "retest",
+          "label": "间隔复测通过"
+        }
       ]
     },
     {
@@ -84,7 +130,12 @@
       "url": "/math/chapter2/",
       "contentState": "ready",
       "defaultBucket": "week",
-      "steps": [{"id": "review", "label": "回看完成"}]
+      "steps": [
+        {
+          "id": "review",
+          "label": "回看完成"
+        }
+      ]
     },
     {
       "id": "math-chapter2-diagnostic",
@@ -95,9 +146,18 @@
       "contentState": "ready",
       "defaultBucket": "week",
       "steps": [
-        {"id": "attempt", "label": "首次作答完成"},
-        {"id": "correction", "label": "订正完成"},
-        {"id": "retest", "label": "间隔复测通过"}
+        {
+          "id": "attempt",
+          "label": "首次作答完成"
+        },
+        {
+          "id": "correction",
+          "label": "订正完成"
+        },
+        {
+          "id": "retest",
+          "label": "间隔复测通过"
+        }
       ]
     },
     {
@@ -109,9 +169,18 @@
       "contentState": "ready",
       "defaultBucket": "week",
       "steps": [
-        {"id": "attempt", "label": "首次作答完成"},
-        {"id": "correction", "label": "订正完成"},
-        {"id": "retest", "label": "间隔复测通过"}
+        {
+          "id": "attempt",
+          "label": "首次作答完成"
+        },
+        {
+          "id": "correction",
+          "label": "订正完成"
+        },
+        {
+          "id": "retest",
+          "label": "间隔复测通过"
+        }
       ]
     },
     {
@@ -123,8 +192,14 @@
       "contentState": "ready",
       "defaultBucket": "later",
       "steps": [
-        {"id": "attempt", "label": "整卷完成"},
-        {"id": "correction", "label": "订正完成"}
+        {
+          "id": "attempt",
+          "label": "整卷完成"
+        },
+        {
+          "id": "correction",
+          "label": "订正完成"
+        }
       ]
     },
     {
@@ -135,22 +210,44 @@
       "url": "/physics/chapter1.html",
       "contentState": "ready",
       "defaultBucket": "done",
-      "steps": [{"id": "review", "label": "回看完成"}],
-      "defaultDone": ["review"]
+      "steps": [
+        {
+          "id": "review",
+          "label": "回看完成"
+        }
+      ],
+      "defaultDone": [
+        "review"
+      ]
     },
     {
       "id": "physics-two-week-analysis",
       "subject": "physics",
       "title": "前两周物理错题分析与专项",
-      "description": "基于 9 月 14 日上传作业，整理错误结构并生成针对训练。",
+      "description": "首次测试已完成，31/40；原始作答与批改已回写。订正和间隔复测单独记录，不因测试完成而自动勾选。",
       "url": "/physics/weeks1-2-diagnosis-training.html",
       "contentState": "ready",
       "defaultBucket": "today",
       "steps": [
-        {"id": "review", "label": "错因分析已读"},
-        {"id": "attempt", "label": "首次作答完成"},
-        {"id": "correction", "label": "订正完成"},
-        {"id": "retest", "label": "间隔复测通过"}
+        {
+          "id": "review",
+          "label": "错因分析已读"
+        },
+        {
+          "id": "attempt",
+          "label": "首次作答完成"
+        },
+        {
+          "id": "correction",
+          "label": "订正完成"
+        },
+        {
+          "id": "retest",
+          "label": "间隔复测通过"
+        }
+      ],
+      "defaultDone": [
+        "attempt"
       ]
     },
     {
@@ -162,8 +259,14 @@
       "contentState": "ready",
       "defaultBucket": "week",
       "steps": [
-        {"id": "attempt", "label": "第 1–6 题完成"},
-        {"id": "retest", "label": "第 7–8 题复测通过"}
+        {
+          "id": "attempt",
+          "label": "第 1–6 题完成"
+        },
+        {
+          "id": "retest",
+          "label": "第 7–8 题复测通过"
+        }
       ],
       "legacyCompleteId": "physics-motion-0910"
     },
@@ -176,9 +279,18 @@
       "contentState": "ready",
       "defaultBucket": "later",
       "steps": [
-        {"id": "attempt", "label": "首次作答完成"},
-        {"id": "correction", "label": "订正完成"},
-        {"id": "retest", "label": "延迟复测通过"}
+        {
+          "id": "attempt",
+          "label": "首次作答完成"
+        },
+        {
+          "id": "correction",
+          "label": "订正完成"
+        },
+        {
+          "id": "retest",
+          "label": "延迟复测通过"
+        }
       ]
     },
     {
@@ -189,7 +301,12 @@
       "url": "/physics/chapter2-review.html",
       "contentState": "ready",
       "defaultBucket": "later",
-      "steps": [{"id": "review", "label": "回看完成"}]
+      "steps": [
+        {
+          "id": "review",
+          "label": "回看完成"
+        }
+      ]
     },
     {
       "id": "physics-chapter2-practice",
@@ -200,9 +317,18 @@
       "contentState": "ready",
       "defaultBucket": "later",
       "steps": [
-        {"id": "attempt", "label": "首次作答完成"},
-        {"id": "correction", "label": "订正完成"},
-        {"id": "retest", "label": "延迟复测通过"}
+        {
+          "id": "attempt",
+          "label": "首次作答完成"
+        },
+        {
+          "id": "correction",
+          "label": "订正完成"
+        },
+        {
+          "id": "retest",
+          "label": "延迟复测通过"
+        }
       ]
     },
     {
@@ -214,11 +340,22 @@
       "contentState": "ready",
       "defaultBucket": "week",
       "steps": [
-        {"id": "attempt", "label": "首次作答完成"},
-        {"id": "correction", "label": "重点订正完成"},
-        {"id": "retest", "label": "间隔复测通过"}
+        {
+          "id": "attempt",
+          "label": "首次作答完成"
+        },
+        {
+          "id": "correction",
+          "label": "重点订正完成"
+        },
+        {
+          "id": "retest",
+          "label": "间隔复测通过"
+        }
       ],
-      "defaultDone": ["attempt"]
+      "defaultDone": [
+        "attempt"
+      ]
     },
     {
       "id": "chemistry-retest-1",
@@ -227,7 +364,80 @@
       "description": "重点复测胶体概念、渗析实验和方程式规范。",
       "contentState": "preparing",
       "defaultBucket": "later",
-      "steps": [{"id": "retest", "label": "复测通过"}]
+      "steps": [
+        {
+          "id": "retest",
+          "label": "复测通过"
+        }
+      ]
+    },
+    {
+      "id": "math-chapter2-review-0919",
+      "subject": "math",
+      "title": "第二章错因回看",
+      "description": "结合原始作答与订正回看易错知识点。",
+      "url": "/math/chapter2/chapter2-review-20260919.html",
+      "contentState": "ready",
+      "defaultBucket": "week",
+      "steps": [
+        {
+          "id": "review",
+          "label": "回看完成"
+        }
+      ]
+    },
+    {
+      "id": "math-chapter2-practice-0919",
+      "subject": "math",
+      "title": "第二章定向练习",
+      "description": "独立作答后订正，首次作答与订正分开记录。",
+      "url": "/math/chapter2/chapter2-practice-20260919.html",
+      "contentState": "ready",
+      "defaultBucket": "week",
+      "steps": [
+        {
+          "id": "attempt",
+          "label": "首次作答完成"
+        },
+        {
+          "id": "correction",
+          "label": "订正完成"
+        }
+      ]
+    },
+    {
+      "id": "math-chapter3-review-0919",
+      "subject": "math",
+      "title": "第三章知识点回看",
+      "description": "结合原始作答与订正回看易错知识点。",
+      "url": "/math/chapter3/review-20260919.html",
+      "contentState": "ready",
+      "defaultBucket": "week",
+      "steps": [
+        {
+          "id": "review",
+          "label": "回看完成"
+        }
+      ]
+    },
+    {
+      "id": "math-chapter3-retest-0919",
+      "subject": "math",
+      "title": "第三章无提示复测 01",
+      "description": "独立作答后订正，首次作答与订正分开记录。",
+      "url": "/math/chapter3/retest-01-20260919.html",
+      "contentState": "ready",
+      "defaultBucket": "week",
+      "steps": [
+        {
+          "id": "attempt",
+          "label": "首次作答完成"
+        },
+        {
+          "id": "correction",
+          "label": "订正完成"
+        }
+      ]
     }
   ]
 }
