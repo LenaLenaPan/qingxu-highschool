@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="referrer" content="no-referrer"><title>清许 · 进度同步测试</title>
+<style>
+:root{font:16px/1.65 system-ui,sans-serif;color:#233c38;background:#f4f6f1}*{box-sizing:border-box}body{margin:0}main{max-width:780px;margin:auto;padding:32px 20px}h1{font-size:30px;margin:8px 0}h2{font-size:19px}small,.muted{color:#647772}section,article{background:white;border:1px solid #dce5de;border-radius:16px;padding:22px;margin:18px 0}label{display:block;margin:14px 0 5px}input,textarea,select{font:inherit;width:100%;padding:11px;border:1px solid #b9ccc1;border-radius:8px}textarea{resize:vertical}button{font:inherit;padding:11px 18px;border:0;border-radius:8px;background:#246453;color:white;cursor:pointer;margin:12px 8px 0 0;min-height:44px}button:disabled{opacity:.5;cursor:wait}.secondary{background:#edf2ef;color:#254e42}#notice{padding:14px;background:#e6efe9;border-radius:10px;white-space:pre-wrap}a{color:#246453}details{margin:20px 0}.error{color:#9a3c26}[hidden]{display:none!important}</style></head>
+<body><main><small>清许学习空间 / 独立试验</small><h1>进度，跨设备接着走</h1><p>仅使用三条模拟任务。不连接原网站，不修改真实学习记录。</p>
+<details><summary>首次使用与测试说明</summary><p>请在 Safari、Chrome 等浏览器中打开本页的 HTTPS 地址，不要使用聊天或文件预览。</p><ol><li>在测试项目的 Authentication → Users → Add user → Create new user 中，创建你自己的测试登录账号，设置独立密码；仅对自己控制的邮箱勾选 Auto Confirm User。不要把密码发到聊天中。</li><li>这是学习测试账号，不是 Supabase 管理后台的密码。没有开放注册入口。</li><li>两个设备使用同一个测试账号。A 保存后，B 点击“读取云端”，检查状态、备注和完成时间。</li><li>断网后保存应显示“未确认同步”；联网后先读取云端再判断是否重试。</li></ol><p>测试会话仅保存在当前页面内存中，刷新后需重新登录。无自动后台同步。切换为未完成会清除完成时间；不同设备修改同一旧版本会提示冲突。</p></details>
+<p id="notice" role="status" aria-live="polite">正在初始化。如果按钮一直不可用，请在 Safari 或 Chrome 中打开本页。</p>
+<section id="login"><h2>登录测试账号</h2><form id="loginForm"><label for="email">邮箱</label><input id="email" type="email" autocomplete="username" required><label for="password">测试账号密码</label><input id="password" type="password" autocomplete="current-password" required><button id="loginButton" disabled>正在初始化…</button></form></section>
+<section id="controls" hidden><span id="identity"></span><div><button id="reload">读取云端</button><button id="logout" class="secondary">退出本页</button></div><small>完成时间以服务器记录为准，按本设备时区显示。不要填写真实作答或个人隐私。</small></section>
+<div id="cards"></div><noscript>需要在支持 JavaScript 的浏览器中打开，才能测试同步。</noscript>
+</main><script>
+'use strict';
+const BASE='https://qtzowtlqudotkomzrntg.supabase.co';
+// Publishable key only. Access is enforced by database RLS; no administrator key.
+const KEY='sb_publishable_JE3kOu7BsjnEyq_D9Xo00A_HeXNjugT';
+const $=id=>document.getElementById(id);
+const items=[['demo-reading','模拟任务 · 知识回看'],['demo-practice','模拟任务 · 独立练习'],['demo-retest','模拟任务 · 无提示复测']];
+let session=null, rows=new Map(), busy=false, dirty=false;
+function notice(text,error=false){$('notice').textContent=text;$('notice').classList.toggle('error',error)}
+function lock(value){busy=value;document.querySelectorAll('button,input,select,textarea').forEach(el=>el.disabled=value)}
+function clearSession(){session=null;rows.clear();dirty=false;$('cards').replaceChildren();$('controls').hidden=true;$('login').hidden=false;$('password').value=''}
+async function api(path,options={},auth=true){
+ if(auth&&(!session||Date.now()>=session.expires)){throw new Error('登录已过期，请退出本页后重新登录。')}
+ const headers={apikey:KEY,'Content-Type':'application/json',...(options.headers||{})};
+ if(auth)headers.Authorization='Bearer '+session.token;
+ const controller=new AbortController(),timer=setTimeout(()=>controller.abort(),12000);
+ try{
+  const response=await fetch(BASE+path,{...options,headers,signal:controller.signal,cache:'no-store'});
+  const value=await response.json().catch(()=>null);
+  if(!response.ok){if(response.status===409)throw new Error('云端已有较新记录，请先读取云端，再重新修改。');throw new Error('请求失败（'+response.status+'）。请检查账号、网络或重新登录。')}
+  return value;
+ }catch(e){if(e.name==='AbortError')throw new Error('请求超时。');throw e}finally{clearTimeout(timer)}
+}
+function draw(){
+ $('cards').replaceChildren();
+ for(const [id,title] of items){
+  const row=rows.get(id),card=document.createElement('article');
+  const h=document.createElement('h2');h.textContent=title;card.append(h);
+  const label=document.createElement('label');label.htmlFor=id+'-status';label.textContent='学习状态';card.append(label);
+  const select=document.createElement('select');select.id=id+'-status';
+  for(const [value,name] of [['pending','待完成'],['in_progress','进行中'],['done','已完成']]){const opt=document.createElement('option');opt.value=value;opt.textContent=name;select.append(opt)}
+  select.value=row?.status||'pending';select.onchange=()=>{dirty=true;notice('有未保存修改。')};card.append(select);
+  const lab=document.createElement('label');lab.htmlFor=id+'-notes';lab.textContent='模拟备注';card.append(lab);
+  const notes=document.createElement('textarea');notes.id=id+'-notes';notes.maxLength=1000;notes.rows=2;notes.value=row?.notes||'';notes.oninput=()=>{dirty=true;notice('有未保存修改。')};card.append(notes);
+  const stamp=document.createElement('p');stamp.className='muted';stamp.textContent=row?'云端版本 '+row.version+' · 完成时间：'+(row.completed_at?new Date(row.completed_at).toLocaleString():'未完成'):'尚无云端记录（默认待完成）';card.append(stamp);
+  const save=document.createElement('button');save.textContent='保存这项';save.onclick=()=>saveItem(id,select,notes,stamp);card.append(save);$('cards').append(card);
+ }
+}
+async function load(){const data=await api('/rest/v1/learning_progress_test?select=item_id,status,notes,completed_at,version&user_id=eq.'+encodeURIComponent(session.id));if(!Array.isArray(data))throw new Error('云端返回异常。');rows=new Map(data.map(r=>[r.item_id,r]));draw();dirty=false;notice('已读取云端 · '+new Date().toLocaleTimeString())}
+async function saveItem(id,select,notes,stamp){
+ if(busy)return;lock(true);notice('正在保存…');
+ try{
+  const old=rows.get(id),body={status:select.value,notes:notes.value};
+  let path='/rest/v1/learning_progress_test';
+  if(old)path+='?user_id=eq.'+encodeURIComponent(session.id)+'&item_id=eq.'+id+'&version=eq.'+old.version;
+  else Object.assign(body,{user_id:session.id,item_id:id});
+  const result=await api(path,{method:old?'PATCH':'POST',headers:{Prefer:'return=representation'},body:JSON.stringify(body)});
+  if(!Array.isArray(result)||result.length!==1)throw new Error('版本冲突或无写入权限，请先读取云端后重试。');
+  rows.set(id,result[0]);stamp.textContent='云端版本 '+result[0].version+' · 完成时间：'+(result[0].completed_at?new Date(result[0].completed_at).toLocaleString():'未完成');
+  dirty=items.some(([key])=>{const r=rows.get(key);return $(key+'-status').value!==(r?.status||'pending')||$(key+'-notes').value!==(r?.notes||'')});
+  notice('本项已同步。'+(dirty?'其他任务仍有未保存修改。':'可在另一个设备点击“读取云端”核对。'));
+ }catch(e){notice('未确认同步：'+e.message+' 本页输入保留；不要关闭页面，先核对云端。',true)}finally{lock(false)}
+}
+$('loginForm').onsubmit=async event=>{event.preventDefault();if(busy)return;lock(true);notice('正在登录…');try{const value=await api('/auth/v1/token?grant_type=password',{method:'POST',body:JSON.stringify({email:$('email').value.trim(),password:$('password').value})},false);if(!value?.access_token||!value?.user?.id)throw new Error('登录结果异常。');session={token:value.access_token,id:value.user.id,expires:Date.now()+value.expires_in*1000};$('password').value='';$('login').hidden=true;$('controls').hidden=false;$('identity').textContent='已登录：'+value.user.email;await load()}catch(e){notice(e.message,true)}finally{$('password').value='';lock(false)}};
+$('reload').onclick=async()=>{if(busy)return;if(dirty&&!confirm('读取云端会替换本页未保存输入，继续吗？'))return;lock(true);try{await load()}catch(e){notice('读取失败：'+e.message+' 当前输入未更改。',true)}finally{lock(false)}};
+$('logout').onclick=()=>{if(dirty&&!confirm('退出会丢弃未保存输入，继续吗？'))return;clearSession();notice('已清除本页登录会话。其他设备不受影响。')};
+$('loginButton').disabled=false;$('loginButton').textContent='登录';notice('尚未登录，请使用测试账号登录。');
+addEventListener('offline',()=>notice('网络已断开。未保存输入仍在本页，不代表已同步。',true));
+addEventListener('beforeunload',event=>{if(dirty){event.preventDefault();event.returnValue=''}});
+</script></body></html>
