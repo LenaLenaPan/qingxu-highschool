@@ -1,0 +1,61 @@
+# 原报告事件ID|聚合词条|变式题|参考答案|说明；只收已列待复测/疑似输入失误项目。
+d1-q13|admission|Students can enter the exhibition without paying an ___ fee. (admit)|admission|修饰fee，用名词admission；不以动词admit替代。
+d2-q17|announce|The results will be ___ on the noticeboard tomorrow. (announce)|announced|will be后用过去分词；announce保留双n。
+d2-q34|appeal|The simple design appeals ___ people of all ages.|to|appeal to sb 吸引某人。
+d2-q35|apply|She applied ___ the college ___ financial aid.（两空用英文分号分隔）|to; for|apply to机构，apply for所申请的东西。
+d2-q37|approach|We need a different approach ___ teaching vocabulary.|to|an approach to doing sth。
+d3-q12|beyond|The village is ___ the river, on its far side.（在……另一边；b开头）|beyond|beyond表示在另一边；besides是“此外”。
+d3-q58|benefit|Regular practice is of benefit to ___ listening skills. (improve)|improving|of benefit to中to是介词，后接动名词。
+d4-q16|celebrate|The family will ___ their grandparents' anniversary.（庆祝；c开头）|celebrate|celebrate an event；congratulate a person。
+d4-q31|chance|There is little chance ___ finding the lost ticket now.|of|a chance of doing sth。
+d4-q32|bring|The discovery brought ___ a change in our understanding.|about|bring about 引起、造成。
+d4-q35|check|Check your copy ___ the original to find any errors.|against|check A against B 对照B检查A。
+d4-q55,d6-q9|characteristic|Adaptability is one of the key ___ of this species. (characteristic)|characteristics|one of后接可数名词复数；characteristics指特征。
+d5-q43|comment|The reviewer added a brief ___ explaining the weakness.（评论；c开头）|comment|comment评论；command命令。
+d5-q44|common|Confusing these words is a ___ error.（常见的；c开头）|common|common常见的，不是complete完整的。
+d5-q55,d8-q4|comparable|The two samples were collected differently, so they are not directly ___. (compare)|comparable|be comparable to/with 可与……比较的。
+d6-q53|contest|She won first prize in the speech ___.（比赛；c开头）|contest|contest比赛；context语境。
+d6-q54|contribute|His careful work made a valuable ___ to the project. (contribute)|contribution|make a contribution to 作出贡献。
+d7-q42|delay|The doctor said the patient must be treated without ___.（耽搁；d开头）|delay|without delay 立即；without doubt 毫无疑问。
+d7-q52|decay|Wood may ___ if it stays damp for a long time.（腐烂；d开头）|decay|decay腐烂、衰败。
+d7-q56|deep|The pool has a maximum ___ of two metres. (deep)|depth|deep的名词是depth，不是degree。
+d9-q1|accomplish|The team ___ the rescue mission before sunset.（accomplish，过去式）|accomplished|完整拼写过去式，不能漏-ed。
+d9-q4|accept|She received the offer on Monday and ___ it on Wednesday. (accept)|accepted|receive收到不等于accept接受；此处用过去式。
+d9-q23|emphasis|The training places particular ___ on accuracy.（强调；e开头）|emphasis|place emphasis on；emphasize为动词。
+d9-q32,d9-q49|earn|He ___ his teammates' respect through consistent effort. (earn)|earned|earn respect through努力；此处保留earn的过去式。
+d9-q39|elect|They elected her ___ chair of the committee.（填as或零介词符号/；两者均可）|as//|elect sb (as) chair；as可省略，不把合理省略判错。
+d9-q47|ease|A short rest may ___ the pain in your shoulders.（缓解；e开头）|ease|ease the pain；earn表示挣得。
+d9-q70|enthusiasm|The visit increased the children's enthusiasm ___ astronomy.|for|enthusiasm for 对……的热情。
+d16-q33|lecture|The professor gave a lecture ___ renewable energy.（关于；介词）|on/about|a lecture on/about a subject。
+d16-q37|south|The island lies ___ the south of the mainland and is separated from it by the sea.|to|不在内部且不接壤，方位用to the south of。
+d16-q60|limit|The rules set clear ___ on the use of laboratory equipment. (limit)|limits|set limits on；此处用复数limits。
+d17-q18,d27-q6|media|Newspapers, radio and television are forms of mass ___.（媒体；m开头）|media|mass media；注意字母顺序。
+d17-q32|may|We may ___ well try another route.|as|may as well 不妨；检查输入是否误键。
+d17-q40|method|This is an effective method ___ storing rainwater.（介词）|of/for|method of/for doing均合理。
+d18-q35|necessary|Clean drinking water is necessary ___ good health.|for|necessary for sth；necessary to do sth。
+d18-q62|nature|The two ideas fit together ___. (natural)|naturally|修饰动词短语，用副词naturally。
+d19-q49|office|The forms are available at the school ___.（办公室；o开头）|office|office办公室；opinion观点。
+d20-q35|pass|Please pass the updated timetable ___ to the team.|on|pass sth on to sb 转交。
+d20-q53|pattern|Researchers noticed a repeating ___ in the data.（模式；p开头）|pattern|pattern模式；period时期。
+d20-q64,d21-q10,d28-q10|persuade|The essay presents a clear and ___ case for reducing waste. (persuade)|persuasive|修饰case，用persuasive有说服力的，注意-suasive。
+d21-q20|possess|Only qualified staff may ___ a key to this room.（拥有；p开头）|possess|possess中间和末尾都有双s。
+d21-q24|poverty|The programme aims to reduce child ___.（贫困；p开头）|poverty|poverty为名词，poor为形容词。
+d21-q53|priority|In an emergency, protecting lives is the first ___.（优先事项；p开头）|priority|priority优先事项；principle原则。
+d21-q57|preserve|The archive aims to ___ old letters for future readers.（保存；p开头）|preserve|preserve保存，不是prevent阻止。
+d22-q15|publish|The journal plans to ___ the study next month.（发表；p开头）|publish|注意publish的拼写。
+d25-q3|scream|The sudden crash made the child ___.（尖叫；s开头）|scream|scream尖叫；不与screen混淆。
+d25-q19|signal|The flashing light is a ___ to stop.（信号；s开头）|signal|signal信号；significance重要性。
+d25-q53,d25-q61|significant|The finding is of considerable scientific ___. (significant)|significance|of + 名词；significance对应形容词significant。
+d26-q14|south|The bird is common in ___ regions of the country. (south)|southern|名词前需形容词southern。
+d26-q20|spirit|The players maintained a strong team ___.（精神；s开头）|spirit|spirit精神，不是sprint短跑。
+d26-q25|steady|Sales have risen ___ over the past six months. (steady)|steadily|steady为形容词；此处用副词steadily，y改i再加ly。
+d27-q16|succeed|With enough preparation, we can ___ in completing the task.（成功；s开头）|succeed|can后接动词原形；success是名词。
+d27-q18|suggest|What do you ___ we do next?（建议；s开头）|suggest|do you后需要动词suggest；suggestion为名词。
+d28-q42|too|The shelf is too high ___ the child to reach.|for|too +形容词+for sb+to do。
+d28-q45|transfer|At this station, transfer ___ the red line to the blue line.|from|transfer from A to B；来源和目的地区分。
+d30-q2|translate|Translate these instructions ___ French.|into|translate into目标语言。
+d30-q3|trap|The miners were trapped ___ a tunnel for several hours.|in|be trapped in表示被困在某处；into不是静态位置。
+d30-q33|virtue|The team won by virtue ___ careful preparation.|of|by virtue of 凭借、由于。
+d30-q42|wake|Please wake me ___ before you leave.|up|wake sb up 唤醒；检查是否误键uo。
+d31-q15|widespread|The news attracted ___ attention across the country.（广泛的；w开头）|widespread|widespread强调分布广、普遍存在；wide常表示宽度。
+d31-q46|whereas|Choose whereas or whether: One method saves time, ___ the other saves money.|whereas|whereas表示对比；whether表示是否。

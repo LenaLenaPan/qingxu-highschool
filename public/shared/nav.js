@@ -13,8 +13,8 @@
       { label: "第一章 · 运动的描述", children: [["知识回看", "/physics/chapter1.html"], ["针对练习", "/physics/chapter1-practice.html"], ["最近作业专项", "/physics/motion-practice-20260910.html"]] },
       { label: "第二章 · 匀变速运动", children: [["知识小结", "/physics/chapter2-review.html"], ["针对练习", "/physics/chapter2-practice.html"]] }
     ] },
-    { label: "化学", path: "/chemistry/", children: [["全部化学内容", "/chemistry/"], ["第一轮错题专项", "/chemistry/special-practice-1.html"]] },
-    { label: "英语", path: "/english/", children: [["全部英语内容", "/english/"], ["语法专项 · 逐题讲解", "/english/grammar/"], ["Day 1 · 综合诊断", "/english/day1/"], ["Day 2–5", "/english/day2-5/"], ["Day 6–10", "/english/day6-10/"], ["Day 11–20", "/english/day11-20/"], ["Day 21–31 目录", "/english/day21-28.html"], ["Day 29", "/day29.html"], ["Day 30", "/day30.html"]] }
+    { label: "化学", path: "/chemistry/", children: [["全部化学内容", "/chemistry/"], ["第一册 · 错题讲解", "/chemistry/book1-review-20260922.html"], ["第一册 · 8题强化", "/chemistry/book1-practice-20260922.html"], ["第一轮错题专项", "/chemistry/special-practice-1.html"]] },
+    { label: "英语", path: "/english/", children: [["全部英语内容", "/english/"], ["第二轮 · Day32–71", "/english/round2/"], ["语法专项 · 逐题讲解", "/english/grammar/"], ["Day 1 · 综合诊断", "/english/day1/"], ["Day 2–5", "/english/day2-5/"], ["Day 6–10", "/english/day6-10/"], ["Day 11–20", "/english/day11-20/"], ["Day 21–31 目录", "/english/day21-28.html"], ["Day 29", "/day29.html"], ["Day 30", "/day30.html"]] }
   ];
   const normalize = path => path.replace(/index\.html$/, "");
   const path = normalize(location.pathname);
@@ -95,6 +95,10 @@
     for (const node of shadow.querySelectorAll("[data-sync]")) node.textContent = info.signedIn ? info.label : "在手机和电脑间接着学";
   });
   // Shared auth state without adding a separate database client for the sidebar.
+  if (document.documentElement.dataset.answerStorage !== 'local' && !path.startsWith('/english/grammar/') && (/^\/(english|math|physics|chemistry)\//.test(path) || /^\/day\d+\.html$/.test(path))) {
+    const answers = document.createElement("script"); answers.src = "/shared/answer-records.js";
+    document.body.append(answers);
+  }
   if (!document.querySelector('script[src="/shared/progress-sync.js"]')) {
     const script = document.createElement("script"); script.src = "/shared/progress-sync.js";
     script.addEventListener("error", () => {

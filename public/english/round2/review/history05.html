@@ -1,0 +1,142 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>历史错题专项 05</title><style>:root{--bg:#f6f7fb;--card:#fff;--text:#172033;--muted:#6b7280;--line:#e5e7eb;--accent:#5367d9;--accent-soft:#eef1ff;--ok:#137a52;--bad:#b42318}
+*{box-sizing:border-box}body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",Arial,sans-serif;background:var(--bg);color:var(--text)}
+.wrap{max-width:900px;margin:0 auto;padding:24px 16px 80px}.hero{background:linear-gradient(135deg,#fff,#f0f3ff);border:1px solid var(--line);border-radius:18px;padding:24px;margin-bottom:16px}
+h1{margin:0 0 8px;font-size:28px}h2{margin:0 0 10px;font-size:20px}.sub{color:var(--muted);line-height:1.6}.meta,.result-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-top:16px}
+.metric,.card{background:var(--card);border:1px solid var(--line);border-radius:14px}.metric{padding:12px}.metric b{display:block;font-size:20px;margin-top:4px}
+.card{padding:20px;margin:14px 0}.q{padding:14px 0;border-top:1px solid var(--line)}.q:first-child{border-top:0}.q-title{font-weight:650;line-height:1.6}
+input[type=text]{width:100%;padding:11px 12px;border:1px solid #cfd5df;border-radius:9px;font-size:16px;margin-top:8px;background:white}
+.options{display:grid;gap:8px;margin-top:9px}.options label,.self-score label{border:1px solid var(--line);border-radius:9px;padding:9px 10px;background:white;cursor:pointer}
+.options label:has(input:checked),.self-score label:has(input:checked){border-color:var(--accent);background:var(--accent-soft)}
+.uncertain{display:flex;align-items:center;gap:6px;color:var(--muted);font-size:13px;margin-top:8px}.feedback{margin-top:8px;padding:8px 10px;border-radius:8px;font-size:14px}.feedback.ok{background:#ecfdf3;color:var(--ok)}.feedback.bad{background:#fef3f2;color:var(--bad)}
+button,.btnlink{border:1px solid #cfd5df;background:white;color:var(--text);padding:10px 14px;border-radius:9px;font-weight:650;cursor:pointer;text-decoration:none;display:inline-block}
+button.primary,.btnlink.primary{background:var(--accent);color:white;border-color:var(--accent)}button:disabled{opacity:.55;cursor:not-allowed}
+.toolbar{position:sticky;top:0;z-index:20;background:rgba(246,247,251,.95);backdrop-filter:blur(8px);border-bottom:1px solid var(--line);margin:0 -16px 16px;padding:10px 16px}
+.toolbar-inner{max-width:900px;margin:auto;display:flex;align-items:center;justify-content:space-between;gap:12px}.toolbar-actions{display:flex;gap:8px;flex-wrap:wrap}
+.timer{font-variant-numeric:tabular-nums;font-weight:800;font-size:18px}.pill{display:inline-block;border-radius:999px;padding:3px 9px;background:#f2f4f7;color:var(--muted);font-size:12px;margin-right:5px}
+.progress{height:7px;background:#e9edf5;border-radius:99px;overflow:hidden;margin-top:8px;min-width:180px}.progress>div{height:100%;background:var(--accent);width:0}
+.hidden{display:none!important}.start-panel{text-align:center;padding:30px}.start-panel input{max-width:280px;margin:14px auto}.small{font-size:13px;color:var(--muted)}
+.self-score{display:flex;gap:8px;flex-wrap:wrap;margin-top:9px}.result{display:none}.big{font-size:28px;font-weight:800}.band{padding:10px 12px;border-radius:10px;background:var(--accent-soft);color:#273b93;margin:12px 0}
+.wrong-item{padding:12px 0;border-top:1px solid var(--line)}.wrong-item:first-child{border-top:0}.footer-actions{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}
+.navbar{display:flex;justify-content:space-between;gap:8px;margin-top:16px}.review-note{background:#fff9e8;border:1px solid #f4df9f;padding:10px 12px;border-radius:10px;color:#6d5a16;margin:10px 0}
+.day-card{background:#fff;border:1px solid var(--line);border-radius:14px;padding:18px;margin:12px 0;display:grid;grid-template-columns:1fr auto auto;align-items:center;gap:12px}.tag{font-size:12px;color:var(--accent);font-weight:800}.day-card h2{margin:4px 0}.status{font-size:13px;color:var(--muted);min-width:120px;text-align:right}
+@media(max-width:680px){h1{font-size:22px}.meta,.result-grid{grid-template-columns:repeat(2,1fr)}.toolbar-inner{align-items:flex-start;flex-direction:column}.toolbar-actions{width:100%}.toolbar-actions button{flex:1}.card{padding:15px}.wrap{padding-left:12px;padding-right:12px}.navbar,.day-card{grid-template-columns:1fr;flex-direction:column}.status{text-align:left}}
+textarea{box-sizing:border-box;width:100%;padding:12px;margin-top:8px;border:1px solid #ccd3df;border-radius:8px;font:inherit}p,li{line-height:1.8}a{color:#314eaa}.navlinks{display:flex;gap:14px;flex-wrap:wrap}.source-note{background:#fff8e7;padding:14px;border-radius:10px}details{margin:12px 0}summary{cursor:pointer}table{width:100%;border-collapse:collapse}td,th{padding:10px;border-bottom:1px solid #ddd;text-align:left;vertical-align:top}.table-scroll{overflow:auto}.q,.wrong-item{overflow-wrap:anywhere}.focus{line-height:2;columns:2}.focus span{display:block}button:focus-visible,a:focus-visible{outline:3px solid #526cca;outline-offset:3px}@media(max-width:600px){.focus{columns:1}.table-scroll table{min-width:500px}.hero{padding:18px}.navlinks>*{max-width:100%}}</style></head><body><main class="wrap"><header class="hero"><p>清许英语 · 第二轮 · 独立错题专项</p><h1>历史错题专项 05</h1><p>第一轮错题独立复测；10题单独计分</p><div class="meta"><div class="metric">题量<b>10题</b></div><div class="metric">独立总分<b>10分</b></div><div class="metric">建议用时<b>8–12分钟</b></div></div></header>
+<nav class="navlinks"><a href="../index.html">第二轮入口</a><a href="../main/index.html">40次主线</a><a href="../review/index.html">错题专项</a></nav>
+<section id="startPanel" class="card"><h2>开始前</h2><p>本次单独计分，不改写主线分数。请选择未查看答案的变式独立作答；同一天反复重做不算两次间隔通过。</p><p><a href="https://github.com/LenaLenaPan/qingxu-highschool/blob/main/source/%E9%AB%98%E8%80%83%E8%AF%8D%E6%B1%875000%E8%AF%8D%E6%96%B0.pdf" target="_blank" rel="noopener">打开原5000词手册（需联网；PDF页码＝印刷页码＋1）</a></p><p class="sub">在线版登录后同步；离线版仅本机保存。答完并提交全部首答后才显示参考。翻译允许合理改写。</p><label>姓名 <input id="studentName" value="清许" type="text"></label><button id="startBtn" class="primary">开始测试</button></section>
+<p id="saveNotice" role="status"></p><section id="exam" class="hidden"><div class="toolbar"><div class="toolbar-inner"><span id="answeredPill" class="pill">已答 0/10</span><span id="lookupPill" class="pill">查词 0 次</span><div class="progress"><div id="progressBar"></div></div><div class="toolbar-actions"><button id="lookupBtn">记录查词</button><button id="pauseBtn">暂停</button><button id="submitObjectiveBtn" class="primary">提交全部首答</button></div><div id="timer" class="timer">00:00:00</div></div></div><div id="questions"></div><section id="manualFinalize" class="card hidden"><h2>翻译自评</h2><p>每题两个要点、每项1分：指定用法与核心意思；其余信息及句法。按已锁定的首答评分，不按订正评分。</p><button id="finalizeBtn" class="primary">生成最终结果</button></section></section>
+<section id="result" class="card result"><h2>本次结果</h2><div class="result-grid"><div>总分<div class="big" id="totalScore">—</div></div><div>用时<div id="timeUsed">—</div></div><div>错题数<div id="wrongCount">—</div></div></div><span id="reviewScore" hidden></span><p id="resultBand"></p><div id="categoryScores"></div><h3>错题、不确定与订正</h3><div id="wrongList"></div><div class="footer-actions"><button id="copyBtn">复制总结</button><button id="downloadBtn">下载TXT备份</button><button id="downloadJsonBtn">下载完整JSON</button><button id="restartBtn">归档并重做</button><a href="../review/index.html">去错题专项</a></div><textarea id="copyFallback" class="hidden" readonly></textarea></section><p class="sub">版本：r2-split-20260922-v2。主线与专项独立保存。判断题目歧义时保留原分，先标记待核验。</p></main><script>window.ROUND2_CONFIG={"id": "history-5", "title": "历史错题专项 05", "day": "专项05", "kind": "review", "round": 2, "revision": "r2-split-20260922-v2", "range": "第一轮错题独立复测；10题单独计分", "sections": [{"id": "review", "title": "一、独立复测", "items": [{"id": "r2v2-h5-review-1", "originId": "hist-d21-q24", "historyIds": ["d21-q24"], "targets": ["poverty"], "q": "The programme aims to reduce child ___.（贫困；p开头）", "answers": ["poverty"], "type": "text", "points": 1, "counted": true, "section": "review", "source": "第一轮已找回反馈的独立变式；历史事件：d21-q24", "explanation": "poverty为名词，poor为形容词。", "originalQuestions": ["贫困；贫穷"]}, {"id": "r2v2-h5-review-2", "originId": "hist-d21-q53", "historyIds": ["d21-q53"], "targets": ["priority"], "q": "In an emergency, protecting lives is the first ___.（优先事项；p开头）", "answers": ["priority"], "type": "text", "points": 1, "counted": true, "section": "review", "source": "第一轮已找回反馈的独立变式；历史事件：d21-q53", "explanation": "priority优先事项；principle原则。", "originalQuestions": ["Passenger safety must be our top ___."]}, {"id": "r2v2-h5-review-3", "originId": "hist-d21-q57", "historyIds": ["d21-q57"], "targets": ["preserve"], "q": "The archive aims to ___ old letters for future readers.（保存；p开头）", "answers": ["preserve"], "type": "text", "points": 1, "counted": true, "section": "review", "source": "第一轮已找回反馈的独立变式；历史事件：d21-q57", "explanation": "preserve保存，不是prevent阻止。", "originalQuestions": ["The museum works hard to ___ old photographs and letters."]}, {"id": "r2v2-h5-review-4", "originId": "hist-d22-q15", "historyIds": ["d22-q15"], "targets": ["publish"], "q": "The journal plans to ___ the study next month.（发表；p开头）", "answers": ["publish"], "type": "text", "points": 1, "counted": true, "section": "review", "source": "第一轮已找回反馈的独立变式；历史事件：d22-q15", "explanation": "注意publish的拼写。", "originalQuestions": ["出版；发表"]}, {"id": "r2v2-h5-review-5", "originId": "hist-d25-q3", "historyIds": ["d25-q3"], "targets": ["scream"], "q": "The sudden crash made the child ___.（尖叫；s开头）", "answers": ["scream"], "type": "text", "points": 1, "counted": true, "section": "review", "source": "第一轮已找回反馈的独立变式；历史事件：d25-q3", "explanation": "scream尖叫；不与screen混淆。", "originalQuestions": ["When the lights suddenly went out, a child began to ___."]}, {"id": "r2v2-h5-review-6", "originId": "hist-d25-q19", "historyIds": ["d25-q19"], "targets": ["signal"], "q": "The flashing light is a ___ to stop.（信号；s开头）", "answers": ["signal"], "type": "text", "points": 1, "counted": true, "section": "review", "source": "第一轮已找回反馈的独立变式；历史事件：d25-q19", "explanation": "signal信号；significance重要性。", "originalQuestions": ["信号；示意"]}, {"id": "r2v2-h5-review-7", "originId": "hist-d25-q53", "historyIds": ["d25-q53", "d25-q61"], "targets": ["significant"], "q": "The finding is of considerable scientific ___. (significant)", "answers": ["significance"], "type": "text", "points": 1, "counted": true, "section": "review", "source": "第一轮已找回反馈的独立变式；历史事件：d25-q53,d25-q61", "explanation": "of + 名词；significance对应形容词significant。", "originalQuestions": ["There has been a ___ improvement in air quality.", "The discovery is of great scientific ___. (significant)"]}, {"id": "r2v2-h5-review-8", "originId": "hist-d26-q14", "historyIds": ["d26-q14"], "targets": ["south"], "q": "The bird is common in ___ regions of the country. (south)", "answers": ["southern"], "type": "text", "points": 1, "counted": true, "section": "review", "source": "第一轮已找回反馈的独立变式；历史事件：d26-q14", "explanation": "名词前需形容词southern。", "originalQuestions": ["南方的；南部的"]}, {"id": "r2v2-h5-review-9", "originId": "hist-d26-q20", "historyIds": ["d26-q20"], "targets": ["spirit"], "q": "The players maintained a strong team ___.（精神；s开头）", "answers": ["spirit"], "type": "text", "points": 1, "counted": true, "section": "review", "source": "第一轮已找回反馈的独立变式；历史事件：d26-q20", "explanation": "spirit精神，不是sprint短跑。", "originalQuestions": ["精神；心灵；团队精神"]}, {"id": "r2v2-h5-review-10", "originId": "hist-d26-q25", "historyIds": ["d26-q25"], "targets": ["steady"], "q": "Sales have risen ___ over the past six months. (steady)", "answers": ["steadily"], "type": "text", "points": 1, "counted": true, "section": "review", "source": "第一轮已找回反馈的独立变式；历史事件：d26-q25", "explanation": "steady为形容词；此处用副词steadily，y改i再加ly。", "originalQuestions": ["稳定的；持续的"]}]}]};</script><script>/* Second-round engine. First-round assets and storage keys are left intact. */
+(() => {
+  'use strict';
+  const C=window.ROUND2_CONFIG, $=id=>document.getElementById(id);
+  const items=C.sections.flatMap(s=>s.items.map(q=>({...q,category:s.title.replace(/^[^、]+、/, '')})));
+  const key=`qingxu-vocab-round2-${C.id}-${C.revision}`;
+  const maximum=items.reduce((n,q)=>n+q.points,0);
+  const esc=s=>String(s??'').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]));
+  const norm=s=>String(s??'').trim().toLowerCase().replace(/[’]/g,"'").replace(/\s+/g,' ').replace(/[；;]/g,';').replace(/\s*;\s*/g,';');
+  const time=ms=>{let t=Math.floor(ms/1000);return [Math.floor(t/3600),Math.floor(t/60)%60,t%60].map(x=>String(x).padStart(2,'0')).join(':');};
+  let state={revision:C.revision,phase:'ready',student:'清许',elapsed:0,lookup:0,answers:{},uncertain:{},scores:{},corrections:{},disputes:{},attemptId:crypto.randomUUID(),paused:false};
+  let anchor=null;
+  const elapsed=()=>state.elapsed+(anchor===null?0:Date.now()-anchor);
+  function notice(t){$('saveNotice').textContent=t;}
+  function save(){
+    try{localStorage.setItem(key,JSON.stringify({...state,elapsed:elapsed(),report:state.phase==='final'?report():null}));}
+    catch(e){notice('本机保存不可用；提交后请下载TXT或JSON保留记录。');}
+    window.dispatchEvent(new Event('qx-answer-change'));
+  }
+  try{const s=JSON.parse(localStorage.getItem(key)||'null');if(s?.revision===C.revision){state=s;if(state.phase==='active')state.paused=true;}}
+  catch(e){notice('未能读取旧记录，当前可重新作答。');}
+  function render(){
+    let n=0;
+    $('questions').innerHTML=C.sections.map(sec=>`<section class="card"><h2>${esc(sec.title)}</h2><p class="sub">${sec.items.length}题，每题${sec.items[0].points}分${sec.id==='review'?'，单独计分':'，计入主卷'}。${sec.id==='translation'?'先独立作答，提交后按要点自评。':''}</p>${sec.items.map(q=>{
+      n++;const id=q.id;
+      const input=q.type==='mcq'?`<div class="options">${q.options.map((op,i)=>`<label><input type="radio" name="${id}" value="${i}" ${String(state.answers[id])===String(i)?'checked':''}> ${esc(op)}</label>`).join('')}</div>`:q.type==='manual'?`<textarea id="${id}" rows="3" aria-label="第${n}题作答">${esc(state.answers[id]||'')}</textarea>`:`<input type="text" id="${id}" autocomplete="off" aria-label="第${n}题作答" value="${esc(state.answers[id]||'')}">`;
+      return `<div class="q" data-id="${id}"><div class="q-title">第${n}题${q.counted?'':'｜复测'}<br>${esc(q.q)}</div>${input}<label class="uncertain"><input type="checkbox" id="${id}-uncertain" ${state.uncertain[id]?'checked':''}> 我不确定</label><div id="${id}-feedback" class="feedback hidden"></div>${q.type==='manual'?`<div id="${id}-manual" class="self-score hidden">${[0,1,2].map(v=>`<label><input type="radio" name="${id}-score" value="${v}" ${state.scores[id]===v?'checked':''}> ${v}分</label>`).join('')}</div>`:''}</div>`;
+    }).join('')}</section>`).join('');
+    $('studentName').value=state.student;
+  }
+  function capture(){
+    if(state.phase==='active'){
+      state.student=$('studentName').value.trim()||'清许';
+      for(const q of items){state.answers[q.id]=q.type==='mcq'?(document.querySelector(`input[name="${q.id}"]:checked`)?.value??''):$(q.id).value;state.uncertain[q.id]=$(`${q.id}-uncertain`).checked;}
+    }
+    if(state.phase==='submitted')for(const q of items.filter(q=>q.type==='manual')){const a=document.querySelector(`input[name="${q.id}-score"]:checked`);if(a)state.scores[q.id]=Number(a.value);}
+    for(const el of document.querySelectorAll('[data-correction]'))state.corrections[el.dataset.correction]=el.value;
+    state.disputes ||= {}; for(const el of document.querySelectorAll('[data-dispute]'))state.disputes[el.dataset.dispute]=el.checked;
+  }
+  function right(q){return q.type==='mcq'?String(state.answers[q.id])===String(q.answer):q.answers?.some(a=>norm(a)===norm(state.answers[q.id]));}
+  function expected(q){return q.type==='manual'?q.sample:q.type==='mcq'?q.options[q.answer]:q.answers.join(' / ');}
+  function score(q){return q.type==='manual'?(state.scores[q.id]??0):right(q)?q.points:0;}
+  function userAnswer(q){let a=state.answers[q.id];return q.type==='mcq'?q.options[Number(a)]||'未作答':a||'未作答';}
+  function progress(){const n=items.filter(q=>String(state.answers[q.id]??'').trim()!=='').length;$('answeredPill').textContent=`已答 ${n}/${items.length}`;$('progressBar').style.width=`${n/items.length*100}%`;$('lookupPill').textContent=`查词 ${state.lookup} 次`;$('timer').textContent=time(elapsed());}
+  function lockAndExplain(){
+    for(const q of items){
+      const box=document.querySelector(`[data-id="${q.id}"]`);
+      box.querySelectorAll('input,textarea').forEach(el=>{if(!el.name.endsWith('-score'))el.disabled=true;});
+      const fb=$(`${q.id}-feedback`);fb.className='feedback '+(q.type==='manual'||right(q)?'ok':'bad');
+      fb.innerHTML=`${q.type==='manual'?'参考（允许合理改写）':right(q)?'正确':'首答：'+esc(userAnswer(q))}<br><b>${esc(expected(q))}</b><br>${esc(q.explanation)}<br><span class="small">${esc(q.source)}</span>`;
+      if(q.type==='manual'){$(`${q.id}-manual`).classList.remove('hidden');box.querySelectorAll(`input[name="${q.id}-score"]`).forEach(el=>el.disabled=state.phase==='final');}
+    }
+    $('manualFinalize').classList.toggle('hidden',state.phase==='final');
+  }
+  function syncUI(){
+    $('startPanel').classList.toggle('hidden',state.phase!=='ready');$('exam').classList.toggle('hidden',state.phase==='ready');
+    const active=state.phase==='active';
+    for(const id of ['submitObjectiveBtn','lookupBtn','pauseBtn'])$(id).disabled=!active;
+    $('pauseBtn').textContent=state.paused?'继续':'暂停';
+    $('questions').inert=active&&state.paused;
+    $('questions').style.filter=active&&state.paused?'blur(5px)':'';
+    if(state.phase==='submitted'||state.phase==='final')lockAndExplain();
+    if(state.phase==='final')renderResult();
+    progress();
+  }
+  function pause(){
+    if(state.phase!=='active')return;
+    if(!state.paused){state.elapsed=elapsed();anchor=null;state.paused=true;}else{state.paused=false;anchor=Date.now();}
+    save();syncUI();
+  }
+  function report(){
+    const records=items.map((q,i)=>({id:q.id,originId:q.originId||q.id,targets:q.targets||[q.id],disputed:!!state.disputes?.[q.id],no:i+1,category:q.category,counted:q.counted,question:q.q,user:userAnswer(q),answer:expected(q),score:score(q),max:q.points,uncertain:!!state.uncertain[q.id],explanation:q.explanation,source:q.source,correction:state.corrections[q.id]||''}));
+    return {id:C.id,kind:C.kind,attemptId:state.attemptId,day:C.day,round:2,revision:C.revision,range:C.range,student:state.student,submittedAt:state.submittedAt,elapsed:state.elapsed,lookupCount:state.lookup,total:records.filter(q=>q.counted).reduce((s,q)=>s+q.score,0),reviewScore:records.filter(q=>!q.counted).reduce((s,q)=>s+q.score,0),records,wrong:records.filter(q=>q.score<q.max||q.uncertain)};
+  }
+  function renderResult(){
+    const d=report();$('result').style.display='block';$('totalScore').textContent=`${d.total}/${maximum}`;$('reviewScore').textContent=`${d.reviewScore}/10`;$('timeUsed').textContent=time(d.elapsed);$('wrongCount').textContent=d.records.filter(q=>q.score<q.max).length;
+    const cats=C.sections.map(s=>{const rr=d.records.filter(q=>q.category===s.title.replace(/^[^、]+、/, ''));return `${esc(s.title)}：${rr.reduce((n,q)=>n+q.score,0)}/${rr.reduce((n,q)=>n+q.max,0)}${s.id==='review'?'（不计主卷）':''}`;});
+    $('categoryScores').innerHTML=cats.map(t=>`<p>${t}</p>`).join('');
+    $('resultBand').textContent='首答已保留。错题进入独立专项；约2天、7天换题复测。翻译为自评；本次正确不等于已经稳定掌握。';
+    $('wrongList').innerHTML=d.wrong.length?d.wrong.map(q=>`<div class="wrong-item"><b>第${q.no}题｜${esc(q.category)}${q.uncertain?'｜不确定':''}</b><p>${esc(q.question)}</p><p>首答：${esc(q.user)}<br>参考：${esc(q.answer)}<br>得分：${q.score}/${q.max}</p><p class="small">${esc(q.explanation)}</p><label>订正与错误原因（不改首答）<textarea data-correction="${q.id}" rows="2">${esc(q.correction)}</textarea></label><label><input type="checkbox" data-dispute="${q.id}" ${q.disputed?'checked':''}> 我认为此评分有误，列为待核验（保留原分）</label></div>`).join(''):'<p>本次没有错题或不确定题，后续仍会抽查。</p>';
+  }
+  function summary(){
+    const d=report();return [`【清许高考词汇 ${C.title} 测试结果】`,`学生：${d.student}`,`范围：${d.range}`,`版本：${d.revision}`,`用时：${time(d.elapsed)}（提交时停止计时）`,`查词次数：${d.lookupCount}`,`总分：${d.total}/${maximum}`,`错题数：${d.records.filter(q=>q.score<q.max).length}`,`不确定题数：${d.records.filter(q=>q.uncertain).length}`,'','分类表现：',...C.sections.map(s=>{const rr=d.records.filter(q=>q.category===s.title.replace(/^[^、]+、/, ''));return `${s.title}：${rr.reduce((n,q)=>n+q.score,0)}/${rr.reduce((n,q)=>n+q.max,0)}`;}),'','错题与不稳定题：',...(d.wrong.length?d.wrong.map(q=>`第${q.no}题｜${q.category}｜首答：${q.user}｜参考：${q.answer}｜得分${q.score}/${q.max}${q.uncertain?'｜不确定':''}\n题目ID：${q.id}\n原题：${q.question}\n说明：${q.explanation}\n订正：${q.correction||'未填写'}`):['无']),'','请结合第一轮Day1–31错题台账与本次结果，更新后续滚动复测。'].join('\n');
+  }
+  function download(content,ext,type){const url=URL.createObjectURL(new Blob([content],{type})),a=document.createElement('a');a.href=url;a.download=`qingxu-round2-day${C.day}-result.${ext}`;document.body.appendChild(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),1000);}
+  $('startBtn').onclick=()=>{state.phase='active';state.student=$('studentName').value.trim()||'清许';state.paused=false;anchor=Date.now();save();syncUI();};
+  $('pauseBtn').onclick=pause;
+  $('lookupBtn').onclick=()=>{if(state.phase!=='active'||state.paused)return;state.lookup++;save();progress();};
+  $('submitObjectiveBtn').onclick=()=>{
+    if(state.phase!=='active')return;
+    capture();const missing=items.map((q,i)=>String(state.answers[q.id]??'').trim()===''?i+1:null).filter(Boolean);
+    if(missing.length){alert(`请完成第 ${missing.join('、')} 题后提交。确实不会的文字题可填“不会”，并标记不确定。`);return;}
+    if(!confirm('提交后锁定全部首答、停止计时，并显示答案。确认提交？'))return;
+    state.elapsed=elapsed();anchor=null;state.paused=false;state.phase=items.some(q=>q.type==='manual')?'submitted':'final';state.submittedAt=new Date().toISOString();save();syncUI();$(state.phase==='final'?'result':'manualFinalize').scrollIntoView({behavior:'smooth'});
+  };
+  $('finalizeBtn').onclick=()=>{if(state.phase!=='submitted')return;capture();if(items.some(q=>q.type==='manual'&&state.scores[q.id]===undefined)){alert('请先按首答完成5道翻译自评。');return;}state.phase='final';save();syncUI();$('result').scrollIntoView({behavior:'smooth'});};
+  $('copyBtn').onclick=async()=>{capture();save();try{await navigator.clipboard.writeText(summary());notice('总结已复制。');}catch(e){$('copyFallback').classList.remove('hidden');$('copyFallback').value=summary();$('copyFallback').select();notice('请复制下方总结文本，或下载TXT。');}};
+  $('downloadBtn').onclick=()=>{capture();save();download(summary(),'txt','text/plain;charset=utf-8');};
+  $('downloadJsonBtn').onclick=()=>{capture();save();download(JSON.stringify(report(),null,2),'json','application/json');};
+  $('restartBtn').onclick=async()=>{if(!confirm('保留本次记录，并开始新的尝试。确定？'))return;try{if(window.QXAnswers)await window.QXAnswers.newAttempt();}catch(e){alert(e.message);return;}try{const k=key+'-attempts',a=JSON.parse(localStorage.getItem(k)||'[]');a.push({...state,report:state.phase==='final'?report():null,archivedAt:new Date().toISOString()});localStorage.setItem(k,JSON.stringify(a));localStorage.removeItem(key);}catch(e){alert('本机归档失败，请先下载结果。');return;}state.phase='ready';anchor=null;window.removeEventListener('beforeunload',save);location.reload();};
+  document.addEventListener('input',()=>{capture();progress();save();});document.addEventListener('change',()=>{capture();progress();save();});
+  document.addEventListener('visibilitychange',()=>{if(document.hidden&&state.phase==='active'&&!state.paused)pause();});
+  window.addEventListener('beforeunload',save);
+  window.QXAnswerAdapter={
+    read(){return {draft:{...state,paper:C.kind==='review'?C:undefined,corrections:undefined,elapsed:elapsed(),report:state.phase==='final'?report():null},corrections:{...state.corrections},submitted:['submitted','final'].includes(state.phase)};},
+    apply(data){
+      if(!data.draft?.revision)return;
+      anchor=null;state={...data.draft,corrections:data.corrections||{}};
+      if(state.phase==='active')state.paused=true;
+      if(data.submitted&&!['submitted','final'].includes(state.phase))state.phase='submitted';
+      render();syncUI();save();
+    }
+  };
+  render();syncUI();setInterval(()=>{if(state.phase==='active'&&!state.paused)progress();},500);
+})();
+</script><script>if(location.protocol!=="file:"){const s=document.createElement("script");s.src="/shared/nav.js";document.body.append(s);}</script></body></html>

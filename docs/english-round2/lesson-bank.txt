@@ -1,0 +1,2180 @@
+# 每课依次为 M词义20、C搭配15、X语境13、F词形7、T翻译5。
+# M: 单词|释义；C: 目标词|带___的句子|答案；X: 目标词|含{答案}的句子|两个干扰项；F: 原形|指定变化|答案；T: 目标词|中文|参考译文。
+@35
+M
+bilingual|能使用两种语言的
+biodiversity|生物多样性
+biology|生物学
+blame|责备；归咎于
+blanket|毯子
+blossom|花；开花
+boost|促进；提高
+boundary|边界；界限
+botanist|植物学家
+breakthrough|突破
+brochure|宣传手册
+budget|预算
+burden|负担
+bullet|子弹
+bully|欺凌弱者的人
+cabinet|橱柜；内阁
+cactus|仙人掌
+calculate|计算
+brave|勇敢的
+bitter|苦的；痛苦的
+C
+blame|Do not blame the driver ___ the delay.|for
+borrow|May I borrow a ruler ___ you?|from
+belong|跨页回收：This key belongs ___ the science lab.|to
+born|My cousin was born ___ July.|in
+bound|The last bus is bound ___ the airport.|for
+break|A fire broke ___ in the empty warehouse.|out
+bring|The new policy brought ___ a major change.|about
+bring|Her aunt brought her ___ after her parents died.|up
+burst|On hearing the joke, they burst ___ laughter.|into
+busy|The nurses are busy ___ the new patients.|with
+business|My father is away ___ business.|on
+bottom|Write your name at the bottom ___ the page.|of
+bother|There is no need to bother ___ such a tiny detail.|about
+build|Daily practice helps build ___ confidence.|up
+budget|We must finish the project ___ budget.（不超出）|within
+X
+bill|The waiter brought the {bill} after we finished lunch.|recipe,menu
+bind|Use a piece of string to {bind} the loose pages together.|bounce,breed
+blind|He has been {blind} since birth and reads Braille.|bored,bold
+block|Fallen trees {block} the only road into the village.|boost,bless
+bond|Years of training created a strong {bond} between the teammates.|brake,bowl
+border|The river forms the {border} between the two countries.|bottom,budget
+boring|The lecture repeated facts we already knew, so it was {boring}.|bored,born
+bored|With nothing to do all afternoon, the children became {bored}.|boring,born
+brake|Press the {brake} gently to slow the bicycle down.|break,brick
+brief|We have only a minute, so please keep your answer {brief}.|bitter,blind
+breed|Some birds {breed} only on these remote islands.|browse,borrow
+burn|Dry wood can {burn} quickly in a fire.|bury,bump
+bury|They will {bury} the time capsule beneath the old tree.|burn,browse
+F
+bleed|过去式|bled
+bind|过去分词|bound
+brave|表示“勇气”的名词|bravery
+break|过去分词|broken
+build|过去式|built
+busy|表示“忙碌地”的副词|busily
+calculate|表示“计算”的名词|calculation
+T
+blame|不要因为一次失误就责备自己。（blame）|Do not blame yourself for one mistake.
+borrow|她昨天从图书馆借了两本书。（borrow）|She borrowed two books from the library yesterday.
+budget|我们需要为这次旅行制订预算。（budget）|We need to make a budget for this trip.
+breakthrough|这个团队在癌症研究方面取得了突破。（breakthrough）|The team made a breakthrough in cancer research.
+calculate|出发前请计算一下总费用。（calculate）|Please calculate the total cost before setting off.
+@36
+M
+calendar|日历
+calligraphy|书法
+calorie|卡路里；热量单位
+campaign|有组织的活动；运动
+campus|校园
+cancel|取消
+candidate|候选人
+capability|能力；才能
+capacity|容量；容纳能力
+capital|首都；资本
+career|职业生涯
+cargo|船或飞机运载的货物
+casual|随意的；非正式的
+caution|谨慎；警告
+cease|停止
+celebrity|名人
+certificate|证书
+ceremony|仪式
+characteristic|特征；特点
+charity|慈善事业；慈善机构
+C
+call|The rescue team called ___ more volunteers.|for
+calm|Take a deep breath and calm ___.|down
+capable|She is capable ___ solving the problem alone.|of
+care|Please take care ___ my cat this weekend.|of
+care|He cares ___ the quality of his work.|about
+carry|The researchers carried ___ a survey in May.|out
+catch|Run faster, or you will not catch up ___ them.|with
+cater|The restaurant caters ___ people with special dietary needs.|for/to
+cause|The storm caused serious damage ___ the roof.|to
+certain|I am certain ___ the date; I checked it twice.|of/about
+chance|I met my former teacher ___ chance.|by
+charge|The nurse is in charge ___ this ward.|of
+charge|They charge ten yuan ___ delivery.|for
+chat|We chatted ___ our holiday plans.|about
+check|Please check ___ at the hotel reception on arrival.|in
+X
+calm|Although the alarm was ringing, the teacher remained {calm}.|casual,careless
+canal|Boats travel through the artificial {canal} that links the rivers.|canyon,campus
+cancel|Heavy snow forced the airline to {cancel} the flight.|celebrate,catch
+capital|Paris is the {capital} of France.|captain,capacity
+cast|The tree {cast} a long shadow across the path.|cost,caught
+cattle|The farmer keeps fifty head of {cattle} on the hill.|cargo,carriages
+ceiling|Water was dripping from the {ceiling} above our heads.|cellar,cell
+celebrate|We will {celebrate} our school's anniversary next Friday.|congratulate,certify
+central|The station has a {central} location, close to shops and offices.|century,certain
+chain|The bicycle was secured to the fence with a metal {chain}.|chalk,chart
+character|Honesty is an important part of her {character}.|characteristic,ceremony
+chart|This {chart} shows how rainfall changes throughout the year.|charm,chain
+cheap|The ticket costs only five yuan; it is surprisingly {cheap}.|expensive,costly
+F
+calm|副词|calmly
+capable|以capabil-开头的名词|capability
+care|表示“小心的”的形容词|careful
+celebrate|表示“庆祝”的名词|celebration
+centre|表示“中心的”的形容词|central
+character|表示“以……为特征”的动词|characterize/characterise
+charity|表示“慈善的”的形容词|charitable
+T
+calm|面对困难时，保持冷静很重要。（calm）|It is important to stay calm when facing difficulties.
+capable|他有能力独立完成这项任务。（capable）|He is capable of completing the task independently.
+charge|这家博物馆不收取门票费用。（charge）|This museum does not charge an admission fee.
+career|这次经历改变了她的职业生涯。（career）|This experience changed her career.
+charity|学生们为一家当地慈善机构筹集了资金。（charity）|The students raised money for a local charity.
+@37
+M
+cherish|珍爱；珍惜
+chemical|化学的；化学品
+childhood|童年
+circumstance|情况；情形
+citizen|公民
+civilization|文明
+clarify|澄清；阐明
+classify|分类
+climate|气候
+client|客户
+clue|线索
+coincidence|巧合
+collapse|倒塌；崩溃
+colleague|同事
+colony|殖民地；群体
+combat|战斗；与……斗争
+combination|结合；组合
+committee|委员会
+commodity|商品
+companion|同伴
+C
+cheer|The fans cheered ___ their team.|on
+choose|You must choose ___ the two routes.|between
+citizen|Citizens have a right ___ public information.|to
+classify|The books are classified ___ subject.|by
+clear|Please clear ___ the misunderstanding.|up
+cling|The frightened child clung ___ her mother.|to
+close|The school is close ___ the railway station.|to
+coincidence|___ coincidence, we booked the same flight.|By
+combine|The course combines theory ___ practice.|with
+come|How did you come ___ this rare book?（偶然发现）|across
+comfort|His words gave comfort ___ the worried family.|to
+comment|The expert declined to comment ___ the case.|on
+commit|She is committed ___ protecting wild animals.|to
+communicate|The pilot communicated ___ the control tower.|with
+compete|The two teams will compete ___ the championship.|for
+X
+childish|Refusing to speak to anyone after losing a game is {childish}.|childlike,childless
+chew|You should {chew} your food carefully before swallowing.|chase,cheer
+chore|Washing the dishes is a household {chore} I do every evening.|choir,chorus
+cite|Remember to {cite} the sources you use in your essay.|site,sight
+civilian|The injured man was a {civilian}, not a soldier.|citizen,civilization
+clarify|Could you {clarify} your last point? I do not understand it.|classify,claim
+classic|The novel has remained popular for a century and is now a {classic}.|classification,classmate
+cloth|Use a soft {cloth} to wipe the camera lens.|clothes,clothing
+coarse|This fabric feels {coarse} and rough against the skin.|coastal,cognitive
+collapse|Without repairs, the damaged bridge may {collapse}.|collect,combine
+collect|The volunteers will {collect} used batteries for recycling.|collapse,command
+comedy|The film is a {comedy} that made the audience laugh.|tragedy,document
+competition|More than fifty students entered the writing {competition}.|competence,companion
+F
+child|复数|children
+choose|过去分词|chosen
+clarify|表示“澄清”的名词|clarification
+classify|表示“分类”的名词|classification
+collect|表示“收藏品；收集”的名词|collection
+compete|表示“竞争的”的形容词|competitive
+communicate|表示“交流”的名词|communication
+T
+cherish|我们应该珍惜与家人相处的时间。（cherish）|We should cherish the time we spend with our families.
+clarify|请用一个例子阐明你的观点。（clarify）|Please clarify your point with an example.
+combine|这门课程把阅读与写作结合起来。（combine）|This course combines reading with writing.
+commit|她致力于改善社区的环境。（committed）|She is committed to improving the environment in her community.
+compete|来自不同学校的学生将争夺一等奖。（compete）|Students from different schools will compete for first prize.
+@38
+M
+complaint|投诉；抱怨
+complex|复杂的
+component|组成部分；部件
+compose|创作；组成
+comprehension|理解；理解力
+compromise|妥协；折中
+compulsory|强制的；必修的
+conceal|隐藏
+concentrate|集中注意力
+concept|概念
+conclude|得出结论；结束
+concrete|具体的；混凝土
+conference|会议
+confess|承认；坦白
+congestion|拥堵
+conscience|良心
+consequence|后果
+conservation|保护；节约
+consult|咨询；查阅
+controversy|争议
+C
+complain|The guests complained ___ the noise.|about
+complain|Please complain ___ the manager if necessary.|to
+compose|The committee is composed ___ six members.|of
+concentrate|Try to concentrate ___ one task at a time.|on
+concern|She is concerned ___ her brother's health.|about
+conclude|We cannot draw a conclusion ___ such limited evidence.|from
+confidence|The coach has confidence ___ the young team.|in
+confine|Please confine your answer ___ the main issue.|to
+confuse|Do not confuse quantity ___ quality.|with
+congratulate|We congratulated her ___ winning the award.|on
+connect|This bridge connects the island ___ the mainland.|with/to
+consist|The meal consists ___ soup, bread and fruit.|of
+contrast|___ contrast, the second method is much cheaper.|By/In
+contribute|Regular exercise contributes ___ good health.|to
+control|The fire is now ___ control; it is no longer spreading.|under
+X
+compliment|Her kind remark was a {compliment}, not a complaint.|component,compromise
+comprise|The collection will {comprise} paintings, drawings and photographs.|compromise,compress
+compulsory|Attendance is {compulsory}; every student must be present.|optional,occasional
+conceal|The leaves {conceal} the bird's nest from view.|conclude,consult
+conduct|Scientists will {conduct} an experiment to test the idea.|confess,congratulate
+confident|She knows the material well and feels {confident} about the exam.|confidential,confused
+confirm|Please {confirm} your booking by replying to this email.|confuse,confine
+consequence|Soil erosion is one possible {consequence} of cutting down forests.|conscience,conference
+considerate|It was {considerate} of you to turn the music down while I was sleeping.|considerable,consistent
+considerable|Restoring the old house required a {considerable} amount of money.|considerate,conscious
+consume|These old machines {consume} far more electricity than the new ones.|conserve,consult
+content|The {content} of an article matters more than its length.|context,continent
+context|The meaning of this word depends on its {context} in the sentence.|content,contact
+F
+complain|名词|complaint
+complete|表示“完成”的名词|completion
+conclude|名词|conclusion
+confident|名词|confidence
+confuse|表示“令人困惑的”的形容词|confusing
+conserve|表示“保护”的名词|conservation
+consume|表示“消耗”的名词|consumption
+T
+concentrate|嘈杂的环境让我很难集中注意力。（concentrate）|The noisy environment makes it difficult for me to concentrate.
+congratulate|我们祝贺她通过了考试。（congratulate）|We congratulated her on passing the exam.
+consist|这个研究小组由五名学生组成。（consist）|The research group consists of five students.
+considerate|替别人着想是很重要的。（considerate）|It is important to be considerate of others.
+contribute|每个人都可以为保护环境作贡献。（contribute）|Everyone can contribute to protecting the environment.
+@39
+M
+convenience|便利；方便
+conventional|传统的；常规的
+convert|转换；转变
+convey|传达；运送
+convince|使确信；说服
+cooperate|合作
+corporation|大公司；法人
+correspondence|通信；来往信件
+courage|勇气
+courteous|有礼貌的
+craftsman|工匠
+creative|有创造力的
+criterion|标准；准则的单数形式
+criticism|批评
+cultivate|耕作；培养
+curiosity|好奇心
+currency|货币
+curriculum|课程体系
+deadline|最后期限
+decay|腐烂；衰败
+C
+convenience|Please reply ___ your earliest convenience.|at
+convert|The old factory was converted ___ a museum.|into
+convince|They convinced me ___ the plan's value.|of
+cooperate|We need to cooperate ___ the local community.|with
+cope|She has learned to cope ___ pressure.|with
+correspond|The two accounts do not correspond ___ each other.|with/to
+count|You can count ___ me to keep my promise.|on/upon
+course|The river changed course ___ time.（随着时间推移）|over
+cover|The hills were covered ___ snow.|with/in
+credit|She deserves credit ___ solving the problem.|for
+crowded|The square was crowded ___ tourists.|with
+cure|Scientists are looking for a cure ___ the disease.|for
+curious|The children are curious ___ the new machine.|about
+damage|The flood did serious damage ___ the village.|to
+deal|How will you deal ___ the missing information?|with
+X
+convenient|There is a bus stop outside, so this location is {convenient}.|conventional,convinced
+convey|A single photograph can {convey} a powerful message.|convert,convict
+cooker|The kitchen has a new electric {cooker} for preparing meals.|cook,cookie
+costume|For the play, he wore a soldier's {costume}.|custom,customer
+council|The city {council} voted to build a new library.|counsel,course
+crew|The captain and the rest of the {crew} stayed aboard the ship.|crowd,crop
+crisis|The sudden loss of drinking water created a serious {crisis}.|criterion,critic
+criteria|Applicants must meet all three selection {criteria}.|criterion,criticism
+cuisine|The restaurant is known for its traditional Italian {cuisine}.|costume,currency
+current|The {current} timetable is different from last year's.|curious,cruel
+dairy|Milk, cheese and butter are {dairy} products.|daily,dated
+deaf|Because he is {deaf}, we communicate through sign language.|dead,damp
+debt|She borrowed money and now wants to pay off the {debt}.|debate,decade
+F
+convenient|名词|convenience
+correct|表示“改正”的名词|correction
+create|表示“有创造力的”的形容词|creative
+criterion|复数|criteria
+curious|名词|curiosity
+danger|形容词|dangerous
+die|表示“死亡”的名词|death
+T
+convenient|如果你方便，我们可以明天下午见面。（convenient）|If it is convenient for you, we can meet tomorrow afternoon.
+convince|这些证据使我相信他的解释。（convince）|The evidence convinced me that his explanation was true.
+cope|她正在学习如何应对新的挑战。（cope）|She is learning how to cope with new challenges.
+curious|孩子们对周围的世界充满好奇。（curious）|Children are curious about the world around them.
+deadline|我们必须在截止日期之前完成报告。（deadline）|We must finish the report before the deadline.
+@40
+M
+deceptive|有迷惑性的；骗人的
+declare|宣布；声明
+decline|下降；婉拒
+dedicate|奉献；致力于
+defence|防御；保卫（英式拼写）
+define|给……下定义
+delegate|代表
+delicate|易碎的；精致的
+demonstrate|演示；证明
+deny|否认
+deposit|存款；押金
+deprive|剥夺
+derive|起源于；获得
+descendant|后裔
+desperate|绝望的；极度渴望的
+destination|目的地
+detect|发现；察觉
+determination|决心
+diagnose|诊断
+diligent|勤奋的
+C
+decide|We finally decided ___ a date for the meeting.|on/upon
+decorate|They decorated the room ___ flowers.|with
+dedicate|He dedicated his life ___ medical research.|to
+defend|A thick coat helps defend the body ___ the cold.|against/from
+delay|They delayed ___ the bridge until spring. (repair)|repairing
+delight|___ our delight, everyone arrived safely.|To
+demand|There is a growing demand ___ clean energy.|for
+depend|The result depends ___ several factors.|on/upon
+deprive|Noise deprived us ___ sleep.|of
+derive|This English word is derived ___ Latin.|from
+desire|She has a strong desire ___ knowledge.|for
+devote|He devotes two hours a day ___ reading.|to
+differ|This edition differs ___ the earlier one.|from
+difficulty|She had difficulty ___ the small print. (read)|reading
+direction|The group walked in the direction ___ the river.|of
+X
+decrease|The new equipment should {decrease} the amount of wasted water.|decorate,declare
+defeat|Our team hopes to {defeat} the defending champions.|decline,delete
+definite|We need a {definite} answer, not another vague promise.|delicate,desperate
+deliberate|It was a {deliberate} choice, not an accident.|delicious,dependent
+deliver|The courier will {deliver} the parcel tomorrow morning.|derive,deny
+denied|He {denied} taking the missing phone and offered an alibi.|refused,declined
+desert|Camels can survive in the hot, dry {desert}.|dessert,destination
+dessert|Would you like fruit or ice cream for {dessert}?|desert,deposit
+device|A thermometer is a {device} used to measure temperature.|advice,devotion
+diary|She records her thoughts in a private {diary} every night.|dairy,diet
+dialect|The local {dialect} sounds quite different from standard English.|diagram,diameter
+digest|It takes time to {digest} a large amount of new information.|diagnose,depart
+digital|The photos are stored as {digital} files on the computer.|diligent,delicate
+F
+decide|名词|decision
+deep|表示“深度”的名词|depth
+defend|表示“防御”的名词|defence/defense
+describe|名词|description
+determine|表示“决心”的名词|determination
+develop|名词|development
+differ|名词|difference
+T
+depend|不要完全依赖手机来记住重要的事情。（depend）|Do not depend entirely on your phone to remember important things.
+devote|他把大部分空闲时间用于阅读。（devote）|He devotes most of his free time to reading.
+deny|她否认泄露了这些信息。（deny）|She denied revealing the information.
+difficulty|我很难理解他的解释。（difficulty）|I have difficulty understanding his explanation.
+destination|经过五个小时的旅行，我们终于到达了目的地。（destination）|After a five-hour journey, we finally reached our destination.
+@42
+M
+disability|残疾；能力缺陷
+disadvantage|不利条件；劣势
+disapproval|不赞成
+disaster|灾难
+discipline|纪律；学科
+discount|折扣
+discreet|谨慎的；言行审慎的
+discrimination|歧视；区别对待
+dismiss|解雇；不予考虑
+distinct|明显不同的；清楚的
+distribute|分发；分配
+diverse|多种多样的
+domestic|国内的；家庭的
+donate|捐赠
+dormitory|宿舍
+drought|干旱
+dynamic|充满活力的；动态的
+ecological|生态的
+economical|节约的；经济实惠的
+ecosystem|生态系统
+C
+disagree|I disagree ___ you on this particular point.|with
+disapprove|Her parents disapprove ___ her decision.|of
+discourage|The rain discouraged us ___ going out.|from
+discriminate|Employers must not discriminate ___ disabled applicants.|against
+disguise|跨页回收：The actor appeared ___ disguise.|in
+dispose|跨页回收：Please dispose ___ used batteries safely.|of
+distinguish|跨页回收：Can you distinguish this copy ___ the original?|from
+divide|The class was divided ___ four groups.|into
+donate|She donated her prize money ___ the hospital.|to
+doubt|There is no doubt ___ he told the truth.|that
+dream|As a child, she dreamed ___ becoming a pilot.|of/about
+dress|The performers were dressed ___ white.|in
+drop|He dropped ___ of school because of illness.|out
+due|The match was cancelled due ___ heavy rain.|to
+eager|We are eager ___ hear the result.|to
+X
+disappointed|They were {disappointed} when their picnic was cancelled.|disappointing,disapproval
+discount|Students can buy tickets at a twenty-percent {discount}.|disaster,discipline
+discover|Researchers hope to {discover} whether this material can store energy.|invent,donate
+disease|Malaria is a {disease} spread by mosquitoes.|disaster,disbelief
+distant|The stars are so {distant} that their light takes years to reach us.|distinct,domestic
+diverse|The festival features music from many {diverse} cultures.|identical,uniform
+document|Your passport is an official {document} that proves your identity.|documentary,doctorate
+donor|The anonymous {donor} gave the hospital a million yuan.|dormitory,domain
+dozen|A {dozen} eggs means twelve eggs.|score,couple
+drift|With no wind to guide it, the boat began to {drift} slowly downstream.|drive,dive
+drown|The warning sign tells swimmers where they might {drown}.|drain,draft
+earn|She works part-time to {earn} enough money for the course.|owe,charge
+economical|This small car uses little fuel and is therefore {economical}.|economic,ecological
+F
+disable|表示“残疾”的名词|disability
+disappoint|表示“令人失望的”的形容词|disappointing
+discover|名词|discovery
+distribute|名词|distribution
+diverse|名词|diversity
+draw|过去分词|drawn
+east|形容词|eastern
+T
+discourage|一次失败不应该阻止你再次尝试。（discourage）|One failure should not discourage you from trying again.
+divide|老师把全班分成了三个小组。（divide）|The teacher divided the class into three groups.
+donate|他们向图书馆捐赠了两百本书。（donate）|They donated two hundred books to the library.
+doubt|毫无疑问，规律练习很重要。（doubt）|There is no doubt that regular practice is important.
+eager|我们迫切想了解这项研究的结果。（eager）|We are eager to learn about the results of this research.
+@43
+M
+edition|版本
+editorial|社论；编辑的
+efficient|效率高的
+elaborate|详尽的；精心制作的
+eliminate|消除；淘汰
+emergency|紧急情况
+emission|排放物；排放
+empathy|共情；同理心
+emphasis|强调；重点
+employee|雇员
+enable|使能够
+encounter|偶遇；遭遇
+endurance|耐力
+enhance|提高；增强
+entrepreneur|企业家
+epidemic|流行病
+essential|必不可少的
+estimate|估计
+ethical|道德的；合乎道德的
+evidence|证据
+C
+effect|The new timetable will take effect ___ Monday.|on
+effort|She made an effort ___ speak more clearly.|to
+elect|He was elected ___ the school committee last week.|to
+emerge|The truth emerged ___ the investigation.|from
+emphasis|The course places emphasis ___ practical skills.|on
+enable|The ramp enables wheelchair users ___ enter the building.|to
+encourage|The teacher encouraged us ___ ask questions.|to
+engage|The students are engaged ___ a lively discussion.|in
+enjoy|She enjoys ___ historical novels. (read)|reading
+enthusiasm|He showed great enthusiasm ___ the project.|for
+equip|The room is equipped ___ a projector.|with
+escape|The prisoner escaped ___ the building through a window.|from
+example|This painting is an example ___ her early work.|of
+exchange|Can I exchange this shirt ___ a larger one?|for
+exclude|Children under six are excluded ___ the competition.|from
+X
+effective|The medicine was {effective}: her symptoms soon disappeared.|efficient,elaborate
+efficient|The new printer is fast and uses little ink, making it highly {efficient}.|emotional,elderly
+electric|An {electric} kettle heats water using electricity.|electronic,elective
+electronic|You can submit an {electronic} copy by email instead of posting paper.|electric,elective
+employer|The company that pays her salary is her {employer}.|employee,employment
+empty|There is nothing in the box; it is completely {empty}.|entire,enormous
+enormous|The stadium is {enormous}; it seats eighty thousand people.|elderly,ethical
+ensure|Please check the address to {ensure} the parcel reaches the right house.|insure,assure
+envy|I {envy} your ability to speak five languages so fluently.|enrol,enclose
+eventually|After several unsuccessful attempts, they {eventually} found a solution.|especially,exactly
+everyday|This book explains the science behind {everyday} objects such as spoons.|every day,everlasting
+except|Everyone attended the meeting {except} Leo, who was ill.|besides,including
+exceed|Do not {exceed} the speed limit on this road.|exclude,excuse
+F
+educate|名词|education
+efficient|名词|efficiency
+embarrass|表示“感到尴尬的”的形容词|embarrassed
+employ|表示“雇员”的名词|employee
+energy|形容词|energetic
+enthusiasm|形容词|enthusiastic
+evident|名词|evidence
+T
+enable|互联网使我们能够迅速分享信息。（enable）|The Internet enables us to share information quickly.
+emphasis|这门课程强调独立思考。（emphasis）|This course places emphasis on independent thinking.
+encourage|父母鼓励我从错误中学习。（encourage）|My parents encourage me to learn from my mistakes.
+equip|所有教室都配备了电脑。（equip）|All the classrooms are equipped with computers.
+evidence|目前没有足够的证据支持这个结论。（evidence）|There is not enough evidence to support this conclusion at present.
+@44
+M
+exhaust|使筋疲力尽；耗尽
+exhibit|展出；展品
+existence|存在
+expansion|扩展；膨胀
+expectation|期待
+expedition|远征；考察
+expertise|专门技能；专业知识
+exploitation|开发；剥削
+exposure|暴露；接触
+extensive|广泛的
+extinction|灭绝
+extraordinary|非凡的
+extravagant|奢侈的；浪费的
+fabric|织物
+facility|设施
+facilitate|促进；使便利
+famine|饥荒
+fatigue|疲劳
+feasible|可行的
+feature|特点；以……为特色
+C
+exist|Do ghosts really exist ___ this world?|in
+expect|We expect the work ___ be finished soon.|to
+expense|The repairs were carried out at the owner's ___.（费用；e开头）|expense
+experiment|The class is experimenting ___ different materials.|with
+expert|She is an expert ___ marine biology.|in/on
+explain|Please explain the rule ___ the new students.|to
+export|The company exports tea ___ several countries.|to
+expose|Do not expose the film ___ direct sunlight.|to
+face|We should face ___ to our responsibilities.|up
+fact|___ fact, I have never been there.|In
+fail|The machine failed ___ start this morning.|to
+faith|She never lost faith ___ her teammates.|in
+familiar|This melody is familiar ___ me.|to
+famous|The town is famous ___ its beautiful gardens.|for
+favour|Most members voted in favour ___ the proposal.|of
+X
+exhausted|After climbing for eight hours, the hikers were {exhausted}.|exhausting,exhaustive
+experiment|The students set up a controlled {experiment} to test their prediction.|experience,expertise
+experience|You need two years of teaching {experience} for this job.|experiment,expedition
+expand|Metal tends to {expand} when heated.|extend,expect
+extend|The council plans to {extend} the opening hours of the library.|expand,exhaust
+extinct|The dodo is an {extinct} bird; none remain alive.|existing,external
+extinguish|Firefighters used water to {extinguish} the flames.|distinguish,exhibit
+fair|Giving both teams the same amount of time is {fair}.|faint,false
+fare|The bus {fare} has risen from two yuan to three yuan.|fee,fair
+fee|There is a registration {fee} of fifty yuan for the course.|fare,fair
+fault|The accident was caused by a mechanical {fault} in the brakes.|favour,fame
+feather|The bird dropped a small white {feather} onto the grass.|feature,fabric
+feed|Do not {feed} the animals; they have a special diet.|fetch,fasten
+F
+exist|名词|existence
+expand|名词|expansion
+explain|名词|explanation
+expose|名词|exposure
+fail|名词|failure
+fame|形容词|famous
+favour|表示“有利的”的形容词|favourable/favorable
+T
+explain|你能向我解释一下这两个词的区别吗？（explain）|Could you explain the difference between these two words to me?
+expose|不要让这种药物暴露在阳光下。（expose）|Do not expose this medicine to sunlight.
+familiar|我不熟悉这个城市的公共交通系统。（familiar）|I am not familiar with the public transport system in this city.
+favour|并非所有人都赞成这项决定。（favour）|Not everyone is in favour of this decision.
+feasible|我们需要找到一个既安全又可行的方案。（feasible）|We need to find a plan that is both safe and feasible.
+@45
+M
+fertile|肥沃的
+fertilizer|肥料
+fiction|小说；虚构的事
+fierce|凶猛的；激烈的
+finance|资金；金融
+flaw|缺陷
+flexible|灵活的
+florist|花商
+flourish|繁荣；茁壮成长
+fluency|流利
+footage|电影或录像片段
+forecast|预测；预报
+formation|形成；构成
+fossil|化石
+foundation|基础；基金会
+friction|摩擦
+frontier|边境；前沿
+frustration|沮丧；受挫
+fundamental|根本的；基础的
+furniture|家具
+C
+fight|People have long fought ___ freedom.|for
+fill|Please fill the bottle ___ water.|with
+find|We need to find ___ why the system failed.|out
+fit|The new student soon fitted ___ with the class.|in
+focus|Please focus ___ the main argument.|on
+fond|My grandmother is fond ___ gardening.|of
+forbid|The rules forbid visitors ___ feeding the animals.|from
+force|The storm forced us ___ turn back.|to
+forgive|Please forgive me ___ arriving late.|for
+form|The medicine is available in the form ___ tablets.|of
+fortunate|We were fortunate enough ___ find shelter.|to
+free|The drinking water is free ___ charge.|of
+frighten|The loud noise frightened the birds ___.（吓跑）|away/off
+front|There is a garden in front ___ the building.|of
+furnish|They furnished the room ___ simple wooden chairs.|with
+X
+fetch|Could you {fetch} my coat from the bedroom and bring it here?|carry,wear
+figure|The report gives the exact {figure} for last year's sales.|finger,fiction
+fine|Parking here is illegal and may result in a {fine}.|fare,fee
+firm|The chair is {firm} and stable, not soft or shaky.|fluent,fierce
+flour|Bread is usually made from {flour}, water and yeast.|flower,floor
+flee|The residents had to {flee} their homes when the volcano erupted.|flow,fling
+float|Wood can {float} on water because it is less dense.|flood,flourish
+fluent|She speaks {fluent} Spanish after living in Madrid for years.|fluid,frequent
+former|The {former} factory is now an art centre.|formal,fortunate
+formal|Please wear {formal} clothes to the award ceremony, not shorts.|former,fertile
+found|They plan to {found} a charity to help homeless children.|find,flow
+frozen|The lake is completely {frozen}, with a thick layer of ice.|freezing,frightened
+function|The main {function} of the roots is to absorb water.|foundation,formation
+F
+fertile|表示“肥料”的名词|fertilizer/fertiliser
+finance|形容词|financial
+fly|过去分词|flown
+forget|过去分词|forgotten
+fortunate|副词|fortunately
+free|表示“自由”的名词|freedom
+freeze|过去式|froze
+T
+focus|与其担心结果，不如专注于过程。（focus）|Focus on the process rather than worry about the result.
+forbid|学校禁止学生在实验室里吃东西。（forbid）|The school forbids students from eating in the laboratory.
+forgive|请原谅我没有及时回复你的邮件。（forgive）|Please forgive me for not replying to your email in time.
+foundation|阅读能为写作打下坚实的基础。（foundation）|Reading can lay a solid foundation for writing.
+flexible|为了应对变化，我们的计划需要更加灵活。（flexible）|Our plan needs to be more flexible to deal with changes.
+@46
+M
+gap|缺口；差距
+garbage|垃圾
+gateway|入口；门户
+gaze|凝视
+gender|性别
+gene|基因
+generate|产生
+generous|慷慨的
+genuine|真正的；真诚的
+geology|地质学
+geometry|几何学
+gesture|手势
+glacier|冰川
+global|全球的
+gloomy|阴暗的；忧郁的
+govern|管理；统治
+graceful|优雅的
+gradual|逐渐的
+gravity|重力
+guarantee|保证
+C
+gaze|She gazed ___ the stars for a long time.|at
+general|___ general, this method works well.|In
+generous|He is generous ___ his time and often helps others.|with
+get|We must get rid ___ these unnecessary files.|of
+gifted|The child is gifted ___ music.|in
+give|Do not give ___ when the task becomes difficult.|up
+glance|She glanced ___ her watch and hurried away.|at
+global|The project aims to raise awareness ___ global warming.|of
+go|We need to go ___ the instructions carefully before starting.|through/over
+good|Regular movement is good ___ your health.|for
+graduate|She graduated ___ university last year.|from
+grateful|We are grateful ___ you for your help.|to
+grateful|He was grateful ___ the chance to start again.|for
+ground|The decision was made on the grounds ___ safety.|of
+grow|She grew ___ in a small coastal town.|up
+X
+gather|The children will {gather} in the hall before the concert.|generate,govern
+gasp|After running up the stairs, he had to {gasp} for breath.|gaze,grab
+generation|The tradition has been passed from one {generation} to the next.|generator,geometry
+genius|Her exceptional mathematical ability led people to call her a {genius}.|gene,gender
+gentle|Hold the kitten carefully and be {gentle} with it.|genuine,generous
+glance|I had only time for a quick {glance} at the headline.|glacier,globe
+glasses|She needs {glasses} to see distant objects clearly.|glass,gloves
+goods|The shop sells household {goods}, such as towels and plates.|good,gold
+grain|Rice is a type of {grain} eaten in many countries.|grape,grass
+grant|The university awarded her a research {grant} to pay for equipment.|grade,grain
+grateful|I am deeply {grateful} for everything you have done for me.|graceful,gradual
+groundbreaking|The discovery was {groundbreaking}, opening an entirely new field of research.|grounded,grumbling
+growth|The rings inside a tree show its annual {growth}.|grown,growing
+F
+general|副词|generally
+generate|表示“发电机”的名词|generator
+global|副词|globally
+goose|复数|geese
+govern|表示“政府”的名词|government
+graduate|表示“毕业”的名词|graduation
+grow|过去分词|grown
+T
+gap|这项计划旨在缩小城乡之间的差距。（gap）|This plan aims to narrow the gap between urban and rural areas.
+generous|他很慷慨，愿意与别人分享自己的知识。（generous）|He is generous and willing to share his knowledge with others.
+give|不要因为进步缓慢就放弃。（give up）|Do not give up just because your progress is slow.
+grateful|我很感激你给我的建议。（grateful）|I am grateful for the advice you gave me.
+guarantee|努力并不能保证成功，但它很重要。（guarantee）|Hard work does not guarantee success, but it is important.
+@47
+M
+guidance|指导
+guilty|有罪的；内疚的
+habitat|栖息地
+handle|处理；把手
+hardship|困苦
+hardware|硬件
+harmony|和谐
+harsh|严厉的；恶劣的
+hazardous|危险的
+healthcare|医疗保健
+heritage|遗产
+hesitation|犹豫
+historical|与历史有关的
+horizon|地平线
+hospitality|好客
+household|家庭；一家人
+humanity|人类；人性
+humble|谦逊的
+humidity|湿度
+humiliate|使蒙羞；羞辱
+C
+guard|We should guard ___ making the same mistake again.|against
+guilty|The court found him guilty ___ theft.|of
+habit|She is in the habit ___ checking her work.|of
+hand|Please hand ___ your assignments before Friday.|in
+hang|She hung her coat ___ a hook.|on
+happen|What happened ___ the old building?|to
+harm|Lack of sleep can do harm ___ your health.|to
+harmony|The villagers live in harmony ___ nature.|with
+hear|I have not heard ___ my cousin for months.（收到来信）|from
+heart|Learn the poem ___ heart.|by
+help|I could not help ___ at the funny picture. (laugh)|laughing
+hesitation|She accepted the invitation without ___.（犹豫；h开头）|hesitation
+hold|Please hold ___ while I check the information.|on
+honour|The statue was built in honour ___ the scientist.|of
+hope|We left early in the hope ___ avoiding the crowds.|of
+X
+guest|We have a {guest} staying in our spare room this weekend.|host,guide
+habit|Checking the door before leaving is a {habit} she developed as a child.|habitat,harmony
+hardly|The music was so quiet that I could {hardly} hear it.|hard,harder
+harvest|Farmers work long hours during the autumn {harvest}.|heritage,horizon
+heal|The small cut should {heal} within a few days.|hear,heat
+height|The {height} of the tower is measured from its base to its top.|weight,heat
+historic|To stress that the agreement had great historical importance, describe it as {historic}.|hysterical,hostile
+historical|The novel is set in the past and contains many {historical} details.|hysterical,homeless
+homesick|Away from her family for the first time, she felt {homesick}.|homeless,homegrown
+honest|An {honest} person tells the truth even when it is difficult.|hostile,horrible
+host|The {host} welcomed the guests into his home.|guest,hero
+hospital|The ambulance took the injured cyclist to {hospital}.|hospitality,hostel
+humble|Despite winning many awards, she remains {humble} and ready to learn.|humid,humiliated
+F
+guide|名词，以-ance结尾|guidance
+harm|表示“有害的”的形容词|harmful
+health|形容词|healthy
+high|表示“高度”的名词|height
+honest|名词|honesty
+hope|表示“充满希望的”的形容词|hopeful
+human|复数|humans
+T
+habit|每天检查笔记是一个好习惯。（habit）|It is a good habit to check your notes every day.
+harmony|我们应该学会与自然和谐相处。（harmony）|We should learn to live in harmony with nature.
+hesitation|她毫不犹豫地帮助了那个孩子。（hesitation）|She helped the child without hesitation.
+honour|这所学校以那位科学家的名字命名，以纪念他。（honour）|The school was named after the scientist in his honour.
+handle|我还没有学会如何处理这种情况。（handle）|I have not yet learned how to handle this situation.
+@48
+M
+humorous|幽默的
+hurricane|飓风
+hypothesis|假说
+identical|完全相同的
+identify|识别；确认
+identity|身份
+idiom|习语
+ignorance|无知
+illustrate|说明；加插图
+imaginative|富有想象力的
+immediate|立即的；直接的
+immigrant|移民
+immune|免疫的
+impact|影响；撞击
+implement|实施
+implication|可能的影响；暗示
+impose|强加；征收
+incentive|激励；刺激
+independent|独立的
+inevitable|不可避免的
+C
+humour|She has a good sense ___ humour.|of
+identify|Can you identify the bird ___ its song?|by
+identical|This copy is identical ___ the original.|to/with
+ignorant|He was ignorant ___ the danger.|of
+imagine|Can you imagine ___ without electricity? (live)|living
+immune|No one is completely immune ___ criticism.|to
+impact|The new road has had an impact ___ local wildlife.|on
+impress|The audience was impressed ___ her confidence.|by/with
+impose|The city imposed a ban ___ smoking in public buildings.|on
+include|The price includes breakfast but does not include ___. (park)|parking
+increase|The price increased ___ ten percent, from 100 to 110.|by
+independent|The organization is independent ___ the government.|of
+infer|What can you infer ___ the writer's choice of words?|from
+inform|Please inform us ___ any changes to your address.|of/about
+information|For more information ___ the course, visit our website.|about/on
+X
+hunger|After two days without food, the travellers suffered from {hunger}.|humour,humidity
+hypothesis|The scientist designed an experiment to test her {hypothesis}.|history,hurricane
+identity|You must show a passport to prove your {identity}.|identical,identification
+ignore|Do not {ignore} the warning signs beside the river.|illustrate,imagine
+imaginative|The story is full of original ideas and is highly {imaginative}.|imaginary,imaginable
+imaginary|The child talks to an {imaginary} friend who exists only in her mind.|imaginative,impressed
+immediate|The patient needs {immediate} treatment; a delay could be dangerous.|immense,immune
+immigrant|She moved here from another country and began a new life as an {immigrant}.|emigrant,image
+imply|His words {imply} that he may leave, although he has not said so directly.|infer,inform
+infer|From the dark clouds, we can {infer} that rain is likely.|imply,impose
+income|Her monthly {income} comes from teaching and translation work.|outcome,input
+industrial|The town has many factories and is an {industrial} centre.|industrious,indirect
+informative|The guide gave an {informative} talk full of useful facts.|informed,informal
+F
+humour|形容词|humorous
+hungry|名词|hunger
+identify|表示“身份”的名词|identity
+ignore|名词|ignorance
+imagine|名词|imagination
+independent|名词|independence
+inform|表示“信息”的名词|information
+T
+impact|这项决定会对我们的日常生活产生影响。（impact）|This decision will have an impact on our daily lives.
+impress|她的勇气给我们留下了深刻印象。（impress）|Her courage impressed us deeply.
+independent|孩子们需要逐渐学会独立于父母。（independent）|Children need to gradually learn to be independent of their parents.
+inform|如有任何变化，请及时通知我们。（inform）|Please inform us promptly of any changes.
+imagine|很难想象没有清洁饮用水的生活。（imagine）|It is difficult to imagine living without clean drinking water.
+@49
+M
+ingredient|原料；成分
+inhabitant|居民
+inherit|继承
+initial|最初的
+initiative|主动性；倡议
+innovation|创新
+inquiry|询问；调查
+insight|洞察力
+inspect|检查；视察
+inspire|鼓舞；激发
+install|安装
+institution|机构；制度
+integrity|正直；完整性
+intellectual|智力的；知识分子
+intense|强烈的
+interfere|干涉；妨碍
+interpret|解释；口译
+investigate|调查
+involve|涉及；使参与
+justify|证明……合理
+C
+insist|She insisted ___ checking the figures herself.|on/upon
+inspire|The speech inspired us ___ take action.|to
+instead|We walked instead ___ taking a taxi.|of
+instruct|The teacher instructed us ___ work in pairs.|to
+insurance|They took out insurance ___ fire.|against
+intend|He intends ___ study abroad next year.|to
+interest|She has a strong interest ___ astronomy.|in
+interfere|Please do not interfere ___ my work.|with
+interpret|His silence was interpreted ___ agreement.|as
+introduce|Let me introduce you ___ our new colleague.|to
+invest|The company invested heavily ___ research.|in
+invite|We invited the neighbours ___ dinner.|to
+involve|Several students were involved ___ the project.|in
+jealous|He was jealous ___ his sister's success.|of
+junior|She is two years junior ___ me.|to
+X
+ingredient|Flour is the main {ingredient} in this bread.|instrument,inhabitant
+inherit|After her grandfather died, she would {inherit} his collection of books.|inhibit,inhabit
+innocent|The evidence showed that he was {innocent} of the crime.|ignorant,injured
+insect|A butterfly is an {insect}, with six legs and three main body parts.|instrument,instance
+instance|This is one {instance} of a problem that occurs every week.|instant,institute
+instant|For a brief {instant}, the lights went out and then came back on.|instance,instruction
+intelligent|The {intelligent} student quickly understood the complex pattern.|intelligible,intensive
+intensive|The school offers an {intensive} course with six hours of lessons a day.|intelligent,intentional
+internal|The doctor found no {internal} injuries, only a cut on the skin.|international,interpersonal
+interrupt|Please do not {interrupt} while another person is speaking.|interpret,interview
+interval|There is a ten-minute {interval} between the two parts of the concert.|interview,intersection
+issue|The committee will discuss the {issue} of road safety tomorrow.|tissue,island
+journey|The train {journey} from the city to the mountains takes four hours.|journal,journalist
+F
+inspire|名词|inspiration
+instruct|表示“指令”的名词单数|instruction
+intend|名词|intention
+intelligent|名词|intelligence
+interpret|名词|interpretation
+invest|名词|investment
+judge|表示“判断”的名词|judgement/judgment
+T
+insist|即使很累，她仍坚持独立完成工作。（insist）|Even though she was tired, she insisted on finishing the work independently.
+inspire|这个故事激励我继续努力。（inspire）|This story inspired me to keep working hard.
+interfere|过多的噪音会妨碍我们学习。（interfere）|Too much noise can interfere with our studies.
+involve|这项工作涉及与不同的人交流。（involve）|This job involves communicating with different people.
+justify|仅仅说“别人都这样做”不能证明你的行为合理。（justify）|Simply saying that everyone else does it cannot justify your behaviour.
+@50
+M
+kingdom|王国
+knowledge|知识
+label|标签；贴标签
+laboratory|实验室
+labour|劳动（英式拼写）
+landscape|风景；景观
+launch|发射；发起
+laundry|待洗衣物；洗衣
+layer|层
+league|联盟；联赛
+leisure|闲暇
+length|长度
+liberal|开明的；自由主义的
+liberation|解放
+licence|执照（英式名词拼写）
+likelihood|可能性
+limitation|限制；局限
+linguistic|语言的；语言学的
+liquid|液体；液态的
+literacy|读写能力
+C
+kind|It was kind ___ you to help us.|of
+know|The village is known ___ its traditional pottery.|for
+knowledge|She has a good knowledge ___ local history.|of
+lack|The event was cancelled for lack ___ funding.|of
+laugh|It is unkind to laugh ___ other people's mistakes.|at
+lead|Too little sleep can lead ___ poor concentration.|to
+learn|We can learn a lot ___ our mistakes.|from
+leave|The train leaves ___ Beijing at six.|for
+lend|Could you lend your dictionary ___ me?|to
+lesson|We should learn a lesson ___ this failure.|from
+lie|The solution lies ___ better communication.|in
+limit|There is a limit ___ how much we can spend.|to
+link|The bridge links the island ___ the city.|with/to
+listen|Please listen carefully ___ the instructions.|to
+live|Many families here live ___ farming.|by
+X
+landscape|The painter captured the mountain {landscape} in soft colours.|landlord,language
+latest|This is the {latest} version, released only yesterday.|latter,later
+latter|Of the two proposals, I prefer the {latter}, which was presented second.|later,latest
+lay|Please {lay} the blanket on the grass before sitting down.|lie,lain
+lie|I need to {lie} down and rest for a few minutes.|lay,laid
+leak|A small hole caused the pipe to {leak}.|lack,lean
+legal|The lawyer explained that the agreement was {legal} and valid.|loyal,local
+leisure|She enjoys painting in her {leisure} time.|lecture,labour
+length|Use a ruler to measure the {length} of the table.|strength,width
+library|Students can borrow books from the school {library}.|laboratory,laundry
+licence|You must have a driving {licence} before driving a car alone.|lesson,label
+light|This suitcase is {light} enough to carry with one hand.|lit,lighting
+liquid|At room temperature, water is a {liquid}, not a solid.|limit,layer
+F
+kind|名词|kindness
+know|过去分词|known
+lead|过去式|led
+long|表示“长度”的名词|length
+lie|表示“躺”的过去式|lay
+lay|表示“放置”的过去式|laid
+limit|表示“限制”的名词，以-ation结尾|limitation
+T
+lack|我们缺少的不是想法，而是时间。（lack）|What we lack is not ideas but time.
+lead|缺乏沟通可能导致误解。（lead）|A lack of communication may lead to misunderstandings.
+learn|从错误中学习比隐藏错误更重要。（learn）|Learning from mistakes is more important than hiding them.
+limit|我们应该限制每天看屏幕的时间。（limit）|We should limit the time we spend looking at screens each day.
+knowledge|这次旅行加深了我对当地文化的了解。（knowledge）|This trip deepened my knowledge of the local culture.
+@52
+M
+literature|文学
+livestock|牲畜
+loan|贷款；借款
+loathe|厌恶
+location|位置
+logic|逻辑
+longevity|长寿
+loyalty|忠诚
+luxury|奢侈；奢侈品
+machinery|机器的总称
+magnetic|磁性的
+magnificent|壮丽的
+maintain|维持；保养
+malfunction|故障
+mammal|哺乳动物
+manuscript|手稿
+margin|页边空白；差额
+masterpiece|杰作
+mature|成熟的
+meditation|冥想
+C
+locate|The museum is located ___ the city centre.|in
+long|After months away, she longed ___ home.|for
+look|We are looking forward ___ the school trip.|to
+look|Could you look ___ this word in the dictionary?|up
+lose|She lost interest ___ the game.|in
+loyal|The dog remained loyal ___ its owner.|to
+luck|___ luck, we found the missing key.|By
+major|She plans to major ___ chemistry.|in
+majority|The majority ___ the students agreed.|of
+make|We must make full use ___ the available time.|of
+manage|He managed ___ repair the bicycle himself.|to
+marry|She has been married ___ him for ten years.|to
+matter|No matter ___ happens, we will support you.|what
+means|The message was sent by means ___ a radio.|of
+mercy|The small boat was at the mercy ___ the waves.|of
+X
+lively|The teacher led a {lively} discussion in which everyone joined.|alive,living
+live|The concert was broadcast {live}, as it happened.|alive,lively
+lonely|Although surrounded by people, she felt {lonely} and missed her friends.|alone,lone
+loose|One screw is {loose}; tighten it before using the chair.|lose,lost
+loss|The company reported a financial {loss} rather than a profit.|lose,loose
+luggage|Passengers must not leave their {luggage} unattended at the airport.|luggages,log
+manual|The machine comes with a {manual} explaining how to use it.|manuscript,manner
+material|Steel is the main {material} used to build this bridge.|matter,medium
+maximum|The lift's {maximum} load is 800 kilograms; do not exceed it.|minimum,medium
+means|Cycling is an inexpensive {means} of transport.|meaning,mean
+meanwhile|I will prepare the vegetables; {meanwhile}, you can heat the oven.|otherwise,therefore
+mechanic|The {mechanic} repaired the car's engine.|mechanism,mechanical
+medal|The runner won a gold {medal} in the final.|metal,model
+F
+live|表示“活泼的”的形容词|lively
+lose|过去式|lost
+loyal|名词|loyalty
+maintain|表示“维护”的名词|maintenance
+major|表示“大多数”的名词|majority
+mature|名词|maturity
+medicine|形容词|medical
+T
+look|我期待着与你再次见面。（look forward）|I look forward to seeing you again.
+maintain|保持学习和休息之间的平衡很重要。（maintain）|It is important to maintain a balance between study and rest.
+manage|尽管时间有限，我们还是设法完成了任务。（manage）|Although time was limited, we managed to finish the task.
+make|我们应该充分利用图书馆的资源。（make use）|We should make full use of the library's resources.
+measure|学校已经采取措施减少食物浪费。（measure）|The school has taken measures to reduce food waste.
+@53
+M
+microscope|显微镜
+migrate|迁徙；迁移
+milestone|里程碑
+mineral|矿物
+minimum|最小值；最低限度
+minority|少数；少数群体
+miracle|奇迹
+misfortune|不幸
+mission|使命；任务
+moderate|适度的；温和的
+monitor|监测；监视器
+monument|纪念碑
+moral|道德的；寓意
+motivation|动机；动力
+multimedia|多媒体
+mutual|相互的
+narrator|叙述者
+nationality|国籍
+navigable|可航行的
+negotiate|谈判；协商
+C
+midst|We were in the midst ___ a discussion when the alarm rang.|of
+mind|Would you mind ___ the window? (close)|closing
+mistake|I took your notebook ___ mistake.|by
+mistake|She mistook the stranger ___ an old friend.|for
+mix|Do not mix ___ the two sets of instructions.|up
+moment|Please wait ___ a moment.|for
+mood|I am not in the mood ___ shopping today.|for
+more|The collection contains more ___ a thousand stamps.|than
+motivate|The coach motivated us ___ keep practising.|to
+name|The school was named ___ a famous writer.|after/for
+native|This bird is native ___ the island.|to
+nature|He is quiet ___ nature.|by
+need|The roof is in need ___ repair.|of
+negotiate|The union is negotiating ___ the management.|with
+nervous|She was nervous ___ speaking in public.|about
+X
+mild|This winter has been unusually {mild}, with very little frost.|wild,military
+minor|It was a {minor} injury and did not require hospital treatment.|major,minimum
+missing|One page is {missing} from the book; it jumps from 12 to 15.|mistaken,missed
+mist|A thin layer of {mist} made the distant hills difficult to see.|moist,mud
+moist|Keep the soil slightly {moist}, but do not leave it soaking wet.|misty,muddy
+model|The architect built a small {model} of the proposed museum.|medal,metal
+mood|Her cheerful {mood} changed when she heard the bad news.|mode,moral
+motive|The police are trying to establish the criminal's {motive}.|motion,motor
+motion|The wheel remained in {motion} for several seconds after the power was cut.|motive,motto
+muscle|Exercise can strengthen the {muscle} that supports the joint.|mushroom,museum
+mutual|A good friendship is based on {mutual} trust and respect.|multiple,musical
+namely|We need one essential document, {namely} your passport.|nearly,naturally
+naval|The officer serves in the navy at a {naval} base.|navel,native
+F
+migrate|名词|migration
+minor|表示“少数”的名词|minority
+misery|形容词|miserable
+motivate|名词|motivation
+move|表示“移动”的名词|movement
+music|表示“音乐家”的名词|musician
+nature|副词|naturally
+T
+mind|你介意把音乐调低一点吗？（mind）|Would you mind turning the music down a little?
+mistake|我错把你的外套当成了我的。（mistake）|I mistook your coat for mine.
+motivate|明确的目标能够激励我们继续学习。（motivate）|Clear goals can motivate us to keep learning.
+mutual|良好的合作需要相互信任。（mutual）|Good cooperation requires mutual trust.
+negotiate|他们正在协商一个双方都能接受的方案。（negotiate）|They are negotiating a plan that both sides can accept.
+@54
+M
+network|网络
+neutral|中立的
+nevertheless|然而；尽管如此
+nominate|提名
+nondestructive|非破坏性的
+nutrient|营养物质
+nutrition|营养
+nutritious|有营养的
+obey|服从
+objective|客观的；目标
+oblige|迫使；使负有义务
+obscure|不清楚的；鲜为人知的
+observation|观察
+observatory|天文台
+obstacle|障碍
+obtain|获得
+occasion|场合；时机
+occupation|职业；占用
+offence|违法行为；冒犯（英式拼写）
+opener|开瓶器等用于开启的工具
+C
+next|I sat next ___ the window.|to
+noise|The children were making ___ much noise.（太多）|too
+none|None ___ the answers is correct.|of
+nothing|This decision has nothing to do ___ age.|with
+notice|I did not take notice ___ the sign.|of
+object|Some residents object ___ the new road.|to
+oblige|We are obliged ___ follow the safety rules.|to
+observation|The patient remains ___ observation in hospital.|under
+obstacle|Lack of money is an obstacle ___ further progress.|to
+obtain|You can obtain the form ___ the office.|from
+occasion|I have met her ___ several occasions.|on
+occupy|She was occupied ___ preparing the report.|in
+occur|It occurred ___ me that I had left the door open.|to
+offer|He offered ___ carry the heavy box.|to
+open|The exhibition is open ___ the public.|to
+X
+neither|{Neither} of the two keys fits the lock; both are wrong.|Either,Each
+nevertheless|The climb was difficult; {nevertheless}, everyone reached the top.|therefore,otherwise
+niece|My sister's daughter is my {niece}.|nephew,cousin
+noisy|We could not concentrate in the {noisy} classroom.|noiseless,neutral
+none|How many tickets are left? {None}. They have all been sold.|Neither,No
+nutrition|The course explains how food provides the {nutrition} our bodies need.|nutritious,nutrient
+objective|A judge should remain {objective} and not let personal feelings affect decisions.|subjective,obscure
+obscure|The meaning of the final sentence is {obscure}; nobody can explain it clearly.|obvious,objective
+observe|Use the microscope to {observe} changes in the cells.|obtain,oblige
+obstacle|A fallen tree was an {obstacle} blocking the path.|occasion,occupation
+occupation|Please write your {occupation}, such as teacher or engineer, on the form.|occasion,observation
+occurred|The accident {occurred} at the crossing yesterday morning.|occupied,offered
+offer|He declined the {offer} of a free ticket because he was busy.|offence,office
+F
+noise|形容词|noisy
+nominate|名词|nomination
+nutrition|表示“有营养的”的形容词|nutritious
+obey|表示“服从的”的形容词|obedient
+observe|名词|observation
+occupy|名词|occupation
+offend|表示“冒犯”的名词|offence/offense
+T
+object|部分居民反对在这里修建停车场。（object）|Some residents object to building a car park here.
+obstacle|语言不应该成为友谊的障碍。（obstacle）|Language should not be an obstacle to friendship.
+occur|我突然想到，我们可以换一种方法。（occur）|It occurred to me that we could try another method.
+offer|她主动提出帮我检查报告。（offer）|She offered to help me check the report.
+observe|做实验时，请仔细观察并记录变化。（observe）|Please observe carefully and record the changes when doing the experiment.
+@55
+M
+opponent|对手
+opportunity|机会
+optimistic|乐观的
+optimal|最佳的
+orbit|轨道；沿轨道运行
+orchestra|管弦乐队
+organism|有机体；生物
+origin|起源
+outcome|结果
+outlet|出口；专卖店
+outstanding|杰出的
+overlap|重叠
+overlook|忽视；俯瞰
+overwhelm|使不知所措；压倒
+oxygen|氧气
+paradox|悖论
+participant|参与者
+patent|专利
+pedestrian|行人
+peninsula|半岛
+C
+operate|The surgeon operated ___ the injured cyclist.|on
+opinion|___ my opinion, we should wait for more evidence.|In
+oppose|Many parents are opposed ___ the change.|to
+optimistic|She remains optimistic ___ the future.|about
+order|Please put the files ___ alphabetical order.|in
+originate|This custom originated ___ a small village.|in
+out|We have run out ___ paper.|of
+owe|I owe my success ___ my teachers' support.|to
+owing|The road is closed owing ___ flooding.|to
+participate|All students are encouraged to participate ___ the discussion.|in
+particular|I liked the final paragraph ___ particular.|in
+pass|Please pass this message ___ to the others.|on
+passion|She has a passion ___ classical music.|for
+patient|Please be patient ___ younger children.|with
+pay|Pay attention ___ the difference in spelling.|to
+X
+opposite|The bank is directly {opposite} the post office, across the street.|opponent,opposition
+option|Taking the bus is our only {option}; there are no trains today.|opinion,operation
+oral|The exam has a written part and an {oral} part in which you speak.|aural,ordinary
+organic|The farm grows {organic} vegetables without synthetic pesticides.|organized,original
+original|This is the {original} painting, not a copy.|ordinary,organic
+otherwise|Leave now; {otherwise}, you will miss the train.|therefore,meanwhile
+output|The factory increased its daily {output} from 500 units to 700.|outcome,outlook
+overcome|She worked hard to {overcome} her fear of speaking in public.|overlook,overhear
+oversee|A manager will {oversee} the project and check that everything is done properly.|overlook,overcome
+owe|I still {owe} you ten yuan from yesterday's lunch.|own,ought
+panic|The staff stayed calm and prevented widespread {panic}.|patience,pardon
+passive|Do not be a {passive} learner who only listens and never asks questions.|active,passionate
+patience|Learning a new instrument requires practice and {patience}.|patients,patents
+F
+operate|名词|operation
+oppose|表示“反对”的名词|opposition
+organize|名词|organization/organisation
+origin|形容词|original
+overcome|过去分词|overcome
+participate|表示“参与者”的名词|participant
+patient|表示“耐心”的名词|patience
+T
+opportunity|这次活动给了我们了解不同文化的机会。（opportunity）|This activity gave us an opportunity to learn about different cultures.
+optimistic|尽管遇到了困难，她仍然对未来保持乐观。（optimistic）|Despite the difficulties, she remains optimistic about the future.
+owe|我把自己的进步归功于每天的练习。（owe）|I owe my progress to daily practice.
+participate|每个人都应该有机会参与讨论。（participate）|Everyone should have an opportunity to participate in the discussion.
+overlook|检查报告时不要忽略小细节。（overlook）|Do not overlook small details when checking the report.
+@56
+M
+perceive|察觉；认为
+percentage|百分比
+permanent|永久的
+permission|许可
+perseverance|毅力
+persistence|坚持
+personality|个性
+personnel|全体员工；人事部门
+perspective|观点；视角
+persuade|说服
+pessimistic|悲观的
+phenomenon|现象的单数形式
+philosophy|哲学
+photography|摄影
+pioneer|先驱
+plateau|高原
+plankton|浮游生物
+platform|平台；站台
+plentiful|丰富的
+poisonous|有毒的
+C
+percent|About thirty percent ___ the land is forest.|of
+perform|The musicians will perform ___ a large audience.|for
+permission|You must ask ___ permission before entering.|for
+permit|Visitors are not permitted ___ touch the paintings.|to
+persist|She persisted ___ asking difficult questions.|in
+person|You must collect the certificate ___ person.|in
+persuade|We persuaded him ___ join the team.|to
+persuade|She persuaded me ___ the value of regular practice.|of
+pity|It is a pity ___ you cannot come.|that
+place|The meeting will take ___ tomorrow.（举行）|place
+plan|They plan ___ open a new branch next year.|to
+play|Parents play an important role ___ children's education.|in
+please|We were pleased ___ the result.|with
+plenty|There is plenty ___ time to check your answers.|of
+point|There is no point ___ arguing about it now.|in
+X
+permanent|The workers wanted {permanent} jobs rather than temporary contracts.|periodic,personal
+personal|Please do not share your {personal} information with strangers.|personnel,personality
+personnel|All airport {personnel} must carry identification while on duty.|personal,personality
+perspective|Looking at the problem from a child's {perspective} changed my understanding.|persistence,percentage
+phenomena|Rainbows and lightning are natural {phenomena}.|phenomenon,philosophies
+physical|The doctor checked his {physical} condition after the accident.|physics,physician
+piece|Could I have a small {piece} of cake, please?|peace,pace
+plain|The instructions are written in {plain} language that everyone can understand.|plane,planet
+planet|Earth is the third {planet} from the Sun.|plane,plant
+pleasant|We spent a {pleasant} afternoon walking in the park.|pleased,pleasingly
+poetry|She enjoys reading {poetry}, especially short poems about nature.|poet,poem
+policy|The school has a strict {policy} on mobile phone use.|police,politics
+poisonous|Do not eat these berries; they are {poisonous}.|poison,poisoning
+F
+perform|名词|performance
+permit|表示“许可”的名词|permission
+persist|名词|persistence
+person|表示“个性”的名词|personality
+persuade|表示“有说服力的”的形容词|persuasive
+phenomenon|复数|phenomena
+please|表示“愉悦”的名词|pleasure
+T
+permission|未经许可，请不要使用别人的照片。（permission）|Please do not use other people's photographs without permission.
+persist|她坚持每天练习，最终取得了进步。（persist）|She persisted in practising every day and eventually made progress.
+persuade|我们说服了他重新考虑自己的决定。（persuade）|We persuaded him to reconsider his decision.
+perspective|试着从不同的角度看待这个问题。（perspective）|Try to look at the problem from a different perspective.
+point|为已经发生的事情争吵没有意义。（point）|There is no point in arguing about what has already happened.
+@57
+M
+portable|便携的
+portrait|肖像
+possess|拥有
+potential|潜力；潜在的
+precious|珍贵的
+prejudice|偏见
+premature|过早的；早产的
+prescription|处方
+pressure|压力
+prevail|盛行；占优势
+priority|优先事项
+procedure|程序；步骤
+productive|多产的；富有成效的
+prohibit|禁止
+prominent|杰出的；显著的
+prosperity|繁荣
+proportion|比例
+proposal|提议
+psychological|心理的
+punctual|准时的
+C
+popular|The game is popular ___ young children.|with/among
+possession|The painting is in the possession ___ the museum.|of
+prefer|I prefer walking ___ taking the bus.|to
+prepare|We are preparing ___ the final examination.|for
+present|Each participant was presented ___ a certificate.|with
+prevent|The fence prevents animals ___ entering the garden.|from
+pride|She takes pride ___ her work.|in
+prior|Please arrive ten minutes prior ___ departure.|to
+progress|He has made progress ___ spoken English.|in
+prohibit|The law prohibits drivers ___ using phones while driving.|from
+protect|The cover protects the device ___ dust.|from/against
+protest|Residents protested ___ the closure of the library.|against
+proud|We are proud ___ our school's achievements.|of
+provide|The charity provides children ___ warm clothing.|with
+provide|The charity provides warm clothing ___ children.|for
+X
+political|The lecture examines the country's {political} system and elections.|polite,polished
+population|The city's {population} has reached two million people.|pollution,popularity
+position|She accepted a teaching {position} at the local school.|possession,proportion
+positive|Instead of dwelling on problems, she maintains a {positive} attitude.|possible,potential
+predict|Weather models help us {predict} tomorrow's temperature.|prevent,pretend
+presence|The child's {presence} in the room made everyone smile.|presents,presentation
+principal|The {principal} welcomed the new students at the school assembly.|principle,priority
+principle|Honesty is a {principle} that guides all his decisions.|principal,prince
+process|Learning a language is a gradual {process}, not a single event.|product,profit
+profession|Medicine is a {profession} that requires years of training.|professor,professional
+proof|The claim needs {proof}; a guess is not enough.|prove,proposal
+property|Do not damage public {property}, such as benches and streetlights.|prosperity,proportion
+punctual|She is always {punctual} and has never arrived late.|productive,portable
+F
+polite|副词|politely
+possess|名词|possession
+prefer|名词|preference
+prepare|名词|preparation
+produce|表示“生产”的名词|production
+pronounce|名词|pronunciation
+proud|名词|pride
+T
+prefer|比起独自学习，我更喜欢和同学讨论。（prefer）|I prefer discussing with classmates to studying alone.
+prevent|我们必须采取措施防止类似的事故再次发生。（prevent）|We must take measures to prevent similar accidents from happening again.
+priority|安全应该始终是我们的首要考虑。（priority）|Safety should always be our top priority.
+provide|学校为学生提供了丰富的阅读材料。（provide）|The school provides students with a wide variety of reading materials.
+proud|我为你取得的进步感到自豪。（proud）|I am proud of the progress you have made.
+@58
+M
+purposeful|有明确目的的
+pursue|追求；追赶
+qualification|资格；资历
+quantity|数量
+quarrel|争吵
+quaint|古雅的
+queue|队列；排队
+quote|引用
+racial|种族的
+radiation|辐射
+rainforest|雨林
+random|随机的
+range|范围
+rank|等级；排名
+ratify|正式批准
+raw|生的；未加工的
+realistic|现实的；切合实际的
+rebellion|反叛
+recognition|认可；识别
+recreation|娱乐；消遣
+C
+purpose|I did not break the cup ___ purpose.|on
+put|Please put ___ the books when you have finished reading.|away
+put|We had to put ___ the match until next week.|off
+qualify|This certificate qualifies you ___ the position.|for
+quarrel|The children quarrelled ___ the last piece of cake.|over/about
+queue|Please wait ___ a queue and do not push.|in
+quote|The speaker quoted a line ___ a famous poem.|from
+range|The students range in age ___ fourteen to sixteen.|from
+rather|I would rather walk ___ wait for another bus.|than
+react|How did she react ___ the news?|to
+ready|Are you ready ___ the next question?|for
+reason|What is the reason ___ the delay?|for
+recognize|The scientist is recognized ___ a leading expert.|as
+recommend|I recommend ___ this book before the lecture. (read)|reading
+recover|It took her a week to recover ___ the flu.|from
+X
+quality|We value the {quality} of the work more than the number of pages.|quantity,qualification
+quantity|The recipe specifies the exact {quantity} of flour needed.|quality,qualification
+quiet|Please remain {quiet}; the baby is asleep.|quite,quit
+quit|He decided to {quit} smoking for the sake of his health.|quiet,quite
+raise|Please {raise} your hand if you have a question.|rise,arise
+rise|Warm air tends to {rise} above cooler air.|raise,arouse
+rare|The bird is extremely {rare}; only a few hundred remain.|raw,rapid
+raw|The vegetables can be eaten {raw}, without cooking.|rare,rapid
+reach|We {reached} the summit at noon; the climb was finally over.|arrived,approached
+realistic|Finishing a hundred-page report in ten minutes is not a {realistic} goal.|racial,raw
+reception|Ask at {reception} when you arrive at the hotel.|receipt,recipe
+recognize|I did not {recognize} him at first because he had grown a beard.|realize,receive
+recommend|Could you {recommend} a good book for a beginner?|recognize,recover
+F
+qualify|名词|qualification
+quick|副词|quickly
+race|形容词|racial
+rain|形容词|rainy
+react|名词|reaction
+real|表示“现实”的名词|reality
+recover|名词|recovery
+T
+purpose|他并不是故意弄坏你的模型的。（purpose）|He did not break your model on purpose.
+quality|学习的质量比花费的时间更重要。（quality）|The quality of learning is more important than the time spent on it.
+react|面对批评时，我们应该冷静回应。（react）|We should react calmly to criticism.
+recommend|老师建议我们先阅读说明。（recommend）|The teacher recommended that we read the instructions first.
+recover|她已经完全从那次疾病中康复了。（recover）|She has fully recovered from the illness.
+@59
+M
+reference|参考；提及
+reform|改革
+refugee|难民
+refund|退款
+regulation|规章；管理
+reinforce|加强
+relevant|相关的
+reliable|可靠的
+reluctant|不情愿的
+remarkable|非凡的；显著的
+remote|偏远的；遥远的
+representative|代表；有代表性的
+reputation|声誉
+resemble|像；与……相似
+resistance|抵抗
+resolution|决心；决议
+restore|恢复；修复
+restrict|限制
+retain|保留
+reveal|揭示；透露
+C
+reduce|The shop reduced the price ___ twenty percent.|by
+refer|You may refer ___ your notes during the discussion.|to
+regard|Many people regard the book ___ a classic.|as
+regardless|Everyone is welcome regardless ___ age.|of
+relate|The article relates the discovery ___ earlier research.|to
+relevant|Please include only information relevant ___ the topic.|to
+rely|You can rely ___ her to keep the secret.|on/upon
+remind|This photograph reminds me ___ my childhood.|of
+replace|We replaced the old batteries ___ new ones.|with
+reply|He has not replied ___ my message yet.|to
+rescue|Firefighters rescued the child ___ the burning house.|from
+responsible|Each of us is responsible ___ our own actions.|for
+result|Heavy rain resulted ___ flooding.|in
+result|The flooding resulted ___ heavy rain.|from
+rob|They robbed him ___ his wallet.|of
+X
+reflect|A mirror can {reflect} light.|reform,reject
+refuse|She {refused} to sign a document she had not read.|rejected,removed
+reject|The login system will {reject} an incorrect password rather than accept it.|restore,retain
+regret|I {regret} not taking your advice; it would have saved time.|remind,remain
+relative|My aunt is a close {relative} who lives nearby.|relation,relationship
+relief|We felt great {relief} when everyone was found safe.|relieve,reliance
+remain|Please {remain} seated until the plane stops.|remind,remove
+remember|I cannot {remember} where I put my keys.|remind,remark
+remind|Please {remind} me to bring the tickets tomorrow.|remember,remain
+respectful|The students were {respectful} towards the visiting scientist.|respective,respectable
+reward|The police offered a {reward} for information about the missing painting.|award,rewarding
+risk|There is a {risk} of flooding if the rain continues.|rise,richness
+ripe|These tomatoes are {ripe} and ready to eat.|raw,rigid
+F
+reduce|名词|reduction
+refer|名词|reference
+rely|表示“可靠的”的形容词|reliable
+relieve|名词|relief
+represent|表示“代表”的名词|representative
+responsible|名词|responsibility
+revise|名词|revision
+T
+refer|遇到生词时，你可以查阅词典。（refer）|You can refer to a dictionary when you come across an unfamiliar word.
+regardless|每个人都应该受到尊重，无论年龄大小。（regardless）|Everyone should be treated with respect regardless of age.
+remind|请提醒我明天归还这些书。（remind）|Please remind me to return these books tomorrow.
+responsible|我们应该对自己的选择负责。（responsible）|We should be responsible for our own choices.
+result|长期缺乏睡眠可能导致注意力下降。（result）|A long-term lack of sleep may result in reduced concentration.
+@60
+M
+routine|常规；惯例
+rough|粗糙的；艰难的
+ruin|毁坏；废墟
+sacrifice|牺牲
+sacred|神圣的
+salary|薪水
+sanitation|卫生设施与条件
+satellite|卫星
+satisfaction|满意
+savoury|咸味的而非甜味的（英式拼写）
+scarce|稀缺的
+scattered|分散的
+scenery|自然风景
+schedule|时间表；安排
+scheme|计划；方案
+scholar|学者
+scholarship|奖学金
+scientific|科学的
+scissors|剪刀
+scratch|划痕；抓挠
+C
+role|Teachers play an important role ___ society.|in
+root|The problem is rooted ___ a lack of communication.|in
+route|We stopped for lunch on the route ___ the village.|to
+rule|As a rule, she goes to work ___ bus.|by
+sacrifice|They sacrificed their comfort ___ the good of others.|for
+sake|Wear a helmet for the sake ___ safety.|of
+same|My answer is the same ___ yours.|as
+satisfied|Are you satisfied ___ your progress?|with
+save|The money is being saved ___ a new computer.|for
+scale|The project was carried out ___ a large scale.|on
+scared|He is scared ___ heights.|of
+schedule|The train arrived ___ schedule, exactly on time.|on
+search|The team went in search ___ fresh water.|of
+score|She scored ninety points ___ of a hundred.|out
+scratch|They built the business ___ scratch.|from
+X
+roof|Rainwater was leaking through a hole in the {roof}.|root,route
+route|Which {route} should we take to avoid the traffic jam?|root,roof
+rotten|Do not eat the apple; it is {rotten} inside.|ripe,raw
+roughly|There were {roughly} fifty people in the room, though I did not count them.|exactly,rigidly
+row|We sat in the front {row} of seats at the theatre.|role,roll
+salary|Her annual {salary} is paid in twelve monthly instalments.|sale,saving
+sale|The coats are on {sale} this week at half their usual price.|salary,sail
+sample|The scientist took a water {sample} for testing.|example,sampler
+satisfactory|The repair was {satisfactory}; the machine now works as required.|satisfied,satisfaction
+scarcely|There was {scarcely} any food left after the party.|scarce,scary
+scene|The police arrived at the {scene} of the accident.|scenery,scenario
+scenery|We stopped to admire the beautiful mountain {scenery}.|scene,stage
+scholarship|She received a {scholarship} that paid all her university fees.|scholar,schoolhouse
+F
+sad|名词|sadness
+safe|名词|safety
+salt|形容词|salty
+satisfy|名词|satisfaction
+save|表示“储蓄金”的复数名词|savings
+science|形容词|scientific
+scare|表示“感到害怕的”的形容词|scared
+T
+routine|有规律的日常安排可以帮助我们更有效地学习。（routine）|A regular daily routine can help us study more effectively.
+sacrifice|我们不应该为了分数牺牲健康。（sacrifice）|We should not sacrifice our health for marks.
+satisfied|我对自己的进步感到满意，但仍有改进空间。（satisfied）|I am satisfied with my progress, but there is still room for improvement.
+schedule|尽管下雨，活动仍按计划开始了。（schedule）|Despite the rain, the activity started on schedule.
+scenery|沿途的风景让这次旅行令人难忘。（scenery）|The scenery along the way made this trip unforgettable.
+@62
+M
+sculpture|雕塑
+secondary|次要的；中等教育的
+security|安全；安保
+seminar|研讨会
+sensitive|敏感的
+sentimental|多愁善感的；感情用事的
+session|一场会议或一段活动时间
+setback|挫折
+settler|定居者
+severe|严重的；严厉的
+shallow|浅的
+shelter|庇护；避难处
+shortage|短缺
+shortcoming|缺点
+shortcut|捷径
+shrink|缩小
+signature|签名
+significance|重要性
+simplify|简化
+simulator|模拟器
+C
+search|The volunteers searched ___ the missing dog.|for
+second|Her cooking is second ___ none.|to
+secret|They discussed the plan ___ secret.|in
+seek|The students sought advice ___ their teacher.|from
+sensitive|The equipment is sensitive ___ changes in temperature.|to
+serve|The old station now serves ___ a community centre.|as
+set|They set ___ early to avoid the heat.（出发）|off/out
+settle|The family settled ___ a small village.|in
+share|Please share the information ___ your classmates.|with
+shelter|We took shelter ___ the rain under a tree.|from
+short|We are short ___ time, so please be brief.|of
+show|Please show the visitors ___ the school.（带领参观）|around/round
+shut|The factory was shut ___ for safety reasons.|down
+sight|We lost sight ___ the boat in the fog.|of
+sign|You can sign ___ for the course online.|up
+X
+seat|Please take a {seat} while you wait for the doctor.|sit,seating
+secure|The lock keeps the building {secure} at night.|secret,secondary
+select|The committee will {select} three designs from the fifty entries.|settle,serve
+selfish|Taking all the food and leaving none for others is {selfish}.|selfless,sensible
+sensible|Wearing a coat in freezing weather is a {sensible} decision.|sensitive,sentimental
+shade|We sat in the {shade} of a tree to avoid the strong sun.|shame,shape
+shadow|The lamp cast a long {shadow} of the chair on the wall.|shade,shelter
+sharp|Be careful with that knife; its blade is very {sharp}.|shallow,short
+sheet|Please take one {sheet} of paper and write your name on it.|shelf,sheep
+shore|The waves washed pieces of wood onto the {shore}.|shelf,shade
+shortly|The train will arrive {shortly}, in about two minutes.|short,shortened
+signal|The red light is a {signal} for drivers to stop.|signature,significance
+significant|The treatment produced a {significant} improvement, not just a tiny change.|signed,simple
+F
+sculpt|表示“雕塑家”的名词|sculptor
+secure|名词|security
+select|名词|selection
+severe|副词|severely
+sharp|动词|sharpen
+short|表示“短缺”的名词|shortage
+significant|名词|significance
+T
+sensitive|有些动物对温度变化非常敏感。（sensitive）|Some animals are very sensitive to changes in temperature.
+share|与别人分享想法能帮助我们发现新的可能性。（share）|Sharing ideas with others can help us discover new possibilities.
+shelter|我们在公交车站避雨。（shelter）|We took shelter from the rain at the bus stop.
+shortage|这个地区正面临严重的饮用水短缺。（shortage）|This area is facing a severe shortage of drinking water.
+significant|每天的小进步最终会带来显著变化。（significant）|Small daily improvements can eventually lead to significant changes.
+@63
+M
+skyscraper|摩天大楼
+slavery|奴隶制
+slippery|滑的
+slogan|口号
+sociable|好交际的
+solar|太阳的
+solution|解决办法；溶液
+sophisticated|精密复杂的；老练的
+souvenir|纪念品
+specialist|专家
+species|物种
+specific|具体的；特定的
+spectacular|壮观的
+spectator|观众
+spontaneous|自发的
+sponsor|赞助者；赞助
+spouse|配偶
+stability|稳定性
+stamina|耐力
+stadium|体育场
+C
+skill|She is skilled ___ repairing clocks.|in/at
+sleep|The tired child soon fell ___.（睡着；a开头）|asleep
+social|Reading groups offer opportunities ___ social interaction.|for
+solution|Have you found a solution ___ the problem?|to
+sorry|I am sorry ___ interrupting you.|for
+sort|Please sort the cards ___ colour.|by
+source|The sun is our main source ___ energy.|of
+spare|I read novels ___ my spare time.|in
+speak|She spoke ___ behalf of the whole class.|on
+specialize|The shop specializes ___ second-hand books.|in
+spend|He spent two hours ___ the model. (build)|building
+spite|They continued walking in spite ___ the rain.|of
+split|The class split ___ three discussion groups.|into
+spread|The news spread quickly ___ the village.|through/throughout/across/around
+stable|The bridge must remain stable ___ strong winds.|in
+X
+sleepy|I stayed up too late and now feel {sleepy}.|asleep,sleeping
+asleep|Please do not wake him; he is {asleep}.|sleepy,sleepless
+slight|There was only a {slight} change in temperature, less than one degree.|slightly,slippery
+social|The study explores how friendships affect our {social} development.|sociable,solar
+soil|The roots take water and minerals from the {soil}.|solid,soul
+solid|Ice is the {solid} form of water.|solar,soil
+somewhere|I know I have seen that painting {somewhere} before.|somehow,somewhat
+somehow|The door was locked, but he {somehow} managed to get inside.|somewhere,sometimes
+species|Several endangered {species} live in this forest.|specialties,spectators
+spectators|Thousands of {spectators} watched the match from the stands.|spectacles,speeches
+spirit|Even after losing, the team showed great fighting {spirit}.|sprint,sprite
+stationary|The train remained {stationary} at the platform for ten minutes.|stationery,stable
+stable|The patient's condition is {stable}, with no major changes overnight.|steady-going,stationery
+F
+skill|表示“熟练的”的形容词，以-ed结尾|skilled
+sleep|过去式|slept
+society|形容词|social
+solve|名词|solution
+south|形容词|southern
+speak|表示“演讲”的名词|speech
+stable|名词|stability
+T
+solution|我们需要找到问题的根本解决办法。（solution）|We need to find a fundamental solution to the problem.
+spare|她利用业余时间照顾流浪动物。（spare）|She cares for stray animals in her spare time.
+spend|我每天花二十分钟复习词汇。（spend）|I spend twenty minutes reviewing vocabulary every day.
+spite|尽管有困难，他们没有放弃。（spite）|They did not give up in spite of the difficulties.
+specific|请给出具体的例子，而不是笼统的描述。（specific）|Please give specific examples rather than a general description.
+@64
+M
+staff|全体员工
+stalwart|忠诚可靠的；坚定的
+stamina|耐力
+stance|立场
+standard|标准
+starvation|饥饿；饿死
+statement|声明；陈述
+statistic|统计数据的单数形式
+statue|雕像
+steady|稳定持续的；平稳的
+steep|陡峭的
+stimulate|刺激；激发
+stock|库存；股票
+straightforward|简单明了的；坦率的
+strategy|策略
+strength|力量；长处
+stress|压力；强调
+strive|努力；奋斗
+structure|结构
+struggle|奋斗；艰难地进行
+C
+stand|What does this abbreviation stand ___?|for
+stare|It is rude to stare ___ strangers.|at
+starve|The animals were starving ___ lack of food.|from
+start|Let us start ___ the easiest question.|with
+state|The building is in a poor state ___ repair.|of
+step|We solved the problem step ___ step.|by
+stick|You should stick ___ your original plan.|to
+stop|The guard stopped us ___ entering the room.|from
+store|Store the medicine ___ a cool, dry place.|in
+stranger|The new student was a stranger ___ the town.|to
+stress|The coach laid stress ___ teamwork.|on
+stretch|Please stretch your arms ___ in front of you.|out
+strike|The workers went ___ strike.|on
+strive|We should strive ___ improve our work.|to
+struggle|The family struggled ___ survive the winter.|to
+X
+stage|The actors walked onto the {stage} as the curtain rose.|stair,staff
+stair|Be careful: the bottom {stair} is broken.|stare,store
+state|Please {state} your name clearly for the record.|stay,stand
+statue|A bronze {statue} of the poet stands in the square.|status,statute
+steady|Keep the camera {steady} so that the picture is not blurred.|stationery,stubbornly
+steam|When water boils, it produces {steam}.|stream,stem
+steep|The hill is too {steep} for us to cycle up easily.|deep,stiff
+stiff|My neck feels {stiff} after sitting in the same position for hours.|steep,strict
+storey|Our classroom is on the second {storey} of the building.|storytelling,storage
+strait|The narrow {strait} separates the two islands.|straight,strength
+stream|A small {stream} flows through the forest.|steam,straw
+strength|Lifting this box requires considerable physical {strength}.|strong,strengthen
+striking|The two sisters share a {striking} resemblance; strangers often mistake them for twins.|struck,striving
+F
+starve|名词|starvation
+state|表示“声明”的名词|statement
+steady|副词|steadily
+stick|过去式|stuck
+strong|名词|strength
+strength|动词|strengthen
+strike|过去式|struck
+T
+stand|这个缩写代表什么？（stand）|What does this abbreviation stand for?
+stick|一旦制订了合理的计划，就要坚持执行。（stick）|Once you have made a reasonable plan, stick to it.
+stress|老师强调了检查答案的重要性。（stress）|The teacher stressed the importance of checking our answers.
+strength|了解自己的长处和不足有助于进步。（strength）|Understanding our strengths and weaknesses helps us improve.
+struggle|他努力理解这个复杂的问题。（struggle）|He struggled to understand this complex problem.
+@65
+M
+subjective|主观的
+submit|提交
+subscribe|订阅
+subsequent|随后的
+substance|物质；实质
+substantial|大量的；实质性的
+substitute|代替；替代品
+succession|连续；继承
+sufficient|足够的
+summary|总结；摘要
+superior|更好的；上级
+supervise|监督
+supplementary|补充的
+surgeon|外科医生
+surpass|超过
+suspicion|怀疑
+sympathetic|有同情心的
+symptom|症状
+synthetic|合成的
+technique|技巧；技术
+C
+submit|Please submit your application ___ the office.|to
+subscribe|I subscribe ___ a monthly science magazine.|to
+substitute|You can substitute honey ___ sugar.|for
+succeed|She succeeded ___ finding a solution.|in
+suffer|He suffers ___ frequent headaches.|from
+suggest|I suggest ___ a short break. (take)|taking
+suitable|This film is suitable ___ children over twelve.|for
+sum|To sum ___, we need more time and better evidence.|up
+superior|This material is superior ___ the old one in strength.|to
+supply|The charity supplied the village ___ clean water.|with
+surround|The garden is surrounded ___ a high wall.|by/with
+suspect|They suspected him ___ taking the missing document.|of
+sympathy|She expressed sympathy ___ the injured workers.|for
+take|Please take advantage ___ this opportunity.|of
+talent|The child has a talent ___ drawing.|for
+X
+subjective|The review reflects the writer's personal taste and is therefore {subjective}.|objective,substantial
+substitute|If there is no butter, you can use oil as a {substitute}.|subscription,substance
+success|The project was a {success}: it achieved all its goals.|succeed,successful
+suggestion|Thank you for your useful {suggestion}; I will try it tomorrow.|suggest,suggestive
+suit|The colour of this jacket does not {suit} me.|fit,match
+fit|These shoes do not {fit}; they are two sizes too small.|suit,match
+support|The pillars {support} the roof and carry its weight.|suppose,surpass
+survive|Very few plants can {survive} without any water.|suffer,supply
+survey|The school conducted a {survey} to find out students' reading habits.|survival,surgery
+symbol|A dove is often used as a {symbol} of peace.|symptom,syllable
+symptom|A high temperature may be a {symptom} of illness.|symbol,symphony
+target|Our immediate {target} is to reduce waste by ten percent.|talent,taste
+temper|He lost his {temper} and shouted angrily.|temperature,temple
+F
+succeed|名词|success
+suggest|名词|suggestion
+summary|动词|summarize/summarise
+supervise|表示“监督者”的名词|supervisor
+survive|名词|survival
+suspect|表示“怀疑”的名词|suspicion
+sympathy|形容词|sympathetic
+T
+succeed|只要持续练习，你就有可能成功掌握这项技能。（succeed）|If you keep practising, you may succeed in mastering this skill.
+suggest|我建议先把任务分成几个小步骤。（suggest）|I suggest dividing the task into several small steps first.
+suitable|我们需要选择适合自己水平的材料。（suitable）|We need to choose materials suitable for our level.
+supply|志愿者为受灾家庭提供了食物和水。（supply）|The volunteers supplied the affected families with food and water.
+take|我们应该利用这次机会了解彼此。（take advantage）|We should take advantage of this opportunity to get to know each other.
+@66
+M
+temporary|临时的
+tempt|引诱
+tendency|倾向
+tension|紧张；张力
+terminal|终点站；终端
+territory|领土；领域
+testimony|证词
+theatrical|戏剧的；夸张的
+theft|偷窃
+theory|理论
+therapy|治疗；疗法
+thorough|彻底的
+thoughtful|体贴的；深思的
+threat|威胁
+thrive|茁壮成长；繁荣
+thrilling|令人激动的
+throughout|遍及；自始至终
+tide|潮汐
+tight|紧的
+tolerance|容忍；耐受力
+C
+tempt|The discount tempted us ___ buy more than we needed.|to
+tend|People tend ___ remember unusual events.|to
+term|We need to think in terms ___ long-term benefits.|of
+thank|Thank you ___ reminding me of the deadline.|for
+thanks|Thanks ___ your help, we finished on time.|to
+theory|The idea works in theory but not ___ practice.|in
+think|What do you think ___ the new timetable?|of/about
+thirsty|The students are thirsty ___ knowledge.|for
+threat|Pollution poses a threat ___ marine life.|to
+threaten|The company threatened ___ close the factory.|to
+throw|Do not throw ___ paper that can be reused.|away/out
+tidy|Please tidy ___ your desk before leaving.|up
+tie|Tie the boat ___ the wooden post.|to
+tired|I am tired ___ hearing the same excuse.|of
+tolerate|We cannot tolerate ___ false information. (spread)|spreading
+X
+temporary|The school is using a {temporary} building until the new one is finished.|permanent,terminal
+tender|The nurse spoke in a {tender} voice to comfort the frightened child.|tense,terrible
+tense|Everyone felt {tense} while waiting for the important result.|tender,temporary
+term|The autumn {term} begins in September and ends in January.|terminal,territory
+theory|The experiment provides evidence for the scientist's {theory}.|thought,therapy
+therefore|The bridge is unsafe; {therefore}, it has been closed.|nevertheless,otherwise
+thick|The ice must be sufficiently {thick} before anyone walks on it.|thin,thirsty
+thorough|We need a {thorough} investigation that examines every detail.|through,throughout
+thoughtful|It was {thoughtful} of you to bring a blanket for the elderly guest.|thoughtless,theoretical
+through|Sunlight came {through} the open window.|across,throughout
+throughout|The museum is open {throughout} the year, including winter.|through,thorough
+tip|Be careful: the {tip} of the needle is sharp.|tide,tie
+tired|After the long journey, we were too {tired} to cook.|tiring,tireless
+F
+temporary|副词|temporarily
+tend|表示“倾向”的名词|tendency
+tense|表示“紧张”的名词|tension
+theory|形容词|theoretical
+think|过去式|thought
+threat|动词|threaten
+tolerate|名词|tolerance
+T
+tend|人们往往会忽视那些看似简单的问题。（tend）|People tend to overlook problems that seem simple.
+thanks|多亏了你的提醒，我没有错过报名时间。（thanks）|Thanks to your reminder, I did not miss the registration deadline.
+thorough|提交之前，请彻底检查你的报告。（thorough）|Please give your report a thorough check before submitting it.
+threat|塑料垃圾对海洋动物构成了威胁。（threat）|Plastic waste poses a threat to marine animals.
+tolerate|我们不应该容忍对他人的不尊重。（tolerate）|We should not tolerate disrespect towards others.
+@67
+M
+tornado|龙卷风
+tournament|锦标赛
+trace|痕迹；追踪
+trademark|商标
+tragedy|悲剧
+trait|特征；特质
+transfer|转移；调动
+transform|改变形态；使彻底改变
+transition|过渡
+transmit|传送；传播
+transplant|移植
+tremendous|巨大的
+trial|审判；试验
+tropical|热带的
+tuition|学费；教学
+ultimate|最终的
+underestimate|低估
+undergo|经历；经受
+undertake|承担；着手做
+universal|普遍的；全世界的
+C
+total|There were thirty participants ___ total.|in
+touch|We still keep in touch ___ our former classmates.|with
+trade|The country trades ___ its neighbours.|with
+tradition|According ___ tradition, families gather for the festival.|to
+transfer|He was transferred ___ the city office to a rural branch.|from
+transform|The project transformed an empty lot ___ a garden.|into
+translate|Please translate this paragraph ___ English.|into
+transport|The goods are transported ___ rail.|by
+treat|The injured cyclist was treated ___ shock.|for
+trust|We trust her ___ keep the information confidential.|to
+turn|Please turn ___ the volume; the baby is sleeping.|down
+typical|This reaction is typical ___ young children.|of
+unable|He was unable ___ attend because of illness.|to
+understand|We must try to understand things ___ others' points of view.|from
+unite|The two groups united ___ a common goal.|for
+X
+tough|This material is {tough}, meaning that it is difficult to tear.|rough,tender
+tourist|A {tourist} usually visits a place for pleasure rather than to live there.|tour,tourism
+track|Follow the muddy {track} through the forest.|trick,truck
+traffic|Heavy {traffic} delayed our arrival in the city.|transportation,transport
+transfer|Passengers must {transfer} to another train at the next station.|transform,translate
+transform|The renovation will {transform} the old warehouse into a theatre.|transfer,transmit
+translate|Can you {translate} this letter from French into English?|transmit,transport
+transmit|Mosquitoes can {transmit} certain diseases from person to person.|translate,transform
+trap|The mouse was caught in a {trap} behind the cupboard.|trip,trial
+trip|We went on a short {trip} to the seaside last weekend.|travel,traffic
+true|The story is {true}; it describes events that really happened.|truthful,truly
+unique|Each fingerprint is {unique}; no two people have exactly the same set.|universal,uniform
+uniform|All members of the team wore the same {uniform}.|union,universe
+F
+tradition|形容词|traditional
+transform|名词|transformation
+translate|名词|translation
+treat|表示“治疗”的名词|treatment
+true|名词|truth
+understand|过去分词|understood
+unite|表示“团结”的名词|unity
+T
+touch|毕业后，我们仍然保持联系。（touch）|We have kept in touch since graduation.
+transform|志愿者把这块空地变成了一座花园。（transform）|The volunteers transformed the empty lot into a garden.
+translate|这本书已经被翻译成多种语言。（translate）|This book has been translated into many languages.
+underestimate|不要低估每天坚持练习的作用。（underestimate）|Do not underestimate the effect of practising every day.
+undertake|承担一项任务之前，我们应该了解它的要求。（undertake）|Before undertaking a task, we should understand its requirements.
+@68
+M
+unrealistic|不切实际的
+unregulated|未受监管的
+unruly|难以管教的
+urgent|紧急的
+urbanization|城市化
+utensil|器皿；用具
+vacancy|空缺
+vague|模糊的
+valid|有效的；合理的
+variation|变化；变体
+vegetation|植被
+vehicle|交通工具
+venture|冒险行动；风险事业
+venue|活动场地
+verbal|口头的
+vigilant|警觉的
+virtual|虚拟的
+virtue|美德
+visible|可见的
+vocation|职业；使命感
+C
+urge|The doctor urged him ___ rest for a few days.|to
+use|We are used ___ the noise from the road.|to
+use|This tool is used ___ cutting glass.|for
+use|She used ___ live in a small village.|to
+vain|We searched ___ vain for the missing ticket.|in
+value|The map is ___ great value to the explorers.|of
+variety|The shop sells a wide variety ___ fruit.|of
+vary|The results vary ___ person to person.|from
+victim|Several people fell victim ___ the online scam.|to
+view|___ view of the bad weather, the trip was postponed.|In
+visit|We paid a visit ___ the local museum.|to
+vital|Sleep is vital ___ good health.|to/for
+vote|跨页回收：The members voted ___ favour of the proposal.|in
+up|Please keep ___ with the latest changes.|up
+unless|We will go ahead ___ it rains.（除非）|unless
+X
+unless|You cannot enter {unless} you have a valid ticket.|if,because
+unlike|{Unlike} her brother, who loves football, she prefers tennis.|Unless,Until
+until|We waited {until} the last bus arrived before leaving.|unless,while
+upset|She was {upset} when she discovered that her work had been deleted.|upward,upright
+vacant|The house has been {vacant} for months; nobody lives there.|vague,vain
+valuable|The diary contains {valuable} information for historians.|valued,valid
+various|Students gave {various} answers rather than all saying the same thing.|variable,variedly
+vast|The Sahara covers a {vast} area of northern Africa.|vague,vain
+version|This is the revised {version} of the report, with the errors corrected.|vision,verse
+victory|The team's {victory} was celebrated by all its supporters.|victim,virtue
+violent|The {violent} storm damaged roofs and uprooted trees.|visible,virtual
+virtual|The museum offers a {virtual} tour that you can take on a computer.|visible,vital
+vivid|Her description was so {vivid} that I could picture the scene clearly.|vague,valid
+F
+usual|表示“不寻常的”的形容词|unusual
+urge|表示“紧急的”的形容词|urgent
+use|表示“有用的”的形容词|useful
+value|表示“有价值的”的形容词|valuable
+vary|名词，以-ety结尾|variety
+violence|形容词|violent
+visit|表示“游客”的名词|visitor
+T
+unless|除非你先检查地址，否则不要发送这封邮件。（unless）|Do not send this email unless you have checked the address first.
+used|我已经习惯了每天早晨阅读。（used to）|I am used to reading every morning.
+variety|广泛阅读能让我们接触多种观点。（variety）|Reading widely exposes us to a variety of viewpoints.
+vary|学习方法可能因人而异。（vary）|Study methods may vary from person to person.
+vital|充足的睡眠对青少年的健康至关重要。（vital）|Enough sleep is vital to teenagers' health.
+@69
+M
+volcano|火山
+volume|音量；体积
+volunteer|志愿者；自愿做
+wardrobe|衣柜
+waterproof|防水的
+warmth|温暖
+wealth|财富
+weapon|武器
+weave|编织
+welfare|福利
+well-being|身心健康；幸福
+wilderness|荒野
+wildlife|野生动植物
+widespread|广泛存在的
+width|宽度
+willingly|自愿地
+wisdom|智慧
+witness|目击者；目睹
+whisper|低语
+wheelchair|轮椅
+C
+volunteer|She volunteered ___ help with the event.|to
+wait|Please wait ___ me at the entrance.|for
+wake|I woke ___ before the alarm rang.|up
+warn|They warned us ___ the danger.|of/about
+warn|The doctor warned him ___ smoking.|against
+waste|Do not waste time ___ about things you cannot change. (worry)|worrying
+way|The taxi is ___ its way to the station.|on
+weak|He is weak ___ spelling but good at speaking.|in
+wear|The old carpet has worn ___.|out
+welcome|Visitors are welcome ___ join the tour.|to
+whether|I cannot decide whether to stay ___ leave.|or
+wide|Open your eyes ___ and look carefully.（充分张开）|wide
+wish|I wish I ___ more time to read.（与现在事实相反）|had
+within|Please finish the task ___ an hour.（不超过一小时）|within/in
+without|She left ___ saying goodbye.|without
+X
+waist|The belt goes around your {waist}.|waste,wrist
+wander|We spent an hour walking without a plan, letting ourselves {wander}.|wonder,warn
+weather|The picnic depends on tomorrow's {weather}.|whether,welfare
+weigh|The nurse will {weigh} the baby to check its growth.|weight,wait
+whenever|Call me {whenever} you need help, whether it is morning or night.|wherever,whatever
+whereas|Leo prefers working alone, {whereas} Mia enjoys teamwork.|whether,wherever
+whether|We have not decided {whether} to travel by train or by bus.|whereas,whenever
+while|Please wait here {while} I check your reservation.|whereas,whether
+wide|The river is twenty metres {wide} at this point.|widely,widespread
+widely|The book has been {widely} read in many countries.|wide,width
+widespread|The storm caused {widespread} damage across the entire region.|wide,widely
+within|The prize is {within} reach; one more correct answer will win it.|in,into
+witness|A {witness} told the police exactly what she had seen.|wisdom,weapon
+F
+volunteer|表示“自愿的”的形容词|voluntary
+warm|名词|warmth
+weak|动词|weaken
+wealth|形容词|wealthy
+weigh|名词|weight
+wide|表示“宽度”的名词|width
+wise|名词|wisdom
+T
+warn|老师提醒我们注意网上信息的可靠性。（warn）|The teacher warned us to check the reliability of information online.
+whereas|她喜欢提前计划，而我更喜欢灵活安排。（whereas）|She likes to plan ahead, whereas I prefer to keep my arrangements flexible.
+whether|我们还没有决定是否参加这次比赛。（whether）|We have not decided whether to enter the competition.
+widespread|这个消息引起了广泛关注。（widespread）|The news attracted widespread attention.
+within|请在三天内回复这封邮件。（within）|Please reply to this email within three days.
+@70
+M
+wonder|想知道；惊奇
+wooden|木制的
+worldwide|全世界的；在全世界
+workshop|车间；研讨活动
+workout|体育锻炼
+worn|磨损的
+worthless|无价值的
+worthwhile|值得花时间或精力的
+worthy|值得的；值得尊敬的
+wound|伤口；使受伤
+wrapping|包装材料
+wreath|花环
+wreck|残骸；毁坏
+wrestle|摔跤；奋力对付
+wrinkle|皱纹
+wrist|手腕
+yearly|每年的；一年一次地
+yield|产量；产生
+youngster|年轻人
+zone|区域
+C
+wonder|I wonder ___ she will agree to the plan.（是否）|whether/if
+word|Please keep your ___ and arrive on time.（承诺；w开头）|word
+work|We need to work ___ a solution together.（想出；w开头短语）|out
+worry|Do not worry ___ small mistakes while practising.|about
+worth|The book is worth ___. (read)|reading
+worthy|The idea is worthy ___ further discussion.|of
+worthwhile|It is worthwhile ___ check the details again.|to
+wrap|She wrapped the present ___ blue paper.|in
+wrestle|The researchers wrestled ___ the difficult problem.|with
+write|Please write ___ the address before you forget it.|down
+wrong|There is nothing wrong ___ asking for help.|with
+year|The school was founded ten years ___.（以前）|ago
+yield|Drivers must yield ___ pedestrians at this crossing.|to
+young|The club is open to the young and the ___.（老年人）|old
+zero|The temperature fell ___ zero overnight.（低于）|below
+X
+wonder|I {wonder} why the lights are still on in the empty building.|wander,wound
+wooden|The table is made of wood; it is a {wooden} table.|woollen,worldwide
+wool|The sweater is made from sheep's {wool}.|wood,wire
+work|The new method seems to {work}; our results have improved.|job,worth
+worn|The soles of these shoes are badly {worn} after years of use.|wore,wear
+worse|Today's weather is {worse} than yesterday's.|worst,badly
+worst|That was the {worst} storm the town had seen in a century.|worse,badly
+worth|This guide is {worth} reading before you begin.|worthy,worthwhile
+worthy|Her achievement is {worthy} of praise.|worth,worthwhile
+worthwhile|It is {worthwhile} to spend time checking important information.|worth,worthy
+wound|The nurse cleaned the {wound} and covered it with a bandage.|injured,wounded
+yet|I have not finished the report {yet}, but I will soon.|already,ever
+youth|The programme encourages local {youth} to take part in community service.|young,youthful
+F
+wonder|形容词|wonderful
+wood|形容词|wooden
+wear|过去分词|worn
+bad|最高级|worst
+write|过去分词|written
+year|表示“每年的”的形容词|yearly
+young|表示“青春”的名词|youth
+T
+wonder|我想知道是否还有其他解决办法。（wonder）|I wonder whether there are any other solutions.
+worth|这本书值得再读一遍。（worth）|This book is worth reading again.
+worthwhile|花时间反思错误是值得的。（worthwhile）|It is worthwhile to spend time reflecting on mistakes.
+worry|不要担心暂时没有找到答案。（worry）|Do not worry about not having found the answer yet.
+word|既然作出了承诺，我们就应该遵守。（word）|Now that we have made a promise, we should keep our word.

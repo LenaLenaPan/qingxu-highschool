@@ -3,6 +3,10 @@ const supabase = createClient("https://qtzowtlqudotkomzrntg.supabase.co", "sb_pu
   auth: { storageKey: "qingxu-supabase-auth-v1", persistSession: true, autoRefreshToken: true, detectSessionInUrl: false },
   global: { fetch: (input, init) => fetch(input, { ...init, signal: init?.signal || AbortSignal.timeout(15000) }) }
 });
+// Share the same SDK client and auth session with per-question answer saving.
+// This source change takes effect at the next user-authorized build.
+Object.assign(window, { QXSupabase: supabase });
+window.dispatchEvent(new Event("qx-supabase-ready"));
 
 type Bucket = "today" | "week" | "later" | "done";
 type Step = { id: string; label: string };

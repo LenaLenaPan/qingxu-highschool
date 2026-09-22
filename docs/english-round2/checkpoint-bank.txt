@@ -1,0 +1,149 @@
+# 综合验收：M与F跨课抽取词形回忆；C、X、T使用这里的新题。
+@41
+C
+access|Only staff have access ___ the equipment cupboard.|to
+accuse|The owner accused the visitor ___ damaging the display.|of
+adapt|Plants must adapt ___ changes in rainfall.|to
+agree|The committee agreed ___ the proposed date.|on
+apologize|He apologized ___ interrupting the presentation.|for
+apply|The new rules apply ___ every member of the club.|to
+approve|The manager approved ___ our idea.|of
+benefit|Everyone can benefit ___ clearer instructions.|from
+blame|The weather, rather than the guide, was ___ blame for the delay.|to
+charge|The exhibition is free ___ charge on Tuesdays.|of
+combine|Try combining exercise ___ an activity you enjoy.|with
+contribute|Her discovery contributed ___ advances in medicine.|to
+convince|The results convinced us ___ the need for further research.|of
+depend|A successful experiment depends ___ careful measurement.|on/upon
+devote|The museum is devoted ___ the history of local transport.|to
+X
+accept|You may {accept} or refuse this invitation; the choice is yours.|receive,achieve
+affect|A lack of sleep can {affect} your ability to concentrate.|effect,afford
+available|All the tickets have been sold, so none are {available}.|accessible,avoidable
+beyond|The village lies {beyond} the mountains, on the other side.|besides,beside
+brake|The driver pressed the {brake} to avoid hitting the dog.|break,brick
+celebrate|The school will {celebrate} its fiftieth anniversary with a concert.|congratulate,certify
+climate|Average temperatures measured over decades help describe a region's {climate}.|weather,climax
+comment|The reviewer wrote a brief {comment} explaining what could be improved.|command,commander
+considerate|Waiting quietly while someone finishes speaking is {considerate}.|considerable,conclusive
+context|Read the surrounding sentences to understand the word in {context}.|contest,contentment
+criteria|The judges used several {criteria}, including accuracy and clarity.|criterion,critics
+dessert|A bowl of fresh fruit was served as {dessert}.|desert,deposit
+device|The new {device} measures how much water each household uses.|advice,devise
+T
+adapt|换到新学校后，他很快适应了新的环境。（adapt）|After moving to a new school, he quickly adapted to the new environment.
+benefit|参加讨论使我们受益，因为我们能听到不同的观点。（benefit）|We benefit from taking part in discussions because we can hear different viewpoints.
+combine|一个好的计划应该把明确的目标与灵活的安排结合起来。（combine）|A good plan should combine clear goals with flexible arrangements.
+contribute|即使是很小的行动也能为环境保护作出贡献。（contribute）|Even small actions can contribute to environmental protection.
+devote|她决定每周抽出一些时间帮助邻居。（devote）|She decided to devote some time each week to helping her neighbours.
+@51
+C
+disapprove|The coach disapproved ___ blaming others after a defeat.|of
+distinguish|The colour helps distinguish this species ___ similar ones.|from
+donate|The author donated the proceeds ___ a literacy project.|to
+emphasis|The revised course puts more emphasis ___ listening.|on
+enable|The subtitles enable more viewers ___ understand the film.|to
+equip|Every rescue vehicle is equipped ___ medical supplies.|with
+expose|Workers must not be exposed ___ dangerous levels of noise.|to
+familiar|I am familiar ___ the safety procedures.|with
+focus|The investigation focused ___ the cause of the failure.|on
+forgive|Can you forgive me ___ forgetting your birthday?|for
+grateful|She was grateful ___ the teacher who encouraged her.|to
+harm|False information can do harm ___ public trust.|to
+impress|The students impressed the judges ___ their clear explanations.|with
+insist|The engineer insisted ___ checking the bridge again.|on/upon
+lead|The discussion led ___ a new proposal.|to
+X
+discovery|Finding the previously unknown island was a remarkable {discovery}.|invention,inventor
+efficient|This engine uses less fuel to do the same work, so it is more {efficient}.|emotional,ethical
+employee|A person who works for a company is its {employee}.|employer,employment
+experience|You gain practical {experience} by working on real projects.|experiment,explanation
+flour|The baker weighed the {flour} before mixing the dough.|flower,floor
+former|The {former} headteacher retired last year.|formal,formally
+generous|Giving freely of your time and resources is described as being {generous}.|genuine,genetic
+hardly|There was almost no light; we could {hardly} see the path.|hard,harder
+historical|The museum displays documents relating to the past: these are {historical} records.|hysterical,hostile
+imply|The writer does not say she is disappointed, but her words {imply} it.|infer,inform
+intention|He made the call with the {intention} of clearing up the misunderstanding.|attention,extension
+latest|Please use the {latest} figures, which were updated this morning.|latter,later
+lay|Yesterday she {laid} the documents on the table before leaving.|lay,lain
+T
+discourage|困难不应该阻止我们尝试新的方法。（discourage）|Difficulties should not discourage us from trying new methods.
+emphasis|我们应该更加重视理解，而不仅仅是记忆。（emphasis）|We should place more emphasis on understanding, not just memorization.
+familiar|虽然第一次来到这里，我却对这些街道很熟悉。（familiar）|Although this was my first visit here, I was familiar with the streets.
+inspire|她的经历激励我更勇敢地面对挑战。（inspire）|Her experience inspired me to face challenges more bravely.
+limit|我们必须在有限的时间内作出决定。（limited）|We must make a decision within a limited time.
+@61
+C
+look|The children are looking forward ___ visiting the science museum.|to
+manage|The volunteers managed ___ find homes for all the animals.|to
+mind|Would you mind ___ me how this machine works? (show)|showing
+object|The community objected ___ cutting down the old trees.|to
+occur|It never occurred ___ him to ask for help.|to
+oppose|Many residents are opposed ___ the closure of the park.|to
+participate|More families participated ___ this year's reading event.|in
+persist|She persisted ___ practising until the movement felt natural.|in
+prefer|He prefers making things ___ buying them.|to
+prevent|Clear labels prevent people ___ using the wrong materials.|from
+provide|The guide provided us ___ a map of the area.|with
+react|The audience reacted warmly ___ the performance.|to
+refer|The final paragraph refers ___ the earlier experiment.|to
+remind|Please remind the children ___ wash their hands.|to
+satisfied|The editor was satisfied ___ the revised article.|with
+X
+loose|The handle is {loose}; you can feel it moving when you pull.|lose,lost
+maximum|You may enter up to three times; three is the {maximum}.|minimum,medium
+minority|Only five of the hundred participants disagreed, so they were a {minority}.|majority,minimum
+objective|The report avoids personal opinions and aims to be {objective}.|subjective,obscure
+overlook|A careful editor should not {overlook} a small but important error.|overcome,oversee
+personnel|The notice is addressed to all {personnel} employed at the centre.|personal,personality
+phenomena|The exhibition explains several unusual natural {phenomena}.|phenomenon,philosophy
+principal|The head of the school is called its {principal}.|principle,priority
+quality|A well-made chair shows good {quality}, even if only one is produced.|quantity,qualification
+raise|They hope to {raise} enough money to repair the playground.|rise,arise
+remind|This smell can {remind} people of meals they enjoyed in childhood.|remember,remain
+scene|The detective returned to the {scene} of the crime.|scenery,science
+salary|The job advertisement lists the annual {salary} and working hours.|sale,sail
+T
+maintain|即使任务很多，也要保持合理的作息。（maintain）|Even when you have many tasks, maintain a reasonable daily routine.
+occur|当我读到最后一段时，突然想到了一个新的问题。（occur）|A new question occurred to me when I read the final paragraph.
+persuade|他试图说服我们选择一条更安全的路线。（persuade）|He tried to persuade us to choose a safer route.
+provide|图书馆为不同年龄的读者提供服务。（provide）|The library provides services for readers of different ages.
+responsible|每个人都应该对自己在网上发布的内容负责。（responsible）|Everyone should be responsible for what they post online.
+@71
+C
+access|All students should have access ___ reliable learning materials.|to
+blame|We should look for the cause instead of blaming others ___ the error.|for
+consist|The final assessment consists ___ several different tasks.|of
+contribute|Careful preparation contributes ___ a successful presentation.|to
+depend|Whether we can continue depends ___ the weather.|on/upon
+equip|The expedition was equipped ___ emergency radios.|with
+focus|For now, focus ___ the evidence rather than your first impression.|on
+inform|The organizer informed everyone ___ the change of venue.|of/about
+prevent|The barrier prevents cars ___ entering the pedestrian area.|from
+result|The misunderstanding resulted ___ a poorly worded message.|from
+skilled|The technician is skilled ___ finding faults in electrical equipment.|in/at
+succeed|They succeeded ___ restoring the damaged painting.|in
+transform|New technology can transform the way we turn waste ___ useful materials.|into
+warn|The sign warns visitors ___ entering the unstable building.|against
+worth|The original report is worth ___ carefully. (check)|checking
+X
+whereas|The first design saves space, {whereas} the second is easier to repair.|whether,wherever
+widespread|The discovery attracted {widespread} interest across many countries.|wide,widely
+within|The children must stay {within} sight of an adult at all times.|into,onto
+persuasive|The speaker gave a {persuasive} argument supported by clear evidence.|persuaded,persuading
+steady|The rain continued at a {steady} rate, without sudden changes.|stationery,steadily
+spirit|The volunteers showed a strong team {spirit} throughout the rescue.|sprint,sprite
+theory|A scientific {theory} must be supported by evidence and open to testing.|thought,therapy
+translate|Her job is to {translate} written material from Chinese into English.|transport,transform
+adapt|The animal can {adapt} to changes in its habitat.|adopt,admit
+economic|The report examines national income and other {economic} indicators.|economical,ecological
+historic|Choose the adjective meaning “important in history”: {historic}.|hysterical,hostile
+principle|Fairness is the basic {principle} behind these rules.|principal,priority
+worthwhile|Reviewing the reasons behind an error is {worthwhile}.|worth,worthy
+T
+whereas|有些错误来自知识不足，而另一些来自审题不仔细。（whereas）|Some mistakes result from a lack of knowledge, whereas others result from careless reading of the question.
+contribute|每天稳定的练习比偶尔长时间学习更有助于进步。（contribute）|Steady daily practice contributes more to progress than occasional long study sessions.
+prevent|保存首次作答可以防止我们把订正后的答案误认为原本就会。（prevent）|Keeping the first answer can prevent us from mistaking a correction for something we already knew.
+transform|真正的学习能把知识转化为解决问题的能力。（transform）|Real learning can transform knowledge into the ability to solve problems.
+worth|值得花时间检查自己是否真正理解，而不仅仅是记住答案。（worth）|It is worth spending time checking whether you truly understand rather than merely remember the answer.

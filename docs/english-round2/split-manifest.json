@@ -1,0 +1,20 @@
+{
+  "revision": "r2-split-20260922-v2",
+  "main_papers": 40,
+  "main_questions": 2400,
+  "source_pages": 92,
+  "seed_review_papers": 6,
+  "seed_review_questions": 60,
+  "history_events_mapped": 67,
+  "historical_records": 114,
+  "missing_days": [
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    23
+  ],
+  "assessment_is_sampling_not_full_5000_word_testing": true
+}

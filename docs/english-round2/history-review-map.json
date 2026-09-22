@@ -1,0 +1,1399 @@
+[
+  {
+    "id": "hist-d1-q13",
+    "originId": "hist-d1-q13",
+    "historyIds": [
+      "d1-q13"
+    ],
+    "targets": [
+      "admission"
+    ],
+    "q": "Students can enter the exhibition without paying an ___ fee. (admit)",
+    "answers": [
+      "admission"
+    ],
+    "type": "text",
+    "points": 1,
+    "counted": true,
+    "section": "review",
+    "source": "第一轮已找回反馈的独立变式；历史事件：d1-q13",
+    "explanation": "修饰fee，用名词admission；不以动词admit替代。",
+    "originalQuestions": [
+      "准许进入；录取（n.）"
+    ]
+  },
+  {
+    "id": "hist-d2-q17",
+    "originId": "hist-d2-q17",
+    "historyIds": [
+      "d2-q17"
+    ],
+    "targets": [
+      "announce"
+    ],
+    "q": "The results will be ___ on the noticeboard tomorrow. (announce)",
+    "answers": [
+      "announced"
+    ],
+    "type": "text",
+    "points": 1,
+    "counted": true,
+    "section": "review",
+    "source": "第一轮已找回反馈的独立变式；历史事件：d2-q17",
+    "explanation": "will be后用过去分词；announce保留双n。",
+    "originalQuestions": [
+      "宣布（v.）"
+    ]
+  },
+  {
+    "id": "hist-d2-q34",
+    "originId": "hist-d2-q34",
+    "historyIds": [
+      "d2-q34"
+    ],
+    "targets": [
+      "appeal"
+    ],
+    "q": "The simple design appeals ___ people of all ages.",
+    "answers": [
+      "to"
+    ],
+    "type": "text",
+    "points": 1,
+    "counted": true,
+    "section": "review",
+    "source": "第一轮已找回反馈的独立变式；历史事件：d2-q34",
+    "explanation": "appeal to sb 吸引某人。",
+    "originalQuestions": [
+      "The idea appeals ___ young readers."
+    ]
+  },
+  {
+    "id": "hist-d2-q35",
+    "originId": "hist-d2-q35",
+    "historyIds": [
+      "d2-q35"
+    ],
+    "targets": [
+      "apply"
+    ],
+    "q": "She applied ___ the college ___ financial aid.（两空用英文分号分隔）",
+    "answers": [
+      "to; for"
+    ],
+    "type": "text",
+    "points": 1,
+    "counted": true,
+    "section": "review",
+    "source": "第一轮已找回反馈的独立变式；历史事件：d2-q35",
+    "explanation": "apply to机构，apply for所申请的东西。",
+    "originalQuestions": [
+      "He applied ___ the university ___ a scholarship."
+    ]
+  },
+  {
+    "id": "hist-d2-q37",
+    "originId": "hist-d2-q37",
+    "historyIds": [
+      "d2-q37"
+    ],
+    "targets": [
+      "approach"
+    ],
+    "q": "We need a different approach ___ teaching vocabulary.",
+    "answers": [
+      "to"
+    ],
+    "type": "text",
+    "points": 1,
+    "counted": true,
+    "section": "review",
+    "source": "第一轮已找回反馈的独立变式；历史事件：d2-q37",
+    "explanation": "an approach to doing sth。",
+    "originalQuestions": [
+      "We need a new approach ___ the problem."
+    ]
+  },
+  {
+    "id": "hist-d3-q12",
+    "originId": "hist-d3-q12",
+    "historyIds": [
+      "d3-q12"
+    ],
+    "targets": [
+      "beyond"
+    ],
+    "q": "The village is ___ the river, on its far side.（在……另一边；b开头）",
+    "answers": [
+      "beyond"
+    ],
+    "type": "text",
+    "points": 1,
+    "counted": true,
+    "section": "review",
+    "source": "第一轮已找回反馈的独立变式；历史事件：d3-q12",
+    "explanation": "beyond表示在另一边；besides是“此外”。",
+    "originalQuestions": [
+      "在……以外（prep./adv.）"
+    ]
+  },
+  {
+    "id": "hist-d3-q58",
+    "originId": "hist-d3-q58",
+    "historyIds": [
+      "d3-q58"
+    ],
+    "targets": [
+      "benefit"
+    ],
+    "q": "Regular practice is of benefit to ___ listening skills. (improve)",
+    "answers": [
+      "improving"
+    ],
+    "type": "text",
+    "points": 1,
+    "counted": true,
+    "section": "review",
+    "source": "第一轮已找回反馈的独立变式；历史事件：d3-q58",
+    "explanation": "of benefit to中to是介词，后接动名词。",
+    "originalQuestions": [
+      "经常阅读对扩大词汇量很有益。（benefit）"
+    ]
+  },
+  {
+    "id": "hist-d4-q16",
+    "originId": "hist-d4-q16",
+    "historyIds": [
+      "d4-q16"
+    ],
+    "targets": [
+      "celebrate"
+    ],
+    "q": "The family will ___ their grandparents' anniversary.（庆祝；c开头）",
+    "answers": [
+      "celebrate"
+    ],
+    "type": "text",
+    "points": 1,
+    "counted": true,
+    "section": "review",
+    "source": "第一轮已找回反馈的独立变式；历史事件：d4-q16",
+    "explanation": "celebrate an event；congratulate a person。",
+    "originalQuestions": [
+      "庆祝（v.）"
+    ]
+  },
+  {
+    "id": "hist-d4-q31",
+    "originId": "hist-d4-q31",
+    "historyIds": [
+      "d4-q31"
+    ],
+    "targets": [
+      "chance"
+    ],
+    "q": "There is little chance ___ finding the lost ticket now.",
+    "answers": [
+      "of"
+    ],
+    "type": "text",
+    "points": 1,
+    "counted": true,
+    "section": "review",
+    "source": "第一轮已找回反馈的独立变式；历史事件：d4-q31",
+    "explanation": "a chance of doing sth。",
+    "originalQuestions": [
+      "There is no chance ___ rain today."
+    ]
+  },
+  {
+    "id": "hist-d4-q32",
+    "originId": "hist-d4-q32",
+    "historyIds": [
+      "d4-q32"
+    ],
+    "targets": [
+      "bring"
+    ],
+    "q": "The discovery brought ___ a change in our understanding.",
+    "answers": [
+      "about"
+    ],
+    "type": "text",
+    "points": 1,
+    "counted": true,
+    "section": "review",
+    "source": "第一轮已找回反馈的独立变式；历史事件：d4-q32",
+    "explanation": "bring about 引起、造成。",
+    "originalQuestions": [
+      "Technology has brought ___ great changes."
+    ]
+  },
+  {
+    "id": "hist-d4-q35",
+    "originId": "hist-d4-q35",
+    "historyIds": [
+      "d4-q35"
+    ],
+    "targets": [
+      "check"
+    ],
+    "q": "Check your copy ___ the original to find any errors.",
+    "answers": [
+      "against"
+    ],
+    "type": "text",
+    "points": 1,
+    "counted": true,
+    "section": "review",
+    "source": "第一轮已找回反馈的独立变式；历史事件：d4-q35",
+    "explanation": "check A against B 对照B检查A。",
+    "originalQuestions": [
+      "Please check the figures ___ the original report."
+    ]
+  },
+  {
+    "id": "hist-d4-q55",
+    "originId": "hist-d4-q55",
+    "historyIds": [
+      "d4-q55",
+      "d6-q9"
+    ],
+    "targets": [
+      "characteristic"
+    ],
+    "q": "Adaptability is one of the key ___ of this species. (characteristic)",
+    "answers": [
+      "characteristics"
+    ],
+    "type": "text",
+    "points": 1,
+    "counted": true,
+    "section": "review",
+    "source": "第一轮已找回反馈的独立变式；历史事件：d4-q55,d6-q9",
+    "explanation": "one of后接可数名词复数；characteristics指特征。",
+    "originalQuestions": [
+      "Patience is one of her most valuable ___. (character)",
+      "One of the main ___ of this material is its resistance to heat.（character）"
+    ]
+  },
+  {
+    "id": "hist-d5-q43",
+    "originId": "hist-d5-q43",
+    "historyIds": [
+      "d5-q43"
+    ],
+    "targets": [
+      "comment"
+    ],
+    "q": "The reviewer added a brief ___ explaining the weakness.（评论；c开头）",
+    "answers": [
+      "comment"
+    ],
+    "type": "text",
+    "points": 1,
+    "counted": true,
+    "section": "review",
+    "source": "第一轮已找回反馈的独立变式；历史事件：d5-q43",
+    "explanation": "comment评论；command命令。",
+    "originalQuestions": [
+      "The report made no ___ on the cause of the accident."
+    ]
+  },
+  {
+    "id": "hist-d5-q44",
+    "originId": "hist-d5-q44",
+    "historyIds": [
+      "d5-q44"
+    ],
+    "targets": [
+      "common"
+    ],
+    "q": "Confusing these words is a ___ error.（常见的；c开头）",
+    "answers": [
+      "common"
+    ],
+    "type": "text",
+    "points": 1,
+    "counted": true,
+    "section": "review",
+    "source": "第一轮已找回反馈的独立变式；历史事件：d5-q44",
+    "explanation": "common常见的，不是complete完整的。",
+    "originalQuestions": [
+      "It is a ___ mistake among language learners."
+    ]
+  },
+  {
+    "id": "hist-d5-q55",
+    "originId": "hist-d5-q55",
+    "historyIds": [
+      "d5-q55",
+      "d8-q4"
+    ],
+    "targets": [
+      "comparable"
+    ],
+    "q": "The two samples were collected differently, so they are not directly ___. (compare)",
+    "answers": [
+      "comparable"
+    ],
+    "type": "text",
+    "points": 1,
+    "counted": true,
+    "section": "review",
+    "source": "第一轮已找回反馈的独立变式；历史事件：d5-q55,d8-q4",
+    "explanation": "be comparable to/with 可与……比较的。",
+    "originalQuestions": [
+      "The two systems are not directly ___. (compare)",
+      "The results are ___ to those of the previous study.（compare）"
+    ]
+  },
+  {
+    "id": "hist-d6-q53",
+    "originId": "hist-d6-q53",
+    "historyIds": [
+      "d6-q53"
+    ],
+    "targets": [
+      "contest"
+    ],
+    "q": "She won first prize in the speech ___.（比赛；c开头）",
+    "answers": [
+      "contest"
+    ],
+    "type": "text",
+    "points": 1,
+    "counted": true,
+    "section": "review",
+    "source": "第一轮已找回反馈的独立变式；历史事件：d6-q53",
+    "explanation": "contest比赛；context语境。",
+    "originalQuestions": [
+      "She entered a national English-speaking _____."
+    ]
+  },
+  {
+    "id": "hist-d6-q54",
+    "originId": "hist-d6-q54",
+    "historyIds": [
+      "d6-q54"
+    ],
+    "targets": [
+      "contribute"
+    ],
+    "q": "His careful work made a valuable ___ to the project. (contribute)",
+    "answers": [
+      "contribution"
+    ],
+    "type": "text",
+    "points": 1,
+    "counted": true,
+    "section": "review",
+    "source": "第一轮已找回反馈的独立变式；历史事件：d6-q54",
+    "explanation": "make a contribution to 作出贡献。",
+    "originalQuestions": [
+      "Everyone is encouraged to make a _____ to the discussion."
+    ]
+  },
+  {
+    "id": "hist-d7-q42",
+    "originId": "hist-d7-q42",
+    "historyIds": [
+      "d7-q42"
+    ],
+    "targets": [
+      "delay"
+    ],
+    "q": "The doctor said the patient must be treated without ___.（耽搁；d开头）",
+    "answers": [
+      "delay"
+    ],
+    "type": "text",
+    "points": 1,
+    "counted": true,
+    "section": "review",
+    "source": "第一轮已找回反馈的独立变式；历史事件：d7-q42",
+    "explanation": "without delay 立即；without doubt 毫无疑问。",
+    "originalQuestions": [
+      "without ___"
+    ]
+  },
+  {
+    "id": "hist-d7-q52",
+    "originId": "hist-d7-q52",
+    "historyIds": [
+      "d7-q52"
+    ],
+    "targets": [
+      "decay"
+    ],
+    "q": "Wood may ___ if it stays damp for a long time.（腐烂；d开头）",
+    "answers": [
+      "decay"
+    ],
+    "type": "text",
+    "points": 1,
+    "counted": true,
+    "section": "review",
+    "source": "第一轮已找回反馈的独立变式；历史事件：d7-q52",
+    "explanation": "decay腐烂、衰败。",
+    "originalQuestions": [
+      "Sugar can cause teeth to _____ if oral hygiene is poor."
+    ]
+  },
+  {
+    "id": "hist-d7-q56",
+    "originId": "hist-d7-q56",
+    "historyIds": [
+      "d7-q56"
+    ],
+    "targets": [
+      "deep"
+    ],
+    "q": "The pool has a maximum ___ of two metres. (deep)",
+    "answers": [
+      "depth"
+    ],
+    "type": "text",
+    "points": 1,
+    "counted": true,
+    "section": "review",
+    "source": "第一轮已找回反馈的独立变式；历史事件：d7-q56",
+    "explanation": "deep的名词是depth，不是degree。",
+    "originalQuestions": [
+      "The lake is over 50 meters in _____."
+    ]
+  },
+  {
+    "id": "hist-d9-q1",
+    "originId": "hist-d9-q1",
+    "historyIds": [
+      "d9-q1"
+    ],
+    "targets": [
+      "accomplish"
+    ],
+    "q": "The team ___ the rescue mission before sunset.（accomplish，过去式）",
+    "answers": [
+      "accomplished"
+    ],
+    "type": "text",
+    "points": 1,
+    "counted": true,
+    "section": "review",
+    "source": "第一轮已找回反馈的独立变式；历史事件：d9-q1",
+    "explanation": "完整拼写过去式，不能漏-ed。",
+    "originalQuestions": [
+      "The rescue team successfully ___ its mission.（achieve / accomplish）"
+    ]
+  },
+  {
+    "id": "hist-d9-q4",
+    "originId": "hist-d9-q4",
+    "historyIds": [
+      "d9-q4"
+    ],
+    "targets": [
+      "accept"
+    ],
+    "q": "She received the offer on Monday and ___ it on Wednesday. (accept)",
+    "answers": [
+      "accepted"
+    ],
+    "type": "text",
+    "points": 1,
+    "counted": true,
+    "section": "review",
+    "source": "第一轮已找回反馈的独立变式；历史事件：d9-q4",
+    "explanation": "receive收到不等于accept接受；此处用过去式。",
+    "originalQuestions": [
+      "She received the invitation yesterday and ___ it this morning.（receive / accept）"
+    ]
+  },
+  {
+    "id": "hist-d9-q23",
+    "originId": "hist-d9-q23",
+    "historyIds": [
+      "d9-q23"
+    ],
+    "targets": [
+      "emphasis"
+    ],
+    "q": "The training places particular ___ on accuracy.（强调；e开头）",
+    "answers": [
+      "emphasis"
+    ],
+    "type": "text",
+    "points": 1,
+    "counted": true,
+    "section": "review",
+    "source": "第一轮已找回反馈的独立变式；历史事件：d9-q23",
+    "explanation": "place emphasis on；emphasize为动词。",
+    "originalQuestions": [
+      "e_____ n. 强调；重点"
+    ]
+  },
+  {
+    "id": "hist-d9-q32",
+    "originId": "hist-d9-q32",
+    "historyIds": [
+      "d9-q32",
+      "d9-q49"
+    ],
+    "targets": [
+      "earn"
+    ],
+    "q": "He ___ his teammates' respect through consistent effort. (earn)",
+    "answers": [
+      "earned"
+    ],
+    "type": "text",
+    "points": 1,
+    "counted": true,
+    "section": "review",
+    "source": "第一轮已找回反馈的独立变式；历史事件：d9-q32,d9-q49",
+    "explanation": "earn respect through努力；此处保留earn的过去式。",
+    "originalQuestions": [
+      "earn respect ___ hard work",
+      "She _____ the respect of her classmates through years of hard work."
+    ]
+  },
+  {
+    "id": "hist-d9-q39",
+    "originId": "hist-d9-q39",
+    "historyIds": [
+      "d9-q39"
+    ],
+    "targets": [
+      "elect"
+    ],
+    "q": "They elected her ___ chair of the committee.（填as或零介词符号/；两者均可）",
+    "answers": [
+      "as",
+      "/"
+    ],
+    "type": "text",
+    "points": 1,
+    "counted": true,
+    "section": "review",
+    "source": "第一轮已找回反馈的独立变式；历史事件：d9-q39",
+    "explanation": "elect sb (as) chair；as可省略，不把合理省略判错。",
+    "originalQuestions": [
+      "elect him ___ chairman"
+    ]
+  },
+  {
+    "id": "hist-d9-q47",
+    "originId": "hist-d9-q47",
+    "historyIds": [
+      "d9-q47"
+    ],
+    "targets": [
+      "ease"
+    ],
+    "q": "A short rest may ___ the pain in your shoulders.（缓解；e开头）",
+    "answers": [
+      "ease"
+    ],
+    "type": "text",
+    "points": 1,
+    "counted": true,
+    "section": "review",
+    "source": "第一轮已找回反馈的独立变式；历史事件：d9-q47",
+    "explanation": "ease the pain；earn表示挣得。",
+    "originalQuestions": [
+      "The medicine can _____ the pain but cannot cure the disease."
+    ]
+  },
+  {
+    "id": "hist-d9-q70",
+    "originId": "hist-d9-q70",
+    "historyIds": [
+      "d9-q70"
+    ],
+    "targets": [
+      "enthusiasm"
+    ],
+    "q": "The visit increased the children's enthusiasm ___ astronomy.",
+    "answers": [
+      "for"
+    ],
+    "type": "text",
+    "points": 1,
+    "counted": true,
+    "section": "review",
+    "source": "第一轮已找回反馈的独立变式；历史事件：d9-q70",
+    "explanation": "enthusiasm for 对……的热情。",
+    "originalQuestions": [
+      "他的演讲激发了学生对科学的热情。（enthusiasm）"
+    ]
+  },
+  {
+    "id": "hist-d16-q33",
+    "originId": "hist-d16-q33",
+    "historyIds": [
+      "d16-q33"
+    ],
+    "targets": [
+      "lecture"
+    ],
+    "q": "The professor gave a lecture ___ renewable energy.（关于；介词）",
+    "answers": [
+      "on",
+      "about"
+    ],
+    "type": "text",
+    "points": 1,
+    "counted": true,
+    "section": "review",
+    "source": "第一轮已找回反馈的独立变式；历史事件：d16-q33",
+    "explanation": "a lecture on/about a subject。",
+    "originalQuestions": [
+      "The professor gave a lecture ___ climate change."
+    ]
+  },
+  {
+    "id": "hist-d16-q37",
+    "originId": "hist-d16-q37",
+    "historyIds": [
+      "d16-q37"
+    ],
+    "targets": [
+      "south"
+    ],
+    "q": "The island lies ___ the south of the mainland and is separated from it by the sea.",
+    "answers": [
+      "to"
+    ],
+    "type": "text",
+    "points": 1,
+    "counted": true,
+    "section": "review",
+    "source": "第一轮已找回反馈的独立变式；历史事件：d16-q37",
+    "explanation": "不在内部且不接壤，方位用to the south of。",
+    "originalQuestions": [
+      "The village lies ___ the south of the city."
+    ]
+  },
+  {
+    "id": "hist-d16-q60",
+    "originId": "hist-d16-q60",
+    "historyIds": [
+      "d16-q60"
+    ],
+    "targets": [
+      "limit"
+    ],
+    "q": "The rules set clear ___ on the use of laboratory equipment. (limit)",
+    "answers": [
+      "limits"
+    ],
+    "type": "text",
+    "points": 1,
+    "counted": true,
+    "section": "review",
+    "source": "第一轮已找回反馈的独立变式；历史事件：d16-q60",
+    "explanation": "set limits on；此处用复数limits。",
+    "originalQuestions": [
+      "The law sets clear ___ on working hours. (limit)"
+    ]
+  },
+  {
+    "id": "hist-d17-q18",
+    "originId": "hist-d17-q18",
+    "historyIds": [
+      "d17-q18",
+      "d27-q6"
+    ],
+    "targets": [
+      "media"
+    ],
+    "q": "Newspapers, radio and television are forms of mass ___.（媒体；m开头）",
+    "answers": [
+      "media"
+    ],
+    "type": "text",
+    "points": 1,
+    "counted": true,
+    "section": "review",
+    "source": "第一轮已找回反馈的独立变式；历史事件：d17-q18,d27-q6",
+    "explanation": "mass media；注意字母顺序。",
+    "originalQuestions": [
+      "媒体",
+      "The mass ___ are paying close attention to the case."
+    ]
+  },
+  {
+    "id": "hist-d17-q32",
+    "originId": "hist-d17-q32",
+    "historyIds": [
+      "d17-q32"
+    ],
+    "targets": [
+      "may"
+    ],
+    "q": "We may ___ well try another route.",
+    "answers": [
+      "as"
+    ],
+    "type": "text",
+    "points": 1,
+    "counted": true,
+    "section": "review",
+    "source": "第一轮已找回反馈的独立变式；历史事件：d17-q32",
+    "explanation": "may as well 不妨；检查输入是否误键。",
+    "originalQuestions": [
+      "You may ___ well try again."
+    ]
+  },
+  {
+    "id": "hist-d17-q40",
+    "originId": "hist-d17-q40",
+    "historyIds": [
+      "d17-q40"
+    ],
+    "targets": [
+      "method"
+    ],
+    "q": "This is an effective method ___ storing rainwater.（介词）",
+    "answers": [
+      "of",
+      "for"
+    ],
+    "type": "text",
+    "points": 1,
+    "counted": true,
+    "section": "review",
+    "source": "第一轮已找回反馈的独立变式；历史事件：d17-q40",
+    "explanation": "method of/for doing均合理。",
+    "originalQuestions": [
+      "This is a useful method ___ learning vocabulary."
+    ]
+  },
+  {
+    "id": "hist-d18-q35",
+    "originId": "hist-d18-q35",
+    "historyIds": [
+      "d18-q35"
+    ],
+    "targets": [
+      "necessary"
+    ],
+    "q": "Clean drinking water is necessary ___ good health.",
+    "answers": [
+      "for"
+    ],
+    "type": "text",
+    "points": 1,
+    "counted": true,
+    "section": "review",
+    "source": "第一轮已找回反馈的独立变式；历史事件：d18-q35",
+    "explanation": "necessary for sth；necessary to do sth。",
+    "originalQuestions": [
+      "Enough sleep is necessary ___ good health."
+    ]
+  },
+  {
+    "id": "hist-d18-q62",
+    "originId": "hist-d18-q62",
+    "historyIds": [
+      "d18-q62"
+    ],
+    "targets": [
+      "nature"
+    ],
+    "q": "The two ideas fit together ___. (natural)",
+    "answers": [
+      "naturally"
+    ],
+    "type": "text",
+    "points": 1,
+    "counted": true,
+    "section": "review",
+    "source": "第一轮已找回反馈的独立变式；历史事件：d18-q62",
+    "explanation": "修饰动词短语，用副词naturally。",
+    "originalQuestions": [
+      "Children are ___ curious. (nature)"
+    ]
+  },
+  {
+    "id": "hist-d19-q49",
+    "originId": "hist-d19-q49",
+    "historyIds": [
+      "d19-q49"
+    ],
+    "targets": [
+      "office"
+    ],
+    "q": "The forms are available at the school ___.（办公室；o开头）",
+    "answers": [
+      "office"
+    ],
+    "type": "text",
+    "points": 1,
+    "counted": true,
+    "section": "review",
+    "source": "第一轮已找回反馈的独立变式；历史事件：d19-q49",
+    "explanation": "office办公室；opinion观点。",
+    "originalQuestions": [
+      "Please leave the documents in my ___."
+    ]
+  },
+  {
+    "id": "hist-d20-q35",
+    "originId": "hist-d20-q35",
+    "historyIds": [
+      "d20-q35"
+    ],
+    "targets": [
+      "pass"
+    ],
+    "q": "Please pass the updated timetable ___ to the team.",
+    "answers": [
+      "on"
+    ],
+    "type": "text",
+    "points": 1,
+    "counted": true,
+    "section": "review",
+    "source": "第一轮已找回反馈的独立变式；历史事件：d20-q35",
+    "explanation": "pass sth on to sb 转交。",
+    "originalQuestions": [
+      "Please pass the message ___ to your classmates."
+    ]
+  },
+  {
+    "id": "hist-d20-q53",
+    "originId": "hist-d20-q53",
+    "historyIds": [
+      "d20-q53"
+    ],
+    "targets": [
+      "pattern"
+    ],
+    "q": "Researchers noticed a repeating ___ in the data.（模式；p开头）",
+    "answers": [
+      "pattern"
+    ],
+    "type": "text",
+    "points": 1,
+    "counted": true,
+    "section": "review",
+    "source": "第一轮已找回反馈的独立变式；历史事件：d20-q53",
+    "explanation": "pattern模式；period时期。",
+    "originalQuestions": [
+      "The data shows a clear ___ of change."
+    ]
+  },
+  {
+    "id": "hist-d20-q64",
+    "originId": "hist-d20-q64",
+    "historyIds": [
+      "d20-q64",
+      "d21-q10",
+      "d28-q10"
+    ],
+    "targets": [
+      "persuade"
+    ],
+    "q": "The essay presents a clear and ___ case for reducing waste. (persuade)",
+    "answers": [
+      "persuasive"
+    ],
+    "type": "text",
+    "points": 1,
+    "counted": true,
+    "section": "review",
+    "source": "第一轮已找回反馈的独立变式；历史事件：d20-q64,d21-q10,d28-q10",
+    "explanation": "修饰case，用persuasive有说服力的，注意-suasive。",
+    "originalQuestions": [
+      "He gave a very ___ argument. (persuade)",
+      "Her argument was clear, logical and highly ___.",
+      "The lawyer presented a carefully reasoned and ___ argument."
+    ]
+  },
+  {
+    "id": "hist-d21-q20",
+    "originId": "hist-d21-q20",
+    "historyIds": [
+      "d21-q20"
+    ],
+    "targets": [
+      "possess"
+    ],
+    "q": "Only qualified staff may ___ a key to this room.（拥有；p开头）",
+    "answers": [
+      "possess"
+    ],
+    "type": "text",
+    "points": 1,
+    "counted": true,
+    "section": "review",
+    "source": "第一轮已找回反馈的独立变式；历史事件：d21-q20",
+    "explanation": "possess中间和末尾都有双s。",
+    "originalQuestions": [
+      "拥有；具有"
+    ]
+  },
+  {
+    "id": "hist-d21-q24",
+    "originId": "hist-d21-q24",
+    "historyIds": [
+      "d21-q24"
+    ],
+    "targets": [
+      "poverty"
+    ],
+    "q": "The programme aims to reduce child ___.（贫困；p开头）",
+    "answers": [
+      "poverty"
+    ],
+    "type": "text",
+    "points": 1,
+    "counted": true,
+    "section": "review",
+    "source": "第一轮已找回反馈的独立变式；历史事件：d21-q24",
+    "explanation": "poverty为名词，poor为形容词。",
+    "originalQuestions": [
+      "贫困；贫穷"
+    ]
+  },
+  {
+    "id": "hist-d21-q53",
+    "originId": "hist-d21-q53",
+    "historyIds": [
+      "d21-q53"
+    ],
+    "targets": [
+      "priority"
+    ],
+    "q": "In an emergency, protecting lives is the first ___.（优先事项；p开头）",
+    "answers": [
+      "priority"
+    ],
+    "type": "text",
+    "points": 1,
+    "counted": true,
+    "section": "review",
+    "source": "第一轮已找回反馈的独立变式；历史事件：d21-q53",
+    "explanation": "priority优先事项；principle原则。",
+    "originalQuestions": [
+      "Passenger safety must be our top ___."
+    ]
+  },
+  {
+    "id": "hist-d21-q57",
+    "originId": "hist-d21-q57",
+    "historyIds": [
+      "d21-q57"
+    ],
+    "targets": [
+      "preserve"
+    ],
+    "q": "The archive aims to ___ old letters for future readers.（保存；p开头）",
+    "answers": [
+      "preserve"
+    ],
+    "type": "text",
+    "points": 1,
+    "counted": true,
+    "section": "review",
+    "source": "第一轮已找回反馈的独立变式；历史事件：d21-q57",
+    "explanation": "preserve保存，不是prevent阻止。",
+    "originalQuestions": [
+      "The museum works hard to ___ old photographs and letters."
+    ]
+  },
+  {
+    "id": "hist-d22-q15",
+    "originId": "hist-d22-q15",
+    "historyIds": [
+      "d22-q15"
+    ],
+    "targets": [
+      "publish"
+    ],
+    "q": "The journal plans to ___ the study next month.（发表；p开头）",
+    "answers": [
+      "publish"
+    ],
+    "type": "text",
+    "points": 1,
+    "counted": true,
+    "section": "review",
+    "source": "第一轮已找回反馈的独立变式；历史事件：d22-q15",
+    "explanation": "注意publish的拼写。",
+    "originalQuestions": [
+      "出版；发表"
+    ]
+  },
+  {
+    "id": "hist-d25-q3",
+    "originId": "hist-d25-q3",
+    "historyIds": [
+      "d25-q3"
+    ],
+    "targets": [
+      "scream"
+    ],
+    "q": "The sudden crash made the child ___.（尖叫；s开头）",
+    "answers": [
+      "scream"
+    ],
+    "type": "text",
+    "points": 1,
+    "counted": true,
+    "section": "review",
+    "source": "第一轮已找回反馈的独立变式；历史事件：d25-q3",
+    "explanation": "scream尖叫；不与screen混淆。",
+    "originalQuestions": [
+      "When the lights suddenly went out, a child began to ___."
+    ]
+  },
+  {
+    "id": "hist-d25-q19",
+    "originId": "hist-d25-q19",
+    "historyIds": [
+      "d25-q19"
+    ],
+    "targets": [
+      "signal"
+    ],
+    "q": "The flashing light is a ___ to stop.（信号；s开头）",
+    "answers": [
+      "signal"
+    ],
+    "type": "text",
+    "points": 1,
+    "counted": true,
+    "section": "review",
+    "source": "第一轮已找回反馈的独立变式；历史事件：d25-q19",
+    "explanation": "signal信号；significance重要性。",
+    "originalQuestions": [
+      "信号；示意"
+    ]
+  },
+  {
+    "id": "hist-d25-q53",
+    "originId": "hist-d25-q53",
+    "historyIds": [
+      "d25-q53",
+      "d25-q61"
+    ],
+    "targets": [
+      "significant"
+    ],
+    "q": "The finding is of considerable scientific ___. (significant)",
+    "answers": [
+      "significance"
+    ],
+    "type": "text",
+    "points": 1,
+    "counted": true,
+    "section": "review",
+    "source": "第一轮已找回反馈的独立变式；历史事件：d25-q53,d25-q61",
+    "explanation": "of + 名词；significance对应形容词significant。",
+    "originalQuestions": [
+      "There has been a ___ improvement in air quality.",
+      "The discovery is of great scientific ___. (significant)"
+    ]
+  },
+  {
+    "id": "hist-d26-q14",
+    "originId": "hist-d26-q14",
+    "historyIds": [
+      "d26-q14"
+    ],
+    "targets": [
+      "south"
+    ],
+    "q": "The bird is common in ___ regions of the country. (south)",
+    "answers": [
+      "southern"
+    ],
+    "type": "text",
+    "points": 1,
+    "counted": true,
+    "section": "review",
+    "source": "第一轮已找回反馈的独立变式；历史事件：d26-q14",
+    "explanation": "名词前需形容词southern。",
+    "originalQuestions": [
+      "南方的；南部的"
+    ]
+  },
+  {
+    "id": "hist-d26-q20",
+    "originId": "hist-d26-q20",
+    "historyIds": [
+      "d26-q20"
+    ],
+    "targets": [
+      "spirit"
+    ],
+    "q": "The players maintained a strong team ___.（精神；s开头）",
+    "answers": [
+      "spirit"
+    ],
+    "type": "text",
+    "points": 1,
+    "counted": true,
+    "section": "review",
+    "source": "第一轮已找回反馈的独立变式；历史事件：d26-q20",
+    "explanation": "spirit精神，不是sprint短跑。",
+    "originalQuestions": [
+      "精神；心灵；团队精神"
+    ]
+  },
+  {
+    "id": "hist-d26-q25",
+    "originId": "hist-d26-q25",
+    "historyIds": [
+      "d26-q25"
+    ],
+    "targets": [
+      "steady"
+    ],
+    "q": "Sales have risen ___ over the past six months. (steady)",
+    "answers": [
+      "steadily"
+    ],
+    "type": "text",
+    "points": 1,
+    "counted": true,
+    "section": "review",
+    "source": "第一轮已找回反馈的独立变式；历史事件：d26-q25",
+    "explanation": "steady为形容词；此处用副词steadily，y改i再加ly。",
+    "originalQuestions": [
+      "稳定的；持续的"
+    ]
+  },
+  {
+    "id": "hist-d27-q16",
+    "originId": "hist-d27-q16",
+    "historyIds": [
+      "d27-q16"
+    ],
+    "targets": [
+      "succeed"
+    ],
+    "q": "With enough preparation, we can ___ in completing the task.（成功；s开头）",
+    "answers": [
+      "succeed"
+    ],
+    "type": "text",
+    "points": 1,
+    "counted": true,
+    "section": "review",
+    "source": "第一轮已找回反馈的独立变式；历史事件：d27-q16",
+    "explanation": "can后接动词原形；success是名词。",
+    "originalQuestions": [
+      "成功；达到目的"
+    ]
+  },
+  {
+    "id": "hist-d27-q18",
+    "originId": "hist-d27-q18",
+    "historyIds": [
+      "d27-q18"
+    ],
+    "targets": [
+      "suggest"
+    ],
+    "q": "What do you ___ we do next?（建议；s开头）",
+    "answers": [
+      "suggest"
+    ],
+    "type": "text",
+    "points": 1,
+    "counted": true,
+    "section": "review",
+    "source": "第一轮已找回反馈的独立变式；历史事件：d27-q18",
+    "explanation": "do you后需要动词suggest；suggestion为名词。",
+    "originalQuestions": [
+      "建议；暗示"
+    ]
+  },
+  {
+    "id": "hist-d28-q42",
+    "originId": "hist-d28-q42",
+    "historyIds": [
+      "d28-q42"
+    ],
+    "targets": [
+      "too"
+    ],
+    "q": "The shelf is too high ___ the child to reach.",
+    "answers": [
+      "for"
+    ],
+    "type": "text",
+    "points": 1,
+    "counted": true,
+    "section": "review",
+    "source": "第一轮已找回反馈的独立变式；历史事件：d28-q42",
+    "explanation": "too +形容词+for sb+to do。",
+    "originalQuestions": [
+      "The box is too heavy ___ one person to lift."
+    ]
+  },
+  {
+    "id": "hist-d28-q45",
+    "originId": "hist-d28-q45",
+    "historyIds": [
+      "d28-q45"
+    ],
+    "targets": [
+      "transfer"
+    ],
+    "q": "At this station, transfer ___ the red line to the blue line.",
+    "answers": [
+      "from"
+    ],
+    "type": "text",
+    "points": 1,
+    "counted": true,
+    "section": "review",
+    "source": "第一轮已找回反馈的独立变式；历史事件：d28-q45",
+    "explanation": "transfer from A to B；来源和目的地区分。",
+    "originalQuestions": [
+      "Passengers must transfer ___ Line 2 to Line 10 at this station."
+    ]
+  },
+  {
+    "id": "hist-d30-q2",
+    "originId": "hist-d30-q2",
+    "historyIds": [
+      "d30-q2"
+    ],
+    "targets": [
+      "translate"
+    ],
+    "q": "Translate these instructions ___ French.",
+    "answers": [
+      "into"
+    ],
+    "type": "text",
+    "points": 1,
+    "counted": true,
+    "section": "review",
+    "source": "第一轮已找回反馈的独立变式；历史事件：d30-q2",
+    "explanation": "translate into目标语言。",
+    "originalQuestions": [
+      "Please translate the poem ___ English."
+    ]
+  },
+  {
+    "id": "hist-d30-q3",
+    "originId": "hist-d30-q3",
+    "historyIds": [
+      "d30-q3"
+    ],
+    "targets": [
+      "trap"
+    ],
+    "q": "The miners were trapped ___ a tunnel for several hours.",
+    "answers": [
+      "in"
+    ],
+    "type": "text",
+    "points": 1,
+    "counted": true,
+    "section": "review",
+    "source": "第一轮已找回反馈的独立变式；历史事件：d30-q3",
+    "explanation": "be trapped in表示被困在某处；into不是静态位置。",
+    "originalQuestions": [
+      "The two hikers were trapped ___ the cave."
+    ]
+  },
+  {
+    "id": "hist-d30-q33",
+    "originId": "hist-d30-q33",
+    "historyIds": [
+      "d30-q33"
+    ],
+    "targets": [
+      "virtue"
+    ],
+    "q": "The team won by virtue ___ careful preparation.",
+    "answers": [
+      "of"
+    ],
+    "type": "text",
+    "points": 1,
+    "counted": true,
+    "section": "review",
+    "source": "第一轮已找回反馈的独立变式；历史事件：d30-q33",
+    "explanation": "by virtue of 凭借、由于。",
+    "originalQuestions": [
+      "She succeeded by virtue ___ patience and hard work."
+    ]
+  },
+  {
+    "id": "hist-d30-q42",
+    "originId": "hist-d30-q42",
+    "historyIds": [
+      "d30-q42"
+    ],
+    "targets": [
+      "wake"
+    ],
+    "q": "Please wake me ___ before you leave.",
+    "answers": [
+      "up"
+    ],
+    "type": "text",
+    "points": 1,
+    "counted": true,
+    "section": "review",
+    "source": "第一轮已找回反馈的独立变式；历史事件：d30-q42",
+    "explanation": "wake sb up 唤醒；检查是否误键uo。",
+    "originalQuestions": [
+      "Please wake me ___ at six tomorrow morning."
+    ]
+  },
+  {
+    "id": "hist-d31-q15",
+    "originId": "hist-d31-q15",
+    "historyIds": [
+      "d31-q15"
+    ],
+    "targets": [
+      "widespread"
+    ],
+    "q": "The news attracted ___ attention across the country.（广泛的；w开头）",
+    "answers": [
+      "widespread"
+    ],
+    "type": "text",
+    "points": 1,
+    "counted": true,
+    "section": "review",
+    "source": "第一轮已找回反馈的独立变式；历史事件：d31-q15",
+    "explanation": "widespread强调分布广、普遍存在；wide常表示宽度。",
+    "originalQuestions": [
+      "分布广的；普遍的"
+    ]
+  },
+  {
+    "id": "hist-d31-q46",
+    "originId": "hist-d31-q46",
+    "historyIds": [
+      "d31-q46"
+    ],
+    "targets": [
+      "whereas"
+    ],
+    "q": "Choose whereas or whether: One method saves time, ___ the other saves money.",
+    "answers": [
+      "whereas"
+    ],
+    "type": "text",
+    "points": 1,
+    "counted": true,
+    "section": "review",
+    "source": "第一轮已找回反馈的独立变式；历史事件：d31-q46",
+    "explanation": "whereas表示对比；whether表示是否。",
+    "originalQuestions": [
+      "Tom enjoys city life, ___ his sister prefers the countryside."
+    ]
+  }
+]

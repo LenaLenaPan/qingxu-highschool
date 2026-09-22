@@ -1,0 +1,3012 @@
+{
+  "32": {
+    "range": "词表第1–3页｜a → amazing；跨阶段错题回收",
+    "pages": [
+      1,
+      3
+    ],
+    "day": 32,
+    "revision": "r2-20260921-v1",
+    "round": 2,
+    "sections": [
+      {
+        "id": "review",
+        "title": "零、滚动专项复测",
+        "items": [
+          {
+            "q": "The museum charges no ___ for children under six. (admit)",
+            "answers": [
+              "admission"
+            ],
+            "explanation": "空格作宾语，需名词 admission。历史：Day1。",
+            "id": "r2-d32-review-1",
+            "type": "text",
+            "points": 1,
+            "counted": false,
+            "section": "review",
+            "source": "第一轮历史反馈变式/间隔抽查；具体依据见解析"
+          },
+          {
+            "q": "The council will ___ the result tomorrow.（宣布；a开头）",
+            "answers": [
+              "announce"
+            ],
+            "explanation": "注意 announce 中有两个 n。历史：Day2。",
+            "id": "r2-d32-review-2",
+            "type": "text",
+            "points": 1,
+            "counted": false,
+            "section": "review",
+            "source": "第一轮历史反馈变式/间隔抽查；具体依据见解析"
+          },
+          {
+            "q": "She applied ___ the college for a scholarship.",
+            "answers": [
+              "to"
+            ],
+            "explanation": "apply to an institution for something。历史：Day2。",
+            "id": "r2-d32-review-3",
+            "type": "text",
+            "points": 1,
+            "counted": false,
+            "section": "review",
+            "source": "第一轮历史反馈变式/间隔抽查；具体依据见解析"
+          },
+          {
+            "q": "The course is of great benefit to ___ academic texts. (read)",
+            "answers": [
+              "reading"
+            ],
+            "explanation": "to 在此是介词，后接动名词。历史：Day3。",
+            "id": "r2-d32-review-4",
+            "type": "text",
+            "points": 1,
+            "counted": false,
+            "section": "review",
+            "source": "第一轮历史反馈变式/间隔抽查；具体依据见解析"
+          },
+          {
+            "q": "These two measurements are directly ___. (compare)",
+            "answers": [
+              "comparable"
+            ],
+            "explanation": "are 后用形容词，表示可比较的。历史：Day5、8。",
+            "id": "r2-d32-review-5",
+            "type": "text",
+            "points": 1,
+            "counted": false,
+            "section": "review",
+            "source": "第一轮历史反馈变式/间隔抽查；具体依据见解析"
+          },
+          {
+            "q": "Several local ___ reported the event.（媒体；m开头）",
+            "answers": [
+              "media"
+            ],
+            "explanation": "medium 的这一复数形式是 media。历史：Day17、22、27。",
+            "id": "r2-d32-review-6",
+            "type": "text",
+            "points": 1,
+            "counted": false,
+            "section": "review",
+            "source": "第一轮历史反馈变式/间隔抽查；具体依据见解析"
+          },
+          {
+            "q": "His explanation was clear and ___. (persuade)",
+            "answers": [
+              "persuasive"
+            ],
+            "explanation": "用形容词 persuasive；不要写成 persuading。历史：Day20–28多次。",
+            "id": "r2-d32-review-7",
+            "type": "text",
+            "points": 1,
+            "counted": false,
+            "section": "review",
+            "source": "第一轮历史反馈变式/间隔抽查；具体依据见解析"
+          },
+          {
+            "q": "Many families still live in ___. (poor)",
+            "answers": [
+              "poverty"
+            ],
+            "explanation": "in 后用表示贫困的名词 poverty。历史：Day21。",
+            "id": "r2-d32-review-8",
+            "type": "text",
+            "points": 1,
+            "counted": false,
+            "section": "review",
+            "source": "第一轮历史反馈变式/间隔抽查；具体依据见解析"
+          },
+          {
+            "q": "The team hopes to ___ in reducing waste. (success)",
+            "answers": [
+              "succeed"
+            ],
+            "explanation": "to 后接动词原形 succeed。历史：Day27。",
+            "id": "r2-d32-review-9",
+            "type": "text",
+            "points": 1,
+            "counted": false,
+            "section": "review",
+            "source": "第一轮历史反馈变式/间隔抽查；具体依据见解析"
+          },
+          {
+            "q": "Transfer ___ the red line to the blue line here.",
+            "answers": [
+              "from"
+            ],
+            "explanation": "transfer from A to B。历史：Day28。",
+            "id": "r2-d32-review-10",
+            "type": "text",
+            "points": 1,
+            "counted": false,
+            "section": "review",
+            "source": "第一轮历史反馈变式/间隔抽查；具体依据见解析"
+          }
+        ]
+      },
+      {
+        "id": "meaning",
+        "title": "一、词义与拼写",
+        "items": [
+          {
+            "q": "放弃；遗弃（动词，ab开头）",
+            "answers": [
+              "abandon"
+            ],
+            "explanation": "abandon a plan：放弃计划。",
+            "id": "r2-d32-meaning-1",
+            "type": "text",
+            "points": 1,
+            "counted": true,
+            "section": "meaning",
+            "source": "高考词汇5000词新.pdf 印刷页1–3，原创语境题"
+          },
+          {
+            "q": "反常的；不正常的（形容词，ab开头）",
+            "answers": [
+              "abnormal"
+            ],
+            "explanation": "abnormal 与 normal 意义相反。",
+            "id": "r2-d32-meaning-2",
+            "type": "text",
+            "points": 1,
+            "counted": true,
+            "section": "meaning",
+            "source": "高考词汇5000词新.pdf 印刷页1–3，原创语境题"
+          },
+          {
+            "q": "缺席；不存在（名词，ab开头）",
+            "answers": [
+              "absence"
+            ],
+            "explanation": "名词 absence；形容词 absent。",
+            "id": "r2-d32-meaning-3",
+            "type": "text",
+            "points": 1,
+            "counted": true,
+            "section": "meaning",
+            "source": "高考词汇5000词新.pdf 印刷页1–3，原创语境题"
+          },
+          {
+            "q": "吸收；吸引全部注意力（动词，ab开头）",
+            "answers": [
+              "absorb"
+            ],
+            "explanation": "absorb water；be absorbed in。",
+            "id": "r2-d32-meaning-4",
+            "type": "text",
+            "points": 1,
+            "counted": true,
+            "section": "meaning",
+            "source": "高考词汇5000词新.pdf 印刷页1–3，原创语境题"
+          },
+          {
+            "q": "摘要（名词）；抽象的（形容词，ab开头）",
+            "answers": [
+              "abstract"
+            ],
+            "explanation": "同一个词有不同词性和词义。",
+            "id": "r2-d32-meaning-5",
+            "type": "text",
+            "points": 1,
+            "counted": true,
+            "section": "meaning",
+            "source": "高考词汇5000词新.pdf 印刷页1–3，原创语境题"
+          },
+          {
+            "q": "学术的（形容词，ac开头）",
+            "answers": [
+              "academic"
+            ],
+            "explanation": "academic research：学术研究。",
+            "id": "r2-d32-meaning-6",
+            "type": "text",
+            "points": 1,
+            "counted": true,
+            "section": "meaning",
+            "source": "高考词汇5000词新.pdf 印刷页1–3，原创语境题"
+          },
+          {
+            "q": "加速度；加速（名词，ac开头）",
+            "answers": [
+              "acceleration"
+            ],
+            "explanation": "accelerate 的名词形式。",
+            "id": "r2-d32-meaning-7",
+            "type": "text",
+            "points": 1,
+            "counted": true,
+            "section": "meaning",
+            "source": "高考词汇5000词新.pdf 印刷页1–3，原创语境题"
+          },
+          {
+            "q": "口音；重音（名词，ac开头）",
+            "answers": [
+              "accent"
+            ],
+            "explanation": "speak with an accent。",
+            "id": "r2-d32-meaning-8",
+            "type": "text",
+            "points": 1,
+            "counted": true,
+            "section": "meaning",
+            "source": "高考词汇5000词新.pdf 印刷页1–3，原创语境题"
+          },
+          {
+            "q": "接受；认可（动词，ac开头）",
+            "answers": [
+              "accept"
+            ],
+            "explanation": "强调愿意接受；receive 强调收到。",
+            "id": "r2-d32-meaning-9",
+            "type": "text",
+            "points": 1,
+            "counted": true,
+            "section": "meaning",
+            "source": "高考词汇5000词新.pdf 印刷页1–3，原创语境题"
+          },
+          {
+            "q": "通道；使用或进入的机会（名词，ac开头）",
+            "answers": [
+              "access"
+            ],
+            "explanation": "have access to。",
+            "id": "r2-d32-meaning-10",
+            "type": "text",
+            "points": 1,
+            "counted": true,
+            "section": "meaning",
+            "source": "高考词汇5000词新.pdf 印刷页1–3，原创语境题"
+          },
+          {
+            "q": "给……提供住宿（动词，acc开头）",
+            "answers": [
+              "accommodate"
+            ],
+            "explanation": "注意双 c、双 m。",
+            "id": "r2-d32-meaning-11",
+            "type": "text",
+            "points": 1,
+            "counted": true,
+            "section": "meaning",
+            "source": "高考词汇5000词新.pdf 印刷页1–3，原创语境题"
+          },
+          {
+            "q": "陪伴；伴随（动词，acc开头）",
+            "answers": [
+              "accompany"
+            ],
+            "explanation": "accompany somebody，通常不加 with。",
+            "id": "r2-d32-meaning-12",
+            "type": "text",
+            "points": 1,
+            "counted": true,
+            "section": "meaning",
+            "source": "高考词汇5000词新.pdf 印刷页1–3，原创语境题"
+          },
+          {
+            "q": "完成；实现（动词，acco开头）",
+            "answers": [
+              "accomplish"
+            ],
+            "explanation": "accomplish a task。",
+            "id": "r2-d32-meaning-13",
+            "type": "text",
+            "points": 1,
+            "counted": true,
+            "section": "meaning",
+            "source": "高考词汇5000词新.pdf 印刷页1–3，原创语境题"
+          },
+          {
+            "q": "会计师（名词，acc开头）",
+            "answers": [
+              "accountant"
+            ],
+            "explanation": "与 account、accounting 区分。",
+            "id": "r2-d32-meaning-14",
+            "type": "text",
+            "points": 1,
+            "counted": true,
+            "section": "meaning",
+            "source": "高考词汇5000词新.pdf 印刷页1–3，原创语境题"
+          },
+          {
+            "q": "准确的（形容词，acc开头）",
+            "answers": [
+              "accurate"
+            ],
+            "explanation": "accurate information。",
+            "id": "r2-d32-meaning-15",
+            "type": "text",
+            "points": 1,
+            "counted": true,
+            "section": "meaning",
+            "source": "高考词汇5000词新.pdf 印刷页1–3，原创语境题"
+          },
+          {
+            "q": "承认；确认收到（动词，ack开头）",
+            "answers": [
+              "acknowledge"
+            ],
+            "explanation": "acknowledge a mistake。",
+            "id": "r2-d32-meaning-16",
+            "type": "text",
+            "points": 1,
+            "counted": true,
+            "section": "meaning",
+            "source": "高考词汇5000词新.pdf 印刷页1–3，原创语境题"
+          },
+          {
+            "q": "获得；习得（动词，acq开头）",
+            "answers": [
+              "acquire"
+            ],
+            "explanation": "acquire knowledge。",
+            "id": "r2-d32-meaning-17",
+            "type": "text",
+            "points": 1,
+            "counted": true,
+            "section": "meaning",
+            "source": "高考词汇5000词新.pdf 印刷页1–3，原创语境题"
+          },
+          {
+            "q": "青春期的；青少年（adj./n.，ado开头）",
+            "answers": [
+              "adolescent"
+            ],
+            "explanation": "adolescent 可作形容词或名词。",
+            "id": "r2-d32-meaning-18",
+            "type": "text",
+            "points": 1,
+            "counted": true,
+            "section": "meaning",
+            "source": "高考词汇5000词新.pdf 印刷页1–3，原创语境题"
+          },
+          {
+            "q": "议事日程（名词，age开头）",
+            "answers": [
+              "agenda"
+            ],
+            "explanation": "on the agenda。",
+            "id": "r2-d32-meaning-19",
+            "type": "text",
+            "points": 1,
+            "counted": true,
+            "section": "meaning",
+            "source": "高考词汇5000词新.pdf 印刷页1–3，原创语境题"
+          },
+          {
+            "q": "替代选择（名词，alt开头）",
+            "answers": [
+              "alternative"
+            ],
+            "explanation": "an alternative to something。",
+            "id": "r2-d32-meaning-20",
+            "type": "text",
+            "points": 1,
+            "counted": true,
+            "section": "meaning",
+            "source": "高考词汇5000词新.pdf 印刷页1–3，原创语境题"
+          }
+        ]
+      },
+      {
+        "id": "collocation",
+        "title": "二、固定搭配",
+        "items": [
+          {
+            "q": "All students have access ___ the school library.",
+            "answers": [
+              "to"
+            ],
+            "explanation": "have access to。",
+            "id": "r2-d32-collocation-1",
+            "type": "text",
+            "points": 2,
+            "counted": true,
+            "section": "collocation",
+            "source": "高考词汇5000词新.pdf 印刷页1–3，原创语境题"
+          },
+          {
+            "q": "She was absent ___ class because she was ill.",
+            "answers": [
+              "from"
+            ],
+            "explanation": "be absent from。",
+            "id": "r2-d32-collocation-2",
+            "type": "text",
+            "points": 2,
+            "counted": true,
+            "section": "collocation",
+            "source": "高考词汇5000词新.pdf 印刷页1–3，原创语境题"
+          },
+          {
+            "q": "He was so absorbed ___ the novel that he missed his stop.",
+            "answers": [
+              "in"
+            ],
+            "explanation": "be absorbed in。",
+            "id": "r2-d32-collocation-3",
+            "type": "text",
+            "points": 2,
+            "counted": true,
+            "section": "collocation",
+            "source": "高考词汇5000词新.pdf 印刷页1–3，原创语境题"
+          },
+          {
+            "q": "Heavy rain accounted ___ the delay.",
+            "answers": [
+              "for"
+            ],
+            "explanation": "account for：解释……的原因。",
+            "id": "r2-d32-collocation-4",
+            "type": "text",
+            "points": 2,
+            "counted": true,
+            "section": "collocation",
+            "source": "高考词汇5000词新.pdf 印刷页1–3，原创语境题"
+          },
+          {
+            "q": "The driver was accused ___ speeding.",
+            "answers": [
+              "of"
+            ],
+            "explanation": "accuse somebody of something。",
+            "id": "r2-d32-collocation-5",
+            "type": "text",
+            "points": 2,
+            "counted": true,
+            "section": "collocation",
+            "source": "高考词汇5000词新.pdf 印刷页1–3，原创语境题"
+          },
+          {
+            "q": "She is accustomed ___ getting up early.",
+            "answers": [
+              "to"
+            ],
+            "explanation": "be accustomed to doing。",
+            "id": "r2-d32-collocation-6",
+            "type": "text",
+            "points": 2,
+            "counted": true,
+            "section": "collocation",
+            "source": "高考词汇5000词新.pdf 印刷页1–3，原创语境题"
+          },
+          {
+            "q": "The guide accompanied us ___ the museum to the station.",
+            "answers": [
+              "from"
+            ],
+            "explanation": "from A to B；accompany us 不需要 with。",
+            "id": "r2-d32-collocation-7",
+            "type": "text",
+            "points": 2,
+            "counted": true,
+            "section": "collocation",
+            "source": "高考词汇5000词新.pdf 印刷页1–3，原创语境题"
+          },
+          {
+            "q": "Students must adapt ___ the new timetable.",
+            "answers": [
+              "to"
+            ],
+            "explanation": "adapt to。",
+            "id": "r2-d32-collocation-8",
+            "type": "text",
+            "points": 2,
+            "counted": true,
+            "section": "collocation",
+            "source": "高考词汇5000词新.pdf 印刷页1–3，原创语境题"
+          },
+          {
+            "q": "The smell of fresh bread added ___ the pleasure of the visit.",
+            "answers": [
+              "to"
+            ],
+            "explanation": "add to：增加。",
+            "id": "r2-d32-collocation-9",
+            "type": "text",
+            "points": 2,
+            "counted": true,
+            "section": "collocation",
+            "source": "高考词汇5000词新.pdf 印刷页1–3，原创语境题"
+          },
+          {
+            "q": "He admitted ___ the vase. (break)",
+            "answers": [
+              "breaking",
+              "having broken"
+            ],
+            "explanation": "admit doing / having done。",
+            "id": "r2-d32-collocation-10",
+            "type": "text",
+            "points": 2,
+            "counted": true,
+            "section": "collocation",
+            "source": "高考词汇5000词新.pdf 印刷页1–3，原创语境题"
+          },
+          {
+            "q": "We took advantage ___ the fine weather to walk home.",
+            "answers": [
+              "of"
+            ],
+            "explanation": "take advantage of。",
+            "id": "r2-d32-collocation-11",
+            "type": "text",
+            "points": 2,
+            "counted": true,
+            "section": "collocation",
+            "source": "高考词汇5000词新.pdf 印刷页1–3，原创语境题"
+          },
+          {
+            "q": "She gave me useful advice ___ how to organise my notes.",
+            "answers": [
+              "on",
+              "about"
+            ],
+            "explanation": "advice on/about something 都可。",
+            "id": "r2-d32-collocation-12",
+            "type": "text",
+            "points": 2,
+            "counted": true,
+            "section": "collocation",
+            "source": "高考词汇5000词新.pdf 印刷页1–3，原创语境题"
+          },
+          {
+            "q": "Children must be accompanied ___ an adult.",
+            "answers": [
+              "by"
+            ],
+            "explanation": "被动结构 be accompanied by。",
+            "id": "r2-d32-collocation-13",
+            "type": "text",
+            "points": 2,
+            "counted": true,
+            "section": "collocation",
+            "source": "高考词汇5000词新.pdf 印刷页1–3，原创语境题"
+          },
+          {
+            "q": "The coach advised us ___ practise regularly.",
+            "answers": [
+              "to"
+            ],
+            "explanation": "advise somebody to do。",
+            "id": "r2-d32-collocation-14",
+            "type": "text",
+            "points": 2,
+            "counted": true,
+            "section": "collocation",
+            "source": "高考词汇5000词新.pdf 印刷页1–3，原创语境题"
+          },
+          {
+            "q": "The museum does not allow visitors ___ touch the exhibits.",
+            "answers": [
+              "to"
+            ],
+            "explanation": "allow somebody to do。",
+            "id": "r2-d32-collocation-15",
+            "type": "text",
+            "points": 2,
+            "counted": true,
+            "section": "collocation",
+            "source": "高考词汇5000词新.pdf 印刷页1–3，原创语境题"
+          }
+        ]
+      },
+      {
+        "id": "context",
+        "title": "三、语境辨析",
+        "items": [
+          {
+            "q": "Although she ___ the invitation, she declined it because she was busy.",
+            "options": [
+              "accepted",
+              "achieved",
+              "received",
+              "accomplished"
+            ],
+            "answer": 2,
+            "explanation": "虽然收到邀请，但拒绝了；与 declined 对照排除 accepted。",
+            "id": "r2-d32-context-1",
+            "type": "mcq",
+            "points": 2,
+            "counted": true,
+            "section": "context",
+            "source": "高考词汇5000词新.pdf 印刷页1–3，原创语境题"
+          },
+          {
+            "q": "The twins look almost exactly ___; I find it hard to tell them apart.",
+            "options": [
+              "alive",
+              "alone",
+              "aloud",
+              "alike"
+            ],
+            "answer": 3,
+            "explanation": "look alike：看起来相像。",
+            "id": "r2-d32-context-2",
+            "type": "mcq",
+            "points": 2,
+            "counted": true,
+            "section": "context",
+            "source": "高考词汇5000词新.pdf 印刷页1–3，原创语境题"
+          },
+          {
+            "q": "The alarm system warned us that somebody was trying to gain ___ to the building.",
+            "options": [
+              "accent",
+              "access",
+              "absence",
+              "advice"
+            ],
+            "answer": 1,
+            "explanation": "gain access to：进入。",
+            "id": "r2-d32-context-3",
+            "type": "mcq",
+            "points": 2,
+            "counted": true,
+            "section": "context",
+            "source": "高考词汇5000词新.pdf 印刷页1–3，原创语境题"
+          },
+          {
+            "q": "After being rescued, the missing climber was found to be still ___.",
+            "options": [
+              "alike",
+              "alone",
+              "alive",
+              "aloud"
+            ],
+            "answer": 2,
+            "explanation": "still alive：仍然活着。",
+            "id": "r2-d32-context-4",
+            "type": "mcq",
+            "points": 2,
+            "counted": true,
+            "section": "context",
+            "source": "高考词汇5000词新.pdf 印刷页1–3，原创语境题"
+          },
+          {
+            "q": "The child read the poem ___ so everyone in the room could hear it.",
+            "options": [
+              "alone",
+              "aloud",
+              "alike",
+              "alive"
+            ],
+            "answer": 1,
+            "explanation": "read aloud：朗读。",
+            "id": "r2-d32-context-5",
+            "type": "mcq",
+            "points": 2,
+            "counted": true,
+            "section": "context",
+            "source": "高考词汇5000词新.pdf 印刷页1–3，原创语境题"
+          },
+          {
+            "q": "She asked a travel ___ to help book her flight.",
+            "options": [
+              "agenda",
+              "agony",
+              "agent",
+              "aid"
+            ],
+            "answer": 2,
+            "explanation": "travel agent：旅行代理人。",
+            "id": "r2-d32-context-6",
+            "type": "mcq",
+            "points": 2,
+            "counted": true,
+            "section": "context",
+            "source": "高考词汇5000词新.pdf 印刷页1–3，原创语境题"
+          },
+          {
+            "q": "The report is based on measurements, and every figure is ___.",
+            "options": [
+              "accurate",
+              "aggressive",
+              "absent",
+              "agricultural"
+            ],
+            "answer": 0,
+            "explanation": "测量数据准确，用 accurate。",
+            "id": "r2-d32-context-7",
+            "type": "mcq",
+            "points": 2,
+            "counted": true,
+            "section": "context",
+            "source": "高考词汇5000词新.pdf 印刷页1–3，原创语境题"
+          },
+          {
+            "q": "The farmer uses modern technology to improve ___ production.",
+            "options": [
+              "academic",
+              "agricultural",
+              "aggressive",
+              "abstract"
+            ],
+            "answer": 1,
+            "explanation": "agricultural production：农业生产。",
+            "id": "r2-d32-context-8",
+            "type": "mcq",
+            "points": 2,
+            "counted": true,
+            "section": "context",
+            "source": "高考词汇5000词新.pdf 印刷页1–3，原创语境题"
+          },
+          {
+            "q": "The film was ___ from a novel for younger viewers.",
+            "options": [
+              "adopted",
+              "added",
+              "admitted",
+              "adapted"
+            ],
+            "answer": 3,
+            "explanation": "adapt a novel for the screen：改编。",
+            "id": "r2-d32-context-9",
+            "type": "mcq",
+            "points": 2,
+            "counted": true,
+            "section": "context",
+            "source": "高考词汇5000词新.pdf 印刷页1–3，原创语境题"
+          },
+          {
+            "q": "The committee decided to ___ the proposal as its official plan.",
+            "options": [
+              "adapt",
+              "adopt",
+              "accompany",
+              "accuse"
+            ],
+            "answer": 1,
+            "explanation": "adopt a proposal：采纳提案。",
+            "id": "r2-d32-context-10",
+            "type": "mcq",
+            "points": 2,
+            "counted": true,
+            "section": "context",
+            "source": "高考词汇5000词新.pdf 印刷页1–3，原创语境题"
+          },
+          {
+            "q": "The scientist presented an ___ idea that was difficult to picture.",
+            "options": [
+              "abstract",
+              "absent",
+              "alive",
+              "alike"
+            ],
+            "answer": 0,
+            "explanation": "abstract idea：抽象概念。",
+            "id": "r2-d32-context-11",
+            "type": "mcq",
+            "points": 2,
+            "counted": true,
+            "section": "context",
+            "source": "高考词汇5000词新.pdf 印刷页1–3，原创语境题"
+          },
+          {
+            "q": "The hotel can ___ up to two hundred guests.",
+            "options": [
+              "accuse",
+              "accomplish",
+              "accommodate",
+              "accelerate"
+            ],
+            "answer": 2,
+            "explanation": "accommodate：为……提供住宿。",
+            "id": "r2-d32-context-12",
+            "type": "mcq",
+            "points": 2,
+            "counted": true,
+            "section": "context",
+            "source": "高考词汇5000词新.pdf 印刷页1–3，原创语境题"
+          },
+          {
+            "q": "Please suggest an ___ route; this road is closed.",
+            "options": [
+              "alternative",
+              "alarming",
+              "absent",
+              "aggressive"
+            ],
+            "answer": 0,
+            "explanation": "alternative route：替代路线。",
+            "id": "r2-d32-context-13",
+            "type": "mcq",
+            "points": 2,
+            "counted": true,
+            "section": "context",
+            "source": "高考词汇5000词新.pdf 印刷页1–3，原创语境题"
+          }
+        ]
+      },
+      {
+        "id": "wordform",
+        "title": "四、词形变化",
+        "items": [
+          {
+            "q": "The laboratory requires highly ___ measurements. (accuracy)",
+            "answers": [
+              "accurate"
+            ],
+            "explanation": "形容词修饰 measurements。",
+            "id": "r2-d32-wordform-1",
+            "type": "text",
+            "points": 2,
+            "counted": true,
+            "section": "wordform",
+            "source": "高考词汇5000词新.pdf 印刷页1–3，原创语境题"
+          },
+          {
+            "q": "She made a useful ___ to our original plan. (add)",
+            "answers": [
+              "addition"
+            ],
+            "explanation": "a useful addition：一项有用的补充。",
+            "id": "r2-d32-wordform-2",
+            "type": "text",
+            "points": 2,
+            "counted": true,
+            "section": "wordform",
+            "source": "高考词汇5000词新.pdf 印刷页1–3，原创语境题"
+          },
+          {
+            "q": "The new policy offers several ___. (advantage)",
+            "answers": [
+              "advantages"
+            ],
+            "explanation": "several 后用可数名词复数。",
+            "id": "r2-d32-wordform-3",
+            "type": "text",
+            "points": 2,
+            "counted": true,
+            "section": "wordform",
+            "source": "高考词汇5000词新.pdf 印刷页1–3，原创语境题"
+          },
+          {
+            "q": "We admired her academic ___. (achieve)",
+            "answers": [
+              "achievements",
+              "achievement"
+            ],
+            "explanation": "可用复数成就，也可用不可数的学业成就概念。",
+            "id": "r2-d32-wordform-4",
+            "type": "text",
+            "points": 2,
+            "counted": true,
+            "section": "wordform",
+            "source": "高考词汇5000词新.pdf 印刷页1–3，原创语境题"
+          },
+          {
+            "q": "We were ___ by the speed of the rescue. (amaze)",
+            "answers": [
+              "amazed"
+            ],
+            "explanation": "人感到惊讶，用 amazed。",
+            "id": "r2-d32-wordform-5",
+            "type": "text",
+            "points": 2,
+            "counted": true,
+            "section": "wordform",
+            "source": "高考词汇5000词新.pdf 印刷页1–3，原创语境题"
+          },
+          {
+            "q": "The two groups finally reached an ___. (agree)",
+            "answers": [
+              "agreement"
+            ],
+            "explanation": "reach an agreement。",
+            "id": "r2-d32-wordform-6",
+            "type": "text",
+            "points": 2,
+            "counted": true,
+            "section": "wordform",
+            "source": "高考词汇5000词新.pdf 印刷页1–3，原创语境题"
+          },
+          {
+            "q": "His unexpected ___ caused some concern. (absent)",
+            "answers": [
+              "absence"
+            ],
+            "explanation": "物主代词后需名词 absence。",
+            "id": "r2-d32-wordform-7",
+            "type": "text",
+            "points": 2,
+            "counted": true,
+            "section": "wordform",
+            "source": "高考词汇5000词新.pdf 印刷页1–3，原创语境题"
+          }
+        ]
+      },
+      {
+        "id": "translation",
+        "title": "五、句子翻译",
+        "items": [
+          {
+            "q": "由于道路封闭，我们不得不放弃原来的计划。（abandon）",
+            "sample": "We had to abandon our original plan because the road was closed.",
+            "explanation": "1分：abandon our original plan；1分：正确表达道路封闭与不得不的因果关系。允许合理改写。",
+            "id": "r2-d32-translation-1",
+            "type": "manual",
+            "points": 2,
+            "counted": true,
+            "section": "translation",
+            "source": "高考词汇5000词新.pdf 印刷页1–3，原创语境题"
+          },
+          {
+            "q": "所有学生都应该有机会使用这些学习资源。（access）",
+            "sample": "All students should have access to these learning resources.",
+            "explanation": "1分：have access to；1分：all students、should 及资源含义准确。",
+            "id": "r2-d32-translation-2",
+            "type": "manual",
+            "points": 2,
+            "counted": true,
+            "section": "translation",
+            "source": "高考词汇5000词新.pdf 印刷页1–3，原创语境题"
+          },
+          {
+            "q": "她很快就适应了新的作息时间。（adapt）",
+            "sample": "She quickly adapted to the new daily schedule.",
+            "explanation": "1分：adapted to / adapted herself to；1分：时态及“很快、新作息”完整。",
+            "id": "r2-d32-translation-3",
+            "type": "manual",
+            "points": 2,
+            "counted": true,
+            "section": "translation",
+            "source": "高考词汇5000词新.pdf 印刷页1–3，原创语境题"
+          },
+          {
+            "q": "请不要把他的沉默当作同意。（agreement）",
+            "sample": "Please do not take his silence as agreement.",
+            "explanation": "1分：agreement 表示同意；1分：正确表达不要把沉默理解为同意。accept/interpret ... as 等合理表达也可。",
+            "id": "r2-d32-translation-4",
+            "type": "manual",
+            "points": 2,
+            "counted": true,
+            "section": "translation",
+            "source": "高考词汇5000词新.pdf 印刷页1–3，原创语境题"
+          },
+          {
+            "q": "他给了我一些关于如何提高阅读速度的实用建议。（advice）",
+            "sample": "He gave me some practical advice on how to improve my reading speed.",
+            "explanation": "1分：some practical advice，advice不可数；1分：on/about how to improve reading speed。",
+            "id": "r2-d32-translation-5",
+            "type": "manual",
+            "points": 2,
+            "counted": true,
+            "section": "translation",
+            "source": "高考词汇5000词新.pdf 印刷页1–3，原创语境题"
+          }
+        ]
+      }
+    ]
+  },
+  "33": {
+    "range": "词表第4–6页｜amazement → awful；搭配与词族",
+    "pages": [
+      4,
+      6
+    ],
+    "day": 33,
+    "revision": "r2-20260921-v1",
+    "round": 2,
+    "sections": [
+      {
+        "id": "review",
+        "title": "零、滚动专项复测",
+        "items": [
+          {
+            "q": "The sound of the fire ___ woke everyone.（警报；al开头）",
+            "answers": [
+              "alarm"
+            ],
+            "explanation": "fire alarm。历史：Day1。",
+            "id": "r2-d33-review-1",
+            "type": "text",
+            "points": 1,
+            "counted": false,
+            "section": "review",
+            "source": "第一轮历史反馈变式/间隔抽查；具体依据见解析"
+          },
+          {
+            "q": "We need a different approach ___ this problem.",
+            "answers": [
+              "to"
+            ],
+            "explanation": "approach to。历史：Day2。",
+            "id": "r2-d33-review-2",
+            "type": "text",
+            "points": 1,
+            "counted": false,
+            "section": "review",
+            "source": "第一轮历史反馈变式/间隔抽查；具体依据见解析"
+          },
+          {
+            "q": "The machine has several useful ___. (character)",
+            "answers": [
+              "characteristics"
+            ],
+            "explanation": "表示特征用 characteristics，不是 characters。历史：Day4摘要、Day6。",
+            "id": "r2-d33-review-3",
+            "type": "text",
+            "points": 1,
+            "counted": false,
+            "section": "review",
+            "source": "第一轮历史反馈变式/间隔抽查；具体依据见解析"
+          },
+          {
+            "q": "The two objects differ in colour, but their sizes are ___. (compare)",
+            "answers": [
+              "comparable"
+            ],
+            "explanation": "表示可比较的，用形容词。历史：Day5、8。",
+            "id": "r2-d33-review-4",
+            "type": "text",
+            "points": 1,
+            "counted": false,
+            "section": "review",
+            "source": "第一轮历史反馈变式/间隔抽查；具体依据见解析"
+          },
+          {
+            "q": "The hole was two metres in ___. (deep)",
+            "answers": [
+              "depth"
+            ],
+            "explanation": "in depth：深度为。历史：Day7。",
+            "id": "r2-d33-review-5",
+            "type": "text",
+            "points": 1,
+            "counted": false,
+            "section": "review",
+            "source": "第一轮历史反馈变式/间隔抽查；具体依据见解析"
+          },
+          {
+            "q": "The course places special ___ on speaking. (emphasize)",
+            "answers": [
+              "emphasis"
+            ],
+            "explanation": "名词 emphasis。历史：Day9摘要。",
+            "id": "r2-d33-review-6",
+            "type": "text",
+            "points": 1,
+            "counted": false,
+            "section": "review",
+            "source": "第一轮历史反馈变式/间隔抽查；具体依据见解析"
+          },
+          {
+            "q": "Every method has its ___. (limit)",
+            "answers": [
+              "limits",
+              "limitations"
+            ],
+            "explanation": "limits / limitations 均可表达局限；应为复数。历史：Day16。",
+            "id": "r2-d33-review-7",
+            "type": "text",
+            "points": 1,
+            "counted": false,
+            "section": "review",
+            "source": "第一轮历史反馈变式/间隔抽查；具体依据见解析"
+          },
+          {
+            "q": "The museum ___ a rare collection of maps. (possess)",
+            "answers": [
+              "possesses"
+            ],
+            "explanation": "第三人称单数 possesses。历史：Day21。",
+            "id": "r2-d33-review-8",
+            "type": "text",
+            "points": 1,
+            "counted": false,
+            "section": "review",
+            "source": "第一轮历史反馈变式/间隔抽查；具体依据见解析"
+          },
+          {
+            "q": "The word ___ means relating to the south.（形容词，south词族）",
+            "answers": [
+              "southern"
+            ],
+            "explanation": "south：南方；southern：南方的。历史：Day26。",
+            "id": "r2-d33-review-9",
+            "type": "text",
+            "points": 1,
+            "counted": false,
+            "section": "review",
+            "source": "第一轮历史反馈变式/间隔抽查；具体依据见解析"
+          },
+          {
+            "q": "Please ___ a suitable title for the article. (suggestion)",
+            "answers": [
+              "suggest"
+            ],
+            "explanation": "please 后用动词原形 suggest。历史：Day27。",
+            "id": "r2-d33-review-10",
+            "type": "text",
+            "points": 1,
+            "counted": false,
+            "section": "review",
+            "source": "第一轮历史反馈变式/间隔抽查；具体依据见解析"
+          }
+        ]
+      },
+      {
+        "id": "meaning",
+        "title": "一、词义与拼写",
+        "items": [
+          {
+            "q": "抱负；雄心（名词，amb开头）",
+            "answers": [
+              "ambition"
+            ],
+            "explanation": "ambition 与 ambitious 区分。",
+            "id": "r2-d33-meaning-1",
+            "type": "text",
+            "points": 1,
+            "counted": true,
+            "section": "meaning",
+            "source": "高考词汇5000词新.pdf 印刷页4–6，原创语境题"
+          },
+          {
+            "q": "分析（名词单数，ana开头）",
+            "answers": [
+              "analysis"
+            ],
+            "explanation": "复数 analyses。",
+            "id": "r2-d33-meaning-2",
+            "type": "text",
+            "points": 1,
+            "counted": true,
+            "section": "meaning",
+            "source": "高考词汇5000词新.pdf 印刷页4–6，原创语境题"
+          },
+          {
+            "q": "祖先（名词，anc开头）",
+            "answers": [
+              "ancestor"
+            ],
+            "explanation": "an ancestor。",
+            "id": "r2-d33-meaning-3",
+            "type": "text",
+            "points": 1,
+            "counted": true,
+            "section": "meaning",
+            "source": "高考词汇5000词新.pdf 印刷页4–6，原创语境题"
+          },
+          {
+            "q": "宣布；宣告（动词，ann开头）",
+            "answers": [
+              "announce"
+            ],
+            "explanation": "注意双 n。",
+            "id": "r2-d33-meaning-4",
+            "type": "text",
+            "points": 1,
+            "counted": true,
+            "section": "meaning",
+            "source": "高考词汇5000词新.pdf 印刷页4–6，原创语境题"
+          },
+          {
+            "q": "预期；预料（动词，ant开头）",
+            "answers": [
+              "anticipate"
+            ],
+            "explanation": "anticipate a problem。",
+            "id": "r2-d33-meaning-5",
+            "type": "text",
+            "points": 1,
+            "counted": true,
+            "section": "meaning",
+            "source": "高考词汇5000词新.pdf 印刷页4–6，原创语境题"
+          },
+          {
+            "q": "焦虑（名词，anx开头）",
+            "answers": [
+              "anxiety"
+            ],
+            "explanation": "名词 anxiety，形容词 anxious。",
+            "id": "r2-d33-meaning-6",
+            "type": "text",
+            "points": 1,
+            "counted": true,
+            "section": "meaning",
+            "source": "高考词汇5000词新.pdf 印刷页4–6，原创语境题"
+          },
+          {
+            "q": "道歉（名词，apo开头）",
+            "answers": [
+              "apology"
+            ],
+            "explanation": "make an apology。",
+            "id": "r2-d33-meaning-7",
+            "type": "text",
+            "points": 1,
+            "counted": true,
+            "section": "meaning",
+            "source": "高考词汇5000词新.pdf 印刷页4–6，原创语境题"
+          },
+          {
+            "q": "食欲（名词，app开头）",
+            "answers": [
+              "appetite"
+            ],
+            "explanation": "have a good appetite。",
+            "id": "r2-d33-meaning-8",
+            "type": "text",
+            "points": 1,
+            "counted": true,
+            "section": "meaning",
+            "source": "高考词汇5000词新.pdf 印刷页4–6，原创语境题"
+          },
+          {
+            "q": "申请者（名词，app开头）",
+            "answers": [
+              "applicant"
+            ],
+            "explanation": "人是 applicant；申请是 application。",
+            "id": "r2-d33-meaning-9",
+            "type": "text",
+            "points": 1,
+            "counted": true,
+            "section": "meaning",
+            "source": "高考词汇5000词新.pdf 印刷页4–6，原创语境题"
+          },
+          {
+            "q": "器具；家用电器（名词，app开头）",
+            "answers": [
+              "appliance"
+            ],
+            "explanation": "a household appliance。",
+            "id": "r2-d33-meaning-10",
+            "type": "text",
+            "points": 1,
+            "counted": true,
+            "section": "meaning",
+            "source": "高考词汇5000词新.pdf 印刷页4–6，原创语境题"
+          },
+          {
+            "q": "欣赏；感激（动词，app开头）",
+            "answers": [
+              "appreciate"
+            ],
+            "explanation": "appreciate your help。",
+            "id": "r2-d33-meaning-11",
+            "type": "text",
+            "points": 1,
+            "counted": true,
+            "section": "meaning",
+            "source": "高考词汇5000词新.pdf 印刷页4–6，原创语境题"
+          },
+          {
+            "q": "合适的；恰当的（形容词，app开头）",
+            "answers": [
+              "appropriate"
+            ],
+            "explanation": "appropriate for。",
+            "id": "r2-d33-meaning-12",
+            "type": "text",
+            "points": 1,
+            "counted": true,
+            "section": "meaning",
+            "source": "高考词汇5000词新.pdf 印刷页4–6，原创语境题"
+          },
+          {
+            "q": "考古学家（名词，arch开头）",
+            "answers": [
+              "archaeologist",
+              "archeologist"
+            ],
+            "explanation": "两种拼写均可；研究考古的人。",
+            "id": "r2-d33-meaning-13",
+            "type": "text",
+            "points": 1,
+            "counted": true,
+            "section": "meaning",
+            "source": "高考词汇5000词新.pdf 印刷页4–6，原创语境题"
+          },
+          {
+            "q": "建筑师（名词，arch开头）",
+            "answers": [
+              "architect"
+            ],
+            "explanation": "architect：人；architecture：建筑学。",
+            "id": "r2-d33-meaning-14",
+            "type": "text",
+            "points": 1,
+            "counted": true,
+            "section": "meaning",
+            "source": "高考词汇5000词新.pdf 印刷页4–6，原创语境题"
+          },
+          {
+            "q": "人工的；人造的（形容词，art开头）",
+            "answers": [
+              "artificial"
+            ],
+            "explanation": "artificial light。",
+            "id": "r2-d33-meaning-15",
+            "type": "text",
+            "points": 1,
+            "counted": true,
+            "section": "meaning",
+            "source": "高考词汇5000词新.pdf 印刷页4–6，原创语境题"
+          },
+          {
+            "q": "评估；评价（动词，ass开头）",
+            "answers": [
+              "assess"
+            ],
+            "explanation": "assess a situation。",
+            "id": "r2-d33-meaning-16",
+            "type": "text",
+            "points": 1,
+            "counted": true,
+            "section": "meaning",
+            "source": "高考词汇5000词新.pdf 印刷页4–6，原创语境题"
+          },
+          {
+            "q": "任务；作业（名词，ass开头）",
+            "answers": [
+              "assignment"
+            ],
+            "explanation": "complete an assignment。",
+            "id": "r2-d33-meaning-17",
+            "type": "text",
+            "points": 1,
+            "counted": true,
+            "section": "meaning",
+            "source": "高考词汇5000词新.pdf 印刷页4–6，原创语境题"
+          },
+          {
+            "q": "使确信；向……保证（动词，ass开头）",
+            "answers": [
+              "assure"
+            ],
+            "explanation": "assure somebody of something。",
+            "id": "r2-d33-meaning-18",
+            "type": "text",
+            "points": 1,
+            "counted": true,
+            "section": "meaning",
+            "source": "高考词汇5000词新.pdf 印刷页4–6，原创语境题"
+          },
+          {
+            "q": "自传（名词，auto开头）",
+            "answers": [
+              "autobiography"
+            ],
+            "explanation": "auto- 表示自己。",
+            "id": "r2-d33-meaning-19",
+            "type": "text",
+            "points": 1,
+            "counted": true,
+            "section": "meaning",
+            "source": "高考词汇5000词新.pdf 印刷页4–6，原创语境题"
+          },
+          {
+            "q": "可获得的；有空的（形容词，av开头）",
+            "answers": [
+              "available"
+            ],
+            "explanation": "available 可修饰资源，也可描述人有空。",
+            "id": "r2-d33-meaning-20",
+            "type": "text",
+            "points": 1,
+            "counted": true,
+            "section": "meaning",
+            "source": "高考词汇5000词新.pdf 印刷页4–6，原创语境题"
+          }
+        ]
+      },
+      {
+        "id": "collocation",
+        "title": "二、固定搭配",
+        "items": [
+          {
+            "q": "The charity appealed ___ the public for help.",
+            "answers": [
+              "to"
+            ],
+            "explanation": "appeal to somebody for something。",
+            "id": "r2-d33-collocation-1",
+            "type": "text",
+            "points": 2,
+            "counted": true,
+            "section": "collocation",
+            "source": "高考词汇5000词新.pdf 印刷页4–6，原创语境题"
+          },
+          {
+            "q": "She made an apology ___ being late.",
+            "answers": [
+              "for"
+            ],
+            "explanation": "an apology for doing。",
+            "id": "r2-d33-collocation-2",
+            "type": "text",
+            "points": 2,
+            "counted": true,
+            "section": "collocation",
+            "source": "高考词汇5000词新.pdf 印刷页4–6，原创语境题"
+          },
+          {
+            "q": "He applied ___ a job at the local library.",
+            "answers": [
+              "for"
+            ],
+            "explanation": "apply for a job。",
+            "id": "r2-d33-collocation-3",
+            "type": "text",
+            "points": 2,
+            "counted": true,
+            "section": "collocation",
+            "source": "高考词汇5000词新.pdf 印刷页4–6，原创语境题"
+          },
+          {
+            "q": "We really appreciate your ___ us with the project. (help)",
+            "answers": [
+              "helping"
+            ],
+            "explanation": "appreciate your doing。",
+            "id": "r2-d33-collocation-4",
+            "type": "text",
+            "points": 2,
+            "counted": true,
+            "section": "collocation",
+            "source": "高考词汇5000词新.pdf 印刷页4–6，原创语境题"
+          },
+          {
+            "q": "His parents approve ___ his decision to volunteer.",
+            "answers": [
+              "of"
+            ],
+            "explanation": "approve of。",
+            "id": "r2-d33-collocation-5",
+            "type": "text",
+            "points": 2,
+            "counted": true,
+            "section": "collocation",
+            "source": "高考词汇5000词新.pdf 印刷页4–6，原创语境题"
+          },
+          {
+            "q": "They arranged ___ meet outside the theatre.",
+            "answers": [
+              "to"
+            ],
+            "explanation": "arrange to do。",
+            "id": "r2-d33-collocation-6",
+            "type": "text",
+            "points": 2,
+            "counted": true,
+            "section": "collocation",
+            "source": "高考词汇5000词新.pdf 印刷页4–6，原创语境题"
+          },
+          {
+            "q": "She felt ashamed ___ her rude behaviour.",
+            "answers": [
+              "of"
+            ],
+            "explanation": "ashamed of。",
+            "id": "r2-d33-collocation-7",
+            "type": "text",
+            "points": 2,
+            "counted": true,
+            "section": "collocation",
+            "source": "高考词汇5000词新.pdf 印刷页4–6，原创语境题"
+          },
+          {
+            "q": "I can assure you ___ the quality of this product.",
+            "answers": [
+              "of"
+            ],
+            "explanation": "assure somebody of something。",
+            "id": "r2-d33-collocation-8",
+            "type": "text",
+            "points": 2,
+            "counted": true,
+            "section": "collocation",
+            "source": "高考词汇5000词新.pdf 印刷页4–6，原创语境题"
+          },
+          {
+            "q": "Please attach the photo ___ your application.",
+            "answers": [
+              "to"
+            ],
+            "explanation": "attach A to B。",
+            "id": "r2-d33-collocation-9",
+            "type": "text",
+            "points": 2,
+            "counted": true,
+            "section": "collocation",
+            "source": "高考词汇5000词新.pdf 印刷页4–6，原创语境题"
+          },
+          {
+            "q": "We should pay attention ___ the instructions.",
+            "answers": [
+              "to"
+            ],
+            "explanation": "pay attention to。",
+            "id": "r2-d33-collocation-10",
+            "type": "text",
+            "points": 2,
+            "counted": true,
+            "section": "collocation",
+            "source": "高考词汇5000词新.pdf 印刷页4–6，原创语境题"
+          },
+          {
+            "q": "He made an attempt ___ solve the puzzle alone.",
+            "answers": [
+              "to"
+            ],
+            "explanation": "make an attempt to do。",
+            "id": "r2-d33-collocation-11",
+            "type": "text",
+            "points": 2,
+            "counted": true,
+            "section": "collocation",
+            "source": "高考词汇5000词新.pdf 印刷页4–6，原创语境题"
+          },
+          {
+            "q": "Try to avoid ___ the same mistake again. (make)",
+            "answers": [
+              "making"
+            ],
+            "explanation": "avoid doing。",
+            "id": "r2-d33-collocation-12",
+            "type": "text",
+            "points": 2,
+            "counted": true,
+            "section": "collocation",
+            "source": "高考词汇5000词新.pdf 印刷页4–6，原创语境题"
+          },
+          {
+            "q": "Are you aware ___ the change in the timetable?",
+            "answers": [
+              "of"
+            ],
+            "explanation": "be aware of。",
+            "id": "r2-d33-collocation-13",
+            "type": "text",
+            "points": 2,
+            "counted": true,
+            "section": "collocation",
+            "source": "高考词汇5000词新.pdf 印刷页4–6，原创语境题"
+          },
+          {
+            "q": "She is anxious ___ hear the results.",
+            "answers": [
+              "to"
+            ],
+            "explanation": "be anxious to do：渴望做。",
+            "id": "r2-d33-collocation-14",
+            "type": "text",
+            "points": 2,
+            "counted": true,
+            "section": "collocation",
+            "source": "高考词汇5000词新.pdf 印刷页4–6，原创语境题"
+          },
+          {
+            "q": "Many people associate this song ___ their childhood.",
+            "answers": [
+              "with"
+            ],
+            "explanation": "associate A with B。",
+            "id": "r2-d33-collocation-15",
+            "type": "text",
+            "points": 2,
+            "counted": true,
+            "section": "collocation",
+            "source": "高考词汇5000词新.pdf 印刷页4–6，原创语境题"
+          }
+        ]
+      },
+      {
+        "id": "context",
+        "title": "三、语境辨析",
+        "items": [
+          {
+            "q": "The successful ___ will be invited to an interview.",
+            "options": [
+              "applications",
+              "appliances",
+              "applicants",
+              "appointments"
+            ],
+            "answer": 2,
+            "explanation": "面试邀请对象是申请者。",
+            "id": "r2-d33-context-1",
+            "type": "mcq",
+            "points": 2,
+            "counted": true,
+            "section": "context",
+            "source": "高考词汇5000词新.pdf 印刷页4–6，原创语境题"
+          },
+          {
+            "q": "The cooker is a household ___.",
+            "options": [
+              "applicant",
+              "appliance",
+              "appetite",
+              "approval"
+            ],
+            "answer": 1,
+            "explanation": "household appliance：家用电器。",
+            "id": "r2-d33-context-2",
+            "type": "mcq",
+            "points": 2,
+            "counted": true,
+            "section": "context",
+            "source": "高考词汇5000词新.pdf 印刷页4–6，原创语境题"
+          },
+          {
+            "q": "His ___ includes an account of his own childhood.",
+            "options": [
+              "autograph",
+              "automation",
+              "autobiography",
+              "authority"
+            ],
+            "answer": 2,
+            "explanation": "自述生平的书是 autobiography。",
+            "id": "r2-d33-context-3",
+            "type": "mcq",
+            "points": 2,
+            "counted": true,
+            "section": "context",
+            "source": "高考词汇5000词新.pdf 印刷页4–6，原创语境题"
+          },
+          {
+            "q": "The factory uses ___ doors that open without being touched.",
+            "options": [
+              "automatic",
+              "anxious",
+              "arid",
+              "ashamed"
+            ],
+            "answer": 0,
+            "explanation": "automatic doors：自动门。",
+            "id": "r2-d33-context-4",
+            "type": "mcq",
+            "points": 2,
+            "counted": true,
+            "section": "context",
+            "source": "高考词汇5000词新.pdf 印刷页4–6，原创语境题"
+          },
+          {
+            "q": "There are no tickets ___ for tonight's performance.",
+            "options": [
+              "aware",
+              "available",
+              "asleep",
+              "average"
+            ],
+            "answer": 1,
+            "explanation": "tickets available：有票可买。",
+            "id": "r2-d33-context-5",
+            "type": "mcq",
+            "points": 2,
+            "counted": true,
+            "section": "context",
+            "source": "高考词汇5000词新.pdf 印刷页4–6，原创语境题"
+          },
+          {
+            "q": "The desert is so ___ that few plants can survive.",
+            "options": [
+              "artificial",
+              "annual",
+              "arid",
+              "athletic"
+            ],
+            "answer": 2,
+            "explanation": "arid：干旱的。",
+            "id": "r2-d33-context-6",
+            "type": "mcq",
+            "points": 2,
+            "counted": true,
+            "section": "context",
+            "source": "高考词汇5000词新.pdf 印刷页4–6，原创语境题"
+          },
+          {
+            "q": "The scientist studied the ___ of the Earth and other planets.",
+            "options": [
+              "atmospheres",
+              "audiences",
+              "assignments",
+              "appliances"
+            ],
+            "answer": 0,
+            "explanation": "atmosphere 可指行星的大气层。",
+            "id": "r2-d33-context-7",
+            "type": "mcq",
+            "points": 2,
+            "counted": true,
+            "section": "context",
+            "source": "高考词汇5000词新.pdf 印刷页4–6，原创语境题"
+          },
+          {
+            "q": "She is an ___ who designs public buildings.",
+            "options": [
+              "archaeologist",
+              "astronaut",
+              "athlete",
+              "architect"
+            ],
+            "answer": 3,
+            "explanation": "architect：建筑师。",
+            "id": "r2-d33-context-8",
+            "type": "mcq",
+            "points": 2,
+            "counted": true,
+            "section": "context",
+            "source": "高考词汇5000词新.pdf 印刷页4–6，原创语境题"
+          },
+          {
+            "q": "We should not ___ that everyone has access to the internet.",
+            "options": [
+              "assure",
+              "assemble",
+              "assume",
+              "assess"
+            ],
+            "answer": 2,
+            "explanation": "assume that：假定。",
+            "id": "r2-d33-context-9",
+            "type": "mcq",
+            "points": 2,
+            "counted": true,
+            "section": "context",
+            "source": "高考词汇5000词新.pdf 印刷页4–6，原创语境题"
+          },
+          {
+            "q": "The medicine helped restore his ___, and he began eating normally again.",
+            "options": [
+              "approval",
+              "appetite",
+              "argument",
+              "audience"
+            ],
+            "answer": 1,
+            "explanation": "restore his appetite：恢复食欲。",
+            "id": "r2-d33-context-10",
+            "type": "mcq",
+            "points": 2,
+            "counted": true,
+            "section": "context",
+            "source": "高考词汇5000词新.pdf 印刷页4–6，原创语境题"
+          },
+          {
+            "q": "The teacher asked us to ___ the strengths and weaknesses of the plan.",
+            "options": [
+              "assess",
+              "assure",
+              "assign",
+              "assist"
+            ],
+            "answer": 0,
+            "explanation": "assess：评估。",
+            "id": "r2-d33-context-11",
+            "type": "mcq",
+            "points": 2,
+            "counted": true,
+            "section": "context",
+            "source": "高考词汇5000词新.pdf 印刷页4–6，原创语境题"
+          },
+          {
+            "q": "The city's ___ population is calculated from several years of data.",
+            "options": [
+              "asleep",
+              "anxious",
+              "average",
+              "artificial"
+            ],
+            "answer": 2,
+            "explanation": "average population：平均人口。",
+            "id": "r2-d33-context-12",
+            "type": "mcq",
+            "points": 2,
+            "counted": true,
+            "section": "context",
+            "source": "高考词汇5000词新.pdf 印刷页4–6，原创语境题"
+          },
+          {
+            "q": "The speech received warm ___ from the audience.",
+            "options": [
+              "appliance",
+              "apology",
+              "appetite",
+              "applause"
+            ],
+            "answer": 3,
+            "explanation": "applause：掌声。",
+            "id": "r2-d33-context-13",
+            "type": "mcq",
+            "points": 2,
+            "counted": true,
+            "section": "context",
+            "source": "高考词汇5000词新.pdf 印刷页4–6，原创语境题"
+          }
+        ]
+      },
+      {
+        "id": "wordform",
+        "title": "四、词形变化",
+        "items": [
+          {
+            "q": "Her ___ for the job was submitted yesterday. (apply)",
+            "answers": [
+              "application"
+            ],
+            "explanation": "申请材料是 application。",
+            "id": "r2-d33-wordform-1",
+            "type": "text",
+            "points": 2,
+            "counted": true,
+            "section": "wordform",
+            "source": "高考词汇5000词新.pdf 印刷页4–6，原创语境题"
+          },
+          {
+            "q": "The report contains two detailed ___. (analysis)",
+            "answers": [
+              "analyses"
+            ],
+            "explanation": "analysis 的复数是 analyses。",
+            "id": "r2-d33-wordform-2",
+            "type": "text",
+            "points": 2,
+            "counted": true,
+            "section": "wordform",
+            "source": "高考词汇5000词新.pdf 印刷页4–6，原创语境题"
+          },
+          {
+            "q": "The doors open ___ when a visitor approaches. (automatic)",
+            "answers": [
+              "automatically"
+            ],
+            "explanation": "副词修饰 open。",
+            "id": "r2-d33-wordform-3",
+            "type": "text",
+            "points": 2,
+            "counted": true,
+            "section": "wordform",
+            "source": "高考词汇5000词新.pdf 印刷页4–6，原创语境题"
+          },
+          {
+            "q": "We expressed our ___ for her support. (appreciate)",
+            "answers": [
+              "appreciation"
+            ],
+            "explanation": "名词 appreciation。",
+            "id": "r2-d33-wordform-4",
+            "type": "text",
+            "points": 2,
+            "counted": true,
+            "section": "wordform",
+            "source": "高考词汇5000词新.pdf 印刷页4–6，原创语境题"
+          },
+          {
+            "q": "The athlete's ___ at the ceremony surprised us. (arrive)",
+            "answers": [
+              "arrival"
+            ],
+            "explanation": "arrival：到达。",
+            "id": "r2-d33-wordform-5",
+            "type": "text",
+            "points": 2,
+            "counted": true,
+            "section": "wordform",
+            "source": "高考词汇5000词新.pdf 印刷页4–6，原创语境题"
+          },
+          {
+            "q": "Regular ___ is required on this course. (attend)",
+            "answers": [
+              "attendance"
+            ],
+            "explanation": "形容词 regular 后需名词 attendance。",
+            "id": "r2-d33-wordform-6",
+            "type": "text",
+            "points": 2,
+            "counted": true,
+            "section": "wordform",
+            "source": "高考词汇5000词新.pdf 印刷页4–6，原创语境题"
+          },
+          {
+            "q": "He looked ___ while waiting for the interview. (anxiety)",
+            "answers": [
+              "anxious"
+            ],
+            "explanation": "looked 后用形容词 anxious。",
+            "id": "r2-d33-wordform-7",
+            "type": "text",
+            "points": 2,
+            "counted": true,
+            "section": "wordform",
+            "source": "高考词汇5000词新.pdf 印刷页4–6，原创语境题"
+          }
+        ]
+      },
+      {
+        "id": "translation",
+        "title": "五、句子翻译",
+        "items": [
+          {
+            "q": "我们应该更加关注学生的实际需要。（attention）",
+            "sample": "We should pay more attention to students' actual needs.",
+            "explanation": "1分：pay more attention to；1分：主语、情态和实际需要准确。",
+            "id": "r2-d33-translation-1",
+            "type": "manual",
+            "points": 2,
+            "counted": true,
+            "section": "translation",
+            "source": "高考词汇5000词新.pdf 印刷页4–6，原创语境题"
+          },
+          {
+            "q": "在作出决定之前，不要假定每个人都同意。（assume）",
+            "sample": "Do not assume that everyone agrees before making a decision.",
+            "explanation": "1分：assume that 从句；1分：否定和作出决定之前表达准确。",
+            "id": "r2-d33-translation-2",
+            "type": "manual",
+            "points": 2,
+            "counted": true,
+            "section": "translation",
+            "source": "高考词汇5000词新.pdf 印刷页4–6，原创语境题"
+          },
+          {
+            "q": "她为打断了讨论而向老师道歉。（apology）",
+            "sample": "She made an apology to the teacher for interrupting the discussion.",
+            "explanation": "1分：make an apology to somebody；1分：for interrupting the discussion。",
+            "id": "r2-d33-translation-3",
+            "type": "manual",
+            "points": 2,
+            "counted": true,
+            "section": "translation",
+            "source": "高考词汇5000词新.pdf 印刷页4–6，原创语境题"
+          },
+          {
+            "q": "这项工作吸引了来自不同地区的申请者。（attract）",
+            "sample": "The job attracted applicants from different regions.",
+            "explanation": "1分：attracted applicants；1分：来自不同地区表达准确。",
+            "id": "r2-d33-translation-4",
+            "type": "manual",
+            "points": 2,
+            "counted": true,
+            "section": "translation",
+            "source": "高考词汇5000词新.pdf 印刷页4–6，原创语境题"
+          },
+          {
+            "q": "我感谢你为这次活动所做的安排。（appreciate）",
+            "sample": "I appreciate the arrangements you have made for this event.",
+            "explanation": "1分：appreciate 后直接接宾语；1分：安排及活动含义完整，允许合理时态。",
+            "id": "r2-d33-translation-5",
+            "type": "manual",
+            "points": 2,
+            "counted": true,
+            "section": "translation",
+            "source": "高考词汇5000词新.pdf 印刷页4–6，原创语境题"
+          }
+        ]
+      }
+    ]
+  },
+  "34": {
+    "range": "词表第7–8页｜awesome → beyond；旧词延迟检查",
+    "pages": [
+      7,
+      8
+    ],
+    "day": 34,
+    "revision": "r2-20260921-v1",
+    "round": 2,
+    "sections": [
+      {
+        "id": "review",
+        "title": "零、滚动专项复测",
+        "items": [
+          {
+            "q": "The room is available, but you must book it ___ advance.",
+            "answers": [
+              "in"
+            ],
+            "explanation": "in advance；早期词段间隔抽查。",
+            "id": "r2-d34-review-1",
+            "type": "text",
+            "points": 1,
+            "counted": false,
+            "section": "review",
+            "source": "第一轮历史反馈变式/间隔抽查；具体依据见解析"
+          },
+          {
+            "q": "We must ___ the two sets of results before drawing a conclusion.（比较；com开头）",
+            "answers": [
+              "compare"
+            ],
+            "explanation": "compare 是动词；comparable 是形容词。历史：Day5、8。",
+            "id": "r2-d34-review-2",
+            "type": "text",
+            "points": 1,
+            "counted": false,
+            "section": "review",
+            "source": "第一轮历史反馈变式/间隔抽查；具体依据见解析"
+          },
+          {
+            "q": "The workers completed the task without further ___.（延误；del开头）",
+            "answers": [
+              "delay"
+            ],
+            "explanation": "without further delay。历史：Day7。",
+            "id": "r2-d34-review-3",
+            "type": "text",
+            "points": 1,
+            "counted": false,
+            "section": "review",
+            "source": "第一轮历史反馈变式/间隔抽查；具体依据见解析"
+          },
+          {
+            "q": "The campaign received ___ support from people across the country.（广泛的；w开头）",
+            "answers": [
+              "widespread",
+              "wide"
+            ],
+            "explanation": "本语境两者均合理，接受两种答案。历史：Day31。",
+            "id": "r2-d34-review-4",
+            "type": "text",
+            "points": 1,
+            "counted": false,
+            "section": "review",
+            "source": "第一轮历史反馈变式/间隔抽查；具体依据见解析"
+          },
+          {
+            "q": "Good evidence makes an argument more ___. (persuade)",
+            "answers": [
+              "persuasive"
+            ],
+            "explanation": "词义和拼写同时回收。历史：Day20–28。",
+            "id": "r2-d34-review-5",
+            "type": "text",
+            "points": 1,
+            "counted": false,
+            "section": "review",
+            "source": "第一轮历史反馈变式/间隔抽查；具体依据见解析"
+          },
+          {
+            "q": "The new law aims to ___ historic buildings.（保护；pre开头，非prevent）",
+            "answers": [
+              "preserve"
+            ],
+            "explanation": "preserve：保护、保存。历史：Day21。",
+            "id": "r2-d34-review-6",
+            "type": "text",
+            "points": 1,
+            "counted": false,
+            "section": "review",
+            "source": "第一轮历史反馈变式/间隔抽查；具体依据见解析"
+          },
+          {
+            "q": "She answered the question ___. (natural)",
+            "answers": [
+              "naturally"
+            ],
+            "explanation": "副词 naturally。历史：Day18、22、24。",
+            "id": "r2-d34-review-7",
+            "type": "text",
+            "points": 1,
+            "counted": false,
+            "section": "review",
+            "source": "第一轮历史反馈变式/间隔抽查；具体依据见解析"
+          },
+          {
+            "q": "These results support the scientist's ___.（理论；the开头）",
+            "answers": [
+              "theory"
+            ],
+            "explanation": "theory：理论；thought：想法。历史：Day28。",
+            "id": "r2-d34-review-8",
+            "type": "text",
+            "points": 1,
+            "counted": false,
+            "section": "review",
+            "source": "第一轮历史反馈变式/间隔抽查；具体依据见解析"
+          },
+          {
+            "q": "The meeting was held in the manager's ___.（办公室；off开头）",
+            "answers": [
+              "office"
+            ],
+            "explanation": "office 与 opinion 不能混淆。历史：Day19。",
+            "id": "r2-d34-review-9",
+            "type": "text",
+            "points": 1,
+            "counted": false,
+            "section": "review",
+            "source": "第一轮历史反馈变式/间隔抽查；具体依据见解析"
+          },
+          {
+            "q": "I prefer reading, ___ my brother prefers sport.（而；填连接词）",
+            "answers": [
+              "whereas",
+              "while"
+            ],
+            "explanation": "whereas / while 都能表示对比。历史：Day31，采用宽容判分。",
+            "id": "r2-d34-review-10",
+            "type": "text",
+            "points": 1,
+            "counted": false,
+            "section": "review",
+            "source": "第一轮历史反馈变式/间隔抽查；具体依据见解析"
+          }
+        ]
+      },
+      {
+        "id": "meaning",
+        "title": "一、词义与拼写",
+        "items": [
+          {
+            "q": "令人赞叹的（形容词，aw开头，非awful）",
+            "answers": [
+              "awesome"
+            ],
+            "explanation": "awesome：令人赞叹的；awful：糟糕的。",
+            "id": "r2-d34-meaning-1",
+            "type": "text",
+            "points": 1,
+            "counted": true,
+            "section": "meaning",
+            "source": "高考词汇5000词新.pdf 印刷页7–8，原创语境题"
+          },
+          {
+            "q": "尴尬的；笨拙的（形容词，awk开头）",
+            "answers": [
+              "awkward"
+            ],
+            "explanation": "an awkward situation。",
+            "id": "r2-d34-meaning-2",
+            "type": "text",
+            "points": 1,
+            "counted": true,
+            "section": "meaning",
+            "source": "高考词汇5000词新.pdf 印刷页7–8，原创语境题"
+          },
+          {
+            "q": "背景（名词，back开头）",
+            "answers": [
+              "background"
+            ],
+            "explanation": "background information。",
+            "id": "r2-d34-meaning-3",
+            "type": "text",
+            "points": 1,
+            "counted": true,
+            "section": "meaning",
+            "source": "高考词汇5000词新.pdf 印刷页7–8，原创语境题"
+          },
+          {
+            "q": "备用的；备份（adj./n.，back开头）",
+            "answers": [
+              "backup",
+              "back-up"
+            ],
+            "explanation": "保留英美及连字符变体。",
+            "id": "r2-d34-meaning-4",
+            "type": "text",
+            "points": 1,
+            "counted": true,
+            "section": "meaning",
+            "source": "高考词汇5000词新.pdf 印刷页7–8，原创语境题"
+          },
+          {
+            "q": "细菌（名词复数，b开头）",
+            "answers": [
+              "bacteria"
+            ],
+            "explanation": "单数 bacterium，复数 bacteria。",
+            "id": "r2-d34-meaning-5",
+            "type": "text",
+            "points": 1,
+            "counted": true,
+            "section": "meaning",
+            "source": "高考词汇5000词新.pdf 印刷页7–8，原创语境题"
+          },
+          {
+            "q": "行李（不可数名词，bag开头）",
+            "answers": [
+              "baggage"
+            ],
+            "explanation": "baggage 不加复数 s。",
+            "id": "r2-d34-meaning-6",
+            "type": "text",
+            "points": 1,
+            "counted": true,
+            "section": "meaning",
+            "source": "高考词汇5000词新.pdf 印刷页7–8，原创语境题"
+          },
+          {
+            "q": "天平；平衡（名词，bal开头）",
+            "answers": [
+              "balance"
+            ],
+            "explanation": "keep one's balance。",
+            "id": "r2-d34-meaning-7",
+            "type": "text",
+            "points": 1,
+            "counted": true,
+            "section": "meaning",
+            "source": "高考词汇5000词新.pdf 印刷页7–8，原创语境题"
+          },
+          {
+            "q": "投票；选票（名词，ball开头）",
+            "answers": [
+              "ballot"
+            ],
+            "explanation": "a secret ballot。",
+            "id": "r2-d34-meaning-8",
+            "type": "text",
+            "points": 1,
+            "counted": true,
+            "section": "meaning",
+            "source": "高考词汇5000词新.pdf 印刷页7–8，原创语境题"
+          },
+          {
+            "q": "禁止（动词，b开头，3个字母）",
+            "answers": [
+              "ban"
+            ],
+            "explanation": "ban somebody from doing。",
+            "id": "r2-d34-meaning-9",
+            "type": "text",
+            "points": 1,
+            "counted": true,
+            "section": "meaning",
+            "source": "高考词汇5000词新.pdf 印刷页7–8，原创语境题"
+          },
+          {
+            "q": "绷带（名词，band开头）",
+            "answers": [
+              "bandage"
+            ],
+            "explanation": "put on a bandage。",
+            "id": "r2-d34-meaning-10",
+            "type": "text",
+            "points": 1,
+            "counted": true,
+            "section": "meaning",
+            "source": "高考词汇5000词新.pdf 印刷页7–8，原创语境题"
+          },
+          {
+            "q": "光秃的；赤裸的（形容词，bare开头）",
+            "answers": [
+              "bare"
+            ],
+            "explanation": "bare hands：赤手。",
+            "id": "r2-d34-meaning-11",
+            "type": "text",
+            "points": 1,
+            "counted": true,
+            "section": "meaning",
+            "source": "高考词汇5000词新.pdf 印刷页7–8，原创语境题"
+          },
+          {
+            "q": "几乎不；勉强（副词，bare开头）",
+            "answers": [
+              "barely"
+            ],
+            "explanation": "barely 与 bare 词性不同。",
+            "id": "r2-d34-meaning-12",
+            "type": "text",
+            "points": 1,
+            "counted": true,
+            "section": "meaning",
+            "source": "高考词汇5000词新.pdf 印刷页7–8，原创语境题"
+          },
+          {
+            "q": "便宜货；讨价还价（n./v.，bar开头）",
+            "answers": [
+              "bargain"
+            ],
+            "explanation": "a bargain；bargain with somebody。",
+            "id": "r2-d34-meaning-13",
+            "type": "text",
+            "points": 1,
+            "counted": true,
+            "section": "meaning",
+            "source": "高考词汇5000词新.pdf 印刷页7–8，原创语境题"
+          },
+          {
+            "q": "障碍；屏障（名词，bar开头）",
+            "answers": [
+              "barrier"
+            ],
+            "explanation": "a barrier to communication。",
+            "id": "r2-d34-meaning-14",
+            "type": "text",
+            "points": 1,
+            "counted": true,
+            "section": "meaning",
+            "source": "高考词汇5000词新.pdf 印刷页7–8，原创语境题"
+          },
+          {
+            "q": "地下室（名词，base开头）",
+            "answers": [
+              "basement"
+            ],
+            "explanation": "in the basement。",
+            "id": "r2-d34-meaning-15",
+            "type": "text",
+            "points": 1,
+            "counted": true,
+            "section": "meaning",
+            "source": "高考词汇5000词新.pdf 印刷页7–8，原创语境题"
+          },
+          {
+            "q": "基础；根据（名词，bas开头，以is结尾）",
+            "answers": [
+              "basis"
+            ],
+            "explanation": "on the basis of。",
+            "id": "r2-d34-meaning-16",
+            "type": "text",
+            "points": 1,
+            "counted": true,
+            "section": "meaning",
+            "source": "高考词汇5000词新.pdf 印刷页7–8，原创语境题"
+          },
+          {
+            "q": "忍受；承受（动词，bear开头）",
+            "answers": [
+              "bear"
+            ],
+            "explanation": "bear the pain。",
+            "id": "r2-d34-meaning-17",
+            "type": "text",
+            "points": 1,
+            "counted": true,
+            "section": "meaning",
+            "source": "高考词汇5000词新.pdf 印刷页7–8，原创语境题"
+          },
+          {
+            "q": "行为；表现（名词，beh开头）",
+            "answers": [
+              "behaviour",
+              "behavior"
+            ],
+            "explanation": "英美拼写均正确。",
+            "id": "r2-d34-meaning-18",
+            "type": "text",
+            "points": 1,
+            "counted": true,
+            "section": "meaning",
+            "source": "高考词汇5000词新.pdf 印刷页7–8，原创语境题"
+          },
+          {
+            "q": "信念；相信（名词，bel开头）",
+            "answers": [
+              "belief"
+            ],
+            "explanation": "belief 是名词；believe 是动词。",
+            "id": "r2-d34-meaning-19",
+            "type": "text",
+            "points": 1,
+            "counted": true,
+            "section": "meaning",
+            "source": "高考词汇5000词新.pdf 印刷页7–8，原创语境题"
+          },
+          {
+            "q": "有益的（形容词，bene开头）",
+            "answers": [
+              "beneficial"
+            ],
+            "explanation": "be beneficial to。",
+            "id": "r2-d34-meaning-20",
+            "type": "text",
+            "points": 1,
+            "counted": true,
+            "section": "meaning",
+            "source": "高考词汇5000词新.pdf 印刷页7–8，原创语境题"
+          }
+        ]
+      },
+      {
+        "id": "collocation",
+        "title": "二、固定搭配",
+        "items": [
+          {
+            "q": "The report is based ___ a survey of local residents.",
+            "answers": [
+              "on",
+              "upon"
+            ],
+            "explanation": "be based on/upon。",
+            "id": "r2-d34-collocation-1",
+            "type": "text",
+            "points": 2,
+            "counted": true,
+            "section": "collocation",
+            "source": "高考词汇5000词新.pdf 印刷页7–8，原创语境题"
+          },
+          {
+            "q": "The decision was made on the basis ___ reliable evidence.",
+            "answers": [
+              "of"
+            ],
+            "explanation": "on the basis of。",
+            "id": "r2-d34-collocation-2",
+            "type": "text",
+            "points": 2,
+            "counted": true,
+            "section": "collocation",
+            "source": "高考词汇5000词新.pdf 印刷页7–8，原创语境题"
+          },
+          {
+            "q": "These books belong ___ the school.",
+            "answers": [
+              "to"
+            ],
+            "explanation": "belong to。",
+            "id": "r2-d34-collocation-3",
+            "type": "text",
+            "points": 2,
+            "counted": true,
+            "section": "collocation",
+            "source": "高考词汇5000词新.pdf 印刷页7–8，原创语境题"
+          },
+          {
+            "q": "Regular exercise is beneficial ___ your health.",
+            "answers": [
+              "to"
+            ],
+            "explanation": "be beneficial to。",
+            "id": "r2-d34-collocation-4",
+            "type": "text",
+            "points": 2,
+            "counted": true,
+            "section": "collocation",
+            "source": "高考词汇5000词新.pdf 印刷页7–8，原创语境题"
+          },
+          {
+            "q": "Students can benefit ___ reading widely.",
+            "answers": [
+              "from"
+            ],
+            "explanation": "benefit from。",
+            "id": "r2-d34-collocation-5",
+            "type": "text",
+            "points": 2,
+            "counted": true,
+            "section": "collocation",
+            "source": "高考词汇5000词新.pdf 印刷页7–8，原创语境题"
+          },
+          {
+            "q": "The athlete was banned ___ competing for six months.",
+            "answers": [
+              "from"
+            ],
+            "explanation": "ban somebody from doing。",
+            "id": "r2-d34-collocation-6",
+            "type": "text",
+            "points": 2,
+            "counted": true,
+            "section": "collocation",
+            "source": "高考词汇5000词新.pdf 印刷页7–8，原创语境题"
+          },
+          {
+            "q": "The river forms a natural barrier ___ the two countries.",
+            "answers": [
+              "between"
+            ],
+            "explanation": "between the two countries：在两国之间。",
+            "id": "r2-d34-collocation-7",
+            "type": "text",
+            "points": 2,
+            "counted": true,
+            "section": "collocation",
+            "source": "高考词汇5000词新.pdf 印刷页7–8，原创语境题"
+          },
+          {
+            "q": "Please speak on behalf ___ the whole group.",
+            "answers": [
+              "of"
+            ],
+            "explanation": "on behalf of。",
+            "id": "r2-d34-collocation-8",
+            "type": "text",
+            "points": 2,
+            "counted": true,
+            "section": "collocation",
+            "source": "高考词汇5000词新.pdf 印刷页7–8，原创语境题"
+          },
+          {
+            "q": "The cost is far ___ our budget.（超出；填b开头介词）",
+            "answers": [
+              "beyond"
+            ],
+            "explanation": "beyond our budget。",
+            "id": "r2-d34-collocation-9",
+            "type": "text",
+            "points": 2,
+            "counted": true,
+            "section": "collocation",
+            "source": "高考词汇5000词新.pdf 印刷页7–8，原创语境题"
+          },
+          {
+            "q": "She lost her ___ on the ice and fell.（平衡；b开头）",
+            "answers": [
+              "balance"
+            ],
+            "explanation": "lose one's balance。",
+            "id": "r2-d34-collocation-10",
+            "type": "text",
+            "points": 2,
+            "counted": true,
+            "section": "collocation",
+            "source": "高考词汇5000词新.pdf 印刷页7–8，原创语境题"
+          },
+          {
+            "q": "You should back ___ your important files regularly.",
+            "answers": [
+              "up"
+            ],
+            "explanation": "back up files：备份文件。",
+            "id": "r2-d34-collocation-11",
+            "type": "text",
+            "points": 2,
+            "counted": true,
+            "section": "collocation",
+            "source": "高考词汇5000词新.pdf 印刷页7–8，原创语境题"
+          },
+          {
+            "q": "There is a clear difference ___ these two methods.",
+            "answers": [
+              "between"
+            ],
+            "explanation": "difference between A and B。",
+            "id": "r2-d34-collocation-12",
+            "type": "text",
+            "points": 2,
+            "counted": true,
+            "section": "collocation",
+            "source": "高考词汇5000词新.pdf 印刷页7–8，原创语境题"
+          },
+          {
+            "q": "The child behaved ___. (bad)",
+            "answers": [
+              "badly"
+            ],
+            "explanation": "副词修饰 behaved。",
+            "id": "r2-d34-collocation-13",
+            "type": "text",
+            "points": 2,
+            "counted": true,
+            "section": "collocation",
+            "source": "高考词汇5000词新.pdf 印刷页7–8，原创语境题"
+          },
+          {
+            "q": "The programme is of benefit to ___ confidence. (build)",
+            "answers": [
+              "building"
+            ],
+            "explanation": "to 是介词，后接 building。",
+            "id": "r2-d34-collocation-14",
+            "type": "text",
+            "points": 2,
+            "counted": true,
+            "section": "collocation",
+            "source": "高考词汇5000词新.pdf 印刷页7–8，原创语境题"
+          },
+          {
+            "q": "Please keep the entrance free of barriers so that everyone can get ___.（进入；in/out二选一）",
+            "answers": [
+              "in"
+            ],
+            "explanation": "get in：进入；根据中文排除 out。",
+            "id": "r2-d34-collocation-15",
+            "type": "text",
+            "points": 2,
+            "counted": true,
+            "section": "collocation",
+            "source": "高考词汇5000词新.pdf 印刷页7–8，原创语境题"
+          }
+        ]
+      },
+      {
+        "id": "context",
+        "title": "三、语境辨析",
+        "items": [
+          {
+            "q": "She put her bag ___ her chair, within easy reach.",
+            "options": [
+              "besides",
+              "beside",
+              "beyond",
+              "between"
+            ],
+            "answer": 1,
+            "explanation": "beside：在旁边；besides：此外。",
+            "id": "r2-d34-context-1",
+            "type": "mcq",
+            "points": 2,
+            "counted": true,
+            "section": "context",
+            "source": "高考词汇5000词新.pdf 印刷页7–8，原创语境题"
+          },
+          {
+            "q": "___ English, he also studies French and Spanish.",
+            "options": [
+              "Beside",
+              "Below",
+              "Besides",
+              "Between"
+            ],
+            "answer": 2,
+            "explanation": "besides：除……之外还。",
+            "id": "r2-d34-context-2",
+            "type": "mcq",
+            "points": 2,
+            "counted": true,
+            "section": "context",
+            "source": "高考词汇5000词新.pdf 印刷页7–8，原创语境题"
+          },
+          {
+            "q": "The damage was ___ repair, so the machine had to be replaced.",
+            "options": [
+              "beside",
+              "behind",
+              "between",
+              "beyond"
+            ],
+            "answer": 3,
+            "explanation": "beyond repair：无法修复。",
+            "id": "r2-d34-context-3",
+            "type": "mcq",
+            "points": 2,
+            "counted": true,
+            "section": "context",
+            "source": "高考词汇5000词新.pdf 印刷页7–8，原创语境题"
+          },
+          {
+            "q": "The coat cost very little and was a real ___.",
+            "options": [
+              "barrier",
+              "bargain",
+              "basis",
+              "ballot"
+            ],
+            "answer": 1,
+            "explanation": "a bargain：便宜货。",
+            "id": "r2-d34-context-4",
+            "type": "mcq",
+            "points": 2,
+            "counted": true,
+            "section": "context",
+            "source": "高考词汇5000词新.pdf 印刷页7–8，原创语境题"
+          },
+          {
+            "q": "She could ___ see the road through the thick fog.",
+            "options": [
+              "bare",
+              "basic",
+              "barely",
+              "badly"
+            ],
+            "answer": 2,
+            "explanation": "barely：几乎看不见。",
+            "id": "r2-d34-context-5",
+            "type": "mcq",
+            "points": 2,
+            "counted": true,
+            "section": "context",
+            "source": "高考词汇5000词新.pdf 印刷页7–8，原创语境题"
+          },
+          {
+            "q": "We sat on the river ___ and watched the boats.",
+            "options": [
+              "bank",
+              "bench",
+              "basement",
+              "barrel"
+            ],
+            "answer": 0,
+            "explanation": "river bank：河岸。",
+            "id": "r2-d34-context-6",
+            "type": "mcq",
+            "points": 2,
+            "counted": true,
+            "section": "context",
+            "source": "高考词汇5000词新.pdf 印刷页7–8，原创语境题"
+          },
+          {
+            "q": "The player hit the ball with a wooden ___.",
+            "options": [
+              "bat",
+              "bath",
+              "badge",
+              "basin"
+            ],
+            "answer": 0,
+            "explanation": "球拍或球棒用 bat。",
+            "id": "r2-d34-context-7",
+            "type": "mcq",
+            "points": 2,
+            "counted": true,
+            "section": "context",
+            "source": "高考词汇5000词新.pdf 印刷页7–8，原创语境题"
+          },
+          {
+            "q": "The teacher praised the children's excellent ___.",
+            "options": [
+              "belief",
+              "benefit",
+              "behaviour",
+              "basis"
+            ],
+            "answer": 2,
+            "explanation": "excellent behaviour：良好表现。",
+            "id": "r2-d34-context-8",
+            "type": "mcq",
+            "points": 2,
+            "counted": true,
+            "section": "context",
+            "source": "高考词汇5000词新.pdf 印刷页7–8，原创语境题"
+          },
+          {
+            "q": "The interviewer asked about her family ___ and childhood experiences.",
+            "options": [
+              "backward",
+              "background",
+              "bare",
+              "barely"
+            ],
+            "answer": 1,
+            "explanation": "family background：家庭背景。",
+            "id": "r2-d34-context-9",
+            "type": "mcq",
+            "points": 2,
+            "counted": true,
+            "section": "context",
+            "source": "高考词汇5000词新.pdf 印刷页7–8，原创语境题"
+          },
+          {
+            "q": "The new treatment may bring significant ___ to patients.",
+            "options": [
+              "batteries",
+              "barriers",
+              "benefits",
+              "ballots"
+            ],
+            "answer": 2,
+            "explanation": "bring benefits to：带来益处。",
+            "id": "r2-d34-context-10",
+            "type": "mcq",
+            "points": 2,
+            "counted": true,
+            "section": "context",
+            "source": "高考词汇5000词新.pdf 印刷页7–8，原创语境题"
+          },
+          {
+            "q": "Please carry the hot pan with a cloth, not with your ___ hands.",
+            "options": [
+              "barely",
+              "beneficial",
+              "backward",
+              "bare"
+            ],
+            "answer": 3,
+            "explanation": "bare hands：未受保护的手。",
+            "id": "r2-d34-context-11",
+            "type": "mcq",
+            "points": 2,
+            "counted": true,
+            "section": "context",
+            "source": "高考词汇5000词新.pdf 印刷页7–8，原创语境题"
+          },
+          {
+            "q": "The school keeps digital copies as a ___ in case the paper records are lost.",
+            "options": [
+              "backup",
+              "bargain",
+              "barrier",
+              "badge"
+            ],
+            "answer": 0,
+            "explanation": "backup：备份。",
+            "id": "r2-d34-context-12",
+            "type": "mcq",
+            "points": 2,
+            "counted": true,
+            "section": "context",
+            "source": "高考词汇5000词新.pdf 印刷页7–8，原创语境题"
+          },
+          {
+            "q": "I was completely ___ by the confusing instructions and did not know what to do.",
+            "options": [
+              "beneficial",
+              "bewildered",
+              "basic",
+              "beautiful"
+            ],
+            "answer": 1,
+            "explanation": "bewildered：困惑的。",
+            "id": "r2-d34-context-13",
+            "type": "mcq",
+            "points": 2,
+            "counted": true,
+            "section": "context",
+            "source": "高考词汇5000词新.pdf 印刷页7–8，原创语境题"
+          }
+        ]
+      },
+      {
+        "id": "wordform",
+        "title": "四、词形变化",
+        "items": [
+          {
+            "q": "The doctor explained several ___ of regular exercise. (benefit)",
+            "answers": [
+              "benefits"
+            ],
+            "explanation": "several 后用复数 benefits。",
+            "id": "r2-d34-wordform-1",
+            "type": "text",
+            "points": 2,
+            "counted": true,
+            "section": "wordform",
+            "source": "高考词汇5000词新.pdf 印刷页7–8，原创语境题"
+          },
+          {
+            "q": "The river looked ___ in the morning light. (beauty)",
+            "answers": [
+              "beautiful"
+            ],
+            "explanation": "looked 后接形容词 beautiful。",
+            "id": "r2-d34-wordform-2",
+            "type": "text",
+            "points": 2,
+            "counted": true,
+            "section": "wordform",
+            "source": "高考词汇5000词新.pdf 印刷页7–8，原创语境题"
+          },
+          {
+            "q": "His ___ in the team's ability never changed. (believe)",
+            "answers": [
+              "belief"
+            ],
+            "explanation": "物主代词后用名词 belief。",
+            "id": "r2-d34-wordform-3",
+            "type": "text",
+            "points": 2,
+            "counted": true,
+            "section": "wordform",
+            "source": "高考词汇5000词新.pdf 印刷页7–8，原创语境题"
+          },
+          {
+            "q": "The decision was ___ on the latest data. (base)",
+            "answers": [
+              "based"
+            ],
+            "explanation": "be based on。",
+            "id": "r2-d34-wordform-4",
+            "type": "text",
+            "points": 2,
+            "counted": true,
+            "section": "wordform",
+            "source": "高考词汇5000词新.pdf 印刷页7–8，原创语境题"
+          },
+          {
+            "q": "Some types of ___ can cause disease. (bacterium)",
+            "answers": [
+              "bacteria"
+            ],
+            "explanation": "bacterium 的复数。",
+            "id": "r2-d34-wordform-5",
+            "type": "text",
+            "points": 2,
+            "counted": true,
+            "section": "wordform",
+            "source": "高考词汇5000词新.pdf 印刷页7–8，原创语境题"
+          },
+          {
+            "q": "The bicycle was ___ damaged in the accident. (bad)",
+            "answers": [
+              "badly"
+            ],
+            "explanation": "badly 修饰 damaged。",
+            "id": "r2-d34-wordform-6",
+            "type": "text",
+            "points": 2,
+            "counted": true,
+            "section": "wordform",
+            "source": "高考词汇5000词新.pdf 印刷页7–8，原创语境题"
+          },
+          {
+            "q": "The runner struggled to keep her ___. (balanced)",
+            "answers": [
+              "balance"
+            ],
+            "explanation": "keep one's balance：保持平衡。",
+            "id": "r2-d34-wordform-7",
+            "type": "text",
+            "points": 2,
+            "counted": true,
+            "section": "wordform",
+            "source": "高考词汇5000词新.pdf 印刷页7–8，原创语境题"
+          }
+        ]
+      },
+      {
+        "id": "translation",
+        "title": "五、句子翻译",
+        "items": [
+          {
+            "q": "这项决定以事实为依据，而不是猜测。（base）",
+            "sample": "The decision is based on facts rather than guesswork.",
+            "explanation": "1分：be based on；1分：事实与猜测的对比。not ... but ... 也正确，不强制rather than。",
+            "id": "r2-d34-translation-1",
+            "type": "manual",
+            "points": 2,
+            "counted": true,
+            "section": "translation",
+            "source": "高考词汇5000词新.pdf 印刷页7–8，原创语境题"
+          },
+          {
+            "q": "这项活动有助于培养学生的自信心。（benefit）",
+            "sample": "This activity is of benefit to building students' confidence.",
+            "explanation": "1分：benefit 结构正确；1分：培养学生自信心表达准确。This activity benefits students by building their confidence等也可。",
+            "id": "r2-d34-translation-2",
+            "type": "manual",
+            "points": 2,
+            "counted": true,
+            "section": "translation",
+            "source": "高考词汇5000词新.pdf 印刷页7–8，原创语境题"
+          },
+          {
+            "q": "除了价格，我们还应该考虑质量。（besides）",
+            "sample": "Besides the price, we should also consider the quality.",
+            "explanation": "1分：Besides the price；1分：质量及should表达完整。",
+            "id": "r2-d34-translation-3",
+            "type": "manual",
+            "points": 2,
+            "counted": true,
+            "section": "translation",
+            "source": "高考词汇5000词新.pdf 印刷页7–8，原创语境题"
+          },
+          {
+            "q": "请代表全班向她表示感谢。（behalf）",
+            "sample": "Please thank her on behalf of the whole class.",
+            "explanation": "1分：on behalf of；1分：感谢对象与全班准确。",
+            "id": "r2-d34-translation-4",
+            "type": "manual",
+            "points": 2,
+            "counted": true,
+            "section": "translation",
+            "source": "高考词汇5000词新.pdf 印刷页7–8，原创语境题"
+          },
+          {
+            "q": "由于大雾，我们几乎看不见前方的道路。（barely）",
+            "sample": "Because of the thick fog, we could barely see the road ahead.",
+            "explanation": "1分：could barely see；1分：大雾和前方道路含义准确。",
+            "id": "r2-d34-translation-5",
+            "type": "manual",
+            "points": 2,
+            "counted": true,
+            "section": "translation",
+            "source": "高考词汇5000词新.pdf 印刷页7–8，原创语境题"
+          }
+        ]
+      }
+    ]
+  }
+}
