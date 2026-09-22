@@ -14,7 +14,7 @@
       { label: "第二章 · 匀变速运动", children: [["知识小结", "/physics/chapter2-review.html"], ["针对练习", "/physics/chapter2-practice.html"]] }
     ] },
     { label: "化学", path: "/chemistry/", children: [["全部化学内容", "/chemistry/"], ["第一轮错题专项", "/chemistry/special-practice-1.html"]] },
-    { label: "英语", path: "/english/", children: [["词汇训练目录", "/english/"], ["Day 1 · 综合诊断", "/english/day1/"], ["Day 2–5", "/english/day2-5/"], ["Day 6–10", "/english/day6-10/"], ["Day 11–20", "/english/day11-20/"], ["Day 21–31 目录", "/english/day21-28.html"], ["Day 29", "/day29.html"], ["Day 30", "/day30.html"]] }
+    { label: "英语", path: "/english/", children: [["全部英语内容", "/english/"], ["语法专项 · 逐题讲解", "/english/grammar/"], ["Day 1 · 综合诊断", "/english/day1/"], ["Day 2–5", "/english/day2-5/"], ["Day 6–10", "/english/day6-10/"], ["Day 11–20", "/english/day11-20/"], ["Day 21–31 目录", "/english/day21-28.html"], ["Day 29", "/day29.html"], ["Day 30", "/day30.html"]] }
   ];
   const normalize = path => path.replace(/index\.html$/, "");
   const path = normalize(location.pathname);
