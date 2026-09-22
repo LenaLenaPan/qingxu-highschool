@@ -1,0 +1,123 @@
+# id | 就题讲解（每段用 || 分隔）
+q11|句子说“我哥哥还没有做作业”。先找动作：hasn’t done是“还没有做”，然后问“没做什么？”答案是his homework，所以这整个名词短语是宾语。||hasn’t不是单独一个完整的动作表达，它与done组成现在完成时的否定形式。划宾语时不要把done划进去，也不要漏掉his。
+q12|先把修饰人的all over the world暂时括起来，主干就是People speak English：人们说英语。English回答“说什么”，所以是宾语。||all over the world说明是哪些people，属于主语内部的修饰；它没有改变speak与English之间的动宾关系。
+q13|这是一道问句，问“上节课你学了多少新单词”。把疑问语序暂时还原为You learned how many new words last class，就能看见learned后面所学的内容。||How many new words虽然移到了句首，仍整体作宾语。how many与new都属于这一名词短语，不能只划words；did只是帮助构成问句。
+q14|先问学生们“想要什么”：不是单独“游泳”这个词，而是“去游泳”这整件事，因此want后面的to go swimming整体作宾语。||go swimming是“去游泳”的活动表达。swimming依附于go，to go swimming又依附于want，划成分要按外层动词want来确定范围。
+q15|这句话的意思是“老人当时觉得很累”。was feeling整体表示当时的感受；very tired说明老人处于什么状态，所以它才是表语。||表语就是跟在系动词后、说明主语身份或状态的部分。此处feel表示“感觉”，是系动词；was是过去进行时的助动词，不能把feeling划进表语。
+q16|句子说“叶子已经变黄了”。have turned是“已经变得”，yellow说明变成了什么状态，所以yellow作表语。||turned不是因为长得像过去分词就单独算表语；它与have构成动词部分。真正描述leaves状态的是yellow。
+q17|先找变化：became表示“变得”。变成什么状态？interested in the subject，意为“对这门学科感兴趣”，这个整体是表语。||interested是核心词，in the subject补充“对什么感兴趣”。若题目要求划完整成分，应一起划出；Soon只说明变化发生的时间。
+q19|这题要求找定语，不是找句中最长的短语。some people中的some限定“哪些/多少人”，因此是people前的限定成分，按本卷归入定语。||forgot to sweep the floor是“忘了扫地”，to sweep the floor回答“忘了什么事”，依附于forgot作宾语，而不是修饰某个名词的定语。
+q20|句子谈的是“楼下的那个人”。downstairs紧跟man，用来区分是哪个人，因此修饰man，是后置定语。||不要根据downstairs是副词就直接答状语。成分取决于它在这句话里修饰谁；was trying to sleep才是这个人的动作。
+q21|I am waiting for the sound说明“我在等那个声音”。哪一种声音？of the other shoe，即另一只鞋发出的声音，因此这整个介词短语修饰sound。||the other shoe在介词短语内部，other又修饰shoe。只划the other，就把内层词语与外层要找的完整定语混淆了。
+q22|先看“她希望谁做什么”：the children是她所指的孩子，to read…说明孩子要做的事。因此children作宾语，后面的不定式短语作宾补。||newspapers and books是read的宾语，属于宾补短语内部，不能拿它们替代整句likes后面的宾语。原句用would like会更常见，本题按现有句式分析。
+q23|ask her是“要求她”，要求她做什么？to take the boy out of school。这一不定式说明her要做的动作，所以作宾语补足语。||her才是asked的宾语。the boy虽然也是一个人，但它是take的宾语，处在内层短语中，不是asked的第二个宾语。
+q24|句子意思是“她发现做这项工作很难”。真正被评价的事情是to do the work，“难”是对这件事的评价，所以difficult是宾补。||句子先用it占住宾语的位置，把较长的to do the work放到后面：found＋it＋difficult＋to do the work。it叫形式宾语，后面的不定式是真正宾语。||不能把to do the work划为宾补：它回答“什么事很难”，不是回答“这件事怎么样”。
+q25|They call me Lily意为“他们叫我Lily”。me与Lily指同一个人，Lily补充说明me叫什么，因此是宾补。||双宾语通常是“给谁、给什么”，两个宾语不是同一身份；这里不是“给我一个Lily”。sometimes只说明频率。
+q28|“他在十一岁时开始学英语。”when he was eleven回答“什么时候开始”，所以是时间状语从句。||它内部有自己的主语he、系动词was和表语eleven，因而叫从句。to learn English虽也含动词，却是不定式短语，作began的宾语。
+q29|先看两处修饰分别回答什么：on the motorbike回答“哪个男人”，修饰man；too fast回答“骑得/行进得怎样”，修饰was traveling。||因此前者是定语，后者是题目要找的状语。不能因为两处都在补充信息就划成同一种成分。
+q30|先读主句：You will tell your friend…，意思是“你会告诉朋友……”。your friend是接收信息的人，that you’ve got to school是要告诉他的内容，分别为间接宾语、直接宾语。||后面的内容本身是一句“你已经到校了”，因此整体叫宾语从句。不要把其中的you或school当作主句的宾语来单独划。
+q35|把who offered me his seat暂时括起来，主句就是The boy is called Tom。括起的部分解释是“给我让座的那个男孩”。||主句有is called，从句内部还有who offered…，两个层级由who连接，因此是主从复合句；不是仅仅因为看见两个动词就判定。
+q37|My brother and I是两个人组成的同一个主语，后面go to school与come back home是这个主语做的两个动作。||两个and分别连接主语中的人和谓语中的动作，没有引出新的从句，所以按本卷分类是简单句。简单句可以含并列主语、并列谓语，不等于只能有一个人或一个动作。
+q38|and前是He is in class one，后是I am in class two。两边各自都有主语和谓语，单独拿出来也都是完整句子。||因此这里and连接的是两个分句，全句是并列句；与同一主语后连接go和come back不同。
+q41|先问“什么很重要”：What he said at the meeting，即他在会上说的话。这个部分整体放在is前面，作主语。||主语内部又有he said这样的主谓结构，所以是主语从句，全句为复合句。句末isn’t it是附加问句，不改变前面的主从层级。
+q42|主句是The farmer is showing the boy…，农民正在向男孩展示某个方法；方法就是how to plant a tree（怎样种树）。||how后面是to plant，不是“某个主语＋有时态的谓语”。所以how to plant a tree是疑问词＋不定式短语，不是从句，全句仍是简单句。
+q46|句子主干是Effective measures can be taken：可以采取有效措施。措施是被采取的，can be taken要完整保留。||to make communication easier回答“采取措施为了什么”，整体是目的状语。在它内部，communication是make的宾语，easier说明communication会变得怎样，是宾补。||外层的目的状语内部仍能有宾语和宾补，不能把这两个层次混为一谈。
+q47|It occurred to Jack that…表示“Jack突然想到……”。想到的完整内容是that he had forgotten…；句首it只是先占住主语位置。||the English monitor补充说明Jack的身份，是同位语；that从句并不是描述“什么样的班长”，所以不是修饰monitor的定语从句。原题monitor后少一个用于结束同位语的逗号，with me的人称也需核对。
+q49|把被动句还原为Someone caught the boy stealing：有人抓到男孩正在偷东西。stealing说明男孩当时在做什么。||变成The boy was caught stealing后，boy已经成为主语，stealing也随之补充主语的动作，不能仍把它称作主句宾语。who…只是修饰boy的定语从句。
+q50|先找主干He was interested in…，表示他对某件事感兴趣。介词in后面接creating a picture…这件事，creating在这里不是独立谓语。||后面的a digital time capsule for the future是对a picture of the world的另一种说法，两者指同一作品，所以是同位语；它不是对He的状态补充。
+q53|when从句交代人开始喝汤的时间，主句是the fork sends a signal：叉子发出信号。using the fork只是修饰person，表示使用叉子的那个人。||making it play a sound说明信号带来的结果，是主句后的结果状语。这个短语内部，it指手机，play a sound说明手机做什么，是make的宾补；to mask…又说明播放声音的目的。
+q54|主干是Monsters, dogs and deaths are the things…：前面三个名词并列作主语，are后面的整个名词短语作表语。||在the things后，most people fear缺少“害怕什么”这个宾语，所缺内容就是things。因此这里省略了关系代词that/which，是修饰things的定语从句，不是一个无连接的独立句。
+q55|先理解意思：“Macdonald和研究团队把这些材料做成影片花了七周。”耗时的事情是to make them into a film，不是it所指的某个具体物品。||It takes sb some time to do sth把较长的事情放到句末，句首先用it占位。因此to make…是真正主语，而不是“为了做成影片”的目的状语。
+q58|“你会发现高中与初中不同。”先定位发现的对象senior high school，再看对它的判断different from junior high school。||different不是在说“发现这个动作如何进行”，而是在说“高中怎么样”，所以作宾语补足语，不是状语。完整宾补包括from junior high school。
+q59|but前后的两个分句分别陈述“运动员把退役比作死亡”和“NBA球星并不会真的淡出”。前句完整动词部分为have compared，后句为fade away。||have在这里帮助构成现在完成时，不是单独的谓语答案。long插在助动词和过去分词之间作状语，不会切断have compared这个结构。
+q62|先看主语Such work，它对应两个将来动作：will help…和will inform…。and把这两个谓语结构连接起来。||build依附于help，help (to) do表示帮助做某事；needed…紧跟measures，表示“所需要的措施”，是过去分词修饰语。needed没有在主句中另立时态，不能数成第三个并列谓语。
+q63|先把两个逗号中的as the two researchers observed暂时拿开，主干是Apples came to be associated with…，表示apples这个词逐渐与某些人和地点联系起来。||researchers只是插入评论中的主语，不是主句主语。as在这里引出“正如两位研究者所观察到的”这一补充说明；主句仍围绕Apples展开。
+q64|Life in a Day是影片名，整个名称作主语；is连接影片与对它的介绍a film about…，所以是主系表结构（本卷记SVP）。||a film后面的长修饰语只是把影片介绍得更具体，不会把原本的主系表结构变成主谓宾。
+q65|问“谁做了什么”：导演Kevin Macdonald（主语）created（谓语，创作了）a picture of the world（宾语，一幅世界图景）。||后面的as a digital time capsule for the future说明作品的用途或定位，不改变主干是主谓宾（SVO）。
+q66|He asked people around the world先交代“他要求谁”，to film a short video再说明“要求这些人做什么”。||people around the world是宾语，to film…是补充宾语动作的不定式，所以主干为主谓宾宾补（SVOOC），不是把people和video当两个并列宾语。
+q69|“影片向人们传达了一个清楚的信息。”people是信息的接受者，a clear message是传递的内容，所以是两个宾语。||可以换成sends a clear message to people。它不等于people are a clear message，因此后者不是对people身份或状态的补充。
+q70|Although引导“尽管世界各地的人过着不同生活”的让步从句，主句是they all try to find meanings…，即他们都努力寻找意义。||若题目问基本句型，分析主句为主谓宾；若问简单、并列还是复合句，全句因含although从句而属于复合句。这是两套分类问题，不矛盾。
+q75|后一句说“我已经约好了牙医”，是在解释前一句“今天下午没空”的原因。题目指定用并列连词，因此可以用for连接。||because也能正确表达这个因果意思，但because引导原因状语从句，得到的是主从复合句，不符合本题指定的并列连接要求。
+q78|后一句追问“你每天到底要用多少橡皮？”带着对反复购买的惊讶或不满，所以本题突出的是带说话人情绪的反复行为。||you配are，buy变buying，always放在中间，组成are always buying。一般现在时always buy可陈述习惯，但不如这个形式突出本题的语气。
+q79|先确定两件事的关系：经理一来，我们就出发。will start说明整个安排在将来；as soon as引导的部分负责规定出发的时间条件。||英语通常在这种时间状语从句中用一般现在时表示将来，不能照抄主句的will。the manager是第三人称单数，因此填comes。
+q80|关键不是8:00这个钟点本身，而是According to the time table：这是一项固定时刻表安排。||固定班次常用一般现在时表示，所以train为单数时填leaves。并不是所有谈将来的句子都必须用will。
+q82|后面的as his bike has gone wrong说明自行车出了故障。因此now可理解为“目前这段时间”，他暂时改为步行上学。||He配is，walk变walking，组成is walking。进行时不仅能描述说话这一秒，也可以描述当前阶段的暂时行为。
+q86|“刚刚咽气”说的是死亡这个动作刚发生，并把结果联系到现在，因此可译为He has just died。||完成时has后需要过去分词died。dead意为“死的”，是形容词，不能直接写成has dead；若用dead，要通过be构成状态表达。
+q87|“死了三年”并不是死亡动作进行了三年，而是死亡后的状态持续了三年。先把die改成状态be dead，再把be变成现在完成时has been。||因此是has been dead for three years。has died可以说死亡已经发生，但不能在这里直接接for three years表示同一个人的持续死亡状态。
+q93|borrow强调把书借到手的那一下；for a week问的是此后持有这本书的持续时间，应该换用keep。||句中has已给出，空格只填keep的过去分词kept，完整结构为has kept the book for a week，而不是再填一次has。
+q94|buy是买入的动作，for a week描述买入后拥有汽车的时间，所以换成have（拥有），而不是套用借书时的keep。||题干已经有has，空格填have的过去分词had，连起来是has had the car for a week。两个词不同作用：前一个has是助动词，后一个had表示拥有。
+q108|“我回来时，他们已经拆掉了街上的大多数房子。”got back把观察点放在过去；拆除的成果在这个观察点之前已经形成。||因此用过去完成时had＋过去分词pulled。不要仅因主句也在过去就机械用一般过去；本题突出的是回来时已经完成的结果。
+q110|先译since：这里是“既然你们已经学会规则，就能自己改错”，不是“自从你们学规则那一天起”。||学会规则带来现在能改错的结果，因此主语you后用have learnt/have learned。不能把since一律当作时间连接词，机械填过去式。
+q112|When I entered his office给出一个过去的时刻：我进入办公室。维修电视是我进入时正在进行的背景动作，而不是说他已经修好了。||主语he为单数，过去的be用was，try变trying，组成was trying。进行时说明过程，不承诺维修已经成功。
+q113|意思是“医生允许之后，他才会出去”。will not go out表达将来；until从句给出这一行动的时间界限。||这种时间从句通常用一般现在时表达将来，doctor是单数，因此填gives。不能把主句的will复制成until the doctor will give。
+q118|no sooner…than表示“刚……就……”。坐好在前，车启动在后；本题常用过去完成时表达前一动作，用一般过去时表达后一动作。||seat在这里不是直接用作sit。人被安排就座或处于已就座状态，表达为be seated，再加过去完成成为had been seated；第二个动词start则填started。||原题前两个空分开填写had与been seated，不能把所有单词挤进同一个空。
+q119|毕业是过去已经发生的时间起点，而“没有回访母校”覆盖从毕业到现在这一整段时间。||因此since从句用graduated，主句用hasn’t visited。两处空不该填成同一种时态：一个标记起点，一个概括此后至今。
+q120|That is the first time把参照点放在现在，谈截至现在的第一次经历，所以从句要用现在完成时。||I不是发通知的人，而是被告知会议变更的人，因此再加被动。三部分合起来：have（完成时，与I一致）＋been（被动be的过去分词）＋informed。
+q123|对方看见Sara脸色难过，Sara解释的是“刚才正在想家乡的朋友”。这里是在回看被问话之前的那段思绪，因此was just thinking贴合对话。||这不等于现在还在继续想；若语境特别强调此刻仍在想，am just thinking也有空间。原题没有把所有可能语境排除，不宜只凭这一差别判定能力。
+q124|先找空格真正对应的主语：the ice。that polar bears depend on for survival只是修饰ice，意思是北极熊赖以生存的冰。||slowly disappearing描述目前正在发生的变化，因此用现在进行时；ice不可数，配is。disappear表示自行消失，不直接接宾语，所以这里不写is being disappeared。
+q125|前句说昨晚打了很多次电话都打不通。后句解释原因：在那段时间里，她哥哥一直在通电话，把电话占着。||yesterday evening和called把场景放到过去，all the time在这里强调这段时间内一直进行。因此用was talking：was表示过去，talking表示当时进行。||不是一看到all the time就必用进行时，而是它与“反复拨打却不通”的背景相互呼应。本题表达在讲话，不应自行加not。原手写笔画不清，不能据此确认首答是否写了否定。
+q126|先暂时括起we had been looking forward to，句子就剩The day ___ at last：那一天终于到了。空格是整个主句的谓语，不能缺一个能独立表达时态的动词。||括起的部分相当于(that) we had been looking forward to，修饰day；还原就是we had been looking forward to the day。介词to对应的是day，不是在要求空格接doing。||所以填came。填coming虽然像套用了look forward to doing，却会让外层The day没有谓语；这才是错误的根源。
+q127|老板进来came in时，聊天是当时正在进行的动作，因此先确定过去进行时。||再看主语中心：The manager。as well as the staff是附带的“以及员工”，这里不把主语变成复数，所以用was chatting，而不是were chatting。
+q128|getting a license表示“取得驾照”这件事，整个动名词短语作主语，按单数处理。||如果解释一般看法“驾照能带来求职优势”，填gives；如果强调将来的求职收益，填will give。两种读法都符合句子，不应只保留其中一个作为唯一答案。
+q130|先锁定空格的位置：said that it ___ one of the best…，要补的是“他们说这部电影当时是最好的电影之一”。主句said是过去叙述，所以这里填was。||末尾that had ever been released是修饰movies的另一个从句，意思是此前发行过的影片。had ever been released已经在原题里，不是这一空要填的答案。先找空格对应的分句，比在整句里搜时态词更重要。
+q132|暂时括起he had devoted himself to，外层剩The cause ___ a perfect success：这项事业最终证明非常成功。空格必须作主句谓语。||从句还原为he had devoted himself to the cause，所以to已经与cause建立关系，不要求后面的prove改成proving。||这里prove意为“结果证明是”，相当于系动词，用主动形式proved；不是“被某个人证明”，不需要was proved。
+q133|经理走进办公室时，得知票已经被订好了。先用entered和was happy确立过去参照，再看订票发生在此之前，所以需要过去完成。||主语tickets不是订票的人，而是被订的对象，因此还要被动。完整形式是had been booked，少been就丢掉了“被订”的关系。
+q134|句子说雨林正以如此快的速度遭受砍伐和焚烧，以至于将来可能消失。at such a speed与未来后果一起突出当前持续发生的破坏过程。||雨林是被砍的，用被动；正在遭受砍伐，用进行。复数Rainforests配are，组合为are being cut；后面的burned与cut并列，共用are being。||只写are cut可表达反复常态，但本题更突出眼下正在发生的过程。本卷B50是同一道题，不算新的变式。
+q136|ever since指从前文1945年一直到说话时，因此用现在完成时。主语不是weapons，而是their power；power在这里是单数，所以助动词用has。||increase在这句中表示“威力增长”，本身可以不及物，不需要被动。于是答案是has increased，而不是have been increased。||原答has increased合理。蓝笔修改不能自动作为正确答案，尤其不能忽略power与have不一致的问题。
+q137|“如果人们被说服多吃水果蔬菜，死亡人数就会大幅减少。”people是接受劝说的人，因此persuade要用被动，不是people persuade。||if条件从句谈将来通常用现在时，people为复数，因此拼出are persuaded。主句will be reduced里的will不复制到if从句中。
+q138|in the past years把发现活动从过去联系到现在，所以采用现在完成时。substances是发现的对象，不是作出发现的人，所以还要被动。||主语more and more new substances为复数，完整写法为have been discovered。have负责完成时和一致关系，been不能省，它是被动结构的一部分。
+q139|先找到then指哪一刻：过去decided to do some part-time jobs的时候。by then意味着在这个决定作出时，他已经拿到了录取资格。||因此gain admission用过去完成had gained。who指our monitor，班长是获得录取的人，这个表达用主动，不需had been gained。
+q141|and thus连接前后两个动作：疏于职守，因而丢掉工作。前面的neglected是过去，后面也在叙述同一次过去事件。||cost在“使某人损失”这个意思下，过去式仍是cost，不能规则地加-ed写costed；cost himself the job意为让自己丢了工作。
+q144|先分两步：In recent years表示近些年至今，用现在完成；football clubs是被经营的机构，不是经营者，用被动。||主语是复数，所以用have，再接been和run的过去分词run，得到have been run。run的原形和过去分词一样，容易误以为have run已经包含被动，其实没有。||原答have run缺been；要补的是被动结构，不是把整个时态改成一般现在。
+q145|后句The work is almost finished说工程“快完成了”，仍未完成；再结合soon将开放，说明教堂塔楼目前正在修复。||tower是被修复的，不能写主动is restoring。正在被修复是is being restored；若写has been restored，就偏向修复已经完成，与后句的almost不吻合。
+q146|every possible means不是复数主语。means单复数形式相同，every限定的是“每一种办法”，整体按单数处理。||本句概括今年到目前已试过的办法，用现在完成；办法是被尝试的，用被动。因此填has been tried，不能被means结尾的-s误导成have。
+q147|后句政府正在考虑方案，是对农田迅速流失这一当前过程的回应。因此不是单纯叙述过去失去过农田，而是“正在流失”。||本题把farmland作为被失去的对象，用进行被动。farmland不可数，用is being lost；quickly只修饰速度，不改变这个结构。
+q148|“请安静”是在提醒Sally别影响眼前正在播出的天气预报，所以要用现在进行时，而不是根据道歉中的didn’t统一改成过去时。||forecast是被播出的内容，需加被动。单数主语配is，得is being broadcast。这里broadcast作过去分词时常保持原形。
+q151|since I gave up smoking标记“戒烟”这个过去的起点；I’ve lived说明从那以后一直到现在生活更健康。||所以空格填give的过去式gave，不填have given。主从句各自负责不同时间意义，不能因主句现在完成就两边一起用现在完成。
+q153|by the end of last year给出已经过去的截止点：“到去年年底为止”。达到峰值发生在这个过去截止点之前或截至该时已经完成，所以用过去完成。||rise表示价格自行上涨，不用被动；其过去分词是risen，因此填had risen。不是had rose，也不是had been risen。
+q159|先看前句has returned：朋友已经从英国回来。后句回顾的是她在牛津读书的那四年，是已经结束的学习阶段。||因此用studied。for four years只说明持续长度，并不自动表示持续到现在；若用has studied，时间视角就不如本句所强调的已结束阶段贴切。
+q160|This is the third time…把“第三次”统计到现在，本月已发生过这些迟到经历，所以that从句用现在完成。||从句主语you配have，be的过去分词是been，因此填have been。不是因this month本身必然决定时态，而是它与“到现在第三次”的结构一起起作用。
+q161|The course是单数主语，空格与前面的examines并列，两个动作都是这门课程常规的教学内容。||因此introduce也用一般现在时第三人称单数introduces。不要把and前面的literature或people误当成空格主语。
+q163|but now he turns businessman明确说他现在已经改行。因此当机械师的十年是过去的一段职业经历，不再延续到现在。||填worked。for 10 years只交代那段经历有多长，不能把有for的句子一律写成现在完成时。
+q164|真正主语是How to protect…while encouraging…这整个问题，即“如何保护孩子并鼓励他们使用互联网”。不是children或fans作主句主语，因此按单数处理。||问题是被讨论的，且long提示此前至今已有长期讨论，填has been discussed。原题把long放在空格前不够自然，更自然的语序是has long been discussed；这是原题表达问题，不归因于学生。
+q166|It was reported把报道放到过去，获得奖牌是报道中回顾的更早经历，所以用过去完成。||Lin Dan是被授予奖牌的人，award在此要用被动。将两项合起来就是had been awarded，不能只写had awarded而让他变成颁奖者。
+q167|until several discussions have been made在这里不是说讨论已经结束，而是规定将来的条件：“直到进行了几轮讨论之后，才会……”。||主句表达届时才能得出结论，所以用将来时；conclusion是被得出的，reach用被动，得到will be reached。No conclusion…until合起来表示在此之前不会得出结论。
+q168|前半句他们曾领先，后半句but说明最后五分钟形势反转，他们被击败了。两部分都在叙述过去这场比赛。||主语they是被击败的一方，因此填were beaten。beat的过去式是beat，过去分词是beaten，被动结构需要后者。
+q169|先找主语中心：The number，意思是人数；of children和who…hospital只在解释统计的是哪些孩子。||since last fall把增长过程联系到现在，用现在完成；number单数配has，increase在此不及物，完整答案为has increased，不是have increased或has been increased。
+q170|问句在问Tim是否已经写完；回答者说不知道，只能提供“今早他当时正在写”的观察。||所以was doing恰好说明过程而不保证完成。若用had done或has done，就会给出已经完成的判断，与I have no idea这一回答意图不符。
+q171|对方现在穿反了衣服，这是说话人眼前看见的情况，因此空格用are wearing。前面的were in such a hurry是在据此推测他先前出门很匆忙。||一个句子可以同时提到现在的证据和过去的原因，不必把两个分句强行统一成过去时。
+q172|先理解先后：婴儿先吞了安眠药，女人才带他到诊所，并向人说明情况。吞药发生在came和said这两个过去动作之前。||因此填had swallowed。who指baby，she said是中间插入的报告信息；不能把she误当成swallow的主语。
+q174|each means意为“每一种办法”，虽然means末尾有-s，仍是单数主语。but none is effective说明到现在为止这些办法都已经试过、但无效。||办法是被尝试的，所以现在完成＋被动合成has been tried，不能写have，也不能少been。
+q175|by the time I come back in ten years’ time给出的参照点是十年以后。这里不是“那时开始拆”，而是“到那时已经拆掉”。||所以需要将来完成will have＋过去分词；房屋是被拆的，还要被动。拼合结果为will have been pulled，后面的down原题已经给出。||have后面的been与pulled不能少：been属于被动的be，pulled才是pull的过去分词。
+q176|先找叙述时刻：上个月收到加州大学邮件。其他大学的拒绝在这封邮件到来之前已经发生，因此用过去完成。||Cole是被拒绝的人，不是拒绝别人的人，所以要被动，填had been rejected。by a number of universities也直接说明了动作的施事。
+q179|long before明确说动物实验先于药物用于患者，两件事都在过去。讲义目标是用had been conducted强调更早完成的实验。||实验是被实施的，所以不能省略been。不过before本身已经说明先后，一般过去被动were conducted也能构成自然叙述，不能把它当成绝对不合语法。
+q183|by the end of last year设定一个过去截止点；报道said回顾的是到该时已从一千万增长到三亿的结果。||因此用had grown。grow在这里表示数量增长，是不及物用法；grown是过去分词，不是grew，也不需要被动been。
+q184|At this time tomorrow morning不是泛指明天某时会出发，而是把镜头放在“明天早晨这个时刻”，想象那时正在飞往海南。||所以用将来进行时will be flying。will fly只说将来发生飞行，不能同样突出这个将来时刻中的进行过程。
+q187|Bob has gone先交代现在的情况：Bob已去了加州。后一句when追问的是“他具体什么时候离开的”，把注意力转向已经发生的过去动作。||因此填left。前句现在完成不要求后句也用现在完成；问一个已发生动作的具体过去时间，通常用一般过去时。
+q189|主句he still had no idea把“不理解”放在过去；被反复告知发生在这个过去状态之前，所以用过去完成。||He是被告知的人，需要被动，组合成had been told。many times说明次数，并不能单独决定现在完成或过去完成，关键是had no idea给出的参照。
+q190|长主语中真正的中心是The last，指四架飞机中的最后一架，因此按单数。designed to fly…只是修饰飞机的短语。||目前的预期是“它将在明年接受测试”，空格描述当前被预计的状态，填is expected；next year属于后面的to be tested，不要求空格也用将来时。
+q192|这一题与第17页A12原文重复：雨林目前正遭受快速砍伐和焚烧，将来可能因此消失，所以用现在进行被动are being cut。||cut与后面的burned共用are being，不能因cut本身形式没变化就省去being。再次做对相同原题可用于巩固，但不是新情境迁移的证据。
+q195|先行词是the man，后面的___ is shaking hands with my father用来说明是哪一个人。从句中is shaking前面缺“谁在握手”的主语。||因此用指人的who或that；关系词自己充当从句主语，不能省略，也不能再重复添加he。
+q196|factory虽然表示工厂这个地点，但先看后面的___ makes computers：makes前面没有主语，缺的是“谁/什么制造电脑”。||因此填which或that，把factory带入从句作主语。where只补地点“在哪里”，不能充当makes的主语，所以此处不能用where。
+q197|后面的从句说“他的父亲是一名医生”。father已经是is的主语，缺的不是另一个人称主语，而是father前面的所属限定——谁的父亲。||friend的父亲可以写his father，在定语从句里把his换成whose，得到whose father is a doctor。因此不能填who father。
+q198|从句谈的是书的封面，cover已作is的主语，需要补“这本书的”这个所属关系。||whose可修饰人的名词，也可修饰物的名词，whose cover就是“它的封面”。不能因book不是人就排除whose。
+q200|whose cover就是the cover of the book。在定语从句中把book换成which，就得到the cover of which；也可以把of which提前放到the cover之前。||所以两种改写都保留the cover这个完整名词短语。不能只把whose换成of which而漏掉the，或把词序随意拼起来。
+q201|先把关系还原：my sister is studying in the teacher’s class。原句已经给出in，空格只需要替代teacher’s，修饰后面的class。||因此填whose，连成in whose class。whom代表“谁”，却不能放在class前表示“谁的班”，所以in whom class不成立。
+q202|原句末尾有in：he once studied in the school。改写句末尾不再有in，所以它要么移到关系代词前成为in which，要么由关系副词where表达地点。||不能只填which而把必需的地点关系丢掉；介词已经前置时也不能写in that。
+q203|还原为I played tennis with the boy yesterday，可以看出介词来自play tennis with sb这个搭配。||改写后with放在关系词前，人作介词宾语用whom，所以填with whom。with that不成立；原来介词留在句尾时能用who/that，不代表前置后也能照用。
+q204|逗号后要表达“父母二人都对他很好”。parents指人，二人都用both；放进定语从句就是both of whom。||both of them本身会形成一个独立句，不能只靠原题这个逗号与前句拼接。如果另加and可构成并列句，但那不是本题的关系词填写方式。
+q205|some表示有些，which指前面的apples；some of which合起来是“其中有些苹果”，作have gone bad的主语。||不能填some of them直接保留逗号连接，因为them不能把后面变成定语从句。这里不是人，也不用whom。
+q206|forty students是被说明的整体，逗号后说其中大多数来自大城市。most表达大多数，人用whom，得到most of whom。||这一整个短语作are的主语。不是只用whom表示“大多数”，也不能用which指这里的学生。
+q207|先明确其中三篇指的是ten stories里的三篇，而不是作者本人。数量three后加of which，把这些故事与从句连接起来。||three of which整体作are的主语。虽然前句主语he是人，关系词仍由真正被说明的stories决定，用which而不是whom。
+q209|把school放回从句：I like the school best，school是like的宾语。所以关系词需要代替宾语，用which或that，也可省略。||不能因为school是地点就填where；where只能说明“在哪里喜欢”，不能补上like所缺的“喜欢什么”。
+q210|I study now已经有主语I和动词study，不缺动作对象；school在这里补充“在哪里学习”。||因此用where，或把study in the school的in保留成in which。和上一题I like不同，study在这里可以不带直接宾语。
+q211|先看缺口：___ left me a deep impression中，left前面没有主语。“那一天给我留下深刻印象”，是day本身在从句里作主语。||因此填which/that，而不是只表示时间的when。不能仅凭先行词day就套时间关系副词。
+q212|we played together已有“我们一起玩”的完整主谓结构，the day只说明这件事发生在哪一天。||因此补时间状语，用when；还原为we played together on that day，也可以用on which。与上一题缺主语不同。
+q213|还原为he told you the reason：他告诉你这个原因。you是接收信息的人，reason是告诉的内容，在从句里作宾语。||所以用which/that，或省略宾语关系词。why表示为什么，不能替代这里tell所缺的具体内容。
+q214|he was late for class已经说明“他上课迟到了”，主语、系动词和表语齐全。reason补充的是迟到的原因，不是一个缺少的宾语。||因此填why，或for which。前一道he told you需要内容宾语，本题需要原因状语，先行词一样也不能填一样的词。
+q217|本句说能腾出一天陪孩子的“时候”很少。I have the time to spend…主干已经完整，occasion在这里承担时间意义。||因此用when或on which。occasion在别的语境可指场合，但不能因为教材把抽象名词列成一类，就机械全用where。
+q218|who loves him very much是在两个逗号间补充母亲的情况，删去后主句His mother is strict with him仍成立。||从句loves前缺主语，先行词mother指人，所以用who。非限制性从句不能用that，这里的主语关系词也不能省略。
+q219|逗号后的___ was founded缺主语，需要由which代替China进入从句。这里不是在说某事“发生在中国哪里”，所以不填where。||这也是非限制性从句，不能用that。原题China在此指1949年成立的中华人民共和国，按原题措辞分析即可。
+q220|many important meetings are held every year主干已经完整：很多重要会议每年举行。大会堂在从句里补充的是会议举行的地点。||因此用where或in which，不能只用which；裸which无法表达in the hall的地点关系，也不需要再为已有主语meetings补一个主语。
+q221|surprised us前面缺主语。让我们吃惊的不是exam这个物品，而是“他没有通过考试”这一整件事。||which可以指代前面整个分句，并作后面从句的主语，所以填which。这里不能因exam是名词就只按修饰exam去理解。
+q222|As we all know意为“正如我们都知道的”，是对后面整个陈述作补充评论，可放在句首。||本句的空格在全句最前面，需要As并大写。which也能指整件事，但不能把上一题的句末结构直接搬到句首写成Which we all know。
