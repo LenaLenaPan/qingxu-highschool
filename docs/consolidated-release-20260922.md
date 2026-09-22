@@ -11,3 +11,5 @@
 - 不公开上传学生手写原图或本次附带的PDF；已有词汇题库来源不在本次重新换版。
 
 发布结果以Netlify production部署的commit_ref、ready和页面HTTP检查为准。
+
+已发布：production ready，部署6ab28ceb857e790008da0c8c，commit 87d3fc8f273ea1f9e0e1ce87b556dbabb6b234fe，发布时间2026-09-22T14:13:20.335Z。四科、进度中心、新页面与旧Day21/28在线检查通过。此后的发布元数据提交跳过构建。

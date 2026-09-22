@@ -23,4 +23,4 @@
 
 自动测试：`scripts/tests/test_round2_split.cjs`、`test_round2_dom.cjs`、`test_answers.cjs`；链接和语法：`python3 scripts/validate.py`。使用DOM模拟，并不替代真实浏览器和部署后双设备验收。
 
-未构建、推送或部署。云同步依赖下一次获准构建后的共享脚本。离线单页可以作答，但file协议下跨页面本机存储行为因浏览器而异；需可靠的跨页错题归集时使用已部署站点。原75MB PDF不复制进题库。
+2026-09-22已获准集中构建并上线，部署6ab28ceb857e790008da0c8c为production ready；共享脚本一并更新。离线单页可以作答，但file协议下跨页面本机存储行为因浏览器而异；需可靠的跨页错题归集时使用已部署站点。原75MB PDF不复制进题库。真实手机和双设备同步仍待使用验收。

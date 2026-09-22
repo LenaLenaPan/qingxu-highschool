@@ -3,10 +3,11 @@
   "provider": "netlify",
   "site_id": "8a47f003-a56f-4c1f-9b1e-3faadb598225",
   "url": "https://imaginative-faun-bda14e.netlify.app/",
-  "previous_deploy": "6a9b8c433835f5ac047c1c6f",
-  "version": "2026-09-08.1",
+  "previous_deploy": "6ab2879d69b3ad00083c2ddb",
+  "version": "2026-09-22.2",
   "publish_directory": "public",
   "publication_status": "ready",
-  "current_deploy": "6a9ee5d0f7daab07f79fa1ed",
-  "published_at": "2026-09-07T16:27:54.839359Z"
+  "current_deploy": "6ab28ceb857e790008da0c8c",
+  "published_at": "2026-09-22T14:13:20.335Z",
+  "deployed_commit": "87d3fc8f273ea1f9e0e1ce87b556dbabb6b234fe"
 }
